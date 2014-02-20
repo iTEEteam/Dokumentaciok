@@ -4,4 +4,6 @@ A játékhoz:
 Dokumentációhoz:
 értekezlet : teljes létszámú gyűlés
 szótár : ez a dokumentum
+szoftver : program amit írunk
+
 
