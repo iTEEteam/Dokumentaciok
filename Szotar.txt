@@ -1,7 +1,3 @@
-﻿A játékhoz:
-
-
-Dokumentációhoz:
 értekezlet : teljes létszámú gyűlés
 szótár : ez a dokumentum
 szoftver : program amit írunk
@@ -22,3 +18,5 @@ veszíteni: az akkor fennálló helyzet, mikor egy ellenség bejut a Végzet Heg
 eladás: egy védelmi egység megszűntetése, ami az arra költött varázserő egy részének visszatérülésével jár
 elhasználódás: a csapdák amortizációja, amit a rajtuk áthaladó ellenségek okoznak
 belépési pont: az a hely, ahol az ellenségek belépnek a pályára
+pálya: játéktér, legalább 1 út van rajta, minden más része háttér
+gépigény: 2.3.2 pontban definiált erőforrások
