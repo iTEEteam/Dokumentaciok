@@ -1,4 +1,4 @@
-értekezlet : teljes létszámú gyűlés
+﻿értekezlet : teljes létszámú gyűlés
 szótár : ez a dokumentum
 szoftver : program amit írunk
 játékos: a szoftver felhasználója
@@ -20,3 +20,5 @@ elhasználódás: a csapdák amortizációja, amit a rajtuk áthaladó ellenség
 belépési pont: az a hely, ahol az ellenségek belépnek a pályára
 pálya: játéktér, legalább 1 út van rajta, minden más része háttér
 gépigény: 2.3.2 pontban definiált erőforrások
+readme: olyan fájl, amely információkat tartalmaz a szoftver telelpítéséről és használatba vételéről
+funkcionális: működéssel kapcsolatos
