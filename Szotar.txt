@@ -1,24 +1,24 @@
-﻿értekezlet : teljes létszámú gyűlés
-szótár : ez a dokumentum
-szoftver : program amit írunk
-játékos: a szoftver felhasználója
+﻿akadály: az út celláira helyezett védelmi egység, a felette haladó ellenségek lassabban haladnak
+belépési pont: az a hely, ahol az ellenségek belépnek a pályára
 cella: a pálya négyzetrácsos szerkezetét alkotó elemek
-védelmi egység: torony vagy akadály
-torony: a háttér celláira helyezett védelmi egység, automatikusan tüzel az ellenségre
-akadály: az út celláira helyezett védelmi egység, a felette haladó ellenségek lassabban haladnak
-fejlesztés: egy védelmi egység hatékonyabbá tétele
-varázserő: a játékban használt fizetőeszköz, cserébe lehet a védelmi egységeket elhelyezni, fejleszteni
-út: a pálya azon része, ahol az ellenséges egységek haladnak, és az akadályokat helyezhetjük
-háttér: a pálya úton kívüli része, ide helyezhetjük a tornyokat
-ellenség: azok az egységek, amik a pálya belépési pontjainál jönnek be, és a Végzet Hegye felé haladnak. Fajtái: tünde, törp, hobbit, ember
-Végzet Hegye: az ellenségek célpontja, az ide való eljutásuk megakadályozása a játékos célja
-elhelyezés: egy védelmi egység a pálya egy bizonyos cellájára való telepítése varázserőért cserébe
-nyerni: az akkor fennálló helyzet, mikor elfogynak az ellenségek, és egy sem jutott be a Végzet Hegyébe
-veszíteni: az akkor fennálló helyzet, mikor egy ellenség bejut a Végzet Hegyébe
 eladás: egy védelmi egység megszűntetése, ami az arra költött varázserő egy részének visszatérülésével jár
 elhasználódás: a csapdák amortizációja, amit a rajtuk áthaladó ellenségek okoznak
-belépési pont: az a hely, ahol az ellenségek belépnek a pályára
+elhelyezés: egy védelmi egység a pálya egy bizonyos cellájára való telepítése varázserőért cserébe
+ellenség: azok az egységek, amik a pálya belépési pontjainál jönnek be, és a Végzet Hegye felé haladnak. Fajtái: tünde, törp, hobbit, ember
+értekezlet : teljes létszámú gyűlé
+fejlesztés: egy védelmi egység hatékonyabbá tétele
+funkcionális: működéssel kapcsolatoss
+gépigény: olyan számítógépes hardverek és nem hardveres erőforrások, amelyek minimálisan szükségesek a szoftver telepíthetőségéhez, rendes működéséhez
+háttér: a pálya úton kívüli része, ide helyezhetjük a tornyokat
+játékos: a szoftver felhasználója
+nyerni: az akkor fennálló helyzet, mikor elfogynak az ellenségek, és egy sem jutott be a Végzet Hegyébe
 pálya: játéktér, legalább 1 út van rajta, minden más része háttér
-gépigény: 2.3.2 pontban definiált erőforrások
 readme: olyan fájl, amely információkat tartalmaz a szoftver telelpítéséről és használatba vételéről
-funkcionális: működéssel kapcsolatos
+szoftver : itt: a program amit írunk
+szótár : ez a dokumentum
+torony: a háttér celláira helyezett védelmi egység, automatikusan tüzel az ellenségre
+út: a pálya azon része, ahol az ellenséges egységek haladnak, és az akadályokat helyezhetjük
+varázserő: a játékban használt fizetőeszköz, cserébe lehet a védelmi egységeket elhelyezni, fejleszteni
+védelmi egység: torony vagy akadály
+Végzet Hegye: az ellenségek célpontja, az ide való eljutásuk megakadályozása a játékos célja
+veszíteni: az akkor fennálló helyzet, mikor egy ellenség bejut a Végzet Hegyébe
