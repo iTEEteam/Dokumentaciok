@@ -1,0 +1,48 @@
+Use casek:
+
+Torony:
+Ellenség kiválasztása lövéshez
+Lövés lebonyolítása
+Torony fejlesztése több féle
+Torony elhelyezése
+Torony eladása
+Lövedék létrehozása
+
+Akadály:
+Akadály lerakása
+Akadály amortizálódása
+Akadály megsemmisül
+Akadály fejlesztése javítás
+Akadály fejlesztése jobban lassítás
+Ellenfél lassítása
+
+Ellenfelek:
+Mozgás
+Sebződés
+Beér a pálya végére
+Belép a pályára
+Útvonalválasztás
+Meghal
+
+Cella:
+Torony beregisztrálása
+Akadály begerisztrálása
+Ellenség rálép
+Ellenség lelép róla
+Ellenség meghal rajta
+
+Lövedék: talán nincs
+
+Kristály: talán nincs
+
+Player: 
+Játék indítás
+Pálya választás
+Lerakások, fejlesztések, eladások lehet hogy ide kerülnek
+Kilép
+Mentés?
+
+Game:
+Idő múlása
+Frame frissítése (modell)
+Gui frissítése
