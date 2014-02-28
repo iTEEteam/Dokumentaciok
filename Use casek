@@ -1,10 +1,10 @@
 Use casek:
 
 Torony:
-Ellenség kiválasztása lövéshez
-Lövés lebonyolítása
-Torony fejlesztése több féle
-Torony elhelyezése
+Ellenség kiválasztása lövéshez: a torony tárolja a hatókörbe tartozó cellákat, kiválasztáskor ezeken halad végig, és lekérdezi az ott lévő ellenségeket.
+Lövés lebonyolítása: adott célponton (Enemy) meghívjuk a damage függvényt, és átadjuk a bulletet paraméterként.
+Torony fejlesztése több féle: torony addGem(Gem) függvénye kap egy Gemet, ennek paramétereivel frissíti a tárolt Bullet paramétereit, és sajátjait, és a GemStatot.
+Torony elhelyezése: mező ideraktak függvénye kap egy tornyot, a toronynak meghívjuk a register függvényét, az beállítja a celláját
 Torony eladása
 Lövedék létrehozása
 
