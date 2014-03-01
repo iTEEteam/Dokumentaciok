@@ -24,8 +24,11 @@ Akadály fejlesztése: jobban lassítás
 Ellenfél lassítása: A cellára lépő ellenség üzen a cellának, hogy mennyi idő alatt akar átkelni rajta, és a függvény visszatér azzal, hogy mennyi lesz a valódi sebessége, mert a cella ismeri az akadályt
 
 Ellenfelek:
-Mozgás:
-Sebződés:
+Mozgás: Path-ra lépve elküldi a path-nek, hogy mennyi ideig fog a cellán tartózkodni, a cella vissza küldi a tényleges időt, ami attól függ, hogy van e rajta akadály 
+annyi ticket vár amennyit várnia kell, utána elkéri a pathtól a következő cella referenciáját
+szekvencia: ellenség -> path.demandedTime(int speed) (ret: real time) ->  loop: amíg rajta áll -> path.getNextPath()
+
+Sebződés: az ellenség kap egy bulletet
 Beér a pálya végére
 Belép a pályára
 Útvonalválasztás
