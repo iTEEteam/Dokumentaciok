@@ -13,8 +13,8 @@ Akadály lerakása
 Akadály amortizálódása: az akadályon van egy számláló, ami azt számolja, hogy hány ellenség ment át rajta. Ha ez elér egy szintet, az akadály megsemmisül.
 Akadály megsemmisül: az akadály eltűnik, és nincs többé hatása
 Akadály fejlesztése javítás: az akadályon lévő számlálót visszaállítja
-Akadály fejlesztése jobban lassítás
-Ellenfél lassítása
+Akadály fejlesztése: jobban lassítás
+Ellenfél lassítása: A cellára lépő ellenség üzen a cellának, hogy mennyi idő alatt akar átkelni rajta, és a függvény visszatér azzal, hogy mennyi lesz a valódi sebessége, mert a cella ismeri az akadályt
 
 Ellenfelek:
 Mozgás
@@ -34,7 +34,7 @@ Ellenség meghal rajta
 Lövedék: talán nincs
 
 GemStat: 
-Varázserő kiszámítása:
+Varázserő kiszámítása: összeadja a vásárolt kövek értékét, hozzáadja a torony értékét, elosztja kettővel
 
 Player: 
 Játék indítás
