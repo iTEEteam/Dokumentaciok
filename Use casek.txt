@@ -6,10 +6,13 @@ Ellenség kiválasztása lövéshez: a torony tárolja a hatókörbe tartozó ce
 szekvencia: Tower.shoot() -> chooseEnemy() (ret:enemy) -> enemy.hurt(Bullet)
 
 Lövés lebonyolítása: adott célponton (Enemy) meghívjuk a hurt függvényt, és átadjuk a bulletet paraméterként.
-szekvencia: 
+szekvencia: enemy.hurt(bullet) -> bullet.getDamage(Enemy)
+
 Torony fejlesztése több féle: torony addGem(Gem) függvénye kap egy Gemet, ennek paramétereivel frissíti a tárolt Bullet paramétereit, és sajátjait, és a GemStatot.
+szekvencia: tower.addGem(gem) -> gemStat.refresh -> bullet.refresh
 Torony elhelyezése: mező ideraktak függvénye kap egy tornyot, a toronynak meghívjuk a register függvényét, az beállítja a celláját
 Torony eladása: A torony a gameStat-ból kiszámolja az értékét (alap ár+kristályok száma*kristály értéke)/2, játékos varázserejét megnöveli vele, törli a tornyot.
+szekvenciadiagram: tower.sell() -> gameStat.getValue() -> tower.remove()
 
 
 Akadály:
