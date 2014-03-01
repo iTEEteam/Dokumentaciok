@@ -1,34 +1,39 @@
-Use casek:
+﻿Use casek:
 
 Torony:
 
 Ellenség kiválasztása lövéshez: a torony tárolja a hatókörbe tartozó cellákat, kiválasztáskor ezeken halad végig, és lekérdezi az ott lévő ellenségeket.
-szekvencia: Tower.shoot() -> chooseEnemy() (ret:enemy) -> enemy.hurt(Bullet)
+szekvencia: Tower.shoot() -> chooseEnemy() -> myField.getEnemies() (ellenségkiválasztó logika->kapunk egy enemy-t) -> enemy.hurt(Bullet)
 
 Lövés lebonyolítása: adott célponton (Enemy) meghívjuk a hurt függvényt, és átadjuk a bulletet paraméterként.
 szekvencia: enemy.hurt(bullet) -> bullet.getDamage(Enemy)
 
 Torony fejlesztése több féle: torony addGem(Gem) függvénye kap egy Gemet, ennek paramétereivel frissíti a tárolt Bullet paramétereit, és sajátjait, és a GemStatot.
 szekvencia: tower.addGem(gem) -> gemStat.refresh -> bullet.refresh
-Torony elhelyezése: mező ideraktak függvénye kap egy tornyot, a toronynak meghívjuk a register függvényét, az beállítja a celláját
+Torony elhelyezése: mező ideraktak függvénye létrehoz egy tornyot, a toronynak meghívjuk a register függvényét, az beállítja a celláját
+szekvencia: field.addIField()->new tower->field.register(tower), tower.register(field)
 Torony eladása: A torony a gameStat-ból kiszámolja az értékét (alap ár+kristályok száma*kristály értéke)/2, játékos varázserejét megnöveli vele, törli a tornyot.
-szekvenciadiagram: tower.sell() -> gameStat.getValue() -> tower.remove()
+szekvenciadiagram: tower.sell() -> gameStat.getValue() -> tower.remove() -> myField.deleteIField()
 
 
 Akadály:
-Akadály lerakása
+Akadály lerakása: az út ideraktak függvénye létrehoz egy akadályt, az akadály beregisztrálja az utat és az út is az akadályt
+szekvencia: path.addIPath()->new obstacle->path.register(obstacle), obstacle.register(path)
 Akadály amortizálódása: az akadályon van egy számláló, ami azt számolja, hogy hány ellenség ment át rajta. Ha ez elér egy szintet, az akadály megsemmisül.
+szekvencia: amortization()->amort--, alt[amort==0] i: eliminate()->myPath.delete() n: ret.
 Akadály megsemmisül: az akadály eltűnik, és nincs többé hatása
+szekvencia: obstacle.eliminate(path)->path.delete(obstacle)
 Akadály fejlesztése javítás: az akadályon lévő számlálót visszaállítja
+szekvencia: obstacle.repair()
 Akadály fejlesztése: jobban lassítás
-Ellenfél lassítása: A cellára lépő ellenség üzen a cellának, hogy mennyi idő alatt akar átkelni rajta, és a függvény visszatér azzal, hogy mennyi lesz a valódi sebessége, mert a cella ismeri az akadályt
+szekvencia: obstacle.increaseIntensity()
+Ellenfél lassítása: az akadály minden tickben megnézi a cellán lévő ellenségeket, hogy van-e olyan, akit még nem lassítot és lelassítja
+szekvencia: slow(intensity, path)->path.getenemies() itt visszatér szekv. ((belső működés: alt[enemy.modspeed%intensity==0] modspeed=speed*intensity))
 
 Ellenfelek:
-Mozgás: Path-ra lépve elküldi a path-nek, hogy mennyi ideig fog a cellán tartózkodni, a cella vissza küldi a tényleges időt, ami attól függ, hogy van e rajta akadály 
-annyi ticket vár amennyit várnia kell, utána elkéri a pathtól a következő cella referenciáját
-szekvencia: ellenség -> path.demandedTime(int speed) (ret: real time) ->  loop: amíg rajta áll -> path.getNextPath()
-
-Sebződés: az ellenség kap egy bulletet
+Mozgás: beregisztrálja a path és a path is az ellenséget
+szekvencia: ld mint akadály regisztrálása
+Sebződés:
 Beér a pálya végére
 Belép a pályára
 Útvonalválasztás
