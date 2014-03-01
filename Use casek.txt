@@ -10,9 +10,9 @@ Torony eladása: A torony a gameStat-ból kiszámolja az értékét (alap ár+kr
 
 Akadály:
 Akadály lerakása
-Akadály amortizálódása
-Akadály megsemmisül
-Akadály fejlesztése javítás
+Akadály amortizálódása: az akadályon van egy számláló, ami azt számolja, hogy hány ellenség ment át rajta. Ha ez elér egy szintet, az akadály megsemmisül.
+Akadály megsemmisül: az akadály eltűnik, és nincs többé hatása
+Akadály fejlesztése javítás: az akadályon lévő számlálót visszaállítja
 Akadály fejlesztése jobban lassítás
 Ellenfél lassítása
 
