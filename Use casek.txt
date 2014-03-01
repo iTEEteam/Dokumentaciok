@@ -1,8 +1,12 @@
 Use casek:
 
 Torony:
+
 Ellenség kiválasztása lövéshez: a torony tárolja a hatókörbe tartozó cellákat, kiválasztáskor ezeken halad végig, és lekérdezi az ott lévő ellenségeket.
-Lövés lebonyolítása: adott célponton (Enemy) meghívjuk a damage függvényt, és átadjuk a bulletet paraméterként.
+szekvencia: Tower.shoot() -> chooseEnemy() (ret:enemy) -> enemy.hurt(Bullet)
+
+Lövés lebonyolítása: adott célponton (Enemy) meghívjuk a hurt függvényt, és átadjuk a bulletet paraméterként.
+szekvencia: 
 Torony fejlesztése több féle: torony addGem(Gem) függvénye kap egy Gemet, ennek paramétereivel frissíti a tárolt Bullet paramétereit, és sajátjait, és a GemStatot.
 Torony elhelyezése: mező ideraktak függvénye kap egy tornyot, a toronynak meghívjuk a register függvényét, az beállítja a celláját
 Torony eladása: A torony a gameStat-ból kiszámolja az értékét (alap ár+kristályok száma*kristály értéke)/2, játékos varázserejét megnöveli vele, törli a tornyot.
@@ -17,12 +21,13 @@ Akadály fejlesztése: jobban lassítás
 Ellenfél lassítása: A cellára lépő ellenség üzen a cellának, hogy mennyi idő alatt akar átkelni rajta, és a függvény visszatér azzal, hogy mennyi lesz a valódi sebessége, mert a cella ismeri az akadályt
 
 Ellenfelek:
-Mozgás
-Sebződés
+Mozgás:
+Sebződés:
 Beér a pálya végére
 Belép a pályára
 Útvonalválasztás
-Meghal
+Meghal: ha az ellenség hp-ja eléri a 0-t, szól a cellának ami tartalmazza, a cella eldobja a referenciáját róla
+szekvencia: 
 
 Cella:
 Torony beregisztrálása
