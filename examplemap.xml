@@ -1,0 +1,93 @@
+<map>
+	<name>Example Map</name>
+	<structure>
+		<row>
+			<cell type="field"/>
+			<cell type="field"/>
+			<cell type="field"/>
+			<cell type="field"/>
+			<cell type="field"/>
+		</row>
+		<row>
+			<cell type="path">
+				<entrypoint>yes</entrypoint>
+				<exitpoint>no</exitpoint>
+				<nextcell>right</nextcell>
+			</cell>
+			<cell type="path">
+				<entrypoint>no</entrypoint>
+				<exitpoint>no</exitpoint>
+				<nextcell>down</nextcell>
+			</cell>
+			<cell type="field"/>
+			<cell type="field"/>
+			<cell type="field"/>
+		</row>
+		<row>
+			<cell type="field"/>
+			<cell type="path">
+				<entrypoint>no</entrypoint>
+				<exitpoint>no</exitpoint>
+				<nextcell>down</nextcell>
+				<nextcell>right</nextcell>
+			</cell>
+			<cell type="path">
+				<entrypoint>no</entrypoint>
+				<exitpoint>no</exitpoint>
+				<nextcell>right</nextcell>
+			</cell>
+			<cell type="path">
+				<entrypoint>no</entrypoint>
+				<exitpoint>no</exitpoint>
+				<nextcell>down</nextcell>
+			</cell>
+			<cell type="field"/>
+		</row>
+		<row>
+			<cell type="field"/>
+			<cell type="path">
+				<entrypoint>no</entrypoint>
+				<exitpoint>no</exitpoint>
+				<nextcell>down</nextcell>
+			</cell>
+			<cell type="field"/>
+			<cell type="path">
+				<entrypoint>no</entrypoint>
+				<exitpoint>no</exitpoint>
+				<nextcell>right</nextcell>
+			</cell>
+			<cell type="path">
+				<entrypoint>no</entrypoint>
+				<exitpoint>yes</exitpoint>
+				<nextcell>right</nextcell>
+			</cell>
+		</row>
+		<row>
+			<cell type="field"/>
+			<cell type="path">
+				<entrypoint>no</entrypoint>
+				<exitpoint>no</exitpoint>
+				<nextcell>right</nextcell>
+			</cell>
+			<cell type="path">
+				<entrypoint>no</entrypoint>
+				<exitpoint>no</exitpoint>
+				<nextcell>right</nextcell>
+			</cell>
+			<cell type="path">
+				<entrypoint>no</entrypoint>
+				<exitpoint>no</exitpoint>
+				<nextcell>up</nextcell>
+			</cell>
+			<cell type="field"/>
+		</row>
+	</structure>
+
+</map>
+<!--  
+ooooo
+kkooo
+okkko
+okokk
+okkko
+-->
