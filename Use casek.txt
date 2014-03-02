@@ -2,43 +2,34 @@
 
 Torony:
 
-Ellenség kiválasztása lövéshez: a torony tárolja a hatókörbe tartozó cellákat, kiválasztáskor ezeken halad végig, és lekérdezi az ott lévő ellenségeket.
-szekvencia: Tower.shoot() -> chooseEnemy() -> myField.getEnemies() (ellenségkiválasztó logika->kapunk egy enemy-t) -> enemy.hurt(Bullet)
-
-Lövés lebonyolítása: adott célponton (Enemy) meghívjuk a hurt függvényt, és átadjuk a bulletet paraméterként.
-szekvencia: enemy.hurt(bullet) -> bullet.getDamage(Enemy)
-
-Torony fejlesztése több féle: torony addGem(Gem) függvénye kap egy Gemet, ennek paramétereivel frissíti a tárolt Bullet paramétereit, és sajátjait, és a GemStatot.
-szekvencia: tower.addGem(gem) -> gemStat.refresh -> bullet.refresh
-Torony elhelyezése: mező ideraktak függvénye létrehoz egy tornyot, a toronynak meghívjuk a register függvényét, az beállítja a celláját
-szekvencia: field.addIField()->new tower->field.register(tower), tower.register(field)
-Torony eladása: A torony a gameStat-ból kiszámolja az értékét (alap ár+kristályok száma*kristály értéke)/2, játékos varázserejét megnöveli vele, törli a tornyot.
-szekvenciadiagram: tower.sell() -> gameStat.getValue() -> tower.remove() -> myField.deleteIField()
+---Ellenség kiválasztása lövéshez és sebzés: a torony tárolja a hatókörbe tartozó cellákat, kiválasztáskor ezeken halad végig, és lekérdezi az ott lévő ellenségeket.
+--szekvencia: Tower.shoot() -> chooseEnemy() -> myField.getEnemies() (ellenségkiválasztó logika->kapunk egy enemy-t) -> enemy.hurt(Bullet) -> alt getDamage...() -> alt[health==0] i: enemy.eliminate()->enemy.myPath.deleteIpathPlaceable(enemy), n: ret
+---Torony fejlesztése több féle: torony addGem(Gem) függvénye kap egy Gemet, ennek paramétereivel frissíti a tárolt Bullet paramétereit, és sajátjait, és a GemStatot.
+--szekvencia: tower.addGem(gem) -> gemStat.refresh() -> bullet.refresh()
+---Torony elhelyezése: mező ideraktak függvénye kap egy tornyot, a toronynak meghívjuk a register függvényét, az meghívja  a celle tornyot raktak ide fv-ét
+--szekvencia: field.addIField(ifield)->ifield.register(field)-> field.registeritower(ifield)
+---Torony eladása: A torony a gameStat-ból kiszámolja az értékét (alap ár+kristályok száma*kristály értéke)/2, játékos varázserejét megnöveli vele, törli a tornyot.
+--szekvenciadiagram: tower.sell() -> gemStat.getValue() ->  -> tower.remove() -> myField.deleteIField()
 
 
 Akadály:
-Akadály lerakása: az út ideraktak függvénye létrehoz egy akadályt, az akadály beregisztrálja az utat és az út is az akadályt
-szekvencia: path.addIPath()->new obstacle->path.register(obstacle), obstacle.register(path)
-Akadály amortizálódása: az akadályon van egy számláló, ami azt számolja, hogy hány ellenség ment át rajta. Ha ez elér egy szintet, az akadály megsemmisül.
-szekvencia: amortization()->amort--, alt[amort==0] i: eliminate()->myPath.delete() n: ret.
-Akadály megsemmisül: az akadály eltűnik, és nincs többé hatása
-szekvencia: obstacle.eliminate(path)->path.delete(obstacle)
+---Akadály lerakása: az út ideraktak függvénye létrehoz egy akadályt, az akadály beregisztrálja az utat és az út is az akadályt
+--szekvencia: path.addIPath()->new obstacle->path.register(obstacle), obstacle.register(path)
 Akadály fejlesztése javítás: az akadályon lévő számlálót visszaállítja
 szekvencia: obstacle.repair()
 Akadály fejlesztése: jobban lassítás
-szekvencia: obstacle.increaseIntensity()
-Ellenfél lassítása: az akadály minden tickben megnézi a cellán lévő ellenségeket, hogy van-e olyan, akit még nem lassítot és lelassítja
-szekvencia: slow(intensity, path)->path.getenemies() itt visszatér szekv. ((belső működés: alt[enemy.modspeed%intensity==0] modspeed=speed*intensity))
+szekvencia: obstacle.increaseIntensity(int)
+
 
 Ellenfelek:
-Mozgás: beregisztrálja a path és a path is az ellenséget
-szekvencia: ld mint akadály regisztrálása
-Sebződés:
+---Mozgás: beregisztrálja a path és a path is az ellenséget
+--szekvencia: enemy.myPath.getNext()->(ret path) path.registerIPathPlaceable(enemy)->emeny.registerPath(path)->pathRegisterEnemy(enemy)-> alt[path.myObstacle!=null] path.myobstacle.slow(enemy)->myObstacle.amortization()->alt[amort==0]->myObstacle.eliminate(myPath)->myPath.deleteIPathPlaceable(myObstacle)
+Sebződés
 Beér a pálya végére
 Belép a pályára
 Útvonalválasztás
-Meghal: ha az ellenség hp-ja eléri a 0-t, szól a cellának ami tartalmazza, a cella eldobja a referenciáját róla
-szekvencia: 
+Meghal
+
 
 Cella:
 Torony beregisztrálása
@@ -47,7 +38,7 @@ Ellenség rálép
 Ellenség lelép róla
 Ellenség meghal rajta
 
-Lövedék: talán nincs
+Lövedék
 
 GemStat: 
 Varázserő kiszámítása: összeadja a vásárolt kövek értékét, hozzáadja a torony értékét, elosztja kettővel
