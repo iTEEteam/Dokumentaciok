@@ -548,7 +548,7 @@
 <XPD:ATTR name="Left" type="integer">112</XPD:ATTR>
 <XPD:ATTR name="Top" type="integer">52</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">613</XPD:ATTR>
-<XPD:ATTR name="Height" type="integer">401</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">349</XPD:ATTR>
 <XPD:REF name="Model">20sLgx35tUu2DrY8cALCcAAA</XPD:REF>
 <XPD:OBJ name="NameLabel" type="LabelView" guid="pGyILbMvTEqB48ZGXkloAwAA">
 <XPD:ATTR name="Text" type="string">Lövés lebonyolítása</XPD:ATTR>
@@ -564,7 +564,7 @@
 <XPD:ATTR name="Left" type="integer">196</XPD:ATTR>
 <XPD:ATTR name="Top" type="integer">208</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">505</XPD:ATTR>
-<XPD:ATTR name="Height" type="integer">200</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">121</XPD:ATTR>
 <XPD:REF name="Model">c7UA1HufHEWQnKeUXoO0HAAA</XPD:REF>
 <XPD:OBJ name="NameLabel" type="LabelView" guid="nn9BqWaTPkGPfl6PDH0P/AAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -580,7 +580,7 @@
 <XPD:ATTR name="Left" type="integer">196</XPD:ATTR>
 <XPD:ATTR name="Top" type="integer">228</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">505</XPD:ATTR>
-<XPD:ATTR name="Height" type="integer">180</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">101</XPD:ATTR>
 <XPD:REF name="Model">RB0tBHMUKEWzbV9RApIfnAAA</XPD:REF>
 <XPD:REF name="ContainerView">YYe36llRdkOsg17xCLoa1AAA</XPD:REF>
 <XPD:OBJ name="GuardLabel" type="LabelView" guid="iFDSP5uuvES+wcJAt3yXXQAA">
@@ -594,7 +594,7 @@
 <XPD:ATTR name="Left" type="integer">144</XPD:ATTR>
 <XPD:ATTR name="Top" type="integer">84</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">78</XPD:ATTR>
-<XPD:ATTR name="Height" type="integer">349</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">301</XPD:ATTR>
 <XPD:REF name="Model">noG9FVwOlUmZcgNQbi8IXgAA</XPD:REF>
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="D35Oq4Hx5UyBdCW/8dRVEQAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="YEpRfFXjlECSMUDufHMBJQAA">
@@ -618,7 +618,7 @@
 <XPD:ATTR name="Left" type="integer">324</XPD:ATTR>
 <XPD:ATTR name="Top" type="integer">84</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">84</XPD:ATTR>
-<XPD:ATTR name="Height" type="integer">349</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">301</XPD:ATTR>
 <XPD:REF name="Model">NLxAuTsbiEqeRC+lTT/1VwAA</XPD:REF>
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="3e9O0MBrdEOSxfHXrgvbCwAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="ee26a+aozU2rW4leYGof3gAA">
@@ -642,7 +642,7 @@
 <XPD:ATTR name="Left" type="integer">496</XPD:ATTR>
 <XPD:ATTR name="Top" type="integer">84</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">72</XPD:ATTR>
-<XPD:ATTR name="Height" type="integer">349</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">301</XPD:ATTR>
 <XPD:REF name="Model">HD3UgqF5l0ONpL1Yk25qDgAA</XPD:REF>
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="ZmZvKYGgs0eij4o/FVm0OwAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="qSpTX0pqbk+PpKDV+MyRDQAA">
@@ -666,7 +666,7 @@
 <XPD:ATTR name="Left" type="integer">628</XPD:ATTR>
 <XPD:ATTR name="Top" type="integer">84</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">78</XPD:ATTR>
-<XPD:ATTR name="Height" type="integer">349</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">301</XPD:ATTR>
 <XPD:REF name="Model">+9wM8Dd+7EmkLgiD95mw2gAA</XPD:REF>
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="jpqIpU0vU0q1X4SR7ThwoQAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="dDa5E7nba02J/YSlhQN5EAAA">
@@ -717,7 +717,7 @@
 <XPD:ATTR name="Left" type="integer">359</XPD:ATTR>
 <XPD:ATTR name="Top" type="integer">160</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">14</XPD:ATTR>
-<XPD:ATTR name="Height" type="integer">225</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">185</XPD:ATTR>
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedViews[7]" type="UMLSeqStimulusView" guid="KjOrP3gObUSA0kKaa0CZuwAA">
@@ -799,21 +799,21 @@
 <XPD:ATTR name="Left" type="integer">366</XPD:ATTR>
 <XPD:ATTR name="Top" type="integer">244</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">14</XPD:ATTR>
-<XPD:ATTR name="Height" type="integer">29</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">57</XPD:ATTR>
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedViews[10]" type="UMLSeqStimulusView" guid="rPk38crG9Ea8xjIVOc13mAAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="LineStyle" type="LineStyleKind">lsRectilinear</XPD:ATTR>
-<XPD:ATTR name="Points" type="Points">372,288;660,288</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">379,268;660,268</XPD:ATTR>
 <XPD:REF name="Model">oudSvRLV7UKD/SYy+mQ7YgAA</XPD:REF>
 <XPD:REF name="Head">C+bwEKfVvEeVA6ELXOEgDAAA</XPD:REF>
 <XPD:REF name="Tail">68QVLhmbC0i6sDnGZKuTgAAA</XPD:REF>
 <XPD:OBJ name="NameLabel" type="EdgeLabelView" guid="yYj5ibcDBkyFPbA8e905RgAA">
 <XPD:ATTR name="Alpha" type="real">-3,31526322820124</XPD:ATTR>
 <XPD:ATTR name="Distance" type="real">57,8705451849212</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">1.3: deleteIPath(enemy)</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">1.2.1: deleteIPath(enemy)</XPD:ATTR>
 <XPD:REF name="Model">oudSvRLV7UKD/SYy+mQ7YgAA</XPD:REF>
 <XPD:REF name="HostEdge">rPk38crG9Ea8xjIVOc13mAAA</XPD:REF>
 </XPD:OBJ>
@@ -833,7 +833,7 @@
 </XPD:OBJ>
 <XPD:OBJ name="Activation" type="UMLActivationView" guid="lDi35kz5uU20p1K7jMezwwAA">
 <XPD:ATTR name="Left" type="integer">660</XPD:ATTR>
-<XPD:ATTR name="Top" type="integer">288</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">268</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">14</XPD:ATTR>
 <XPD:ATTR name="Height" type="integer">29</XPD:ATTR>
 </XPD:OBJ>
@@ -887,7 +887,7 @@
 <XPD:REF name="Views[3]">VhcheyPbrkO6vP1SlzCYNwAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="ParticipatingStimuli[3]" type="UMLStimulus" guid="oudSvRLV7UKD/SYy+mQ7YgAA">
-<XPD:ATTR name="Name" type="string">1.3: deleteIPath</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">1.2.1: deleteIPath</XPD:ATTR>
 <XPD:ATTR name="Arguments" type="string">enemy</XPD:ATTR>
 <XPD:REF name="Sender">NLxAuTsbiEqeRC+lTT/1VwAA</XPD:REF>
 <XPD:REF name="Receiver">+9wM8Dd+7EmkLgiD95mw2gAA</XPD:REF>
