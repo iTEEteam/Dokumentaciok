@@ -9,7 +9,7 @@ Torony:
 ---Torony elhelyezése: mező ideraktak függvénye kap egy tornyot, a toronynak meghívjuk a register függvényét, az meghívja  a celle tornyot raktak ide fv-ét
 --szekvencia: field.addIField(ifield)->ifield.register(field)-> field.registeritower(ifield)
 ---Torony eladása: A torony a gameStat-ból kiszámolja az értékét (alap ár+kristályok száma*kristály értéke)/2, játékos varázserejét megnöveli vele, törli a tornyot.
---szekvenciadiagram: tower.sell() -> gemStat.getValue() ->  -> tower.remove() -> myField.deleteIField()
+--szekvenciadiagram: tower.sell() -> gemStat.getValue() -> changeMana() -> tower.myField.deleteIField(tower)
 
 
 Akadály:
