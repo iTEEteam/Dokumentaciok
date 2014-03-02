@@ -114,13 +114,13 @@
 <XPD:REF name="Context">Dx1vVTrsVkiuOWFTOf1AIQAA</XPD:REF>
 <XPD:ATTR name="#OwnedDiagrams" type="integer">1</XPD:ATTR>
 <XPD:OBJ name="OwnedDiagrams[0]" type="UMLSequenceDiagram" guid="14rJP+QSdUi94AYQ9XiitQAA">
-<XPD:ATTR name="Name" type="string">Ellenség kiválasztása</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">Torony tüzelése</XPD:ATTR>
 <XPD:ATTR name="ShowSequenceNumber" type="boolean">False</XPD:ATTR>
 <XPD:ATTR name="MessageSignature" type="UMLMessageSignatureKind">mskNameAndType</XPD:ATTR>
 <XPD:REF name="DiagramOwner">ql9ru35S2UivgfjjX5Z/YAAA</XPD:REF>
 <XPD:OBJ name="DiagramView" type="UMLSequenceDiagramView" guid="btkkP3Kv7kGDy5t0/xTCPAAA">
 <XPD:REF name="Diagram">14rJP+QSdUi94AYQ9XiitQAA</XPD:REF>
-<XPD:ATTR name="#OwnedViews" type="integer">20</XPD:ATTR>
+<XPD:ATTR name="#OwnedViews" type="integer">21</XPD:ATTR>
 <XPD:OBJ name="OwnedViews[0]" type="UMLFrameView" guid="2VClO7DHHkSxuaygm2G7NgAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
@@ -129,7 +129,7 @@
 <XPD:ATTR name="Height" type="integer">601</XPD:ATTR>
 <XPD:REF name="Model">Z5ClnPVUyU2rJVkX6VZT9gAA</XPD:REF>
 <XPD:OBJ name="NameLabel" type="LabelView" guid="IcfwV1mD2UCURcFu8sxJGAAA">
-<XPD:ATTR name="Text" type="string">Ellenség kiválasztása</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">Torony tüzelése</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="FrameTypeLabel" type="LabelView" guid="v/AhtebLik2cauZDHleRFQAA">
 <XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
@@ -457,7 +457,44 @@
 <XPD:ATTR name="Height" type="integer">29</XPD:ATTR>
 </XPD:OBJ>
 </XPD:OBJ>
-<XPD:OBJ name="OwnedViews[13]" type="UMLSeqStimulusView" guid="kohxYKIHIUOWrDwb75kbowAA">
+<XPD:OBJ name="OwnedViews[13]" type="UMLSeqStimulusView" guid="0j9aVyBg90GKz1qi3mRgSwAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="LineStyle" type="LineStyleKind">lsRectilinear</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">437,218;305,218</XPD:ATTR>
+<XPD:REF name="Model">zRNxhvDMgECfMWTfp6UXLQAA</XPD:REF>
+<XPD:REF name="Head">2cYntw7f1EmUu4eIzoOMpQAA</XPD:REF>
+<XPD:REF name="Tail">5fQMmFhzg0CJ2xmvzwLxvgAA</XPD:REF>
+<XPD:OBJ name="NameLabel" type="EdgeLabelView" guid="P+OnBD4k+0SOaV+Tnded4AAA">
+<XPD:ATTR name="Alpha" type="real">-1,32581884013897</XPD:ATTR>
+<XPD:ATTR name="Distance" type="real">8,24621125123532</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">ArrayList&lt;Enemy&gt;</XPD:ATTR>
+<XPD:REF name="Model">zRNxhvDMgECfMWTfp6UXLQAA</XPD:REF>
+<XPD:REF name="HostEdge">0j9aVyBg90GKz1qi3mRgSwAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="StereotypeLabel" type="EdgeLabelView" guid="5TkYqDqaPk2wYU2k7DtmRAAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:ATTR name="Alpha" type="real">1,5707963267949</XPD:ATTR>
+<XPD:ATTR name="Distance" type="real">25</XPD:ATTR>
+<XPD:REF name="Model">zRNxhvDMgECfMWTfp6UXLQAA</XPD:REF>
+<XPD:REF name="HostEdge">0j9aVyBg90GKz1qi3mRgSwAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="PropertyLabel" type="EdgeLabelView" guid="3rU3DBpGN0qSk4L0WHkDVgAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:ATTR name="Alpha" type="real">-1,5707963267949</XPD:ATTR>
+<XPD:ATTR name="Distance" type="real">10</XPD:ATTR>
+<XPD:REF name="Model">zRNxhvDMgECfMWTfp6UXLQAA</XPD:REF>
+<XPD:REF name="HostEdge">0j9aVyBg90GKz1qi3mRgSwAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Activation" type="UMLActivationView" guid="OHVACOfxOUaKg0iiRZDETgAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">292</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">218</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">14</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">29</XPD:ATTR>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[14]" type="UMLSeqStimulusView" guid="kohxYKIHIUOWrDwb75kbowAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="LineStyle" type="LineStyleKind">lsRectilinear</XPD:ATTR>
@@ -494,7 +531,7 @@
 <XPD:ATTR name="Height" type="integer">29</XPD:ATTR>
 </XPD:OBJ>
 </XPD:OBJ>
-<XPD:OBJ name="OwnedViews[14]" type="UMLSeqStimulusView" guid="ChbxnCXMl0GYY/A4LChOmgAA">
+<XPD:OBJ name="OwnedViews[15]" type="UMLSeqStimulusView" guid="ChbxnCXMl0GYY/A4LChOmgAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="LineStyle" type="LineStyleKind">lsRectilinear</XPD:ATTR>
@@ -530,7 +567,29 @@
 <XPD:ATTR name="Height" type="integer">277</XPD:ATTR>
 </XPD:OBJ>
 </XPD:OBJ>
-<XPD:OBJ name="OwnedViews[15]" type="UMLSeqStimulusView" guid="WOgFJZZ7OEecvL+50dGlagAA">
+<XPD:OBJ name="OwnedViews[16]" type="UMLNoteView" guid="F+61FFOwA0yDoCFw27Z/EgAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">604</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">248</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">256</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">57</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">Az enemy mindig a rá vonatkozó getDamage...() 
+függvényt hívja meg, pl hobbit esetén
+getDamageHobbit()
+</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[17]" type="UMLTextView" guid="+fDt4dy/EUa4W3TyDvCO2QAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">492</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">396</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">70</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">23</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">[health==0]
+</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[18]" type="UMLSeqStimulusView" guid="WOgFJZZ7OEecvL+50dGlagAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="LineStyle" type="LineStyleKind">lsRectilinear</XPD:ATTR>
@@ -566,29 +625,7 @@
 <XPD:ATTR name="Height" type="integer">29</XPD:ATTR>
 </XPD:OBJ>
 </XPD:OBJ>
-<XPD:OBJ name="OwnedViews[16]" type="UMLNoteView" guid="F+61FFOwA0yDoCFw27Z/EgAA">
-<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
-<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Left" type="integer">604</XPD:ATTR>
-<XPD:ATTR name="Top" type="integer">248</XPD:ATTR>
-<XPD:ATTR name="Width" type="integer">256</XPD:ATTR>
-<XPD:ATTR name="Height" type="integer">57</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">Az enemy mindig a rá vonatkozó getDamage...() 
-függvényt hívja meg, pl hobbit esetén
-getDamageHobbit()
-</XPD:ATTR>
-</XPD:OBJ>
-<XPD:OBJ name="OwnedViews[17]" type="UMLTextView" guid="+fDt4dy/EUa4W3TyDvCO2QAA">
-<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
-<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Left" type="integer">492</XPD:ATTR>
-<XPD:ATTR name="Top" type="integer">396</XPD:ATTR>
-<XPD:ATTR name="Width" type="integer">70</XPD:ATTR>
-<XPD:ATTR name="Height" type="integer">23</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">[health==0]
-</XPD:ATTR>
-</XPD:OBJ>
-<XPD:OBJ name="OwnedViews[18]" type="UMLSeqStimulusView" guid="4Ta2BBH2rk+bi9fFHp/vGgAA">
+<XPD:OBJ name="OwnedViews[19]" type="UMLSeqStimulusView" guid="4Ta2BBH2rk+bi9fFHp/vGgAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="LineStyle" type="LineStyleKind">lsRectilinear</XPD:ATTR>
@@ -624,7 +661,7 @@ getDamageHobbit()
 <XPD:ATTR name="Height" type="integer">69</XPD:ATTR>
 </XPD:OBJ>
 </XPD:OBJ>
-<XPD:OBJ name="OwnedViews[19]" type="UMLSeqStimulusView" guid="M8f+M6iYJE2CtJo6UQpOMQAA">
+<XPD:OBJ name="OwnedViews[20]" type="UMLSeqStimulusView" guid="M8f+M6iYJE2CtJo6UQpOMQAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="LineStyle" type="LineStyleKind">lsRectilinear</XPD:ATTR>
@@ -662,7 +699,7 @@ getDamageHobbit()
 </XPD:OBJ>
 </XPD:OBJ>
 </XPD:OBJ>
-<XPD:ATTR name="#ParticipatingStimuli" type="integer">8</XPD:ATTR>
+<XPD:ATTR name="#ParticipatingStimuli" type="integer">9</XPD:ATTR>
 <XPD:OBJ name="ParticipatingStimuli[0]" type="UMLStimulus" guid="5Ex8En+a10y8gw4H2h22lQAA">
 <XPD:ATTR name="Name" type="string">1: shoot</XPD:ATTR>
 <XPD:REF name="Sender">bMrQR5PWz0auUvpOf1hr+QAA</XPD:REF>
@@ -705,7 +742,21 @@ getDamageHobbit()
 <XPD:REF name="Views[2]">G1RtzD6oPEGfWprxBHYZwgAA</XPD:REF>
 <XPD:REF name="Views[3]">bRBe4RIau0C1juJaZimZowAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="ParticipatingStimuli[3]" type="UMLStimulus" guid="J+4c7oCgf0KsE21GOZB4QAAA">
+<XPD:OBJ name="ParticipatingStimuli[3]" type="UMLStimulus" guid="zRNxhvDMgECfMWTfp6UXLQAA">
+<XPD:ATTR name="Name" type="string">ArrayList&lt;Enemy&gt;</XPD:ATTR>
+<XPD:REF name="Sender">Ptm1Psp4v0KlvNGKKVtFRAAA</XPD:REF>
+<XPD:REF name="Receiver">PN98/yVlLEauEACRFaDn/AAA</XPD:REF>
+<XPD:OBJ name="Action" type="UMLReturnAction" guid="2irzRHqg30y5X9JBYkR4cwAA">
+<XPD:REF name="Stimulus">zRNxhvDMgECfMWTfp6UXLQAA</XPD:REF>
+</XPD:OBJ>
+<XPD:REF name="InteractionInstanceSet">ql9ru35S2UivgfjjX5Z/YAAA</XPD:REF>
+<XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
+<XPD:REF name="Views[0]">0j9aVyBg90GKz1qi3mRgSwAA</XPD:REF>
+<XPD:REF name="Views[1]">P+OnBD4k+0SOaV+Tnded4AAA</XPD:REF>
+<XPD:REF name="Views[2]">5TkYqDqaPk2wYU2k7DtmRAAA</XPD:REF>
+<XPD:REF name="Views[3]">3rU3DBpGN0qSk4L0WHkDVgAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="ParticipatingStimuli[4]" type="UMLStimulus" guid="J+4c7oCgf0KsE21GOZB4QAAA">
 <XPD:ATTR name="Name" type="string">enemy : Enemy</XPD:ATTR>
 <XPD:REF name="Sender">PN98/yVlLEauEACRFaDn/AAA</XPD:REF>
 <XPD:REF name="Receiver">PN98/yVlLEauEACRFaDn/AAA</XPD:REF>
@@ -719,7 +770,7 @@ getDamageHobbit()
 <XPD:REF name="Views[2]">Xq0zvrMwt0y0zcY9wsVVFgAA</XPD:REF>
 <XPD:REF name="Views[3]">oi/WWwKCtEuxMPAWlcljowAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="ParticipatingStimuli[4]" type="UMLStimulus" guid="zA7pHKqDr02VbTMTOngDbQAA">
+<XPD:OBJ name="ParticipatingStimuli[5]" type="UMLStimulus" guid="zA7pHKqDr02VbTMTOngDbQAA">
 <XPD:ATTR name="Name" type="string">1.2: hurt</XPD:ATTR>
 <XPD:ATTR name="Arguments" type="string">bullet</XPD:ATTR>
 <XPD:REF name="Sender">PN98/yVlLEauEACRFaDn/AAA</XPD:REF>
@@ -734,7 +785,7 @@ getDamageHobbit()
 <XPD:REF name="Views[2]">RsBsyPBPCEe9onLsZPEPsQAA</XPD:REF>
 <XPD:REF name="Views[3]">98+vz/HpFUSwaiQtNicRPgAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="ParticipatingStimuli[5]" type="UMLStimulus" guid="1TlqadjVhkeeQMLaEElTxwAA">
+<XPD:OBJ name="ParticipatingStimuli[6]" type="UMLStimulus" guid="1TlqadjVhkeeQMLaEElTxwAA">
 <XPD:ATTR name="Name" type="string">1.2.1: getDamage...</XPD:ATTR>
 <XPD:REF name="Sender">FiTo33zzT0CIWDEgZkbHHgAA</XPD:REF>
 <XPD:REF name="Receiver">DDTf8syICE2DFzAAOEsL8QAA</XPD:REF>
@@ -748,7 +799,7 @@ getDamageHobbit()
 <XPD:REF name="Views[2]">9Ng27ocJ2UuGBFzLpPkSIwAA</XPD:REF>
 <XPD:REF name="Views[3]">Sgvc7Qrb20GkxRM5gdyxtQAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="ParticipatingStimuli[6]" type="UMLStimulus" guid="a2WfM4e2aU6Yjk4kjNMhBAAA">
+<XPD:OBJ name="ParticipatingStimuli[7]" type="UMLStimulus" guid="a2WfM4e2aU6Yjk4kjNMhBAAA">
 <XPD:ATTR name="Name" type="string">1.2.2: eliminate</XPD:ATTR>
 <XPD:REF name="Sender">FiTo33zzT0CIWDEgZkbHHgAA</XPD:REF>
 <XPD:REF name="Receiver">FiTo33zzT0CIWDEgZkbHHgAA</XPD:REF>
@@ -762,7 +813,7 @@ getDamageHobbit()
 <XPD:REF name="Views[2]">wh09QWqbjUqXyS4ePy/QBgAA</XPD:REF>
 <XPD:REF name="Views[3]">Rz21tUjIe0a9I38ergLuHQAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="ParticipatingStimuli[7]" type="UMLStimulus" guid="Tj4ikH2/2kehsBNjmRC4XwAA">
+<XPD:OBJ name="ParticipatingStimuli[8]" type="UMLStimulus" guid="Tj4ikH2/2kehsBNjmRC4XwAA">
 <XPD:ATTR name="Name" type="string">1.2.2.1: deleteIPathPlaceable</XPD:ATTR>
 <XPD:ATTR name="Arguments" type="string">enemy</XPD:ATTR>
 <XPD:REF name="Sender">FiTo33zzT0CIWDEgZkbHHgAA</XPD:REF>
@@ -810,7 +861,7 @@ getDamageHobbit()
 <XPD:REF name="InteractionInstanceSet">ql9ru35S2UivgfjjX5Z/YAAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedFrames[1]" type="UMLFrame" guid="Z5ClnPVUyU2rJVkX6VZT9gAA">
-<XPD:ATTR name="Name" type="string">Ellenség kiválasztása</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">Torony tüzelése</XPD:ATTR>
 <XPD:ATTR name="FrameKind" type="string">sd</XPD:ATTR>
 <XPD:REF name="InteractionInstanceSet">ql9ru35S2UivgfjjX5Z/YAAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">1</XPD:ATTR>
@@ -839,10 +890,11 @@ getDamageHobbit()
 <XPD:REF name="SendingStimuli[1]">ZGQydA0UWkqMA5zjEuur4wAA</XPD:REF>
 <XPD:REF name="SendingStimuli[2]">J+4c7oCgf0KsE21GOZB4QAAA</XPD:REF>
 <XPD:REF name="SendingStimuli[3]">zA7pHKqDr02VbTMTOngDbQAA</XPD:REF>
-<XPD:ATTR name="#ReceivingStimuli" type="integer">3</XPD:ATTR>
+<XPD:ATTR name="#ReceivingStimuli" type="integer">4</XPD:ATTR>
 <XPD:REF name="ReceivingStimuli[0]">5Ex8En+a10y8gw4H2h22lQAA</XPD:REF>
 <XPD:REF name="ReceivingStimuli[1]">rz9vpQ+waUe2sRosd+yt3AAA</XPD:REF>
 <XPD:REF name="ReceivingStimuli[2]">J+4c7oCgf0KsE21GOZB4QAAA</XPD:REF>
+<XPD:REF name="ReceivingStimuli[3]">zRNxhvDMgECfMWTfp6UXLQAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="ParticipatingInstances[2]" type="UMLObject" guid="Ptm1Psp4v0KlvNGKKVtFRAAA">
 <XPD:ATTR name="Name" type="string">p</XPD:ATTR>
@@ -851,6 +903,8 @@ getDamageHobbit()
 <XPD:ATTR name="#Views" type="integer">2</XPD:ATTR>
 <XPD:REF name="Views[0]">QIEh5tQgv0yujVIwWGwOngAA</XPD:REF>
 <XPD:REF name="Views[1]">5fQMmFhzg0CJ2xmvzwLxvgAA</XPD:REF>
+<XPD:ATTR name="#SendingStimuli" type="integer">1</XPD:ATTR>
+<XPD:REF name="SendingStimuli[0]">zRNxhvDMgECfMWTfp6UXLQAA</XPD:REF>
 <XPD:ATTR name="#ReceivingStimuli" type="integer">1</XPD:ATTR>
 <XPD:REF name="ReceivingStimuli[0]">ZGQydA0UWkqMA5zjEuur4wAA</XPD:REF>
 </XPD:OBJ>
