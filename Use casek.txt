@@ -1,5 +1,13 @@
 ﻿Use casek:
 
+inicializálás: game létrehozása tick, mana 0-ra állítása, játékmód betöltése, ellenség buffer feltöltése.
+
+game interface: changeMana()
+
+szekvenciadiagram tiktől tickig:
+
+Használhatunk tervezési mintákat!!!
+
 Torony:
 
 ---Ellenség kiválasztása lövéshez és sebzés: a torony tárolja a hatókörbe tartozó cellákat, kiválasztáskor ezeken halad végig, és lekérdezi az ott lévő ellenségeket.
