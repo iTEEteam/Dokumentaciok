@@ -30,8 +30,10 @@ Akadály:
 Ellenfelek:
 ---Mozgás: beregisztrálja a path és a path is az ellenséget
 --szekvencia: alt[modSpeed] enemy.myPath.getNext()->(ret path) alt[path==null] igame.incSucceeded() else path.registerIPathPlaceable(enemy)->emeny.registerPath(path)->pathRegisterEnemy(enemy)-> alt[path.myObstacle!=null] path.myobstacle.slow(enemy)->myObstacle.amortization()->alt[amort==0]->myObstacle.eliminate(myPath)->myPath.deleteIPathPlaceable(myObstacle)
-Sebződés
-Beér a pálya végére
+---Sebződés: benne van torony tüzelése diagrammban
+--szekvencia:
+---Beér a pálya végére: ha az enemy a myPath.getNext() hívására null-t kap, elért a pálya végére. az IGame interfészén keresztül meghívja az incSucceded() függvényt
+--szekvencia: enemy.mypath.getnext -> |alt == null| igame.incSucceded -> enemy.eliminate(myPath)| else| enemy.move() | return
 Belép a pályára
 Útvonalválasztás
 Meghal
