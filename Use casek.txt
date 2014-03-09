@@ -10,12 +10,12 @@ Torony:
 
 ---Ellenség kiválasztása lövéshez és sebzés: a torony tárolja a hatókörbe tartozó cellákat, kiválasztáskor ezeken halad végig, és lekérdezi az ott lévő ellenségeket.
 --szekvencia: Tower.shoot() -> chooseEnemy() -> myField.getEnemies() (ellenségkiválasztó logika->kapunk egy enemy-t) -> enemy.hurt(Bullet) -> alt getDamage...() -> alt[health==0] i: enemy.eliminate()->enemy.myPath.deleteIpathPlaceable(enemy), n: ret
----Torony fejlesztése több féle: torony addGem(Gem) függvénye kap egy Gemet, ennek paramétereivel frissíti a tárolt Bullet paramétereit, és sajátjait, és a GemStatot.
---szekvencia: tower.addGem(gem) -> gemStat.refresh() -> bullet.refresh()
+---Torony fejlesztése több féle: 
+--szekvencia: create itgem->tower.addITGem(itgem) -> itgem.upgradeTower(tower) -> tower.upgradeSpeed/Damage/Range...etc()->getBullet() |ret bullet| -> bullet.setxxx() return
 ---Torony elhelyezése: mező ideraktak függvénye kap egy tornyot, a toronynak meghívjuk a register függvényét, az meghívja  a celle tornyot raktak ide fv-ét
 --szekvencia: field.addIField(ifield)->ifield.register(field)-> field.registeritower(ifield)
----Torony eladása: A torony a gameStat-ból kiszámolja az értékét (alap ár+kristályok száma*kristály értéke)/2, játékos varázserejét megnöveli vele, törli a tornyot.
---szekvenciadiagram: tower.sell() -> gemStat.getValue() -> changeMana() -> tower.myField.deleteIField(tower)
+---Torony eladása: 
+--szekvenciadiagram: tower.sell() -> loop: |gems.getNext().getvalue() ret value-> igame.changeMana(value) |-> igame.deleteTower(tower) -> tower.myField.deleteIField(tower) return
 
 
 Akadály:
