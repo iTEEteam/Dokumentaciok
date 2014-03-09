@@ -22,9 +22,9 @@ Akadály:
 ---Akadály lerakása: az út ideraktak függvénye létrehoz egy akadályt, az akadály beregisztrálja az utat és az út is az akadályt
 --szekvencia: path.addIPath()->new obstacle->path.register(obstacle), obstacle.register(path)
 ---Akadály fejlesztése javítás: az akadályon lévő számlálót visszaállítja
---szekvencia: repGem.upgradeObstacle(obstacle) -> obstacle.setAmort(eredeti ertek) -> return
+--szekvencia: repGem.upgradeObstacle(obstacle) -> obstacle.repair() -> return
 ---Akadály fejlesztése: jobban lassítás
---szekvencia: intGem.upgradeObstacle(obstacle) -> obstacle.setSlowIntens(int) -> return
+--szekvencia: intGem.upgradeObstacle(obstacle) -> obstacle.increaseIntensity(int) -> return
 
 
 Ellenfelek:
