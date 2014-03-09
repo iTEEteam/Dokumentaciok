@@ -1,15 +1,10 @@
 ﻿Use casek:
 
-inicializálás: game létrehozása tick, mana 0-ra állítása,pálya betöltése, játékmód betöltése.
-
-game interface: changeMana()
-
-szekvenciadiagram tiktől tickig:
-
-Használhatunk tervezési mintákat!!!
-
 játék menete:      
 g Game, main()->create g Game()->create Map->load()->g.initialize()->g.update() -> alt[noEnemies==0] ret. -> alt[enemiesIn && enemiesOut ==0] makeEnemies() -> loop enemiesIn.move() -> loop towers.shoot() 
+
+---inicializálás: az Application létrehozza a game-t. A game létrehozza a map-ot. A Game saját magán meghívja a initialize függvényt, aminek átadja melyik pályát akarja betölteni. Az inicializál metódusban meghívja a map.load(mapName) függvényt, ami betölti a pályát. Ezután legkéri a pályának az első út celláját. 
+--szekvencia:game -> create map (ret) -> game.initialize(mapName) -> map.load(mapName) -> loop|alt| create field/path||-> map.getFirstPath() -> return initből.
 
 Torony:
 
@@ -26,10 +21,10 @@ Torony:
 Akadály:
 ---Akadály lerakása: az út ideraktak függvénye létrehoz egy akadályt, az akadály beregisztrálja az utat és az út is az akadályt
 --szekvencia: path.addIPath()->new obstacle->path.register(obstacle), obstacle.register(path)
-Akadály fejlesztése javítás: az akadályon lévő számlálót visszaállítja
-szekvencia: obstacle.repair()
-Akadály fejlesztése: jobban lassítás
-szekvencia: obstacle.increaseIntensity(int)
+---Akadály fejlesztése javítás: az akadályon lévő számlálót visszaállítja
+--szekvencia: repGem.upgradeObstacle(obstacle) -> obstacle.setAmort(eredeti ertek) -> return
+---Akadály fejlesztése: jobban lassítás
+--szekvencia: intGem.upgradeObstacle(obstacle) -> obstacle.setSlowIntens(int) -> return
 
 
 Ellenfelek:
@@ -51,11 +46,9 @@ Ellenség meghal rajta
 
 Lövedék
 
-GemStat: 
-Varázserő kiszámítása: összeadja a vásárolt kövek értékét, hozzáadja a torony értékét, elosztja kettővel
-
 Player: 
-Játék indítás
+---Játék indítás: A játékos kiválaszt egyet a képernyőn lévő pályákból. 
+--szekvencia: Game g-ből indulva: map.load(mapName) -> g.initialize()
 Pálya választás
 Lerakások, fejlesztések, eladások lehet hogy ide kerülnek
 Kilép
@@ -66,5 +59,6 @@ Idő múlása(tick):
 Frame frissítése (modell): update meghívása -> ellenőrzi hogy vannak e még a pályán ellenségek. ha nincsenek a game meghívja a hullám generáló függvényét.
 ha vannak, akkor minden aktív ovjektumon meghívja az move(tick) függvényét
 
-makeEnemy:
+---makeEnemies: ha az enemiesIn és enemiesOut is üres, feltölti az enemiesOut-ot enemykkel
+--szekvencia: loop |noEnemies-szer végighajtva | -> create Enemy (random type) -> enemiesOut.add(enemy) -> loop vége
 Gui frissítése
