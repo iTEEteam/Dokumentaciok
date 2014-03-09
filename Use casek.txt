@@ -8,6 +8,9 @@ szekvenciadiagram tiktől tickig:
 
 Használhatunk tervezési mintákat!!!
 
+játék menete:      
+g Game, main()->create g Game()->create Map->load()->g.initialize()->g.update() -> alt[noEnemies==0] ret. -> alt[enemiesIn && enemiesOut ==0] makeEnemies() -> loop enemiesIn.move() -> loop towers.shoot() 
+
 Torony:
 
 ---Ellenség kiválasztása lövéshez és sebzés: a torony tárolja a hatókörbe tartozó cellákat, kiválasztáskor ezeken halad végig, és lekérdezi az ott lévő ellenségeket.
@@ -31,7 +34,7 @@ szekvencia: obstacle.increaseIntensity(int)
 
 Ellenfelek:
 ---Mozgás: beregisztrálja a path és a path is az ellenséget
---szekvencia: enemy.myPath.getNext()->(ret path) path.registerIPathPlaceable(enemy)->emeny.registerPath(path)->pathRegisterEnemy(enemy)-> alt[path.myObstacle!=null] path.myobstacle.slow(enemy)->myObstacle.amortization()->alt[amort==0]->myObstacle.eliminate(myPath)->myPath.deleteIPathPlaceable(myObstacle)
+--szekvencia: alt[modSpeed] enemy.myPath.getNext()->(ret path) alt[path==null] igame.incSucceeded() else path.registerIPathPlaceable(enemy)->emeny.registerPath(path)->pathRegisterEnemy(enemy)-> alt[path.myObstacle!=null] path.myobstacle.slow(enemy)->myObstacle.amortization()->alt[amort==0]->myObstacle.eliminate(myPath)->myPath.deleteIPathPlaceable(myObstacle)
 Sebződés
 Beér a pálya végére
 Belép a pályára
