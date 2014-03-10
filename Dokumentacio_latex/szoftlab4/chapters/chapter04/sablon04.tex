@@ -20,7 +20,7 @@
 \subsection{Akadály (Obstacle)}
 Az akadály (Obstacle) objektum felelőssége egyrészt az, hogy amikor áthalad rajta egy ellenség (Enemy) lelassítsa. Másfelől felelőssége az is, hogy egy-egy ellenség  áthaladtával amortizálódjon, valamint ha már teljesen elhasználódott, értesítse azt az út elemet (Path), amelyiken áll.
 \subsection{Ellenség (Enemy)}
-	Egy ellenséget (tünde, hobbit, törp vagy ember) megvalósító objektum. Az ő felelőssége, hogy egy adott lövedék (Bullet) hatására sebződjön, vagy ha már sokat sebződött, akkor haljon meg, valamint az, hogy celláról cellára mozgassa magát.
+Egy ellenséget (tünde, hobbit, törp vagy ember) megvalósító objektum. Az ő felelőssége, hogy egy adott lövedék (Bullet) hatására sebződjön, vagy ha már sokat sebződött, akkor haljon meg, valamint az, hogy celláról cellára mozgassa magát, és ha eléri a végzet hegyét értesítse a játék (Game) osztályt, hogy intézkedjen.
 
 \subsection{Játék (Game)}
 A játék (Game) objektum felelőssége többek közt a játék ütemezése, az idő múlásának kontrollálása. Ezenkívül az inicializálás, vagyis a játék kezdeti állapotának felvétele, továbbá a modell állapotának folyamatos változása miatti frissítés, valamint ennek a grafikus felületen való megjelenítése. A game osztály hozza létre az ellenségeket és indítja el őket az úton.
@@ -33,7 +33,7 @@ A játék (Game) objektum felelőssége többek közt a játék ütemezése, az 
 A Field osztály a Cell osztály leszérmazottja. A nem út típusú cellákat (mező) reprezentálja. Egy mezőre egy torony helyezhető. 
 
 \subsection{Pálya (Map)}
-A Map osztály a játéktér elemeit, mint cellák tárolja, egy két dimenziós tömbben. Megadja minden egyes cellához, a szomszédjai referenciáját. A pályák egy külső fájlban kerülnek tárolásra. A pálya ebből a fájlból töltődik be. Az fájlban tárolódik a pálya neve, nehézségi szintje, és a térkép struktúrája. Minden út cella tartalmaz egy tulajdonságot, ami következő cella irányát adja meg.
+A Map osztály a játéktér elemeit, mint cellák tárolja, egy két dimenziós tömbben. Megadja minden egyes cellához, a szomszédjai referenciáját. 
 
 
 
@@ -41,7 +41,7 @@ A Map osztály a játéktér elemeit, mint cellák tárolja, egy két dimenziós
 \subsection{Torony (Tower)}
 	Az egyetlen tervezett toronytípus, le lehet rakni a pályán az úton kívül bárhova. A hatósugarába belépett ellenségekre lőnie kell, lehet fejleszteni lövési sebességét, erejét, újratöltési idejét és egy ellenségtípusra még hatásosabbá tenni a lövedékeit. A játékos varázserőért tud lerakni, illetve eladni tornyokat. Ez a legfontosabb eszköz amivel a játékos meg tudja akadályozni az ellenségek célbajutását.
 \subsection{Út (Path)}
-A Path a Cell osztály leszármazottja. Az út típusú cellákat reprezentálja. Tartalmazza a rajta lévő ellenségeket és esetleg akadályt.
+A Path a Cell osztály leszármazottja. Az út típusú cellákat reprezentálja. Tartalmazza a rajta lévő ellenségeket és esetleg akadályt. Minden út tudja azt is, hogy hova lehet lépni róla egy lépésben.
 
 \subsection{Obstaclehez tartozó kristályok: Intensity, Repair}
 Akadályra helyezhető kristályok, ami növeli a lassítás értékét vagy megjavítja az akadályt.
@@ -50,7 +50,7 @@ Akadályra helyezhető kristályok, ami növeli a lassítás értékét vagy meg
 A torony lövésének hatósugarát, gyorsítását, sebzését, ellenféltípusra sebzés, növelő kristályok osztályai.
 
 \subsection{ITGem, IOGem}
-Ezen keresztül lehet kezelni a kristályokat, és a tornyok fejlesztését. Eladáshoz ITGem-nek felelőssége, hogy az árát a kristálynak visszaadja.
+Ezen keresztül lehet kezelni a kristályokat, és a tornyok/akadályok fejlesztését. Eladáshoz ITGem-nek felelőssége, hogy az árát a kristálynak visszaadja.
 
 
 
@@ -273,9 +273,9 @@ A torony funkciói vannak benne.
 \item Metódusok\\
 	\begin{description}
 		\item[void setPaths()] a saját cellájából kiindulva a hatósugarával lefedett területen felkeresi, és beregisztrálja a paths listába a path cellákat.
-\item[void shoot(int tick)] A torony akkor lő, ha letelt az újratöltési idő, ekkor megnézi, hogy lőtávon belül van-e ellenség, és ha van meghívja a sebzés függvényét, átadva paraméterként a lövedékét. 
+\item[void shoot()] A torony akkor lő, ha letelt az újratöltési idő, ekkor megnézi, hogy lőtávon belül van-e ellenség, és ha van meghívja a sebzés függvényét, átadva paraméterként a lövedékét. 
 \item[void addITGem(ITGem gem)] paraméterként megkapja a kiválasztott kristályt, a gameStat-ot frissíti, és a bullet-et is.
-\item[Enemy chooseEnemy()] A torony tárolja a környező path cellákat. Minden tick-ben végig megy rajtuk, és kiválaszt egyet, amelyiken van ellenség, és oda fog lőni. Azzal tér vissza, hogy sikerült-e ellenséget találni.
+\item[Enemy chooseEnemy()] A torony tárolja a hatókörbe eső path cellákat. Minden tick-ben végig megy rajtuk, és kiválaszt egyet, amelyiken van ellenség, és oda fog lőni. Az ellenséggel tér vissza.
 
 		
 		
