@@ -1,0 +1,2 @@
+game: ellenséget hoz létre(out tele, in üres/fele-fele/in tele, out üres), inicializál, (tornyot ad hozzá, manát változtat, tornyot/enemy-t töröl, bejutott ellenségek)
+torony: fejleszt(nincs kõ/ van kõ), elhelyez(üres/van torony/nincs pénz), lõ(van mire/nincs mire/alap/fejlesztett), hatósugár meghatározása, elad
