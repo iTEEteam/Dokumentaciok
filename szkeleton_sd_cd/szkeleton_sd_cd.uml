@@ -8968,8 +8968,22 @@ megyünk végig]
 <XPD:REF name="DiagramOwner">GUC6B9KIz0S9qznOxG3PjwAA</XPD:REF>
 <XPD:OBJ name="DiagramView" type="UMLCollaborationDiagramView" guid="bUKSOII/1EKH/ffZUB/quAAA">
 <XPD:REF name="Diagram">7HRxKAU9XkOKShg2T0KgtwAA</XPD:REF>
-<XPD:ATTR name="#OwnedViews" type="integer">11</XPD:ATTR>
-<XPD:OBJ name="OwnedViews[0]" type="UMLColObjectView" guid="Xw2mbHaxUUmUuQ90i6aT1AAA">
+<XPD:ATTR name="#OwnedViews" type="integer">12</XPD:ATTR>
+<XPD:OBJ name="OwnedViews[0]" type="UMLFrameView" guid="E7skirXkVU6oTHJ9xNPp2gAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">564</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">196</XPD:ATTR>
+<XPD:REF name="Model">wNkO5GyJ+E2wXz4dMDETZgAA</XPD:REF>
+<XPD:OBJ name="NameLabel" type="LabelView" guid="Rmt2hPSXTUaM59gF6RT9zQAA">
+<XPD:ATTR name="Text" type="string">Fejlesztetlen torony eladása</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="FrameTypeLabel" type="LabelView" guid="OuzDR5pds0i9ytHB06lDDgAA">
+<XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">cd</XPD:ATTR>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[1]" type="UMLColObjectView" guid="Xw2mbHaxUUmUuQ90i6aT1AAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="Left" type="integer">224</XPD:ATTR>
@@ -8994,7 +9008,7 @@ megyünk végig]
 <XPD:REF name="Model">hNmLN3c4DUiFU5y8hqsLKwAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
-<XPD:OBJ name="OwnedViews[1]" type="UMLColObjectView" guid="jvs4QJT80E2hLMEFsA5a+QAA">
+<XPD:OBJ name="OwnedViews[2]" type="UMLColObjectView" guid="jvs4QJT80E2hLMEFsA5a+QAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="Left" type="integer">476</XPD:ATTR>
@@ -9019,7 +9033,7 @@ megyünk végig]
 <XPD:REF name="Model">OQg+36XaOE6VgFBlT4BaBAAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
-<XPD:OBJ name="OwnedViews[2]" type="UMLLinkView" guid="RG1IIdaxukuO1iTA8MmhnQAA">
+<XPD:OBJ name="OwnedViews[3]" type="UMLLinkView" guid="RG1IIdaxukuO1iTA8MmhnQAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="LineStyle" type="LineStyleKind">lsRectilinear</XPD:ATTR>
@@ -9062,7 +9076,7 @@ megyünk végig]
 <XPD:REF name="Model">ndagnzYRJUS2lb7IDEsgIAAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
-<XPD:OBJ name="OwnedViews[3]" type="UMLColObjectView" guid="Xinr2VIfjkW2APuFZqFJ0QAA">
+<XPD:OBJ name="OwnedViews[4]" type="UMLColObjectView" guid="Xinr2VIfjkW2APuFZqFJ0QAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="Left" type="integer">228</XPD:ATTR>
@@ -9087,7 +9101,7 @@ megyünk végig]
 <XPD:REF name="Model">4SmnuAPGc0Wec5oAcwnGoQAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
-<XPD:OBJ name="OwnedViews[4]" type="UMLLinkView" guid="JbMiFTToVkSMC6jWHr4LrAAA">
+<XPD:OBJ name="OwnedViews[5]" type="UMLLinkView" guid="JbMiFTToVkSMC6jWHr4LrAAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="LineStyle" type="LineStyleKind">lsRectilinear</XPD:ATTR>
@@ -9130,7 +9144,7 @@ megyünk végig]
 <XPD:REF name="Model">9PqeB2QB6EypGVYRErW01AAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
-<XPD:OBJ name="OwnedViews[5]" type="UMLColObjectView" guid="alZuXDUf0UO3iDLiKryyRwAA">
+<XPD:OBJ name="OwnedViews[6]" type="UMLColObjectView" guid="alZuXDUf0UO3iDLiKryyRwAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="Left" type="integer">12</XPD:ATTR>
@@ -9155,7 +9169,7 @@ megyünk végig]
 <XPD:REF name="Model">lSTMvM1yVUC6Kuu2pmIWUgAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
-<XPD:OBJ name="OwnedViews[6]" type="UMLLinkView" guid="aRGkZ2yOikCokg40rh2KPwAA">
+<XPD:OBJ name="OwnedViews[7]" type="UMLLinkView" guid="aRGkZ2yOikCokg40rh2KPwAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="LineStyle" type="LineStyleKind">lsRectilinear</XPD:ATTR>
@@ -9199,7 +9213,7 @@ megyünk végig]
 <XPD:REF name="Model">5hwBmJn8SEK7ARdZsBtJ3wAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
-<XPD:OBJ name="OwnedViews[7]" type="UMLColStimulusView" guid="dHxVv2VRT0+UR1KqyrcebgAA">
+<XPD:OBJ name="OwnedViews[8]" type="UMLColStimulusView" guid="dHxVv2VRT0+UR1KqyrcebgAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">5</XPD:ATTR>
@@ -9218,7 +9232,6 @@ megyünk végig]
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="NodeLabelView" guid="UB9D9nm0SUCP6XnEltu8rAAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
-<XPD:ATTR name="Width" type="integer">5</XPD:ATTR>
 <XPD:ATTR name="Height" type="integer">13</XPD:ATTR>
 <XPD:ATTR name="Alpha" type="real">1.5707963267949</XPD:ATTR>
 <XPD:ATTR name="Distance" type="real">25</XPD:ATTR>
@@ -9226,14 +9239,13 @@ megyünk végig]
 </XPD:OBJ>
 <XPD:OBJ name="PropertyLabel" type="NodeLabelView" guid="3v5siDCySE6E4z7J2CDH8wAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
-<XPD:ATTR name="Width" type="integer">5</XPD:ATTR>
 <XPD:ATTR name="Height" type="integer">13</XPD:ATTR>
 <XPD:ATTR name="Alpha" type="real">1.5707963267949</XPD:ATTR>
 <XPD:ATTR name="Distance" type="real">10</XPD:ATTR>
 <XPD:REF name="Model">K0wm2mW7N0yFd+lSekncGgAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
-<XPD:OBJ name="OwnedViews[8]" type="UMLColStimulusView" guid="3JLStLqdNUCsg+CI+RL4kQAA">
+<XPD:OBJ name="OwnedViews[9]" type="UMLColStimulusView" guid="3JLStLqdNUCsg+CI+RL4kQAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">40</XPD:ATTR>
@@ -9252,7 +9264,6 @@ megyünk végig]
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="NodeLabelView" guid="jkUxSwR2VEi9KdDfF2UYWAAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
-<XPD:ATTR name="Width" type="integer">5</XPD:ATTR>
 <XPD:ATTR name="Height" type="integer">13</XPD:ATTR>
 <XPD:ATTR name="Alpha" type="real">1.5707963267949</XPD:ATTR>
 <XPD:ATTR name="Distance" type="real">25</XPD:ATTR>
@@ -9260,14 +9271,13 @@ megyünk végig]
 </XPD:OBJ>
 <XPD:OBJ name="PropertyLabel" type="NodeLabelView" guid="1AGln/gVukCVKCsFoBr+KAAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
-<XPD:ATTR name="Width" type="integer">5</XPD:ATTR>
 <XPD:ATTR name="Height" type="integer">13</XPD:ATTR>
 <XPD:ATTR name="Alpha" type="real">1.5707963267949</XPD:ATTR>
 <XPD:ATTR name="Distance" type="real">10</XPD:ATTR>
 <XPD:REF name="Model">4mF6k+j7VEOa8ZOX+ETCuAAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
-<XPD:OBJ name="OwnedViews[9]" type="UMLColStimulusView" guid="J3Ul6s5tu0iFzfBvsbT+uwAA">
+<XPD:OBJ name="OwnedViews[10]" type="UMLColStimulusView" guid="J3Ul6s5tu0iFzfBvsbT+uwAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">40</XPD:ATTR>
@@ -9286,7 +9296,6 @@ megyünk végig]
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="NodeLabelView" guid="BJls+OBKx0C0brprzcuyKwAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
-<XPD:ATTR name="Width" type="integer">5</XPD:ATTR>
 <XPD:ATTR name="Height" type="integer">13</XPD:ATTR>
 <XPD:ATTR name="Alpha" type="real">1.5707963267949</XPD:ATTR>
 <XPD:ATTR name="Distance" type="real">25</XPD:ATTR>
@@ -9294,14 +9303,13 @@ megyünk végig]
 </XPD:OBJ>
 <XPD:OBJ name="PropertyLabel" type="NodeLabelView" guid="sy8HzG3c00uThSkzOLQglwAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
-<XPD:ATTR name="Width" type="integer">5</XPD:ATTR>
 <XPD:ATTR name="Height" type="integer">13</XPD:ATTR>
 <XPD:ATTR name="Alpha" type="real">1.5707963267949</XPD:ATTR>
 <XPD:ATTR name="Distance" type="real">10</XPD:ATTR>
 <XPD:REF name="Model">3ILVhJYfSk25UpHKAwufyAAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
-<XPD:OBJ name="OwnedViews[10]" type="UMLColStimulusView" guid="8iYi+iQJFUuuJFnrlHE3nAAA">
+<XPD:OBJ name="OwnedViews[11]" type="UMLColStimulusView" guid="8iYi+iQJFUuuJFnrlHE3nAAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">40</XPD:ATTR>
@@ -9320,7 +9328,6 @@ megyünk végig]
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="NodeLabelView" guid="bMg1YMhd5UOGhASBvK5dfgAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
-<XPD:ATTR name="Width" type="integer">5</XPD:ATTR>
 <XPD:ATTR name="Height" type="integer">13</XPD:ATTR>
 <XPD:ATTR name="Alpha" type="real">1.5707963267949</XPD:ATTR>
 <XPD:ATTR name="Distance" type="real">25</XPD:ATTR>
@@ -9328,7 +9335,6 @@ megyünk végig]
 </XPD:OBJ>
 <XPD:OBJ name="PropertyLabel" type="NodeLabelView" guid="0b+J7VhxVUOkaXDFAPX38AAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
-<XPD:ATTR name="Width" type="integer">5</XPD:ATTR>
 <XPD:ATTR name="Height" type="integer">13</XPD:ATTR>
 <XPD:ATTR name="Alpha" type="real">1.5707963267949</XPD:ATTR>
 <XPD:ATTR name="Distance" type="real">10</XPD:ATTR>
@@ -9400,6 +9406,14 @@ megyünk végig]
 <XPD:REF name="Views[1]">uhmV+A+v3EeEqz8QoSMVoQAA</XPD:REF>
 <XPD:REF name="Views[2]">bMg1YMhd5UOGhASBvK5dfgAA</XPD:REF>
 <XPD:REF name="Views[3]">0b+J7VhxVUOkaXDFAPX38AAA</XPD:REF>
+</XPD:OBJ>
+<XPD:ATTR name="#OwnedFrames" type="integer">1</XPD:ATTR>
+<XPD:OBJ name="OwnedFrames[0]" type="UMLFrame" guid="wNkO5GyJ+E2wXz4dMDETZgAA">
+<XPD:ATTR name="Name" type="string">Fejlesztetlen torony eladása</XPD:ATTR>
+<XPD:ATTR name="FrameKind" type="string">cd</XPD:ATTR>
+<XPD:REF name="InteractionInstanceSet">GUC6B9KIz0S9qznOxG3PjwAA</XPD:REF>
+<XPD:ATTR name="#Views" type="integer">1</XPD:ATTR>
+<XPD:REF name="Views[0]">E7skirXkVU6oTHJ9xNPp2gAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:ATTR name="#ParticipatingInstances" type="integer">5</XPD:ATTR>
