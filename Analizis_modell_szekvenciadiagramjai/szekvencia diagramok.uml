@@ -150,7 +150,7 @@
 <XPD:OBJ name="OwnedCollaborationInstanceSets[0]" type="UMLCollaborationInstanceSet" guid="Dx1vVTrsVkiuOWFTOf1AIQAA">
 <XPD:ATTR name="Name" type="string">Torony tüzelése</XPD:ATTR>
 <XPD:REF name="RepresentedClassifier">sR2sRnmqw0CWs3alVUDiHwAA</XPD:REF>
-<XPD:ATTR name="#InteractionInstanceSets" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="#InteractionInstanceSets" type="integer">6</XPD:ATTR>
 <XPD:OBJ name="InteractionInstanceSets[0]" type="UMLInteractionInstanceSet" guid="ql9ru35S2UivgfjjX5Z/YAAA">
 <XPD:ATTR name="Name" type="string">InteractionInstanceSet1</XPD:ATTR>
 <XPD:REF name="Context">Dx1vVTrsVkiuOWFTOf1AIQAA</XPD:REF>
@@ -1038,6 +1038,10 @@ getDamageHobbit()
 <XPD:ATTR name="Name" type="string">InteractionInstanceSet1</XPD:ATTR>
 <XPD:REF name="Context">Dx1vVTrsVkiuOWFTOf1AIQAA</XPD:REF>
 </XPD:OBJ>
+<XPD:OBJ name="InteractionInstanceSets[5]" type="UMLInteractionInstanceSet" guid="06Smb7zd60+pgO2kAft86AAA">
+<XPD:ATTR name="Name" type="string">InteractionInstanceSet1</XPD:ATTR>
+<XPD:REF name="Context">Dx1vVTrsVkiuOWFTOf1AIQAA</XPD:REF>
+</XPD:OBJ>
 <XPD:ATTR name="#ParticipatingInstances" type="integer">10</XPD:ATTR>
 <XPD:OBJ name="ParticipatingInstances[0]" type="UMLObject" guid="bMrQR5PWz0auUvpOf1hr+QAA">
 <XPD:REF name="Classifier">ohJY38EhV02PxBtSBMph5QAA</XPD:REF>
@@ -1263,7 +1267,7 @@ getDamageHobbit()
 <XPD:OBJ name="OwnedCollaborationInstanceSets[1]" type="UMLCollaborationInstanceSet" guid="9peu4o97xUOFLNKTqA87lgAA">
 <XPD:ATTR name="Name" type="string">Torony fejlesztése</XPD:ATTR>
 <XPD:REF name="RepresentedClassifier">sR2sRnmqw0CWs3alVUDiHwAA</XPD:REF>
-<XPD:ATTR name="#InteractionInstanceSets" type="integer">2</XPD:ATTR>
+<XPD:ATTR name="#InteractionInstanceSets" type="integer">3</XPD:ATTR>
 <XPD:OBJ name="InteractionInstanceSets[0]" type="UMLInteractionInstanceSet" guid="0/Ocq7Zkdkah0bLIHY8hFQAA">
 <XPD:ATTR name="Name" type="string">InteractionInstanceSet1</XPD:ATTR>
 <XPD:REF name="Context">9peu4o97xUOFLNKTqA87lgAA</XPD:REF>
@@ -2021,6 +2025,10 @@ megvalósító osztályt
 <XPD:ATTR name="Name" type="string">InteractionInstanceSet1</XPD:ATTR>
 <XPD:REF name="Context">9peu4o97xUOFLNKTqA87lgAA</XPD:REF>
 </XPD:OBJ>
+<XPD:OBJ name="InteractionInstanceSets[2]" type="UMLInteractionInstanceSet" guid="+Oib3/4BzUi4nMU71fQlwAAA">
+<XPD:ATTR name="Name" type="string">InteractionInstanceSet1</XPD:ATTR>
+<XPD:REF name="Context">9peu4o97xUOFLNKTqA87lgAA</XPD:REF>
+</XPD:OBJ>
 <XPD:ATTR name="#ParticipatingInstances" type="integer">7</XPD:ATTR>
 <XPD:OBJ name="ParticipatingInstances[0]" type="UMLObject" guid="B5bP7jsm/0CWTUYa4qAhNgAA">
 <XPD:ATTR name="Name" type="string">tower</XPD:ATTR>
@@ -2173,7 +2181,7 @@ megvalósító osztályt
 <XPD:OBJ name="OwnedCollaborationInstanceSets[2]" type="UMLCollaborationInstanceSet" guid="U7TDeAHLVkKfoR9yalUCwAAA">
 <XPD:ATTR name="Name" type="string">Torony elhelyezése</XPD:ATTR>
 <XPD:REF name="RepresentedClassifier">sR2sRnmqw0CWs3alVUDiHwAA</XPD:REF>
-<XPD:ATTR name="#InteractionInstanceSets" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="#InteractionInstanceSets" type="integer">2</XPD:ATTR>
 <XPD:OBJ name="InteractionInstanceSets[0]" type="UMLInteractionInstanceSet" guid="qJJqTGUzDE6h4HiBEMHdqgAA">
 <XPD:ATTR name="Name" type="string">InteractionInstanceSet1</XPD:ATTR>
 <XPD:REF name="Context">U7TDeAHLVkKfoR9yalUCwAAA</XPD:REF>
@@ -2674,6 +2682,10 @@ megvalósító osztályt
 <XPD:REF name="Views[0]">lulwatTBtUuBb6Jc2hAHAwAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
+<XPD:OBJ name="InteractionInstanceSets[1]" type="UMLInteractionInstanceSet" guid="CS8SO8MHz0W2suwurSzG+QAA">
+<XPD:ATTR name="Name" type="string">InteractionInstanceSet1</XPD:ATTR>
+<XPD:REF name="Context">U7TDeAHLVkKfoR9yalUCwAAA</XPD:REF>
+</XPD:OBJ>
 <XPD:ATTR name="#ParticipatingInstances" type="integer">4</XPD:ATTR>
 <XPD:OBJ name="ParticipatingInstances[0]" type="UMLObject" guid="d92rMAeuHUWTTp7lsWQp9AAA">
 <XPD:ATTR name="Name" type="string">tower</XPD:ATTR>
@@ -2682,6 +2694,9 @@ megvalósító osztályt
 <XPD:ATTR name="#Views" type="integer">2</XPD:ATTR>
 <XPD:REF name="Views[0]">3KjGufOXm0+jA+QJrQaTZwAA</XPD:REF>
 <XPD:REF name="Views[1]">AHgqjO00e0SOqJEl35sVfQAA</XPD:REF>
+<XPD:ATTR name="#LinkEnds" type="integer">2</XPD:ATTR>
+<XPD:REF name="LinkEnds[0]">/6dLpatCiUmGPyDRFUWSDAAA</XPD:REF>
+<XPD:REF name="LinkEnds[1]">1H6d6yqiqUyW2iUqujghmwAA</XPD:REF>
 <XPD:ATTR name="#SendingStimuli" type="integer">1</XPD:ATTR>
 <XPD:REF name="SendingStimuli[0]">IxIhiLW5WkKePBMgNq6k9QAA</XPD:REF>
 <XPD:ATTR name="#ReceivingStimuli" type="integer">2</XPD:ATTR>
@@ -2695,6 +2710,9 @@ megvalósító osztályt
 <XPD:ATTR name="#Views" type="integer">2</XPD:ATTR>
 <XPD:REF name="Views[0]">mez4Qwn8RkCtLsHEYs+yswAA</XPD:REF>
 <XPD:REF name="Views[1]">0Z2p0svMoUWHKEZ885wh9wAA</XPD:REF>
+<XPD:ATTR name="#LinkEnds" type="integer">2</XPD:ATTR>
+<XPD:REF name="LinkEnds[0]">vm38zIcI9UWW4z4XTn7kIwAA</XPD:REF>
+<XPD:REF name="LinkEnds[1]">8TU3Mb7prEKXz5yFcfnr0gAA</XPD:REF>
 <XPD:ATTR name="#SendingStimuli" type="integer">1</XPD:ATTR>
 <XPD:REF name="SendingStimuli[0]">oafEp8kq4UuWLGsiE3k4KgAA</XPD:REF>
 <XPD:ATTR name="#ReceivingStimuli" type="integer">2</XPD:ATTR>
@@ -2707,6 +2725,10 @@ megvalósító osztályt
 <XPD:ATTR name="#Views" type="integer">2</XPD:ATTR>
 <XPD:REF name="Views[0]">/wGZYxfwHUiec8LpfPLuPgAA</XPD:REF>
 <XPD:REF name="Views[1]">elvgOol0o0amlahKAe3QDgAA</XPD:REF>
+<XPD:ATTR name="#LinkEnds" type="integer">3</XPD:ATTR>
+<XPD:REF name="LinkEnds[0]">mwqlVkW/zki2o83+v/5mCQAA</XPD:REF>
+<XPD:REF name="LinkEnds[1]">3aROVuA7xkG/E7jUdw6xMQAA</XPD:REF>
+<XPD:REF name="LinkEnds[2]">xTFrja3EckqlOzD1DgBDewAA</XPD:REF>
 <XPD:ATTR name="#SendingStimuli" type="integer">4</XPD:ATTR>
 <XPD:REF name="SendingStimuli[0]">2en+Ergzs0O8lP3HJu8HVAAA</XPD:REF>
 <XPD:REF name="SendingStimuli[1]">ef71XtV9k0+RDSOUcTQlzgAA</XPD:REF>
@@ -2720,15 +2742,66 @@ megvalósító osztályt
 <XPD:ATTR name="#Views" type="integer">2</XPD:ATTR>
 <XPD:REF name="Views[0]">LtWQX1yez0KqKSb5HZwTrwAA</XPD:REF>
 <XPD:REF name="Views[1]">Hr0m2+IWzE2sUDKg2IfurQAA</XPD:REF>
+<XPD:ATTR name="#LinkEnds" type="integer">1</XPD:ATTR>
+<XPD:REF name="LinkEnds[0]">HPNDTc2Oak2RFdrE5M2qogAA</XPD:REF>
 <XPD:ATTR name="#ReceivingStimuli" type="integer">2</XPD:ATTR>
 <XPD:REF name="ReceivingStimuli[0]">fi/TEHrYVUazcqRA8f8tSgAA</XPD:REF>
 <XPD:REF name="ReceivingStimuli[1]">U8QuQXQMokCK3j3iIeXGuQAA</XPD:REF>
+</XPD:OBJ>
+<XPD:ATTR name="#ParticipatingLinks" type="integer">4</XPD:ATTR>
+<XPD:OBJ name="ParticipatingLinks[0]" type="UMLLink" guid="/vHYQZW6mk+9DB0sG5HifAAA">
+<XPD:REF name="CollaborationInstanceSet">U7TDeAHLVkKfoR9yalUCwAAA</XPD:REF>
+<XPD:ATTR name="#Connections" type="integer">2</XPD:ATTR>
+<XPD:OBJ name="Connections[0]" type="UMLLinkEnd" guid="mwqlVkW/zki2o83+v/5mCQAA">
+<XPD:REF name="Instance">ztsukaUbwEm5jJAPNHrq1AAA</XPD:REF>
+<XPD:REF name="Link">/vHYQZW6mk+9DB0sG5HifAAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Connections[1]" type="UMLLinkEnd" guid="HPNDTc2Oak2RFdrE5M2qogAA">
+<XPD:REF name="Instance">m7ol3WPGJUK8tI56xM1owQAA</XPD:REF>
+<XPD:REF name="Link">/vHYQZW6mk+9DB0sG5HifAAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="ParticipatingLinks[1]" type="UMLLink" guid="wHM10tsJx0mbKv2gyaC/AAAA">
+<XPD:REF name="CollaborationInstanceSet">U7TDeAHLVkKfoR9yalUCwAAA</XPD:REF>
+<XPD:ATTR name="#Connections" type="integer">2</XPD:ATTR>
+<XPD:OBJ name="Connections[0]" type="UMLLinkEnd" guid="3aROVuA7xkG/E7jUdw6xMQAA">
+<XPD:REF name="Instance">ztsukaUbwEm5jJAPNHrq1AAA</XPD:REF>
+<XPD:REF name="Link">wHM10tsJx0mbKv2gyaC/AAAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Connections[1]" type="UMLLinkEnd" guid="/6dLpatCiUmGPyDRFUWSDAAA">
+<XPD:REF name="Instance">d92rMAeuHUWTTp7lsWQp9AAA</XPD:REF>
+<XPD:REF name="Link">wHM10tsJx0mbKv2gyaC/AAAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="ParticipatingLinks[2]" type="UMLLink" guid="CAHVmsJiykadQTA6kwXE8gAA">
+<XPD:REF name="CollaborationInstanceSet">U7TDeAHLVkKfoR9yalUCwAAA</XPD:REF>
+<XPD:ATTR name="#Connections" type="integer">2</XPD:ATTR>
+<XPD:OBJ name="Connections[0]" type="UMLLinkEnd" guid="xTFrja3EckqlOzD1DgBDewAA">
+<XPD:REF name="Instance">ztsukaUbwEm5jJAPNHrq1AAA</XPD:REF>
+<XPD:REF name="Link">CAHVmsJiykadQTA6kwXE8gAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Connections[1]" type="UMLLinkEnd" guid="vm38zIcI9UWW4z4XTn7kIwAA">
+<XPD:REF name="Instance">aN5TyKyhoEKkdwR6Z9MU4QAA</XPD:REF>
+<XPD:REF name="Link">CAHVmsJiykadQTA6kwXE8gAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="ParticipatingLinks[3]" type="UMLLink" guid="HASsOusgo0OCYgBkL51KvAAA">
+<XPD:REF name="CollaborationInstanceSet">U7TDeAHLVkKfoR9yalUCwAAA</XPD:REF>
+<XPD:ATTR name="#Connections" type="integer">2</XPD:ATTR>
+<XPD:OBJ name="Connections[0]" type="UMLLinkEnd" guid="8TU3Mb7prEKXz5yFcfnr0gAA">
+<XPD:REF name="Instance">aN5TyKyhoEKkdwR6Z9MU4QAA</XPD:REF>
+<XPD:REF name="Link">HASsOusgo0OCYgBkL51KvAAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Connections[1]" type="UMLLinkEnd" guid="1H6d6yqiqUyW2iUqujghmwAA">
+<XPD:REF name="Instance">d92rMAeuHUWTTp7lsWQp9AAA</XPD:REF>
+<XPD:REF name="Link">HASsOusgo0OCYgBkL51KvAAA</XPD:REF>
+</XPD:OBJ>
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedCollaborationInstanceSets[3]" type="UMLCollaborationInstanceSet" guid="6E5lgBdW5UCESDXKcomF9wAA">
 <XPD:ATTR name="Name" type="string">Torony eladása</XPD:ATTR>
 <XPD:REF name="RepresentedClassifier">sR2sRnmqw0CWs3alVUDiHwAA</XPD:REF>
-<XPD:ATTR name="#InteractionInstanceSets" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="#InteractionInstanceSets" type="integer">2</XPD:ATTR>
 <XPD:OBJ name="InteractionInstanceSets[0]" type="UMLInteractionInstanceSet" guid="1gjPxvG8+k60XBTZ2GZKZQAA">
 <XPD:ATTR name="Name" type="string">InteractionInstanceSet1</XPD:ATTR>
 <XPD:REF name="Context">6E5lgBdW5UCESDXKcomF9wAA</XPD:REF>
@@ -3249,6 +3322,10 @@ megyünk végig]
 <XPD:REF name="Views[0]">/EdZ5MPiqUqV/chEtFkQYgAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
+<XPD:OBJ name="InteractionInstanceSets[1]" type="UMLInteractionInstanceSet" guid="xmI0N/rcRk+2EoOW3+FFeAAA">
+<XPD:ATTR name="Name" type="string">InteractionInstanceSet1</XPD:ATTR>
+<XPD:REF name="Context">6E5lgBdW5UCESDXKcomF9wAA</XPD:REF>
+</XPD:OBJ>
 <XPD:ATTR name="#ParticipatingInstances" type="integer">6</XPD:ATTR>
 <XPD:OBJ name="ParticipatingInstances[0]" type="UMLObject" guid="hNmLN3c4DUiFU5y8hqsLKwAA">
 <XPD:ATTR name="Name" type="string">tower</XPD:ATTR>
@@ -3257,6 +3334,11 @@ megyünk végig]
 <XPD:ATTR name="#Views" type="integer">2</XPD:ATTR>
 <XPD:REF name="Views[0]">uItBfCGwlUuenV6LYqUBawAA</XPD:REF>
 <XPD:REF name="Views[1]">o6XVlsAeU0WW0DGgzNb55AAA</XPD:REF>
+<XPD:ATTR name="#LinkEnds" type="integer">4</XPD:ATTR>
+<XPD:REF name="LinkEnds[0]">3osLNfNbI0qqsiTPXkWPAgAA</XPD:REF>
+<XPD:REF name="LinkEnds[1]">zlBwKJvkSE2wBS1FLefoTAAA</XPD:REF>
+<XPD:REF name="LinkEnds[2]">5hwBmJn8SEK7ARdZsBtJ3wAA</XPD:REF>
+<XPD:REF name="LinkEnds[3]">ndagnzYRJUS2lb7IDEsgIAAA</XPD:REF>
 <XPD:ATTR name="#SendingStimuli" type="integer">4</XPD:ATTR>
 <XPD:REF name="SendingStimuli[0]">3fVDoGvkHkiX5LBAHkdPpgAA</XPD:REF>
 <XPD:REF name="SendingStimuli[1]">vVecNN7+1EuvMjbEj9RQXgAA</XPD:REF>
@@ -3273,6 +3355,8 @@ megyünk végig]
 <XPD:ATTR name="#Views" type="integer">2</XPD:ATTR>
 <XPD:REF name="Views[0]">Zt5WPY7VLkm5oYjLDElP/wAA</XPD:REF>
 <XPD:REF name="Views[1]">GkEDTbR2Pku9rZpiHIlGAgAA</XPD:REF>
+<XPD:ATTR name="#LinkEnds" type="integer">1</XPD:ATTR>
+<XPD:REF name="LinkEnds[0]">XkU4F9AfD0WrKLSQutj8PgAA</XPD:REF>
 <XPD:ATTR name="#ReceivingStimuli" type="integer">1</XPD:ATTR>
 <XPD:REF name="ReceivingStimuli[0]">3fVDoGvkHkiX5LBAHkdPpgAA</XPD:REF>
 </XPD:OBJ>
@@ -3287,6 +3371,8 @@ megyünk végig]
 <XPD:ATTR name="#Views" type="integer">2</XPD:ATTR>
 <XPD:REF name="Views[0]">Nmjuup+0DkK+fZXH9VstbQAA</XPD:REF>
 <XPD:REF name="Views[1]">I0menJgANUWDYp/H1y2qRwAA</XPD:REF>
+<XPD:ATTR name="#LinkEnds" type="integer">1</XPD:ATTR>
+<XPD:REF name="LinkEnds[0]">9PqeB2QB6EypGVYRErW01AAA</XPD:REF>
 <XPD:ATTR name="#SendingStimuli" type="integer">1</XPD:ATTR>
 <XPD:REF name="SendingStimuli[0]">r6zRI7x1B0642jIU82TM1QAA</XPD:REF>
 </XPD:OBJ>
@@ -3297,6 +3383,8 @@ megyünk végig]
 <XPD:ATTR name="#Views" type="integer">2</XPD:ATTR>
 <XPD:REF name="Views[0]">6NlA+gvpe06mEqzYz0sF8wAA</XPD:REF>
 <XPD:REF name="Views[1]">Vl684sRuU0qOm1D22wUX4wAA</XPD:REF>
+<XPD:ATTR name="#LinkEnds" type="integer">1</XPD:ATTR>
+<XPD:REF name="LinkEnds[0]">0OIKZrukSE+tZ6P10BFvlwAA</XPD:REF>
 <XPD:ATTR name="#ReceivingStimuli" type="integer">2</XPD:ATTR>
 <XPD:REF name="ReceivingStimuli[0]">vVecNN7+1EuvMjbEj9RQXgAA</XPD:REF>
 <XPD:REF name="ReceivingStimuli[1]">ld427UUX00OsIQ0J6MsdGQAA</XPD:REF>
@@ -3308,16 +3396,67 @@ megyünk végig]
 <XPD:ATTR name="#Views" type="integer">2</XPD:ATTR>
 <XPD:REF name="Views[0]">QSAtLPBoGEODXBessvRRqgAA</XPD:REF>
 <XPD:REF name="Views[1]">GuloRsbHxEG5nXf4JuldjQAA</XPD:REF>
+<XPD:ATTR name="#LinkEnds" type="integer">1</XPD:ATTR>
+<XPD:REF name="LinkEnds[0]">VSEBcoHML0y/EYZcnQwlTQAA</XPD:REF>
 <XPD:ATTR name="#SendingStimuli" type="integer">1</XPD:ATTR>
 <XPD:REF name="SendingStimuli[0]">yvtuWH1vTE+ou0inUWXDPwAA</XPD:REF>
 <XPD:ATTR name="#ReceivingStimuli" type="integer">1</XPD:ATTR>
 <XPD:REF name="ReceivingStimuli[0]">ki/eupsGO0qw5CChYwlKIAAA</XPD:REF>
 </XPD:OBJ>
+<XPD:ATTR name="#ParticipatingLinks" type="integer">4</XPD:ATTR>
+<XPD:OBJ name="ParticipatingLinks[0]" type="UMLLink" guid="NSuY32cjeEmwxrHWYvaZ2wAA">
+<XPD:REF name="CollaborationInstanceSet">6E5lgBdW5UCESDXKcomF9wAA</XPD:REF>
+<XPD:ATTR name="#Connections" type="integer">2</XPD:ATTR>
+<XPD:OBJ name="Connections[0]" type="UMLLinkEnd" guid="9PqeB2QB6EypGVYRErW01AAA">
+<XPD:REF name="Instance">4SmnuAPGc0Wec5oAcwnGoQAA</XPD:REF>
+<XPD:REF name="Link">NSuY32cjeEmwxrHWYvaZ2wAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Connections[1]" type="UMLLinkEnd" guid="3osLNfNbI0qqsiTPXkWPAgAA">
+<XPD:REF name="Instance">hNmLN3c4DUiFU5y8hqsLKwAA</XPD:REF>
+<XPD:REF name="Link">NSuY32cjeEmwxrHWYvaZ2wAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="ParticipatingLinks[1]" type="UMLLink" guid="wrhN+gR5202/qW+SMFGZBgAA">
+<XPD:REF name="CollaborationInstanceSet">6E5lgBdW5UCESDXKcomF9wAA</XPD:REF>
+<XPD:ATTR name="#Connections" type="integer">2</XPD:ATTR>
+<XPD:OBJ name="Connections[0]" type="UMLLinkEnd" guid="zlBwKJvkSE2wBS1FLefoTAAA">
+<XPD:REF name="Instance">hNmLN3c4DUiFU5y8hqsLKwAA</XPD:REF>
+<XPD:REF name="Link">wrhN+gR5202/qW+SMFGZBgAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Connections[1]" type="UMLLinkEnd" guid="VSEBcoHML0y/EYZcnQwlTQAA">
+<XPD:REF name="Instance">mEfrXoSX9EaQp65Pr/U/1AAA</XPD:REF>
+<XPD:REF name="Link">wrhN+gR5202/qW+SMFGZBgAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="ParticipatingLinks[2]" type="UMLLink" guid="w2zwW16Ik02c9uTDQy2rVwAA">
+<XPD:REF name="CollaborationInstanceSet">6E5lgBdW5UCESDXKcomF9wAA</XPD:REF>
+<XPD:ATTR name="#Connections" type="integer">2</XPD:ATTR>
+<XPD:OBJ name="Connections[0]" type="UMLLinkEnd" guid="5hwBmJn8SEK7ARdZsBtJ3wAA">
+<XPD:REF name="Instance">hNmLN3c4DUiFU5y8hqsLKwAA</XPD:REF>
+<XPD:REF name="Link">w2zwW16Ik02c9uTDQy2rVwAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Connections[1]" type="UMLLinkEnd" guid="0OIKZrukSE+tZ6P10BFvlwAA">
+<XPD:REF name="Instance">lSTMvM1yVUC6Kuu2pmIWUgAA</XPD:REF>
+<XPD:REF name="Link">w2zwW16Ik02c9uTDQy2rVwAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="ParticipatingLinks[3]" type="UMLLink" guid="bjasrjyHqk6KsquHKeM6bgAA">
+<XPD:REF name="CollaborationInstanceSet">6E5lgBdW5UCESDXKcomF9wAA</XPD:REF>
+<XPD:ATTR name="#Connections" type="integer">2</XPD:ATTR>
+<XPD:OBJ name="Connections[0]" type="UMLLinkEnd" guid="ndagnzYRJUS2lb7IDEsgIAAA">
+<XPD:REF name="Instance">hNmLN3c4DUiFU5y8hqsLKwAA</XPD:REF>
+<XPD:REF name="Link">bjasrjyHqk6KsquHKeM6bgAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Connections[1]" type="UMLLinkEnd" guid="XkU4F9AfD0WrKLSQutj8PgAA">
+<XPD:REF name="Instance">OQg+36XaOE6VgFBlT4BaBAAA</XPD:REF>
+<XPD:REF name="Link">bjasrjyHqk6KsquHKeM6bgAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedCollaborationInstanceSets[4]" type="UMLCollaborationInstanceSet" guid="BJRchWYXck25yuCzfiV+ywAA">
 <XPD:ATTR name="Name" type="string">Akadály elhelyezése</XPD:ATTR>
 <XPD:REF name="RepresentedClassifier">sR2sRnmqw0CWs3alVUDiHwAA</XPD:REF>
-<XPD:ATTR name="#InteractionInstanceSets" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="#InteractionInstanceSets" type="integer">2</XPD:ATTR>
 <XPD:OBJ name="InteractionInstanceSets[0]" type="UMLInteractionInstanceSet" guid="7k45IXdRHkqM/+Pz9gVl6QAA">
 <XPD:ATTR name="Name" type="string">InteractionInstanceSet1</XPD:ATTR>
 <XPD:REF name="Context">BJRchWYXck25yuCzfiV+ywAA</XPD:REF>
@@ -3767,6 +3906,10 @@ megyünk végig]
 <XPD:REF name="Views[0]">od6LnX/D/UWVZEsDTxWk0wAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
+<XPD:OBJ name="InteractionInstanceSets[1]" type="UMLInteractionInstanceSet" guid="HdW1Z9PI5kaq3waYvzlb5wAA">
+<XPD:ATTR name="Name" type="string">InteractionInstanceSet1</XPD:ATTR>
+<XPD:REF name="Context">BJRchWYXck25yuCzfiV+ywAA</XPD:REF>
+</XPD:OBJ>
 <XPD:ATTR name="#ParticipatingInstances" type="integer">4</XPD:ATTR>
 <XPD:OBJ name="ParticipatingInstances[0]" type="UMLObject" guid="HvtigqiDlUWZ/qSuODnqeQAA">
 <XPD:ATTR name="Name" type="string">obstacle</XPD:ATTR>
@@ -3775,6 +3918,9 @@ megyünk végig]
 <XPD:ATTR name="#Views" type="integer">2</XPD:ATTR>
 <XPD:REF name="Views[0]">n84BqtIUGUyMRD1Cmx5NcwAA</XPD:REF>
 <XPD:REF name="Views[1]">IeYhKxgVlUqN8lQf7PTwFgAA</XPD:REF>
+<XPD:ATTR name="#LinkEnds" type="integer">2</XPD:ATTR>
+<XPD:REF name="LinkEnds[0]">8CcffzeqA0WaSFIIvCVp8AAA</XPD:REF>
+<XPD:REF name="LinkEnds[1]">a59xj11shkqBwMCeSaUSKAAA</XPD:REF>
 <XPD:ATTR name="#SendingStimuli" type="integer">1</XPD:ATTR>
 <XPD:REF name="SendingStimuli[0]">RRRnR7+lvkiHxoRLBhD4owAA</XPD:REF>
 <XPD:ATTR name="#ReceivingStimuli" type="integer">2</XPD:ATTR>
@@ -3788,6 +3934,9 @@ megyünk végig]
 <XPD:ATTR name="#Views" type="integer">2</XPD:ATTR>
 <XPD:REF name="Views[0]">ejerPU/qpkepvYWU52POygAA</XPD:REF>
 <XPD:REF name="Views[1]">Jd/53/rWRUSb6RGb9Xui4AAA</XPD:REF>
+<XPD:ATTR name="#LinkEnds" type="integer">2</XPD:ATTR>
+<XPD:REF name="LinkEnds[0]">W3XQvIKGz0y0ZvLm7uEAfAAA</XPD:REF>
+<XPD:REF name="LinkEnds[1]">WbcS+mAGSUOcIRDf7ndvJwAA</XPD:REF>
 <XPD:ATTR name="#SendingStimuli" type="integer">1</XPD:ATTR>
 <XPD:REF name="SendingStimuli[0]">UbwtHsk3HkqwDqPN1gbXvwAA</XPD:REF>
 <XPD:ATTR name="#ReceivingStimuli" type="integer">2</XPD:ATTR>
@@ -3800,6 +3949,10 @@ megyünk végig]
 <XPD:ATTR name="#Views" type="integer">2</XPD:ATTR>
 <XPD:REF name="Views[0]">RDZTKenBREug5RmYwkuIjAAA</XPD:REF>
 <XPD:REF name="Views[1]">qskd6lY5JUCA/irUV1Di9AAA</XPD:REF>
+<XPD:ATTR name="#LinkEnds" type="integer">3</XPD:ATTR>
+<XPD:REF name="LinkEnds[0]">WiLD3pwKH0+KLhCFFBaerwAA</XPD:REF>
+<XPD:REF name="LinkEnds[1]">VMpG1GQgcUGrmtuFhjhMOQAA</XPD:REF>
+<XPD:REF name="LinkEnds[2]">3tGFvgXBK0mvExg06BZFtwAA</XPD:REF>
 <XPD:ATTR name="#SendingStimuli" type="integer">3</XPD:ATTR>
 <XPD:REF name="SendingStimuli[0]">6jbWmHWb3Ue3edVy16cghQAA</XPD:REF>
 <XPD:REF name="SendingStimuli[1]">+GinCJYiZ0WkI3dZzUSv0wAA</XPD:REF>
@@ -3812,14 +3965,65 @@ megyünk végig]
 <XPD:ATTR name="#Views" type="integer">2</XPD:ATTR>
 <XPD:REF name="Views[0]">s06DCGfSnkO3v8+oA8xNoAAA</XPD:REF>
 <XPD:REF name="Views[1]">3RJRywuIUECK9xm+dIwqUQAA</XPD:REF>
+<XPD:ATTR name="#LinkEnds" type="integer">1</XPD:ATTR>
+<XPD:REF name="LinkEnds[0]">LxN8+BR32EuSHSmZMG8BqAAA</XPD:REF>
 <XPD:ATTR name="#ReceivingStimuli" type="integer">1</XPD:ATTR>
 <XPD:REF name="ReceivingStimuli[0]">JBB8AkDM80ST7zFTZHIgggAA</XPD:REF>
+</XPD:OBJ>
+<XPD:ATTR name="#ParticipatingLinks" type="integer">4</XPD:ATTR>
+<XPD:OBJ name="ParticipatingLinks[0]" type="UMLLink" guid="9gJHX2B0Dk2pEj+klC1SwAAA">
+<XPD:REF name="CollaborationInstanceSet">BJRchWYXck25yuCzfiV+ywAA</XPD:REF>
+<XPD:ATTR name="#Connections" type="integer">2</XPD:ATTR>
+<XPD:OBJ name="Connections[0]" type="UMLLinkEnd" guid="WiLD3pwKH0+KLhCFFBaerwAA">
+<XPD:REF name="Instance">33m2ObPOgk+ycvO/YXyQlwAA</XPD:REF>
+<XPD:REF name="Link">9gJHX2B0Dk2pEj+klC1SwAAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Connections[1]" type="UMLLinkEnd" guid="LxN8+BR32EuSHSmZMG8BqAAA">
+<XPD:REF name="Instance">edhNnvfSq06ROoIL79wKLgAA</XPD:REF>
+<XPD:REF name="Link">9gJHX2B0Dk2pEj+klC1SwAAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="ParticipatingLinks[1]" type="UMLLink" guid="5PzElNPY6kqx/+4dkIKSYAAA">
+<XPD:REF name="CollaborationInstanceSet">BJRchWYXck25yuCzfiV+ywAA</XPD:REF>
+<XPD:ATTR name="#Connections" type="integer">2</XPD:ATTR>
+<XPD:OBJ name="Connections[0]" type="UMLLinkEnd" guid="VMpG1GQgcUGrmtuFhjhMOQAA">
+<XPD:REF name="Instance">33m2ObPOgk+ycvO/YXyQlwAA</XPD:REF>
+<XPD:REF name="Link">5PzElNPY6kqx/+4dkIKSYAAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Connections[1]" type="UMLLinkEnd" guid="8CcffzeqA0WaSFIIvCVp8AAA">
+<XPD:REF name="Instance">HvtigqiDlUWZ/qSuODnqeQAA</XPD:REF>
+<XPD:REF name="Link">5PzElNPY6kqx/+4dkIKSYAAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="ParticipatingLinks[2]" type="UMLLink" guid="L1YAZqzOz0qrkr1lqw1YfwAA">
+<XPD:REF name="CollaborationInstanceSet">BJRchWYXck25yuCzfiV+ywAA</XPD:REF>
+<XPD:ATTR name="#Connections" type="integer">2</XPD:ATTR>
+<XPD:OBJ name="Connections[0]" type="UMLLinkEnd" guid="3tGFvgXBK0mvExg06BZFtwAA">
+<XPD:REF name="Instance">33m2ObPOgk+ycvO/YXyQlwAA</XPD:REF>
+<XPD:REF name="Link">L1YAZqzOz0qrkr1lqw1YfwAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Connections[1]" type="UMLLinkEnd" guid="W3XQvIKGz0y0ZvLm7uEAfAAA">
+<XPD:REF name="Instance">NSce/OjvEEuW1CbRCfwMngAA</XPD:REF>
+<XPD:REF name="Link">L1YAZqzOz0qrkr1lqw1YfwAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="ParticipatingLinks[3]" type="UMLLink" guid="prtv8VnpP0Cr9pWTC0YtIgAA">
+<XPD:REF name="CollaborationInstanceSet">BJRchWYXck25yuCzfiV+ywAA</XPD:REF>
+<XPD:ATTR name="#Connections" type="integer">2</XPD:ATTR>
+<XPD:OBJ name="Connections[0]" type="UMLLinkEnd" guid="WbcS+mAGSUOcIRDf7ndvJwAA">
+<XPD:REF name="Instance">NSce/OjvEEuW1CbRCfwMngAA</XPD:REF>
+<XPD:REF name="Link">prtv8VnpP0Cr9pWTC0YtIgAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Connections[1]" type="UMLLinkEnd" guid="a59xj11shkqBwMCeSaUSKAAA">
+<XPD:REF name="Instance">HvtigqiDlUWZ/qSuODnqeQAA</XPD:REF>
+<XPD:REF name="Link">prtv8VnpP0Cr9pWTC0YtIgAA</XPD:REF>
+</XPD:OBJ>
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedCollaborationInstanceSets[5]" type="UMLCollaborationInstanceSet" guid="GNUSezgT5E6nzEqbAL0vVQAA">
 <XPD:ATTR name="Name" type="string">Ellenfél mozgása</XPD:ATTR>
 <XPD:REF name="RepresentedClassifier">sR2sRnmqw0CWs3alVUDiHwAA</XPD:REF>
-<XPD:ATTR name="#InteractionInstanceSets" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="#InteractionInstanceSets" type="integer">2</XPD:ATTR>
 <XPD:OBJ name="InteractionInstanceSets[0]" type="UMLInteractionInstanceSet" guid="Tt+3k0HOW0KlKu28qgkQagAA">
 <XPD:ATTR name="Name" type="string">InteractionInstanceSet1</XPD:ATTR>
 <XPD:REF name="Context">GNUSezgT5E6nzEqbAL0vVQAA</XPD:REF>
@@ -4711,6 +4915,10 @@ megyünk végig]
 <XPD:REF name="InteractionInstanceSet">Tt+3k0HOW0KlKu28qgkQagAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
+<XPD:OBJ name="InteractionInstanceSets[1]" type="UMLInteractionInstanceSet" guid="zmyYmzK+TU2gflz0z9FjNwAA">
+<XPD:ATTR name="Name" type="string">InteractionInstanceSet1</XPD:ATTR>
+<XPD:REF name="Context">GNUSezgT5E6nzEqbAL0vVQAA</XPD:REF>
+</XPD:OBJ>
 <XPD:ATTR name="#ParticipatingInstances" type="integer">7</XPD:ATTR>
 <XPD:OBJ name="ParticipatingInstances[0]" type="UMLObject" guid="lU3BXlsWzEOQjbmjDRNzAQAA">
 <XPD:REF name="Classifier">ohJY38EhV02PxBtSBMph5QAA</XPD:REF>
@@ -4723,6 +4931,10 @@ megyünk végig]
 <XPD:ATTR name="#Views" type="integer">2</XPD:ATTR>
 <XPD:REF name="Views[0]">o8wYiUkk00mSLYOaBp9CtgAA</XPD:REF>
 <XPD:REF name="Views[1]">lMam/3mq/U2/WVTCdQrZGgAA</XPD:REF>
+<XPD:ATTR name="#LinkEnds" type="integer">3</XPD:ATTR>
+<XPD:REF name="LinkEnds[0]">lpZdk3fiMEevlMeKES+9HQAA</XPD:REF>
+<XPD:REF name="LinkEnds[1]">NiRw29/cQkWHjvXizzJrwgAA</XPD:REF>
+<XPD:REF name="LinkEnds[2]">dcj7eX35PEWhoJLJdqOh+gAA</XPD:REF>
 <XPD:ATTR name="#SendingStimuli" type="integer">4</XPD:ATTR>
 <XPD:REF name="SendingStimuli[0]">u3x6Y9oJR0+4EKHrwLcYxAAA</XPD:REF>
 <XPD:REF name="SendingStimuli[1]">vrvCkCASTUq3y6CGHGj6GgAA</XPD:REF>
@@ -4740,6 +4952,9 @@ megyünk végig]
 <XPD:ATTR name="#Views" type="integer">2</XPD:ATTR>
 <XPD:REF name="Views[0]">9yQrKJVKmUeRUVHghHo85wAA</XPD:REF>
 <XPD:REF name="Views[1]">5HhBxXgHqkmFItf7YDxVkQAA</XPD:REF>
+<XPD:ATTR name="#LinkEnds" type="integer">2</XPD:ATTR>
+<XPD:REF name="LinkEnds[0]">js3TLwzjK0Sa3WWM01/zvwAA</XPD:REF>
+<XPD:REF name="LinkEnds[1]">VHXblRhyYUKDe3yC/Cn/UwAA</XPD:REF>
 <XPD:ATTR name="#SendingStimuli" type="integer">1</XPD:ATTR>
 <XPD:REF name="SendingStimuli[0]">8DAEH/VdrUKQIWLc9qFv7QAA</XPD:REF>
 <XPD:ATTR name="#ReceivingStimuli" type="integer">3</XPD:ATTR>
@@ -4758,6 +4973,9 @@ megyünk végig]
 <XPD:ATTR name="#Views" type="integer">2</XPD:ATTR>
 <XPD:REF name="Views[0]">BtSYJlmD8UeAUoY0UWSWjQAA</XPD:REF>
 <XPD:REF name="Views[1]">1ez5jrMtsk+9hLxC13nAggAA</XPD:REF>
+<XPD:ATTR name="#LinkEnds" type="integer">2</XPD:ATTR>
+<XPD:REF name="LinkEnds[0]">3J8CKFiCMUGvp/3ZvkwshgAA</XPD:REF>
+<XPD:REF name="LinkEnds[1]">OtTSoFPdbkKVuUyPBO3cMAAA</XPD:REF>
 <XPD:ATTR name="#SendingStimuli" type="integer">2</XPD:ATTR>
 <XPD:REF name="SendingStimuli[0]">xyH3AcbrQUOx3/0mPeFT4QAA</XPD:REF>
 <XPD:REF name="SendingStimuli[1]">c2k8BvQla0i8SsNQuoE2wAAA</XPD:REF>
@@ -4773,6 +4991,11 @@ megyünk végig]
 <XPD:ATTR name="#Views" type="integer">2</XPD:ATTR>
 <XPD:REF name="Views[0]">MEHptbwh9UGP63ycEI2IyQAA</XPD:REF>
 <XPD:REF name="Views[1]">fvsrQA3eRk2uT/zF4lO7uwAA</XPD:REF>
+<XPD:ATTR name="#LinkEnds" type="integer">4</XPD:ATTR>
+<XPD:REF name="LinkEnds[0]">5R2hl0zaFkuKpy6ohjwpawAA</XPD:REF>
+<XPD:REF name="LinkEnds[1]">2yDM+5a2V0yTlSjA8xCuuAAA</XPD:REF>
+<XPD:REF name="LinkEnds[2]">DRf8RsZSBUe8lzDZLR9AmQAA</XPD:REF>
+<XPD:REF name="LinkEnds[3]">Id8H13R240Sp1iHHcfHBDAAA</XPD:REF>
 <XPD:ATTR name="#SendingStimuli" type="integer">4</XPD:ATTR>
 <XPD:REF name="SendingStimuli[0]">q7r/1t6YrEmVgaIIUkaGwQAA</XPD:REF>
 <XPD:REF name="SendingStimuli[1]">A8J24a0SR0enUoKErhNUbwAA</XPD:REF>
@@ -4790,14 +5013,89 @@ megyünk végig]
 <XPD:ATTR name="#Views" type="integer">2</XPD:ATTR>
 <XPD:REF name="Views[0]">PhkKnd3FykSujeVdbnhZsQAA</XPD:REF>
 <XPD:REF name="Views[1]">Fl5paJBIR0aCF/ayXswL0gAA</XPD:REF>
+<XPD:ATTR name="#LinkEnds" type="integer">1</XPD:ATTR>
+<XPD:REF name="LinkEnds[0]">3Qiiv7WebUOhrD0IU/+8OwAA</XPD:REF>
 <XPD:ATTR name="#SendingStimuli" type="integer">1</XPD:ATTR>
 <XPD:REF name="SendingStimuli[0]">FP49nWRfS0+ygUsEQ9cH6gAA</XPD:REF>
+</XPD:OBJ>
+<XPD:ATTR name="#ParticipatingLinks" type="integer">6</XPD:ATTR>
+<XPD:OBJ name="ParticipatingLinks[0]" type="UMLLink" guid="upIJ3fZDIEqOjXPZC7MsfQAA">
+<XPD:REF name="CollaborationInstanceSet">GNUSezgT5E6nzEqbAL0vVQAA</XPD:REF>
+<XPD:ATTR name="#Connections" type="integer">2</XPD:ATTR>
+<XPD:OBJ name="Connections[0]" type="UMLLinkEnd" guid="3Qiiv7WebUOhrD0IU/+8OwAA">
+<XPD:REF name="Instance">1pTTz3rnLU2+EvC3BXalgAAA</XPD:REF>
+<XPD:REF name="Link">upIJ3fZDIEqOjXPZC7MsfQAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Connections[1]" type="UMLLinkEnd" guid="lpZdk3fiMEevlMeKES+9HQAA">
+<XPD:REF name="Instance">pAPdJ9tl3EiLIEnXTzGmGAAA</XPD:REF>
+<XPD:REF name="Link">upIJ3fZDIEqOjXPZC7MsfQAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="ParticipatingLinks[1]" type="UMLLink" guid="g3PQjtBwKkOcAKLdtsdU8gAA">
+<XPD:REF name="CollaborationInstanceSet">GNUSezgT5E6nzEqbAL0vVQAA</XPD:REF>
+<XPD:ATTR name="#Connections" type="integer">2</XPD:ATTR>
+<XPD:OBJ name="Connections[0]" type="UMLLinkEnd" guid="NiRw29/cQkWHjvXizzJrwgAA">
+<XPD:REF name="Instance">pAPdJ9tl3EiLIEnXTzGmGAAA</XPD:REF>
+<XPD:REF name="Link">g3PQjtBwKkOcAKLdtsdU8gAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Connections[1]" type="UMLLinkEnd" guid="js3TLwzjK0Sa3WWM01/zvwAA">
+<XPD:REF name="Instance">r4e5a5fFOUqGSh3XYvaMMAAA</XPD:REF>
+<XPD:REF name="Link">g3PQjtBwKkOcAKLdtsdU8gAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="ParticipatingLinks[2]" type="UMLLink" guid="Drc1xLPFgUaSxr3Hl3JsQgAA">
+<XPD:REF name="CollaborationInstanceSet">GNUSezgT5E6nzEqbAL0vVQAA</XPD:REF>
+<XPD:ATTR name="#Connections" type="integer">2</XPD:ATTR>
+<XPD:OBJ name="Connections[0]" type="UMLLinkEnd" guid="dcj7eX35PEWhoJLJdqOh+gAA">
+<XPD:REF name="Instance">pAPdJ9tl3EiLIEnXTzGmGAAA</XPD:REF>
+<XPD:REF name="Link">Drc1xLPFgUaSxr3Hl3JsQgAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Connections[1]" type="UMLLinkEnd" guid="3J8CKFiCMUGvp/3ZvkwshgAA">
+<XPD:REF name="Instance">ZqS340pqKUCBpZF8UA7PuwAA</XPD:REF>
+<XPD:REF name="Link">Drc1xLPFgUaSxr3Hl3JsQgAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="ParticipatingLinks[3]" type="UMLLink" guid="X4ZSG/+ZT0KOc0TFWBclJQAA">
+<XPD:REF name="CollaborationInstanceSet">GNUSezgT5E6nzEqbAL0vVQAA</XPD:REF>
+<XPD:ATTR name="#Connections" type="integer">2</XPD:ATTR>
+<XPD:OBJ name="Connections[0]" type="UMLLinkEnd" guid="OtTSoFPdbkKVuUyPBO3cMAAA">
+<XPD:REF name="Instance">ZqS340pqKUCBpZF8UA7PuwAA</XPD:REF>
+<XPD:REF name="Link">X4ZSG/+ZT0KOc0TFWBclJQAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Connections[1]" type="UMLLinkEnd" guid="5R2hl0zaFkuKpy6ohjwpawAA">
+<XPD:REF name="Instance">u03N6wm+S0qEnXTUNTzH6QAA</XPD:REF>
+<XPD:REF name="Link">X4ZSG/+ZT0KOc0TFWBclJQAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="ParticipatingLinks[4]" type="UMLLink" guid="zIYFANHGrEqWxlFVFEKP8AAA">
+<XPD:REF name="CollaborationInstanceSet">GNUSezgT5E6nzEqbAL0vVQAA</XPD:REF>
+<XPD:ATTR name="#Connections" type="integer">2</XPD:ATTR>
+<XPD:OBJ name="Connections[0]" type="UMLLinkEnd" guid="2yDM+5a2V0yTlSjA8xCuuAAA">
+<XPD:REF name="Instance">u03N6wm+S0qEnXTUNTzH6QAA</XPD:REF>
+<XPD:REF name="Link">zIYFANHGrEqWxlFVFEKP8AAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Connections[1]" type="UMLLinkEnd" guid="DRf8RsZSBUe8lzDZLR9AmQAA">
+<XPD:REF name="Instance">u03N6wm+S0qEnXTUNTzH6QAA</XPD:REF>
+<XPD:REF name="Link">zIYFANHGrEqWxlFVFEKP8AAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="ParticipatingLinks[5]" type="UMLLink" guid="nWt2DkkZCkybDZFz4TBNcwAA">
+<XPD:REF name="CollaborationInstanceSet">GNUSezgT5E6nzEqbAL0vVQAA</XPD:REF>
+<XPD:ATTR name="#Connections" type="integer">2</XPD:ATTR>
+<XPD:OBJ name="Connections[0]" type="UMLLinkEnd" guid="Id8H13R240Sp1iHHcfHBDAAA">
+<XPD:REF name="Instance">u03N6wm+S0qEnXTUNTzH6QAA</XPD:REF>
+<XPD:REF name="Link">nWt2DkkZCkybDZFz4TBNcwAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Connections[1]" type="UMLLinkEnd" guid="VHXblRhyYUKDe3yC/Cn/UwAA">
+<XPD:REF name="Instance">r4e5a5fFOUqGSh3XYvaMMAAA</XPD:REF>
+<XPD:REF name="Link">nWt2DkkZCkybDZFz4TBNcwAA</XPD:REF>
+</XPD:OBJ>
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedCollaborationInstanceSets[6]" type="UMLCollaborationInstanceSet" guid="nr//oBquJUK6nU7Pg1kYnQAA">
 <XPD:ATTR name="Name" type="string">Inicializálás</XPD:ATTR>
 <XPD:REF name="RepresentedClassifier">sR2sRnmqw0CWs3alVUDiHwAA</XPD:REF>
-<XPD:ATTR name="#InteractionInstanceSets" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="#InteractionInstanceSets" type="integer">2</XPD:ATTR>
 <XPD:OBJ name="InteractionInstanceSets[0]" type="UMLInteractionInstanceSet" guid="9+J9jgz68ku7l62WwKWz7AAA">
 <XPD:ATTR name="Name" type="string">InteractionInstanceSet1</XPD:ATTR>
 <XPD:REF name="Context">nr//oBquJUK6nU7Pg1kYnQAA</XPD:REF>
@@ -5188,7 +5486,7 @@ leírás alapján.
 <XPD:OBJ name="NameLabel" type="EdgeLabelView" guid="1dTOhwDOMkOo2BPh+vsN0QAA">
 <XPD:ATTR name="Alpha" type="real">1.5707963267949</XPD:ATTR>
 <XPD:ATTR name="Distance" type="real">10</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">1.1.1.1a: Field()</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">2.1.1.1a: Field()</XPD:ATTR>
 <XPD:REF name="Model">gMkwuIAy+k+xyNUvdFAuXwAA</XPD:REF>
 <XPD:REF name="HostEdge">C2TLBBVP50uSK7ORnJlnXwAA</XPD:REF>
 </XPD:OBJ>
@@ -5224,7 +5522,7 @@ leírás alapján.
 <XPD:OBJ name="NameLabel" type="EdgeLabelView" guid="UztvnDsD50iqtmPt/K8xLQAA">
 <XPD:ATTR name="Alpha" type="real">1.5707963267949</XPD:ATTR>
 <XPD:ATTR name="Distance" type="real">10</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">1.1.1.1b()</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">2.1.1.1b: Path()</XPD:ATTR>
 <XPD:REF name="Model">XxaN95WimUCwWiWOBE1aQgAA</XPD:REF>
 <XPD:REF name="HostEdge">H3iJ4ver3UatjWYp28b5BwAA</XPD:REF>
 </XPD:OBJ>
@@ -5311,7 +5609,7 @@ leírás alapján.
 <XPD:REF name="Views[3]">eWSTddoGUE6BPYHPiQF50AAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="ParticipatingStimuli[4]" type="UMLStimulus" guid="gMkwuIAy+k+xyNUvdFAuXwAA">
-<XPD:ATTR name="Name" type="string">1.1.1.1a: Field</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">2.1.1.1a: Field</XPD:ATTR>
 <XPD:REF name="Sender">snbVJoFYcUSJBDmzJTRnEQAA</XPD:REF>
 <XPD:REF name="Receiver">KpJkYsWmHU6HiL8omaqZSAAA</XPD:REF>
 <XPD:OBJ name="Action" type="UMLCreateAction" guid="8jY8UDKu00i8Cy2Bhf4LoQAA">
@@ -5325,7 +5623,7 @@ leírás alapján.
 <XPD:REF name="Views[3]">296G31aJA0SUZULNtt13vgAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="ParticipatingStimuli[5]" type="UMLStimulus" guid="XxaN95WimUCwWiWOBE1aQgAA">
-<XPD:ATTR name="Name" type="string">1.1.1.1b</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">2.1.1.1b: Path</XPD:ATTR>
 <XPD:REF name="Sender">snbVJoFYcUSJBDmzJTRnEQAA</XPD:REF>
 <XPD:REF name="Receiver">Iud91Gl1QUq5tVxcbf16egAA</XPD:REF>
 <XPD:OBJ name="Action" type="UMLCreateAction" guid="hH4DY27Th0uJG0eRXoEm2wAA">
@@ -5380,6 +5678,16 @@ leírás alapján.
 <XPD:REF name="Views[0]">LvwaJscJhE6s9/MvBE/XMQAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
+<XPD:OBJ name="InteractionInstanceSets[1]" type="UMLInteractionInstanceSet" guid="JMNLgbezVEae7KY6FTMKuwAA">
+<XPD:ATTR name="Name" type="string">InteractionInstanceSet1</XPD:ATTR>
+<XPD:REF name="Context">nr//oBquJUK6nU7Pg1kYnQAA</XPD:REF>
+<XPD:ATTR name="#OwnedFrames" type="integer">1</XPD:ATTR>
+<XPD:OBJ name="OwnedFrames[0]" type="UMLFrame" guid="FI0e5JVLNEC1rM+USJ0nDAAA">
+<XPD:ATTR name="Name" type="string">Inicializálás</XPD:ATTR>
+<XPD:ATTR name="FrameKind" type="string">cd</XPD:ATTR>
+<XPD:REF name="InteractionInstanceSet">JMNLgbezVEae7KY6FTMKuwAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
 <XPD:ATTR name="#ParticipatingInstances" type="integer">5</XPD:ATTR>
 <XPD:OBJ name="ParticipatingInstances[0]" type="UMLObject" guid="ulhdwbxE5Uel3oFIvCBlCgAA">
 <XPD:ATTR name="Name" type="string">game</XPD:ATTR>
@@ -5388,6 +5696,9 @@ leírás alapján.
 <XPD:ATTR name="#Views" type="integer">2</XPD:ATTR>
 <XPD:REF name="Views[0]">dl3stM36iE2CyR0Q+rVDdwAA</XPD:REF>
 <XPD:REF name="Views[1]">ES4aOuf2bkKn9nKoddm1CQAA</XPD:REF>
+<XPD:ATTR name="#LinkEnds" type="integer">2</XPD:ATTR>
+<XPD:REF name="LinkEnds[0]">9P31+Mv43UGctYJ4morndwAA</XPD:REF>
+<XPD:REF name="LinkEnds[1]">36yMjPrRjUqmSDLO8ZB8kAAA</XPD:REF>
 <XPD:ATTR name="#SendingStimuli" type="integer">2</XPD:ATTR>
 <XPD:REF name="SendingStimuli[0]">c4XNkQNMDkCFR6s5vnOZeQAA</XPD:REF>
 <XPD:REF name="SendingStimuli[1]">DKQfBMSHl0Wz/FknYusyUgAA</XPD:REF>
@@ -5402,6 +5713,10 @@ leírás alapján.
 <XPD:ATTR name="#Views" type="integer">2</XPD:ATTR>
 <XPD:REF name="Views[0]">xphuu4Q8G0uKeAVc80YKngAA</XPD:REF>
 <XPD:REF name="Views[1]">lRvfpqlqZk6jeM7PJzhc5wAA</XPD:REF>
+<XPD:ATTR name="#LinkEnds" type="integer">3</XPD:ATTR>
+<XPD:REF name="LinkEnds[0]">GBhpAG2mMk+GrcSvuzcFvwAA</XPD:REF>
+<XPD:REF name="LinkEnds[1]">TalizU/4uEmTD7zbZfCOqQAA</XPD:REF>
+<XPD:REF name="LinkEnds[2]">kxL5cqKEokWTDleUxsFNRwAA</XPD:REF>
 <XPD:ATTR name="#SendingStimuli" type="integer">2</XPD:ATTR>
 <XPD:REF name="SendingStimuli[0]">gMkwuIAy+k+xyNUvdFAuXwAA</XPD:REF>
 <XPD:REF name="SendingStimuli[1]">XxaN95WimUCwWiWOBE1aQgAA</XPD:REF>
@@ -5416,6 +5731,8 @@ leírás alapján.
 <XPD:ATTR name="#Views" type="integer">2</XPD:ATTR>
 <XPD:REF name="Views[0]">7VNNsL861kymiqq4si3dQAAA</XPD:REF>
 <XPD:REF name="Views[1]">eirTzoaba0SWD8dp6zMMWAAA</XPD:REF>
+<XPD:ATTR name="#LinkEnds" type="integer">1</XPD:ATTR>
+<XPD:REF name="LinkEnds[0]">cCJBMB3q3Ei0EtKoADK7ngAA</XPD:REF>
 <XPD:ATTR name="#ReceivingStimuli" type="integer">1</XPD:ATTR>
 <XPD:REF name="ReceivingStimuli[0]">gMkwuIAy+k+xyNUvdFAuXwAA</XPD:REF>
 </XPD:OBJ>
@@ -5426,6 +5743,8 @@ leírás alapján.
 <XPD:ATTR name="#Views" type="integer">2</XPD:ATTR>
 <XPD:REF name="Views[0]">6GuY68x2IUS7zBX85eaGKAAA</XPD:REF>
 <XPD:REF name="Views[1]">6Q6dH3I5uUapvwkzJ6i8MAAA</XPD:REF>
+<XPD:ATTR name="#LinkEnds" type="integer">1</XPD:ATTR>
+<XPD:REF name="LinkEnds[0]">c20PJyuAOkSuo+6wf7p6GQAA</XPD:REF>
 <XPD:ATTR name="#ReceivingStimuli" type="integer">1</XPD:ATTR>
 <XPD:REF name="ReceivingStimuli[0]">XxaN95WimUCwWiWOBE1aQgAA</XPD:REF>
 </XPD:OBJ>
@@ -5436,9 +5755,60 @@ leírás alapján.
 <XPD:ATTR name="#Views" type="integer">2</XPD:ATTR>
 <XPD:REF name="Views[0]">pP8iZFRj4EK/aCwGF3qNfAAA</XPD:REF>
 <XPD:REF name="Views[1]">Ai3Itb8vr0avFCPultONTwAA</XPD:REF>
+<XPD:ATTR name="#LinkEnds" type="integer">1</XPD:ATTR>
+<XPD:REF name="LinkEnds[0]">tscni8OkC06FpwVmUfRIEgAA</XPD:REF>
 <XPD:ATTR name="#SendingStimuli" type="integer">2</XPD:ATTR>
 <XPD:REF name="SendingStimuli[0]">De81ogK+/EGdYzBKqNftnwAA</XPD:REF>
 <XPD:REF name="SendingStimuli[1]">LapaKUaOLUaz+FzbxAt2nQAA</XPD:REF>
+</XPD:OBJ>
+<XPD:ATTR name="#ParticipatingLinks" type="integer">4</XPD:ATTR>
+<XPD:OBJ name="ParticipatingLinks[0]" type="UMLLink" guid="zGUT/in3X0yquyQ6N060NQAA">
+<XPD:REF name="CollaborationInstanceSet">nr//oBquJUK6nU7Pg1kYnQAA</XPD:REF>
+<XPD:ATTR name="#Connections" type="integer">2</XPD:ATTR>
+<XPD:OBJ name="Connections[0]" type="UMLLinkEnd" guid="tscni8OkC06FpwVmUfRIEgAA">
+<XPD:REF name="Instance">t/5FNNco2E6FdVKyNQnBagAA</XPD:REF>
+<XPD:REF name="Link">zGUT/in3X0yquyQ6N060NQAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Connections[1]" type="UMLLinkEnd" guid="9P31+Mv43UGctYJ4morndwAA">
+<XPD:REF name="Instance">ulhdwbxE5Uel3oFIvCBlCgAA</XPD:REF>
+<XPD:REF name="Link">zGUT/in3X0yquyQ6N060NQAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="ParticipatingLinks[1]" type="UMLLink" guid="IZXZ2U3Ex0SV45yxbMkxMQAA">
+<XPD:REF name="CollaborationInstanceSet">nr//oBquJUK6nU7Pg1kYnQAA</XPD:REF>
+<XPD:ATTR name="#Connections" type="integer">2</XPD:ATTR>
+<XPD:OBJ name="Connections[0]" type="UMLLinkEnd" guid="36yMjPrRjUqmSDLO8ZB8kAAA">
+<XPD:REF name="Instance">ulhdwbxE5Uel3oFIvCBlCgAA</XPD:REF>
+<XPD:REF name="Link">IZXZ2U3Ex0SV45yxbMkxMQAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Connections[1]" type="UMLLinkEnd" guid="GBhpAG2mMk+GrcSvuzcFvwAA">
+<XPD:REF name="Instance">snbVJoFYcUSJBDmzJTRnEQAA</XPD:REF>
+<XPD:REF name="Link">IZXZ2U3Ex0SV45yxbMkxMQAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="ParticipatingLinks[2]" type="UMLLink" guid="mtFUJdEO3UaIhKVEkMwc8QAA">
+<XPD:REF name="CollaborationInstanceSet">nr//oBquJUK6nU7Pg1kYnQAA</XPD:REF>
+<XPD:ATTR name="#Connections" type="integer">2</XPD:ATTR>
+<XPD:OBJ name="Connections[0]" type="UMLLinkEnd" guid="TalizU/4uEmTD7zbZfCOqQAA">
+<XPD:REF name="Instance">snbVJoFYcUSJBDmzJTRnEQAA</XPD:REF>
+<XPD:REF name="Link">mtFUJdEO3UaIhKVEkMwc8QAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Connections[1]" type="UMLLinkEnd" guid="cCJBMB3q3Ei0EtKoADK7ngAA">
+<XPD:REF name="Instance">KpJkYsWmHU6HiL8omaqZSAAA</XPD:REF>
+<XPD:REF name="Link">mtFUJdEO3UaIhKVEkMwc8QAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="ParticipatingLinks[3]" type="UMLLink" guid="Jj9sfk2EbEqkatwXdBLtJQAA">
+<XPD:REF name="CollaborationInstanceSet">nr//oBquJUK6nU7Pg1kYnQAA</XPD:REF>
+<XPD:ATTR name="#Connections" type="integer">2</XPD:ATTR>
+<XPD:OBJ name="Connections[0]" type="UMLLinkEnd" guid="kxL5cqKEokWTDleUxsFNRwAA">
+<XPD:REF name="Instance">snbVJoFYcUSJBDmzJTRnEQAA</XPD:REF>
+<XPD:REF name="Link">Jj9sfk2EbEqkatwXdBLtJQAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Connections[1]" type="UMLLinkEnd" guid="c20PJyuAOkSuo+6wf7p6GQAA">
+<XPD:REF name="Instance">Iud91Gl1QUq5tVxcbf16egAA</XPD:REF>
+<XPD:REF name="Link">Jj9sfk2EbEqkatwXdBLtJQAA</XPD:REF>
+</XPD:OBJ>
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedCollaborationInstanceSets[7]" type="UMLCollaborationInstanceSet" guid="gSEUy1Ucl0ik8IjMIwnlRgAA">
