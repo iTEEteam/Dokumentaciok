@@ -33,112 +33,90 @@
 %\comment{Minden use-case-hez külön}
 
 \usecase
-{Inicializálás }
-{A játék egy kezdeti állapotának felvétele}
-{User}
-{A cellák létrehozása, pálya betöltése, kezdeti értékek beállítása }
-
-\usecase
-{Torony elhelyezése üres mezőre}
-{A játékos egy tornyot akar helyezni egy mezőre, amin még nincs másik torony}
-{User}
-{Foglaltság ellenőrzése, varázserő mennyiségének ellenőrzése, mindkettő rendben, varázserő levonása, torony létrehozása, torony regisztrálása a game-ben, torony elhelyezése a mezőn.}
-
-\usecase
-{Torony elhelyezése foglalt mezőre}
-{A játékos egy tornyot akar helyezni egy mezőre, amin már van másik torony}
-{User}
-{Foglaltság ellenőrzése, mező foglalt, nem történik semmi.}
-
-\usecase
-{Fejlesztetlen torony eladása}
-{A játékos elad egy tornyot}
-{User}
-{A tornyot töröljük a mezőjéről és a Game osztály adott példányából, manát növeljük}
-
-\usecase
-{Fejlesztett torony eladása}
-{A Játékos elad egy fejlesztett tornyot}
-{User}
-{A tornyot töröljük a mezőjéről és a Game osztály adott példányából. A toronyban az összes típusú gemből van egy. Az ezek által adott adatokból és a torony árából képzett értékkel módosítjuk a manát.}
-
-\usecase
-{Torony tüzel egy ellenségre, fejlesztetlenül}
-{Torony tüzel egy ellenségre, fejlesztetlenül}
-{User}
-{A torony elkéri a célpontot, sebez rajta az alapértékekkel, mivel nincs fejlesztve, az ellenség nem hal meg, csak sebződik. Ugyanígy működne fejlesztett esetben.}
-
-\usecase
-{Torony lelő egy ellenséget, fejlesztetlenül}
-{Torony lelő egy ellenséget, fejlesztetlenül}
-{User}
-{A torony elkéri a célpontot, sebez rajta az alapértékekkel, mivel nincs fejlesztve, az ellenség meghal, ezért töröljük az útról és a Game példányból. Ugyanígy működne fejlesztett esetben.}
-
-\usecase
-{Torony fejlesztése}
-{Torony fejlesztése minden gem típusból eggyel}
-{User}
-{A toronyhoz hozzáadjuk a gem példányokat, mindegyik fejlesztését érvényre juttatjuk}
-
-\usecase
-{Akadály elhelyezése ellenség által foglalt útra}
+{1. Akadály elhelyezése ellenség által foglalt útra}
 {A játékos egy akadályt akar helyezni egy útra, amin már van egy ellenség}
 {User}
 {Lekérdezés, hogy az úton van-e ellenség vagy akadály, van ellenség, nem történik semmi.}
 
 \usecase
-{Akadály elhelyezése másik akadály által foglalt útra}
+{2. Akadály elhelyezése másik akadály által foglalt útra}
 {A játékos egy akadályt akar helyezni egy útra, amin már van egy akadály}
 {User}
 {Lekérdezés, hogy az úton van-e ellenség vagy akadály, van akadály, nem történik semmi.}
 
 \usecase
-{Akadály elhelyezése üres útra}
+{3. Akadály elhelyezése üres útra}
 {A játékos egy akadályt akar helyezni egy útra, amin nincs sem ellenség sem akadály}
 {User}
 {Lekérdezés, hogy az úton van-e ellenség vagy akadály, nincs egyik sem, varázserő levonása, akadály létrehozása, akadály elhelyezése az úton.}
 
 \usecase
-{Torony hatókörében nincs ellenség tüzeléskor}
-{Torony hatókörében nincs ellenség tüzeléskor}
-{User}
-{A torony elkéri az ellenséget és nem kap ellenséget. Nem csinál semmit}
-
-\usecase
-{Ellenség mozog 3 cellát, akadály nélkül}
-{Egy ellenség egy celláról 3 lépésben egy 4.-re jut}
-{User}
-{4 db, egy láncot alkotó út egyik végéről a másikra juttatunk 3 lépésben egy ellenséget. Az ellenség celláról cellára lép, közben nem lassul.}
-
-\usecase
-{Ellenség mozog 3 cellát, akadály van, elhasználódik}
-{Egy ellenség egy celláról 3 lépésben egy 4.-re jut, közben van egy akadály}
-{User}
-{4 db, egy láncot alkotó út egyik végéről a másikra juttatunk 3 lépésben egy ellenséget. Az ellenség celláról cellára lép, közben lassul, mivel a 3. cellán egy akadály van. Az akadály amortizálódni fog, és pont el is használódik. Hasonlóan működne a dolog, ha az akadály fejlesztve lenne.}
-
-\usecase
-{Ellenség mozog 3 cellát, akadály van, nem használódik el }
-{Egy ellenség egy celláról 3 lépésben egy 4.-re jut, közben van egy akadály}
-{User}
-{4 db, egy láncot alkotó út egyik végéről a másikra juttatunk 3 lépésben egy ellenséget. Az ellenség celláról cellára lép, közben lassul, mivel a 3. cellán egy akadály van. Az akadály amortizálódni fog. Hasonlóan működne a dolog, ha az akadály fejlesztve lenne.}
-
-\usecase
-{Ellenség mozog 3 cellát, elér a Végzet hegyéhez }
-{Egy ellenség egy celláról 3 lépésben egy 4.-re jut, ami a Végzet hegye}
-{User}
-{4 db, egy láncot alkotó út egyik végéről a másikra juttatunk 3 lépésben egy ellenséget. Az ellenség celláról cellára lép, az utolsóra érve pedig levesszük, mert célba ért. Ekkor a Game-ben változtatjuk a sikeresen bejutottak számát.}
-
-\usecase
-{Akadály fejlesztése}
+{4. Akadály fejlesztése}
 {Akadály fejlesztése minden gem-el}
 {User}
 {Minden, az akadályhoz tartozó gem típusból létrehozunk egyet, hozzáadjuk az akadályhoz és érvényre juttatjuk a fejlesztést}
 
 \usecase
-{Ellenséghullám készítése}
-{Néhány, egy hullámba tartozó enemy létrehozása}
+{5. Ellenség mozog}
+{Egy ellenség egy celláról egy másikra jut}
 {User}
-{Létrehozunk néhány, egy hullámba tartozó enemy-t, amiket beteszünk az Game enemiesOut változójába}
+{Az ellenség elérhet a végzet hegyéhez, egyébként a következő cellára lép}
+
+\usecase
+{6. Fejlesztetlen torony eladása}
+{A játékos elad egy tornyot}
+{User}
+{A tornyot töröljük a mezőjéről és a Game osztály adott példányából, manát növeljük}
+
+\usecase
+{7. Fejlesztett torony eladása}
+{A Játékos elad egy fejlesztett tornyot}
+{User}
+{A tornyot töröljük a mezőjéről és a Game osztály adott példányából. A toronyban az összes típusú gemből van egy. Az ezek által adott adatokból és a torony árából képzett értékkel módosítjuk a manát.}
+
+\usecase
+{8. Inicializálás}
+{A játék egy kezdeti állapotának felvétele}
+{User}
+{A cellák létrehozása, pálya betöltése, kezdeti értékek beállítása }
+
+\usecase
+{9. Torony elhelyezése foglalt mezőre}
+{A játékos egy tornyot akar helyezni egy mezőre, amin már van másik torony}
+{User}
+{Foglaltság ellenőrzése, mező foglalt, nem történik semmi.}
+
+\usecase
+{10. Torony elhelyezése üres mezőre}
+{A játékos egy tornyot akar helyezni egy mezőre, amin még nincs másik torony}
+{User}
+{Foglaltság ellenőrzése, varázserő mennyiségének ellenőrzése, mindkettő rendben, varázserő levonása, torony létrehozása, torony regisztrálása a game-ben, torony elhelyezése a mezőn.}
+
+\usecase
+{11. Torony fejlesztése}
+{Torony fejlesztése minden gem típusból eggyel}
+{User}
+{A toronyhoz hozzáadjuk a gem példányokat, mindegyik fejlesztését érvényre juttatjuk}
+
+\usecase
+{12. Torony hatókörében nincs ellenség tüzeléskor}
+{Torony hatókörében nincs ellenség tüzeléskor}
+{User}
+{A torony elkéri az ellenséget és nem kap ellenséget. Nem csinál semmit}
+
+\usecase
+{13. Torony lelő egy ellenséget, fejlesztetlenül}
+{Torony lelő egy ellenséget, fejlesztetlenül}
+{User}
+{A torony elkéri a célpontot, sebez rajta az alapértékekkel, mivel nincs fejlesztve, az ellenség meghal, ezért töröljük az útról és a Game példányból. Ugyanígy működne fejlesztett esetben.}
+
+\usecase
+{14. Torony tüzel egy ellenségre, fejlesztetlenül}
+{Torony tüzel egy ellenségre, fejlesztetlenül}
+{User}
+{A torony elkéri a célpontot, sebez rajta az alapértékekkel, mivel nincs fejlesztve, az ellenség nem hal meg, csak sebződik. Ugyanígy működne fejlesztett esetben.}
+
+
 
 
 \section{A szkeleton kezelői felületének terve, dialógusok}
@@ -176,107 +154,98 @@ Visszatéréskor egy visszafelé mutató nyilat ($\leftarrow$) és, hogy melyik 
 	\end{longtable}
 }
 
-
 \usecaseteszteset
-{Init}
-{A játék kezdeti betöltésének lefuttatása}
-{}
-{Inicializálás}
- 
-\usecaseteszteset
-{MakeEnemy}
-{A Game osztály feltölti ellenségekkel az enemyOut listát}
-{}
-{Ellenséghullám készítése}
-
-\usecaseteszteset
-{TowerBuyEmpty}
-{Egy torony elhelyezése a pályán}
-{IGame, IFieldPlaceable}
-{Torony elhelyezése üres mezőre}
-
-\usecaseteszteset
-{BuyTower}
-{Egy torony elhelyezése a pályán}
-{IGame, IFieldPlaceable}
-{Torony elhelyezése foglalt mezőre}
-
-\usecaseteszteset
-{SellUpgradedTower}
-{Torony eladása}
-{ITower, IGame}
-{Fejlesztett torony eladása}
-
-\usecaseteszteset
-{SellNonUpgradedTower}
-{Torony eladása}
-{ITower, IGame}
-{Fejlesztetlen torony eladása}
-
-\usecaseteszteset
-{SucceededEnemys}
-{Annak tesztelése, hogy ha bejut egy ellenség a végzet hegyéhez}
-{IGame}
-{Ellenség mozog 3 cellát, elér a Végzet hegyéhez}
-
-\usecaseteszteset
-{TowerUpgradedShootEnemy}
-{Hobbitra specializált torony, hobbitra lő}
-{ITower}
-{Torony lelő egy ellenséget, fejlesztetten}
-
-\usecaseteszteset
-{TowerShootEnemy}
-{Fejlesztetlen torony, hatósugarában egy ellenség van}
-{ITower}
-{Torony tüzel egy ellenségre, fejlesztetlenül}
-\usecaseteszteset
-{TowerKillEnemy}
-{Torony megöl egy ellenséget}
-{ITower}
-{Torony lelő egy ellenséget, fejlesztetlenül}
-
-\usecaseteszteset
-{EnemyMove}
-{Ellenség léptetése}
-{IPathPlaceable}
-{Ellenség mozog 3 cellát, akadály nélkül}
-
-\usecaseteszteset
-{EnemyMoveObstacleAmort}
-{Ellenség léptetése}
-{IpathPlaceable}
-{Ellenség mozog 3 cellát, akadály van, nem használódik el}
-
-\usecaseteszteset
-{EnemyMoveObstacleUsed}
-{Ellenség léptetése}
-{IpathPlaceable}
-{Ellenség mozog 3 cellát, akadály van, elhasználódik}
-
-\usecaseteszteset
-{PlaceObstacle}
-{Akadály elhelyezése üres útra}
-{}
-{Akadály elhelyezése üres útra}
-
-\usecaseteszteset
-{PlaceObstacleEnemy}
+{1. ObstacleBuyOnEnemy}
 {Akadály elhelyezése olyan mezőre amin ellenség van}
 {}
 {Akadály elhelyezése ellenség által foglalt útra}
 
 \usecaseteszteset
-{TowerShootNoEnemy}
+{2. ObstacleBuyOnObstacle}
+{Akadály elhelyezése másik akadály által foglalt útra}
+{}
+{Akadály elhelyezése másik akadály által foglalt útra}
+
+\usecaseteszteset
+{3. ObstacleBuy}
+{Akadály elhelyezése üres útra}
+{}
+{Akadály elhelyezése üres útra}
+
+\usecaseteszteset
+{4. ObstacleBuyGems}
+{Akadály feljesztése}
+{}
+{Akadály feljesztése}
+
+\usecaseteszteset
+{5. EnemyMove}
+{Ellenség léptetése}
+{IPathPlaceable}
+{Ellenség mozog 3 cellát, akadály nélkül, esetleg bejut a végzet hegyéhez}
+
+\usecaseteszteset
+{6. TowerSellNonUpgraded}
+{Torony eladása}
+{ITower, IGame}
+{Fejlesztetlen torony eladása}
+
+\usecaseteszteset
+{7. TowerSellUpgraded}
+{Torony eladása}
+{ITower, IGame}
+{Fejlesztett torony eladása}
+
+\usecaseteszteset
+{8. Initialize}
+{A játék kezdeti betöltésének lefuttatása}
+{}
+{Inicializálás}
+ 
+\usecaseteszteset
+{9. TowerBuyOnField}
+{Egy torony elhelyezése a pályán}
+{IGame, IFieldPlaceable}
+{Torony elhelyezése foglalt mezőre}
+
+\usecaseteszteset
+{10. TowerBuy}
+{Egy torony elhelyezése a pályán}
+{IGame, IFieldPlaceable}
+{Torony elhelyezése üres mezőre}
+
+\usecaseteszteset
+{11. TowerBuyGems}
+{Torony feljesztése minden gemből eggyel}
+{ITower}
+{Torony feljesztése minden gemből eggyel}
+
+\usecaseteszteset
+{12. TowerShootNoEnemy}
 {Torony hatókörében nincs ellenség tüzeléskor}
 {ITower}
 {Torony hatókörében nincs ellenség tüzeléskor}
+
+\usecaseteszteset
+{13. TowerKillEnemy}
+{Torony megöl egy ellenséget}
+{ITower}
+{Torony lelő egy ellenséget, fejlesztetlenül}
+
+\usecaseteszteset
+{14. TowerShootEnemy}
+{Fejlesztetlen torony, hatósugarában egy ellenség van}
+{ITower}
+{Torony tüzel egy ellenségre, fejlesztetlenül}
+
+
+
 
 
 \section{Szekvencia diagramok a belső működésre}
 %\comment{A szkeletonban implementált szekvenciadiagramok. Tipikusan egy use-case egy diagram. Ezek megegyezhetnek a korábban specifikált diagramokkal, de az egyes életvonalakat (lifeline) egyértelműen a szkeletonban példányosított objektumokhoz kell tudni kötni. Azt kell megjeleníteni, hogy a szkeletonban létrehozott objektumok egymással hogyan fognak kommunikálni.}
 
-\subsection{Akadály elhelyezése ellenség által foglalt útra}
+\subsection{1. Akadály elhelyezése ellenség által foglalt útra}
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=17cm]{chapters/chapter05/images/sd_Akadaly_elhelyezese_ellenseg_altal_foglalt_utra.jpg}
@@ -285,7 +254,7 @@ Visszatéréskor egy visszafelé mutató nyilat ($\leftarrow$) és, hogy melyik 
 \end{center}
 \end{figure}
 
-\subsection{Akadály elhelyezése másik akadály által foglalt útra}
+\subsection{2. Akadály elhelyezése másik akadály által foglalt útra}
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=17cm]{chapters/chapter05/images/sd_Akadaly_elhelyezese_masik_akadaly_altal_foglalt_utra.jpg}
@@ -294,7 +263,7 @@ Visszatéréskor egy visszafelé mutató nyilat ($\leftarrow$) és, hogy melyik 
 \end{center}
 \end{figure}
 
-\subsection{Akadály elhelyezése üres útra}
+\subsection{3. Akadály elhelyezése üres útra}
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=17cm]{chapters/chapter05/images/sd_Akadaly_elhelyezese_ures_utra.jpg}
@@ -303,7 +272,7 @@ Visszatéréskor egy visszafelé mutató nyilat ($\leftarrow$) és, hogy melyik 
 \end{center}
 \end{figure}
 
-\subsection{Akadály fejlesztése}
+\subsection{4. Akadály fejlesztése}
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=17cm]{chapters/chapter05/images/sd_Akadaly_fejlesztese.jpg}
@@ -312,7 +281,7 @@ Visszatéréskor egy visszafelé mutató nyilat ($\leftarrow$) és, hogy melyik 
 \end{center}
 \end{figure}
 
-\subsection{Ellenfél mozgása}
+\subsection{5. Ellenfél mozgása}
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=17cm]{chapters/chapter05/images/sd_Ellenfel_mozgasa.jpg}
@@ -321,7 +290,7 @@ Visszatéréskor egy visszafelé mutató nyilat ($\leftarrow$) és, hogy melyik 
 \end{center}
 \end{figure}
 
-\subsection{Fejlesztetlen torony eladása}
+\subsection{6. Fejlesztetlen torony eladása}
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=17cm]{chapters/chapter05/images/sd_Fejlesztetlen_torony_eladasa.jpg}
@@ -330,7 +299,7 @@ Visszatéréskor egy visszafelé mutató nyilat ($\leftarrow$) és, hogy melyik 
 \end{center}
 \end{figure}
 
-\subsection{Fejlesztett torony eladása}
+\subsection{7. Fejlesztett torony eladása}
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=17cm]{chapters/chapter05/images/sd_Fejlesztett_torony_eladasa.jpg}
@@ -339,7 +308,7 @@ Visszatéréskor egy visszafelé mutató nyilat ($\leftarrow$) és, hogy melyik 
 \end{center}
 \end{figure}
 
-\subsection{Inicializálás}
+\subsection{8. Inicializálás}
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=17cm]{chapters/chapter05/images/sd_Inicializalas.jpg}
@@ -348,7 +317,7 @@ Visszatéréskor egy visszafelé mutató nyilat ($\leftarrow$) és, hogy melyik 
 \end{center}
 \end{figure}
 
-\subsection{Torony elhelyezése foglalt mezőre}
+\subsection{9. Torony elhelyezése foglalt mezőre}
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=17cm]{chapters/chapter05/images/sd_Torony_elhelyezese_foglalt_mezore.jpg}
@@ -357,7 +326,7 @@ Visszatéréskor egy visszafelé mutató nyilat ($\leftarrow$) és, hogy melyik 
 \end{center}
 \end{figure}
 
-\subsection{Torony elhelyezése üres mezőre}
+\subsection{10. Torony elhelyezése üres mezőre}
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=17cm]{chapters/chapter05/images/sd_Torony_elhelyezese_ures_mezore.jpg}
@@ -366,7 +335,7 @@ Visszatéréskor egy visszafelé mutató nyilat ($\leftarrow$) és, hogy melyik 
 \end{center}
 \end{figure}
 
-\subsection{Torony fejlesztése minden gemből eggyel}
+\subsection{11. Torony fejlesztése minden gemből eggyel}
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=17cm]{chapters/chapter05/images/sd_Torony_fejlesztese_minden_gembol_eggyel.jpg}
@@ -375,7 +344,7 @@ Visszatéréskor egy visszafelé mutató nyilat ($\leftarrow$) és, hogy melyik 
 \end{center}
 \end{figure}
 
-\subsection{Torony hatókörében nincs ellenség tüzeléskor}
+\subsection{12. Torony hatókörében nincs ellenség tüzeléskor}
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=17cm]{chapters/chapter05/images/sd_Torony_hatokoreben_nincs_ellenseg_tuzeleskor.jpg}
@@ -384,7 +353,7 @@ Visszatéréskor egy visszafelé mutató nyilat ($\leftarrow$) és, hogy melyik 
 \end{center}
 \end{figure}
 
-\subsection{Torony lelő egy ellenséget fejlesztetlenül}
+\subsection{13. Torony lelő egy ellenséget fejlesztetlenül}
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=17cm]{chapters/chapter05/images/sd_Torony_lelo_egy_ellenseget_fejlesztetlenul.jpg}
@@ -393,7 +362,7 @@ Visszatéréskor egy visszafelé mutató nyilat ($\leftarrow$) és, hogy melyik 
 \end{center}
 \end{figure}
 
-\subsection{Torony tüzel egy ellenségre fejlesztetlenül}
+\subsection{14. Torony tüzel egy ellenségre fejlesztetlenül}
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=17cm]{chapters/chapter05/images/sd_Torony_tuzel_egy_ellensegre_fejlesztetlenul.jpg}
@@ -407,7 +376,7 @@ Visszatéréskor egy visszafelé mutató nyilat ($\leftarrow$) és, hogy melyik 
 \section{Kommunikációs diagramok}
 %\comment{A szkeletonban, az egyes szkeleton-use-case-ek futása során létrehozott objektumok és kapcsolataik bemutatására szolgáló diagramok. Ezek alapján valósítják meg a szkeleton fejlesztői az inicializáló kódrészleteket.}
 
-\subsection{Akadály elhelyezése ellenség által foglalt útra}
+\subsection{1. Akadály elhelyezése ellenség által foglalt útra}
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=17cm]{chapters/chapter05/images/cd_Akadaly_elhelyezese_ellenseg_altal_foglalt_utra.jpg}
@@ -416,7 +385,7 @@ Visszatéréskor egy visszafelé mutató nyilat ($\leftarrow$) és, hogy melyik 
 \end{center}
 \end{figure}
 
-\subsection{Akadály elhelyezése másik akadály által foglalt útra}
+\subsection{2. Akadály elhelyezése másik akadály által foglalt útra}
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=17cm]{chapters/chapter05/images/cd_Akadaly_elhelyezese_masik_akadaly_altal_foglalt_utra.jpg}
@@ -425,7 +394,7 @@ Visszatéréskor egy visszafelé mutató nyilat ($\leftarrow$) és, hogy melyik 
 \end{center}
 \end{figure}
 
-\subsection{Akadály elhelyezése üres útra}
+\subsection{3. Akadály elhelyezése üres útra}
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=17cm]{chapters/chapter05/images/cd_Akadaly_elhelyezese_ures_utra.jpg}
@@ -434,7 +403,7 @@ Visszatéréskor egy visszafelé mutató nyilat ($\leftarrow$) és, hogy melyik 
 \end{center}
 \end{figure}
 
-\subsection{Akadály fejlesztése}
+\subsection{4. Akadály fejlesztése}
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=17cm]{chapters/chapter05/images/cd_Akadaly_fejlesztese.jpg}
@@ -443,7 +412,7 @@ Visszatéréskor egy visszafelé mutató nyilat ($\leftarrow$) és, hogy melyik 
 \end{center}
 \end{figure}
 
-\subsection{Ellenfél mozgása}
+\subsection{5. Ellenfél mozgása}
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=17cm]{chapters/chapter05/images/cd_Ellenfel_mozgasa.jpg}
@@ -452,7 +421,7 @@ Visszatéréskor egy visszafelé mutató nyilat ($\leftarrow$) és, hogy melyik 
 \end{center}
 \end{figure}
 
-\subsection{Fejlesztetlen torony eladása}
+\subsection{6. Fejlesztetlen torony eladása}
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=17cm]{chapters/chapter05/images/cd_Fejlesztetlen_torony_eladasa.jpg}
@@ -461,7 +430,7 @@ Visszatéréskor egy visszafelé mutató nyilat ($\leftarrow$) és, hogy melyik 
 \end{center}
 \end{figure}
 
-\subsection{Fejlesztett torony eladása}
+\subsection{7. Fejlesztett torony eladása}
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=17cm]{chapters/chapter05/images/cd_Fejlesztett_torony_eladasa.jpg}
@@ -470,7 +439,7 @@ Visszatéréskor egy visszafelé mutató nyilat ($\leftarrow$) és, hogy melyik 
 \end{center}
 \end{figure}
 
-\subsection{Inicializálás}
+\subsection{8. Inicializálás}
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=17cm]{chapters/chapter05/images/cd_Inicializalas.jpg}
@@ -479,7 +448,7 @@ Visszatéréskor egy visszafelé mutató nyilat ($\leftarrow$) és, hogy melyik 
 \end{center}
 \end{figure}
 
-\subsection{Torony elhelyezése foglalt mezőre}
+\subsection{9. Torony elhelyezése foglalt mezőre}
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=17cm]{chapters/chapter05/images/cd_Torony_elhelyezese_foglalt_mezore.jpg}
@@ -488,7 +457,7 @@ Visszatéréskor egy visszafelé mutató nyilat ($\leftarrow$) és, hogy melyik 
 \end{center}
 \end{figure}
 
-\subsection{Torony elhelyezése üres mezőre}
+\subsection{10. Torony elhelyezése üres mezőre}
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=17cm]{chapters/chapter05/images/cd_Torony_elhelyezese_ures_mezore.jpg}
@@ -497,7 +466,7 @@ Visszatéréskor egy visszafelé mutató nyilat ($\leftarrow$) és, hogy melyik 
 \end{center}
 \end{figure}
 
-\subsection{Torony fejlesztése minden gemből eggyel}
+\subsection{11. Torony fejlesztése minden gemből eggyel}
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=17cm]{chapters/chapter05/images/cd_Torony_fejlesztese_minden_gembol_eggyel.jpg}
@@ -506,7 +475,7 @@ Visszatéréskor egy visszafelé mutató nyilat ($\leftarrow$) és, hogy melyik 
 \end{center}
 \end{figure}
 
-\subsection{Torony hatókörében nincs ellenség tüzeléskor}
+\subsection{12. Torony hatókörében nincs ellenség tüzeléskor}
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=17cm]{chapters/chapter05/images/cd_Torony_hatokoreben_nincs_ellenseg_tuzeleskor.jpg}
@@ -515,7 +484,7 @@ Visszatéréskor egy visszafelé mutató nyilat ($\leftarrow$) és, hogy melyik 
 \end{center}
 \end{figure}
 
-\subsection{Torony lelő egy ellenséget fejlesztetlenül}
+\subsection{13. Torony lelő egy ellenséget fejlesztetlenül}
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=17cm]{chapters/chapter05/images/cd_Torony_lelo_egy_ellenseget_fejlesztetlenul.jpg}
@@ -524,7 +493,7 @@ Visszatéréskor egy visszafelé mutató nyilat ($\leftarrow$) és, hogy melyik 
 \end{center}
 \end{figure}
 
-\subsection{Torony tüzel egy ellenségre fejlesztetlenül}
+\subsection{14. Torony tüzel egy ellenségre fejlesztetlenül}
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=17cm]{chapters/chapter05/images/cd_Torony_tuzel_egy_ellensegre_fejlesztetlenul.jpg}
