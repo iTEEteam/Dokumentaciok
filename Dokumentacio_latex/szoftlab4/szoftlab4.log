@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.23)  23 MAR 2014 22:20
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.23)  24 MAR 2014 04:09
 entering extended mode
 **szoftlab4.tex
 
@@ -621,11 +621,7 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 48.
 Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 48.
 )
 (D:\SAJÁT\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\szoftlab
-4.aux
-
-LaTeX Warning: Label `fig:SzkeletonUseCase1' multiply defined.
-
-)
+4.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
@@ -717,103 +713,73 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 8.
 
-
-Package longtable Warning: Column widths have changed
-(longtable)                in table \relax 6.1 on input line 27.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
-File: lstlang1.sty 2014/03/04 1.5c listings language file
-)
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 33.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\t1pcr.fd"
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-)
-LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <9> not available
-(Font)              Font shape `T1/pcr/b/n' tried instead on input line 42.
-
-
-Package longtable Warning: Column widths have changed
-(longtable)                in table \relax 6.2 on input line 58.
-
-)
-(D:\SAJÁT\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters
-/chapter06/naplo06.tex
-Overfull \hbox (1.44955pt too wide) in paragraph at lines 15--15
-[]|\T1/ptm/m/n/10.95 2010.03.21. 18:00 | 
- []
-
-
-Overfull \hbox (1.44955pt too wide) in paragraph at lines 21--21
-[]|\T1/ptm/m/n/10.95 2010.03.23. 23:00 | 
- []
-
 [2
 
 
-]
+])
+(D:\SAJÁT\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters
+/chapter06/naplo06.tex
+Underfull \hbox (badness 1132) in paragraph at lines 15--15
+[]|\T1/ptm/m/n/10.95 Tesztel� prog-ram, tesz-te-se-tek imp-le-men-t�-
+ []
 
-Package longtable Warning: Column widths have changed
-(longtable)                in table \relax 6.3 on input line 30.
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+[]|\T1/ptm/m/n/10.95 2014.03.22.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
+[]|\T1/ptm/m/n/10.95 2014.03.22.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
+[]|\T1/ptm/m/n/10.95 2014.03.23.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
+[]|\T1/ptm/m/n/10.95 2014.03.23.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
+[]|\T1/ptm/m/n/10.95 2014.03.23.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+[]|\T1/ptm/m/n/10.95 2014.03.24.
+ []
 
 )
-
-Package longtable Warning: Table widths have changed. Rerun LaTeX.
-
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 83.
-[3]
+ [3]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 83.
 
 (D:\SAJÁT\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\szoftlab
 4.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 83.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 83.
-
-
-Package rerunfilecheck Warning: File `szoftlab4.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `szoftlab4.out':
-(rerunfilecheck)             Before: 0FB0A8EBB3CA8D547BFD1E99C77F46BE;10448
-(rerunfilecheck)             After:  BED0E552582650C3509C88573D72B2AE;1074.
-
-LaTeX Warning: There were multiply-defined labels.
-
+Package rerunfilecheck Info: File `szoftlab4.out' has not changed.
+(rerunfilecheck)             Checksum: 6F3D705F3CEF88669817B980CEE7823B;1062.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 83.
  ) 
 Here is how much of TeX's memory you used:
- 12546 strings out of 493921
- 178751 string characters out of 3144849
- 320601 words of memory out of 3000000
- 15695 multiletter control sequences out of 15000+200000
- 40439 words of font info for 50 fonts, out of 3000000 for 9000
+ 12081 strings out of 493921
+ 173528 string characters out of 3144849
+ 314377 words of memory out of 3000000
+ 15250 multiletter control sequences out of 15000+200000
+ 36027 words of font info for 43 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 42i,11n,48p,452b,1080s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{section*.4} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.3} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{table.5.28} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.2} has been referenced but does not exist,
- replaced by a fixed one
-
-pdfTeX warning (dest): name{table.5.14} has been referenced but does not exist,
- replaced by a fixed one
-
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrb8a.pfb><C:/Program Files (x8
-6)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x86)/MiKTeX
- 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
-type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/t
-imes/utmri8a.pfb>
-Output written on szoftlab4.pdf (3 pages, 84345 bytes).
+ 42i,11n,48p,326b,344s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x8
+6)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
+Output written on szoftlab4.pdf (3 pages, 45641 bytes).
 PDF statistics:
- 169 PDF objects out of 1000 (max. 8388607)
- 15 named destinations out of 1000 (max. 500000)
- 305 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 PDF objects out of 1000 (max. 8388607)
+ 8 named destinations out of 1000 (max. 500000)
+ 57 words of extra memory for PDF output out of 10000 (max. 10000000)
 

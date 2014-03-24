@@ -6,54 +6,274 @@
 \thispagestyle{fancy}
 
 \section{Fordítási és futtatási útmutató}
-\comment{A feltöltött program fordításával és futtatásával kapcsolatos útmutatás. Ennek tartalmaznia kell leltárszerűen az egyes fájlok pontos nevét, méretét byte-ban, keletkezési idejét, valamint azt, hogy a fájlban mi került megvalósításra.}
+%\comment{A feltöltött program fordításával és futtatásával kapcsolatos útmutatás. Ennek tartalmaznia kell leltárszerűen az egyes fájlok pontos nevét, méretét byte-ban, keletkezési idejét, valamint azt, hogy a fájlban mi került megvalósításra.}
 
 \subsection{Fájllista}
 
 \begin{fajllista}
 
 \fajl
-{Main.java} % Kezdet
-{250 byte} % Idptartam
-{2009.10.10~18:05~} % Résztvevők
-{...} % Leírás
+{Application.java}
+{454}
+{2014.03.11.}
+{Névvel megegyező osztály.}
 
 \fajl
-{...}
-{...}
-{...}
-{...}
+{Bullet.java}
+{1956}
+{2014.03.11.}
+{Névvel megegyező osztály.}
+
+\fajl
+{Cell.java}
+{642}
+{2014.03.11.}
+{Névvel megegyező osztály.}
+
+\fajl
+{Controller.java}
+{4503}
+{2014.03.11.}
+{Névvel megegyező osztály.}
+
+\fajl
+{DamageGem.java}
+{859}
+{2014.03.11.}
+{Névvel megegyező osztály.}
+
+\fajl
+{Dwarf.java}
+{589}
+{2014.03.11.}
+{Névvel megegyező osztály.}
+
+\fajl
+{Elf.java}
+{576}
+{2014.03.11.}
+{Névvel megegyező osztály.}
+
+\fajl
+{Enemy.java}
+{2013}
+{2014.03.11.}
+{Névvel megegyező osztály.}
+
+\fajl
+{EnemyTypeGem.java}
+{765}
+{2014.03.11.}
+{Névvel megegyező osztály.}
+
+\fajl
+{Field.java}
+{2026}
+{2014.03.11.}
+{Névvel megegyező osztály.}
+
+\fajl
+{Game.java}
+{2489}
+{2014.03.11.}
+{Névvel megegyező osztály.}
+
+\fajl
+{Gem.java}
+{412}
+{2014.03.11.}
+{Névvel megegyező osztály.}
+
+\fajl
+{Hobbit.java}
+{952}
+{2014.03.11.}
+{Névvel megegyező osztály.}
+
+\fajl
+{Human.java}
+{587}
+{2014.03.11.}
+{Névvel megegyező osztály.}
+
+\fajl
+{IFieldPlaceable.java}
+{300}
+{2014.03.11.}
+{Névvel megegyező osztály.}
+
+\fajl
+{IGame.java}
+{486}
+{2014.03.11.}
+{Névvel megegyező osztály.}
+
+\fajl
+{IntensityGem.java}
+{774}
+{2014.03.11.}
+{Névvel megegyező osztály.}
+
+\fajl
+{IObstacle.java}
+{382}
+{2014.03.11.}
+{Névvel megegyező osztály.}
+
+\fajl
+{IOGem.java}
+{260}
+{2014.03.11.}
+{Névvel megegyező osztály.}
+
+\fajl
+{IPathPlaceable.java}
+{303}
+{2014.03.11.}
+{Névvel megegyező osztály.}
+
+\fajl
+{ITGem.java}
+{278}
+{2014.03.11.}
+{Névvel megegyező osztály.}
+
+\fajl
+{ITower.java}
+{328}
+{2014.03.11.}
+{Névvel megegyező osztály.}
+
+\fajl
+{Map.java}
+{1108}
+{2014.03.11.}
+{Névvel megegyező osztály.}
+
+\fajl
+{Obstacle.java}
+{2398}
+{2014.03.11.}
+{Névvel megegyező osztály.}
+
+\fajl
+{Path.java}
+{4024}
+{2014.03.11.}
+{Névvel megegyező osztály.}
+
+\fajl
+{RangeGem.java}
+{825}
+{2014.03.11.}
+{Névvel megegyező osztály.}
+
+\fajl
+{RepairGem.java}
+{653}
+{2014.03.11.}
+{Névvel megegyező osztály.}
+
+\fajl
+{SkeletonTester.java}
+{10032}
+{2014.03.11.}
+{A szkeleton programot tesztelhetővé tevő program.}
+
+\fajl
+{SpeedGem.java}
+{711}
+{2014.03.11.}
+{Névvel megegyező osztály.}
+
+\fajl
+{Tower.java}
+{3984}
+{2014.03.11.}
+{Névvel megegyező osztály.}
+
+\fajl
+{SkeltonCompiler.bat}
+{119}
+{2014.03.23.}
+{Parancssoros fordítást végzi.}
+
+\fajl
+{SkeltonRun.bat}
+{97}
+{2014.03.23.}
+{Futtatja a lefordított szkeletont.}
 
 \end{fajllista}
 
 \subsection{Fordítás}
-\comment{A fenti listában szereplő forrásfájlokból milyen műveletekkel lehet a bináris, futtatható kódot előállítani. Az előállításhoz csak a 2. Követelmények c. dokumentumban leírt környezetet szabad előírni.}
+%\comment{A fenti listában szereplő forrásfájlokból milyen műveletekkel lehet a bináris, futtatható kódot előállítani. Az előállításhoz csak a 2. Követelmények c. dokumentumban leírt környezetet szabad előírni.}
 
-\lstset{escapeinside=`', xleftmargin=10pt, frame=single, basicstyle=\ttfamily\footnotesize, language=sh}
-\begin{lstlisting}
-javac -d bin *.java
-\end{lstlisting}
+%\%lstset{escapeinside=`', xleftmargin=10pt, frame=single, basicstyle=\ttfamily\footnotesize, language=sh}
+%\begin{lstlisting}
+%javac -d bin *.java
+%\end{lstlisting}
+
+A szkeleton fordítását legegyszerűbben a parancssorból tudjuk elvégezni. A parancssorból közvetlenül elérhetőnek kell lennie a javac.exe fordítóprogramnak. A fordítást követően létrehozásra kerülnek a lefordított .class kiterjesztésű fájlok.
+
+A fordítást egyszerűbb a program mellé mellékelt SkeletonComplier.bat fájl megnyitásával elvégezni.
 
 \subsection{Futtatás}
-\comment{A futtatható kód elindításával kapcsolatos teendők leírása. Az indításhoz csak a 2. Követelmények c. dokumentumban leírt környezetet szabad előírni.}
+%\comment{A futtatható kód elindításával kapcsolatos teendők leírása. Az indításhoz csak a 2. Követelmények c. dokumentumban leírt környezetet szabad előírni.}
 
-\lstset{escapeinside=`', xleftmargin=10pt, frame=single, basicstyle=\ttfamily\footnotesize, language=sh}
-\begin{lstlisting}
-cd bin
-java Main.java
-\end{lstlisting}
+%\lstset{escapeinside=`', xleftmargin=10pt, frame=single, basicstyle=\ttfamily\footnotesize, language=sh}
+%\begin{lstlisting}
+%cd bin
+%java Main.java
+%\end{lstlisting}
+
+
+A szkeleton futtatását a java.exe futtatóprogrammal lehet elvégezni. A parancssorból közvetlenül elérhetőnek kell lennie a java.exe fordítóprogramnak. 
+
+A futtatást egyszerűbb a program mellé mellékelt SkeletonRun.bat fájl megnyitásával elvégezni.
 
 \section{Értékelés}
-\comment{A projekt kezdete óta az értékelésig eltelt időben tagokra bontva, százalékban.}
+%\comment{A projekt kezdete óta az értékelésig eltelt időben tagokra bontva, százalékban.}
+\newenvironment{ertekelesplusz}
+{
+	\begin{center}
+	\begin{longtable}{| p{3cm} | r | r | p{6cm} |}
+	\hline
+	\multicolumn{1}{|p{3cm}|}{\textbf{Tag}} &
+	\multicolumn{1}{l|}{\textbf{Munkaóra}}&
+	\multicolumn{1}{l|}{\textbf{Munka százalékban}} &
+	\multicolumn{1}{r|}{\textbf{Aláírás}} \tabularnewline \hline \hline 
+	\endfirsthead
 
-\begin{ertekeles}
-\tag{Horváth} % Tag neve
-{23.5}        % Munka szazalekban
-\tag{Német}
-{24.5}
-\tag{Tóth}
-{25}
-\tag{Oláh}
-{27}
-\end{ertekeles}
+	\hline
+	\multicolumn{1}{|p{3cm}|}{\textbf{Tag}} &
+	\multicolumn{1}{l|}{\textbf{Munkaóra}}&
+	\multicolumn{1}{l|}{\textbf{Munka százalékban}} &
+	\multicolumn{1}{r|}{\textbf{Aláírás}} \tabularnewline \hline \hline 
+	\endhead
+
+}
+{
+	\end{longtable}
+	\end{center}
+}
+
+\begin{ertekelesplusz}
+\tag{Elekes} % Tag neve
+{24,45} %óra
+{22}        % Munka szazalekban
+\tag{Fuksz}
+{20}
+{22}
+\tag{Nagy}
+{11,3}
+{10}
+\tag{Rédes}
+{21,3}
+{23}
+\tag{Seres}
+{23}
+{23}
+
+\end{ertekelesplusz}
 
