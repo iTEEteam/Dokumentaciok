@@ -43,6 +43,8 @@ A Map osztály a játéktér elemeit, mint cellák tárolja, egy két dimenziós
 \subsection{Út (Path)}
 A Path a Cell osztály leszármazottja. Az út típusú cellákat reprezentálja. Tartalmazza a rajta lévő ellenségeket és esetleg akadályt. Minden út tudja azt is, hogy hova lehet lépni róla egy lépésben.
 
+\subsection{Vezérlő (Controller)}
+A felhasználó és a játék közötti kommunikációnak véghezvitele a felelőssége. Kristályok, tornyok, akadályok vásárlását lehet rajta keresztül megcsinálni. Ellenőriznie kell, hogy van-e a játékosnak elég varázsereje a tranzakcióhoz.
 \subsection{Obstaclehez tartozó kristályok: Intensity, Repair}
 Akadályra helyezhető kristályok, ami növeli a lassítás értékét vagy megjavítja az akadályt.
 
@@ -86,17 +88,17 @@ Nincs
 %\comment{Milyen attribútumai vannak}
 	\begin{description}
 		\item[int damage] alapsebzés
-		\item[Enemy enemyType] a torony itt tárolja, hogy melyik ellenség típusra erősebb a sebzése
+		\item[String enemyType] a torony itt tárolja, hogy melyik ellenség típusra erősebb a sebzése
 	\end{description}
 \item Metódusok\\
 %\comment{Milyen publikus metódusokkal rendelkezik. Metódusonként egy-három mondat arról, hogy a metódus mit csinál.}
 	\begin{description}
-		\item[Bullet(int damage, Enemy enemyType)] Konstruktor
+		\item[Bullet(int damage, String enemyType)] Konstruktor
 \item[int getHobbitDamage()] ha hobbitot sebez, ezzel a függvénnyel kérdezi le a sebzés értékét. 
 \item[int getHumanDamage()] ha embert sebez, ezzel a függvénnyel kérdezi le a sebzés értékét.
 \item[int getDwarfDamage()] ha törpöt sebez, ezzel a függvénnyel kérdezi le a sebzés értékét.
 \item[int getElfDamage()] ha tündét sebez, ezzel a függvénnyel kérdezi le a sebzés értékét
-\item[void setEnemy(Enemy e)] beállítja az ellenséget akire specializált
+\item[void setEnemy(String e)] beállítja az ellenséget akire specializált
 \item[void setDamage(int damage)] beállítja a lövedék sebzését
 
 	\end{description}
@@ -113,11 +115,13 @@ Object
 IPathPlaceable
 \item Attribútumok\\
 	\begin{description}
-		\item[int speed] A két lépés között eltelt idő.
+		\item[static final int speed] A két lépés között eltelt idő.
+\item[static final int maxHP]  
+\item[Path nextPath] A következő út címe
 \item[int modSpeed] Az ellenség belső idő mérője. A setModSpeed változtathatja – jellemzően negatív irányba, akadályokon.
-\item[int health] Életerejét tárolja ebben. Hurt függvényben csökkenti.
-\item[Path myPath] az a mező, ahol tartózkodik
-\item[IGame igame] ezen keresztül tudja módosítani a manát, amikor meghal, illetve ha elér a végzet hegyére módosítani a számlálót (Game.succeededE), hogy nőjön egyel
+\item[protected int health] Életerejét tárolja ebben. Hurt függvényben csökkenti.
+\item[protected Path myPath] az a mező, ahol tartózkodik
+\item[protected IGame igame] ezen keresztül tudja módosítani a manát, amikor meghal, illetve ha elér a végzet hegyére módosítani a számlálót (Game.succeededE), hogy nőjön egyel
 
 	\end{description}
 \item Metódusok\\
@@ -126,6 +130,7 @@ IPathPlaceable
 \item[move()] mozog, a következő path-ra lép, cellát vált
 \item[Enemy(int sp, int msp, int h, ig: IGame)] konstruktor
 \item[void setModSpeed(int msp)] modSpeed változót változtatja. Lassítani lehet vele.
+\item[void setHealth(int h)] beállítja a health értékét h-ra
 
 	\end{description}
 \end{itemize}
@@ -194,6 +199,37 @@ Az IGame interfész szolgáltatást nyújt az akadályoknak, tornyoknak, ellens�
 \item[void addTower(Tower t)] hozzáad egy tornyot a listához
 \item[void deleteEnemy(Enemy e)] ellenség törlése enemiesIn-ből
 \item[void deleteTower(Tower t)] torony törlése towers-ből
+\item[int getMana()] visszaadja a mana értékét
+
+
+\subsection{Controller}
+\begin{itemize}
+\item Felelősség\\
+A játékos interakcióit hajtja végre, vezérlést végzi.
+\item Ősosztályok\\
+Object
+\item Interfészek\\
+Nincs
+\item Attribútumok\\
+	\begin{description}
+		\item[IGame igame] Game-hez hozzáférést biztosít
+		\item[Field chosenField] itt tárolja a kiválasztott Fieldet
+		\item[Path chosenPath] a kiválasztott Path
+		\item[String chosenEnemy] a kiválasztott Enemy típus 
+	\end{description}
+\item Metódusok\\
+	\begin{description}
+		\item[void buyTower()]
+		\item[void buyObstacle()] a chosenPath-re létrehoz egy akadály (crt+register)
+		\item[void buySpeed/Intensity/Damage/EnemyTypeGem()] chosenField-en lévő tornyot fejleszti a függvény nevének megfelelő típusú kristállyal
+		\item[void buyIntensity/RepairGem()] a chosenPath-en lévő akadályt fejleszti a függvény nevének megfelelő kristállyal
+		\item[]
+		\item[void setField(Field f)] chosenField setje
+		\item[void setPath(Path p)] chosenPath setje
+		\item[void setEnemyType(String et)] chosenEnemy setje
+		
+	\end{description}
+\end{itemize
 
 		
 	\end{description}
@@ -209,7 +245,7 @@ Object
 Nincs
 \item Attribútumok\\
 	\begin{description}
-		\item[static int price] az ár, amennyi varázserőbe kerül.
+		\item[static final int price] az ár, amennyi varázserőbe kerül.
 	\end{description}
 \item Metódusok\\
 	\begin{description}
@@ -229,8 +265,8 @@ Nincs
 
 \item Metódusok\\
 	\begin{description}
-		\item[void slow(int intesity, Path p)] szól p-nek, hogy lassítsa le az ellenséget intensity-vel
-\item[void amortization()] amortizál
+		\item[void slow(Enemy e)] lelassítja e Enemy-t
+\item[void amortization()] amortizálja az akadályt
 \item[void increaseIntesity(int intens)] megnöveli az intesity-t intens-el
 \item[void addIOGem(IOGem: iog)] iog kristályt hozzáadja az akadályhoz
 \item[repair()] megjavítja az akadályt
@@ -261,7 +297,7 @@ IObsacle, IPathPlaceable
 \item Metódusok\\
 	\begin{description}
 		
-		\item[Obstacle(int intens, Path p, int amort, int price, bool up)] konstruktor
+		\item[Obstacle()] konstruktor
 		
 		
 	\end{description}
@@ -299,7 +335,6 @@ ITower, IFieldPlaceable
 \item[ArrayList<ITGem> gems] A megvásárolt kristályokat tárolja.
 \item[Field myField] a mezőt tárolja amin áll.
 \item[ArrayList<Path> paths] Hatósugárba eső út cellák.
-\item[Field myField] mező, amin áll.
 \item[IGame igame] Egy interfész a játék logikára, amivel a bejutott ellenségek számát, és a varázserőt is lehet állítani.
 
 	\end{description}
@@ -308,7 +343,7 @@ ITower, IFieldPlaceable
 		\item[Tower(int rang, int pr)] konstruktor
 \item[void upgradeSpeed(int sp)] fejleszti a lövési sebességét.
 \item[void upgradeRange(int rng)] fejleszti a lőtávot.
-\item[void upgradeEnemy(Enemy e)] egy ellenségtípusra növeli a sebzést.
+\item[void upgradeEnemy(String e)] egy ellenségtípusra növeli a sebzést.
 \item[void upgradeDamage(int dmg)] növeli s sebzést.
 
 		
@@ -334,8 +369,8 @@ Nincs
 \item Metódusok\\
 	\begin{description}
 		
-		\item[Map(string name)] az osztály konstruktora, a paraméterként megadott névvel rendelkező fájlból betölti a pálya térképét
-\item[void load(string name)] megnyitja a paraméterként kapott nevű fájlt, és abból betölti a pálya celláinak tulajdonságait, felépíti a pályát.
+		\item[Map(Map map)] az osztály konstruktora, a paraméterként megadott névvel rendelkező fájlból betölti a pálya térképét
+\item[void load(String name)] megnyitja a paraméterként kapott nevű fájlt, és abból betölti a pálya celláinak tulajdonságait, felépíti a pályát.
 \item[int getLevel()] visszaadja a pálya szintjét.
 \item[String getName()] visszaadja a pálya nevét
 \item[Path getFirstPath()] visszaadja a pálya belépési pontjának referenciáját
@@ -378,17 +413,19 @@ Nincs
 \item Attribútumok\\
 	\begin{description}
 		\item[ITower itower] a mezőn álló torony interfészű elem tárolása
+		\item[IGame igame] a Game interfésze, hogy elérje a Game-et
 
 		
 	\end{description}
 \item Metódusok\\
 	\begin{description}
 		
-		\item[bool isPath()] hamis értékkel tér vissza
+		\item[ITower getITower()] megadja a mezőn álló tronyot, ha nincs, nullt ad
+		\item[bool hasTower()] megmondja, hogy áll-e torony a mezőn
 		\item[void addIFieldPlaceable()] egy új tornyot ad hozzá a mezőhöz
 		\item[void deleteIFieldPlaceable(IFieldPlaceable ifield)] eltávolítja a tornyot a mezőről
 		\item[void registerITower(itower ITower)] beteszi ifieldbe a kapott tornyot
-		\item[Field()] konstruktor
+		\item[Field(IGame igame)] konstruktor
 		
 		
 	\end{description}
@@ -406,7 +443,7 @@ Object $\rightarrow$ Cell
 Nincs
 \item Attribútumok\\
 	\begin{description}
-		\item[IObstacle iobstacle] az esetleg az úton levő akadályt tárolja
+		\item[IObstacle myIObstacle] az esetleg az úton levő akadályt tárolja
 		\item[ArrayList<Enemy> enemies] az éppen áthaladó ellenségek listája
 		\item[ArrayList<Path> paths] következő path-ok címei
 
@@ -414,15 +451,17 @@ Nincs
 	\end{description}
 \item Metódusok\\
 	\begin{description}
-		\item[ArrayList<Enemy> hasEnemy()] visszaadja a rajta lévő ellenségek listáját
-		\item[bool isPath()] igaz értékkel tér vissza
-		\item[void deleteIPathPlaceable(IPathPlaceable ipath)] kitörli a tárolójából a paraméterként kapott referenciával megegyező tárolt referenciát
-		\item[void registerIPathPlaceable(IPathPlaceable ipath)] beregisztrálja a paraméterként kapott objektumot, mint saját magán tartózkodó ellenség
+		\item[Path()] Konstruktor
+		\item[bool deleteIObstacle()] kitörli a tárolójából az akadályt, ha van 
+		\item[void registerIPathPlaceable(IPathPlaceable ipath)] beregisztrálja a paraméterként kapott objektumot
 		\item[bool hasEnemy()] megmutatja, hogy van-e a cellán ellenség
+		\item[bool deleteEnemy(Enemy e)] törli a Path-en lévő e Enemy-t
 		\item[void registerEnemy(Enemy e)] a kapott ellenséget beteszi az enemies-be
 		\item[void registerObstacel(Obstacle o)] a o kapott akadály lesz az obstacle
 		\item[ArrayList<Enemy> getEnemies()] visszatér az enemies-el
 		\item[Path getNext()] paths-ből ad vissza egy elemet
+		\item[IObstacle getIObstacle()] visszaadja az akadályt, ha van, ha nincs nullt ad
+		\item[bool hasObstacle()] megmondja, hogy van-e akadály rajta
 		
 		
 	\end{description}
@@ -438,7 +477,7 @@ Object $\rightarrow$ Gem
 ITGem
 \item Attribútumok\\
 	\begin{description}
-		\item[int range/ speed/ damage/ eType] 
+		\item[int range/ speed/ damage, String eType] 
 		
 	\end{description}
 \item Metódusok\\
