@@ -23,9 +23,11 @@
 <XPD:OBJ name="OwnedElements[1]" type="UMLClass" guid="oQE0bnOSkka3rv8J7vSlWQAA">
 <XPD:ATTR name="Name" type="string">Tower</XPD:ATTR>
 <XPD:REF name="Namespace">sR2sRnmqw0CWs3alVUDiHwAA</XPD:REF>
-<XPD:ATTR name="#Instances" type="integer">2</XPD:ATTR>
+<XPD:ATTR name="#Instances" type="integer">4</XPD:ATTR>
 <XPD:REF name="Instances[0]">PN98/yVlLEauEACRFaDn/AAA</XPD:REF>
 <XPD:REF name="Instances[1]">h68E9GnjkEO3JVIdnKJfYwAA</XPD:REF>
+<XPD:REF name="Instances[2]">iF49nJ84jk67X0KFcAix/AAA</XPD:REF>
+<XPD:REF name="Instances[3]">zjZvZs6yhU2t94iAJutX5AAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedElements[2]" type="UMLClass" guid="6KFuwDKNtUm2zzZWT5xEOQAA">
 <XPD:ATTR name="Name" type="string">Path</XPD:ATTR>
@@ -756,11 +758,11 @@ getDamageHobbit()
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:OBJ name="InteractionInstanceSets[1]" type="UMLInteractionInstanceSet" guid="oD8ViNpd00+uwQ01RGQDTgAA">
-<XPD:ATTR name="Name" type="string">sd Torony lelő egy ellenséget</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">sd Torony kettévág egy ellenséget</XPD:ATTR>
 <XPD:REF name="Context">Dx1vVTrsVkiuOWFTOf1AIQAA</XPD:REF>
 <XPD:ATTR name="#OwnedDiagrams" type="integer">1</XPD:ATTR>
 <XPD:OBJ name="OwnedDiagrams[0]" type="UMLSequenceDiagram" guid="pQmU4m8lKkCJ/CdtreoRZQAA">
-<XPD:ATTR name="Name" type="string">sd Torony lelő egy ellenséget</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">sd Torony kettévág egy ellenséget</XPD:ATTR>
 <XPD:ATTR name="ShowSequenceNumber" type="boolean">False</XPD:ATTR>
 <XPD:ATTR name="MessageSignature" type="UMLMessageSignatureKind">mskNameAndType</XPD:ATTR>
 <XPD:REF name="DiagramOwner">oD8ViNpd00+uwQ01RGQDTgAA</XPD:REF>
@@ -774,7 +776,7 @@ getDamageHobbit()
 <XPD:ATTR name="Height" type="integer">617</XPD:ATTR>
 <XPD:REF name="Model">oeELw9W/JEO+3kfJuGgc7wAA</XPD:REF>
 <XPD:OBJ name="NameLabel" type="LabelView" guid="DOcYYonPeUqa15P32F+bYQAA">
-<XPD:ATTR name="Text" type="string">Torony lelő egy ellenséget</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">Torony kettévág egy ellenséget</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="FrameTypeLabel" type="LabelView" guid="nRYlsy72e0OLGLm5ebl2pgAA">
 <XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
@@ -1686,7 +1688,7 @@ osztálynak.
 <XPD:REF name="InteractionInstanceSet">oD8ViNpd00+uwQ01RGQDTgAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedFrames[1]" type="UMLFrame" guid="oeELw9W/JEO+3kfJuGgc7wAA">
-<XPD:ATTR name="Name" type="string">Torony lelő egy ellenséget</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">Torony kettévág egy ellenséget</XPD:ATTR>
 <XPD:ATTR name="FrameKind" type="string">sd</XPD:ATTR>
 <XPD:REF name="InteractionInstanceSet">oD8ViNpd00+uwQ01RGQDTgAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">1</XPD:ATTR>
@@ -5914,24 +5916,24 @@ getDamageHobbit()
 <XPD:REF name="RepresentedClassifier">sR2sRnmqw0CWs3alVUDiHwAA</XPD:REF>
 <XPD:ATTR name="#InteractionInstanceSets" type="integer">1</XPD:ATTR>
 <XPD:OBJ name="InteractionInstanceSets[0]" type="UMLInteractionInstanceSet" guid="IV5ri3iDG0ibbQRbhzi1UAAA">
-<XPD:ATTR name="Name" type="string">InteractionInstanceSet1</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">sd Játék menete</XPD:ATTR>
 <XPD:REF name="Context">gSEUy1Ucl0ik8IjMIwnlRgAA</XPD:REF>
 <XPD:ATTR name="#OwnedDiagrams" type="integer">1</XPD:ATTR>
 <XPD:OBJ name="OwnedDiagrams[0]" type="UMLSequenceDiagram" guid="390ob9uo9Uq+TkzES76z1wAA">
-<XPD:ATTR name="Name" type="string">Játék menete</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">sd Játék menete</XPD:ATTR>
 <XPD:ATTR name="ShowSequenceNumber" type="boolean">False</XPD:ATTR>
 <XPD:ATTR name="MessageSignature" type="UMLMessageSignatureKind">mskNameAndType</XPD:ATTR>
 <XPD:REF name="DiagramOwner">IV5ri3iDG0ibbQRbhzi1UAAA</XPD:REF>
 <XPD:OBJ name="DiagramView" type="UMLSequenceDiagramView" guid="qKK88A4X+kukprl0VbzVyAAA">
 <XPD:REF name="Diagram">390ob9uo9Uq+TkzES76z1wAA</XPD:REF>
-<XPD:ATTR name="#OwnedViews" type="integer">24</XPD:ATTR>
+<XPD:ATTR name="#OwnedViews" type="integer">34</XPD:ATTR>
 <XPD:OBJ name="OwnedViews[0]" type="UMLFrameView" guid="ls3tBmY/u0SfMhdl9lcwvgAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="Left" type="integer">12</XPD:ATTR>
 <XPD:ATTR name="Top" type="integer">8</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">585</XPD:ATTR>
-<XPD:ATTR name="Height" type="integer">873</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">1133</XPD:ATTR>
 <XPD:REF name="Model">xJ3wJhYrwk2Mt5X+5K4xBQAA</XPD:REF>
 <XPD:OBJ name="NameLabel" type="LabelView" guid="c7v4OHOKFkOEdaMnAiKrmgAA">
 <XPD:ATTR name="Text" type="string">Játék menete</XPD:ATTR>
@@ -5947,10 +5949,10 @@ getDamageHobbit()
 <XPD:ATTR name="Left" type="integer">24</XPD:ATTR>
 <XPD:ATTR name="Top" type="integer">76</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">553</XPD:ATTR>
-<XPD:ATTR name="Height" type="integer">757</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">1045</XPD:ATTR>
 <XPD:REF name="Model">rmljzk6YjUeLIkvIVGEkRQAA</XPD:REF>
 <XPD:OBJ name="NameLabel" type="LabelView" guid="o9wR5TfafUWfLAVARWXGZwAA">
-<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">Főciklus</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="FrameTypeLabel" type="LabelView" guid="U4PBpg82AEORsHSKXPCsDwAA">
 <XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
@@ -5963,7 +5965,7 @@ getDamageHobbit()
 <XPD:ATTR name="Left" type="integer">24</XPD:ATTR>
 <XPD:ATTR name="Top" type="integer">96</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">553</XPD:ATTR>
-<XPD:ATTR name="Height" type="integer">737</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">1025</XPD:ATTR>
 <XPD:REF name="Model">M6eK05rOvkebC8ATbogDpwAA</XPD:REF>
 <XPD:REF name="ContainerView">svpBy5UMGUmzqKgVRlg9TAAA</XPD:REF>
 <XPD:OBJ name="GuardLabel" type="LabelView" guid="BgfWTzpHckOdIFx/C12d8AAA">
@@ -5980,25 +5982,11 @@ getDamageHobbit()
 <XPD:REF name="Model">h2HCWlhPW0eYBy6PxspUpgAA</XPD:REF>
 <XPD:REF name="ContainerView">M/KC2afv5UeenPJP1tI5DwAA</XPD:REF>
 <XPD:OBJ name="NameLabel" type="LabelView" guid="oiVgFw8kQ0OJCG9ckyJSpQAA">
-<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">Új ellenségek elhelyezése</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="FrameTypeLabel" type="LabelView" guid="LjNwJTgvw0e9jmDu1EhJqAAA">
 <XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
 <XPD:ATTR name="Text" type="string">opt</XPD:ATTR>
-</XPD:OBJ>
-<XPD:ATTR name="#ContainedViews" type="integer">1</XPD:ATTR>
-<XPD:OBJ name="ContainedViews[0]" type="UMLInteractionOperandView" guid="nZL+hckNfUGGIX/jglAcDwAA">
-<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
-<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Left" type="integer">36</XPD:ATTR>
-<XPD:ATTR name="Top" type="integer">240</XPD:ATTR>
-<XPD:ATTR name="Width" type="integer">521</XPD:ATTR>
-<XPD:ATTR name="Height" type="integer">233</XPD:ATTR>
-<XPD:REF name="Model">m56MRUwjpUemeArmB+4UfwAA</XPD:REF>
-<XPD:REF name="ContainerView">uHqaOdguhUSjZQFrL4U8gQAA</XPD:REF>
-<XPD:OBJ name="GuardLabel" type="LabelView" guid="YQz5J/xoy0OHnKp16YIYbQAA">
-<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
-</XPD:OBJ>
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:OBJ name="ContainedViews[1]" type="UMLCombinedFragmentView" guid="xNbTQ4LKbk6gVfnUo0kUKwAA">
@@ -6011,25 +5999,11 @@ getDamageHobbit()
 <XPD:REF name="Model">kf04jHIRjkWWfQDaONBagAAA</XPD:REF>
 <XPD:REF name="ContainerView">M/KC2afv5UeenPJP1tI5DwAA</XPD:REF>
 <XPD:OBJ name="NameLabel" type="LabelView" guid="LK+z6PVCKkqwPUw/z1Kl3gAA">
-<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">Bejutásra váró ellenségek behelyezése</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="FrameTypeLabel" type="LabelView" guid="Z08Y4eNWhUCpoczleVcQTQAA">
 <XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
 <XPD:ATTR name="Text" type="string">opt</XPD:ATTR>
-</XPD:OBJ>
-<XPD:ATTR name="#ContainedViews" type="integer">1</XPD:ATTR>
-<XPD:OBJ name="ContainedViews[0]" type="UMLInteractionOperandView" guid="YrsrWTP9qE2ZxjzK2N/A7AAA">
-<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
-<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Left" type="integer">36</XPD:ATTR>
-<XPD:ATTR name="Top" type="integer">496</XPD:ATTR>
-<XPD:ATTR name="Width" type="integer">520</XPD:ATTR>
-<XPD:ATTR name="Height" type="integer">105</XPD:ATTR>
-<XPD:REF name="Model">hB/bZQxm+E+AnSbmU8eLNwAA</XPD:REF>
-<XPD:REF name="ContainerView">xNbTQ4LKbk6gVfnUo0kUKwAA</XPD:REF>
-<XPD:OBJ name="GuardLabel" type="LabelView" guid="vj6dSUnj/0eTPsDJyNHb2AAA">
-<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
-</XPD:OBJ>
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:OBJ name="ContainedViews[2]" type="UMLCombinedFragmentView" guid="lo5O+ig0a0OcWLeso13+yQAA">
@@ -6042,25 +6016,11 @@ getDamageHobbit()
 <XPD:REF name="Model">ULeevUO4/UWM14uoAt5gYQAA</XPD:REF>
 <XPD:REF name="ContainerView">M/KC2afv5UeenPJP1tI5DwAA</XPD:REF>
 <XPD:OBJ name="NameLabel" type="LabelView" guid="pdUQYtenQ0itYwb3XDMFbgAA">
-<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">Ellenségek mozgatása</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="FrameTypeLabel" type="LabelView" guid="LCUzDgctuEiZ3QGx54OtDgAA">
 <XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
 <XPD:ATTR name="Text" type="string">loop</XPD:ATTR>
-</XPD:OBJ>
-<XPD:ATTR name="#ContainedViews" type="integer">1</XPD:ATTR>
-<XPD:OBJ name="ContainedViews[0]" type="UMLInteractionOperandView" guid="NPvPL+0Fzk+MMS51Mi9hIAAA">
-<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
-<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Left" type="integer">36</XPD:ATTR>
-<XPD:ATTR name="Top" type="integer">628</XPD:ATTR>
-<XPD:ATTR name="Width" type="integer">520</XPD:ATTR>
-<XPD:ATTR name="Height" type="integer">81</XPD:ATTR>
-<XPD:REF name="Model">hHIm3C9nYE2tHFLKYtia8QAA</XPD:REF>
-<XPD:REF name="ContainerView">lo5O+ig0a0OcWLeso13+yQAA</XPD:REF>
-<XPD:OBJ name="GuardLabel" type="LabelView" guid="vNgol1z56kKqNo457X9nigAA">
-<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
-</XPD:OBJ>
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:OBJ name="ContainedViews[3]" type="UMLCombinedFragmentView" guid="X7OF+o5LWU6FLHlPYTJGzgAA">
@@ -6073,25 +6033,11 @@ getDamageHobbit()
 <XPD:REF name="Model">2dvp0EK3EUuUD2HhlOb91AAA</XPD:REF>
 <XPD:REF name="ContainerView">M/KC2afv5UeenPJP1tI5DwAA</XPD:REF>
 <XPD:OBJ name="NameLabel" type="LabelView" guid="CAzoprw6C0SxF6j1+7VtEAAA">
-<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">Tornyok lövése</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="FrameTypeLabel" type="LabelView" guid="Bbs2Q0iO7k+j6ovd4qPUKAAA">
 <XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
 <XPD:ATTR name="Text" type="string">loop</XPD:ATTR>
-</XPD:OBJ>
-<XPD:ATTR name="#ContainedViews" type="integer">1</XPD:ATTR>
-<XPD:OBJ name="ContainedViews[0]" type="UMLInteractionOperandView" guid="iiwTf1vFWUmzhF0Rq9XfxgAA">
-<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
-<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Left" type="integer">36</XPD:ATTR>
-<XPD:ATTR name="Top" type="integer">736</XPD:ATTR>
-<XPD:ATTR name="Width" type="integer">521</XPD:ATTR>
-<XPD:ATTR name="Height" type="integer">81</XPD:ATTR>
-<XPD:REF name="Model">hka6HfxhpkmTkCktNb8aagAA</XPD:REF>
-<XPD:REF name="ContainerView">X7OF+o5LWU6FLHlPYTJGzgAA</XPD:REF>
-<XPD:OBJ name="GuardLabel" type="LabelView" guid="J/1cdyq+V0aQNEo9iFhSlwAA">
-<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
-</XPD:OBJ>
 </XPD:OBJ>
 </XPD:OBJ>
 </XPD:OBJ>
@@ -6126,13 +6072,77 @@ getDamageHobbit()
 </XPD:OBJ>
 </XPD:OBJ>
 </XPD:OBJ>
-<XPD:OBJ name="OwnedViews[3]" type="UMLSeqObjectView" guid="61DI1dsqTUSlJxBw+88mPwAA">
+<XPD:OBJ name="OwnedViews[3]" type="UMLCombinedFragmentView" guid="u67Sg8aTJEW0fD1jgnWWxgAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">36</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">820</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">521</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">133</XPD:ATTR>
+<XPD:REF name="Model">1N+JUsvPb0Kb4NyP2j/33wAA</XPD:REF>
+<XPD:OBJ name="NameLabel" type="LabelView" guid="HCm0OGJx70WCSnHGtlGN8gAA">
+<XPD:ATTR name="Text" type="string">Köd elhelyezése</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="FrameTypeLabel" type="LabelView" guid="lTvdMeJ1NU6clf7ozt+RdgAA">
+<XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">opt</XPD:ATTR>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[4]" type="UMLCombinedFragmentView" guid="zYYeyPHBrE+j7Bq+79BctAAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">48</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">848</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">501</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">97</XPD:ATTR>
+<XPD:REF name="Model">a96y+LGxbki2L5yDOcxZoQAA</XPD:REF>
+<XPD:OBJ name="NameLabel" type="LabelView" guid="EEfU22KJQkCODCTBgoumawAA">
+<XPD:ATTR name="Text" type="string">Tornyok bejárása</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="FrameTypeLabel" type="LabelView" guid="AFffsLJcp02LEK2HeNkToQAA">
+<XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">loop</XPD:ATTR>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[5]" type="UMLCombinedFragmentView" guid="9RsqNHuEjE66+lqVCdCfeQAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">36</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">956</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">521</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">133</XPD:ATTR>
+<XPD:REF name="Model">cZYAk/LWiUSLlXq4Pojl4QAA</XPD:REF>
+<XPD:OBJ name="NameLabel" type="LabelView" guid="LcK9x+JCqkexKz7Ss5PkYwAA">
+<XPD:ATTR name="Text" type="string">Köd eltisztítása</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="FrameTypeLabel" type="LabelView" guid="/wT7fFrbT0uasu/rspRIXQAA">
+<XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">opt</XPD:ATTR>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[6]" type="UMLCombinedFragmentView" guid="X3kRzjEOckKzkSq+EEQfTQAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">48</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">980</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">501</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">101</XPD:ATTR>
+<XPD:REF name="Model">+e/SQ6rK6Uu6f8gMVWdUQAAA</XPD:REF>
+<XPD:OBJ name="NameLabel" type="LabelView" guid="xVEKV4AR8EmNyC9WrKKe6QAA">
+<XPD:ATTR name="Text" type="string">Tornyok bejárása</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="FrameTypeLabel" type="LabelView" guid="7MnE1sAatEuZth6Bs0OCigAA">
+<XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">loop</XPD:ATTR>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[7]" type="UMLSeqObjectView" guid="61DI1dsqTUSlJxBw+88mPwAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="Left" type="integer">236</XPD:ATTR>
 <XPD:ATTR name="Top" type="integer">28</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">73</XPD:ATTR>
-<XPD:ATTR name="Height" type="integer">845</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">1101</XPD:ATTR>
 <XPD:REF name="Model">e+RCARw/okO884yZTCR3iQAA</XPD:REF>
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="NxvUectww0Cp/yrJWVcFdAAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="xlkQFj4nYESPb8c/Elmi7wAA">
@@ -6150,7 +6160,7 @@ getDamageHobbit()
 <XPD:REF name="Model">e+RCARw/okO884yZTCR3iQAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
-<XPD:OBJ name="OwnedViews[4]" type="UMLSeqObjectView" guid="vXlpnwZ2TEm5aqelfHLVnwAA">
+<XPD:OBJ name="OwnedViews[8]" type="UMLSeqObjectView" guid="vXlpnwZ2TEm5aqelfHLVnwAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="Left" type="integer">348</XPD:ATTR>
@@ -6174,7 +6184,7 @@ getDamageHobbit()
 <XPD:REF name="Model">81GvxZAkHE6GsO3hLhmwyQAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
-<XPD:OBJ name="OwnedViews[5]" type="UMLSeqObjectView" guid="wtsES3N1hUifvzGdWYlocwAA">
+<XPD:OBJ name="OwnedViews[9]" type="UMLSeqObjectView" guid="wtsES3N1hUifvzGdWYlocwAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="Left" type="integer">456</XPD:ATTR>
@@ -6198,7 +6208,7 @@ getDamageHobbit()
 <XPD:REF name="Model">KPoXtbl97keLtAfxGhqSpQAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
-<XPD:OBJ name="OwnedViews[6]" type="UMLSeqObjectView" guid="jRhRH5Hxt024Ckov3Ap1dQAA">
+<XPD:OBJ name="OwnedViews[10]" type="UMLSeqObjectView" guid="jRhRH5Hxt024Ckov3Ap1dQAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="Left" type="integer">456</XPD:ATTR>
@@ -6222,7 +6232,7 @@ getDamageHobbit()
 <XPD:REF name="Model">9prJlNk0iU+P3JgrymbEbAAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
-<XPD:OBJ name="OwnedViews[7]" type="UMLSeqObjectView" guid="xoHezIPlLk66D6VM85WLIgAA">
+<XPD:OBJ name="OwnedViews[11]" type="UMLSeqObjectView" guid="xoHezIPlLk66D6VM85WLIgAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="Left" type="integer">456</XPD:ATTR>
@@ -6246,13 +6256,13 @@ getDamageHobbit()
 <XPD:REF name="Model">h68E9GnjkEO3JVIdnKJfYwAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
-<XPD:OBJ name="OwnedViews[8]" type="UMLSeqObjectView" guid="Jna0M7KeMEWIlSdHi0V+hAAA">
+<XPD:OBJ name="OwnedViews[12]" type="UMLSeqObjectView" guid="Jna0M7KeMEWIlSdHi0V+hAAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="Left" type="integer">56</XPD:ATTR>
 <XPD:ATTR name="Top" type="integer">32</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">123</XPD:ATTR>
-<XPD:ATTR name="Height" type="integer">841</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">1097</XPD:ATTR>
 <XPD:REF name="Model">l09yEUW6AEybyeG4QyzMngAA</XPD:REF>
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="a5sdM1/V0UK66h9z+ERE1wAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="Tb5JhFM1EU6McLKN2B7mNgAA">
@@ -6270,7 +6280,55 @@ getDamageHobbit()
 <XPD:REF name="Model">l09yEUW6AEybyeG4QyzMngAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
-<XPD:OBJ name="OwnedViews[9]" type="UMLNoteView" guid="OpiselvEo0ylFDj3ThMowAAA">
+<XPD:OBJ name="OwnedViews[13]" type="UMLSeqObjectView" guid="1nrxwpfjqkKqiHgaNeqN8QAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">456</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">852</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">78</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">90</XPD:ATTR>
+<XPD:REF name="Model">iF49nJ84jk67X0KFcAix/AAA</XPD:REF>
+<XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="9Z/P9s0slUONtZtADDK97QAA">
+<XPD:OBJ name="NameLabel" type="LabelView" guid="GzMwLRyik06IUDn1TEN5PgAA">
+<XPD:ATTR name="FontStyle" type="integer">4</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">tower : Tower</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="StereotypeLabel" type="LabelView" guid="mbcIPQRJc0yAl2OqI2UzBQAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="PropertyLabel" type="LabelView" guid="v5G/Kut4yEmBeghiIh8+yAAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="LifeLine" type="UMLLifeLineView" guid="d3c4k3NwgU6K1QoOrcugxAAA">
+<XPD:REF name="Model">iF49nJ84jk67X0KFcAix/AAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[14]" type="UMLSeqObjectView" guid="ZPMVfAiMZkWpSYMRJ4vnDgAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">456</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">984</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">78</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">90</XPD:ATTR>
+<XPD:REF name="Model">zjZvZs6yhU2t94iAJutX5AAA</XPD:REF>
+<XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="PYobbGoflku1XwXhffK5tQAA">
+<XPD:OBJ name="NameLabel" type="LabelView" guid="LUUfITaCbUmEg/C+IVCP1QAA">
+<XPD:ATTR name="FontStyle" type="integer">4</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">tower : Tower</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="StereotypeLabel" type="LabelView" guid="4HFkytXvNEeGyCvvWes6CwAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="PropertyLabel" type="LabelView" guid="EjOsvLYwjUC7OqJvZfajlwAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="LifeLine" type="UMLLifeLineView" guid="2bOaBB3EcUOP2gRF97jEkwAA">
+<XPD:REF name="Model">zjZvZs6yhU2t94iAJutX5AAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[15]" type="UMLNoteView" guid="OpiselvEo0ylFDj3ThMowAAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="Left" type="integer">32</XPD:ATTR>
@@ -6283,7 +6341,7 @@ lefutás után vár egy kevés
 időt (sleep()).
 </XPD:ATTR>
 </XPD:OBJ>
-<XPD:OBJ name="OwnedViews[10]" type="UMLSeqStimulusView" guid="jwjxqGT/ekaWPbORGaC+4gAA">
+<XPD:OBJ name="OwnedViews[16]" type="UMLSeqStimulusView" guid="jwjxqGT/ekaWPbORGaC+4gAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="LineStyle" type="LineStyleKind">lsRectilinear</XPD:ATTR>
@@ -6316,10 +6374,10 @@ időt (sleep()).
 <XPD:ATTR name="Left" type="integer">265</XPD:ATTR>
 <XPD:ATTR name="Top" type="integer">96</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">14</XPD:ATTR>
-<XPD:ATTR name="Height" type="integer">761</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">1013</XPD:ATTR>
 </XPD:OBJ>
 </XPD:OBJ>
-<XPD:OBJ name="OwnedViews[11]" type="UMLTextView" guid="R6sv1s6YWkOnKyKbwSsjkgAA">
+<XPD:OBJ name="OwnedViews[17]" type="UMLTextView" guid="R6sv1s6YWkOnKyKbwSsjkgAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="Left" type="integer">40</XPD:ATTR>
@@ -6330,7 +6388,7 @@ időt (sleep()).
 enemiesOut == 0]
 </XPD:ATTR>
 </XPD:OBJ>
-<XPD:OBJ name="OwnedViews[12]" type="UMLNoteView" guid="p8N9b4w7Ak+W4bjMQ1z8PgAA">
+<XPD:OBJ name="OwnedViews[18]" type="UMLNoteView" guid="p8N9b4w7Ak+W4bjMQ1z8PgAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="Left" type="integer">40</XPD:ATTR>
@@ -6343,7 +6401,7 @@ minden bejutott ellenség
 meghalt
 </XPD:ATTR>
 </XPD:OBJ>
-<XPD:OBJ name="OwnedViews[13]" type="UMLSeqStimulusView" guid="/g3KN03kSkOagCtndHmHhwAA">
+<XPD:OBJ name="OwnedViews[19]" type="UMLSeqStimulusView" guid="/g3KN03kSkOagCtndHmHhwAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="LineStyle" type="LineStyleKind">lsRectilinear</XPD:ATTR>
@@ -6379,7 +6437,7 @@ meghalt
 <XPD:ATTR name="Height" type="integer">203</XPD:ATTR>
 </XPD:OBJ>
 </XPD:OBJ>
-<XPD:OBJ name="OwnedViews[14]" type="UMLSeqStimulusView" guid="Jy9ecgBPJUWwmCX7/SuutwAA">
+<XPD:OBJ name="OwnedViews[20]" type="UMLSeqStimulusView" guid="Jy9ecgBPJUWwmCX7/SuutwAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="LineStyle" type="LineStyleKind">lsRectilinear</XPD:ATTR>
@@ -6415,7 +6473,7 @@ meghalt
 <XPD:ATTR name="Height" type="integer">29</XPD:ATTR>
 </XPD:OBJ>
 </XPD:OBJ>
-<XPD:OBJ name="OwnedViews[15]" type="UMLNoteView" guid="d+SrSEoi0kqMU0khkqpgGgAA">
+<XPD:OBJ name="OwnedViews[21]" type="UMLNoteView" guid="d+SrSEoi0kqMU0khkqpgGgAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="Left" type="integer">404</XPD:ATTR>
@@ -6430,7 +6488,7 @@ enemiesOut-ban
 tárol
 </XPD:ATTR>
 </XPD:OBJ>
-<XPD:OBJ name="OwnedViews[16]" type="UMLTextView" guid="zYA7abFPakmYtYDSALRZ9AAA">
+<XPD:OBJ name="OwnedViews[22]" type="UMLTextView" guid="zYA7abFPakmYtYDSALRZ9AAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="Left" type="integer">40</XPD:ATTR>
@@ -6440,7 +6498,7 @@ tárol
 <XPD:ATTR name="Text" type="string">[enemiesOut != 0]
 </XPD:ATTR>
 </XPD:OBJ>
-<XPD:OBJ name="OwnedViews[17]" type="UMLNoteView" guid="W2vpx8CqHUaN+6Pzsuf6MwAA">
+<XPD:OBJ name="OwnedViews[23]" type="UMLNoteView" guid="W2vpx8CqHUaN+6Pzsuf6MwAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="Left" type="integer">44</XPD:ATTR>
@@ -6451,7 +6509,7 @@ tárol
 ellenségek a pályára bejutásra.
 </XPD:ATTR>
 </XPD:OBJ>
-<XPD:OBJ name="OwnedViews[18]" type="UMLSeqStimulusView" guid="uddya+c7OEuJ8raZb2dDkgAA">
+<XPD:OBJ name="OwnedViews[24]" type="UMLSeqStimulusView" guid="uddya+c7OEuJ8raZb2dDkgAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="LineStyle" type="LineStyleKind">lsRectilinear</XPD:ATTR>
@@ -6487,7 +6545,7 @@ ellenségek a pályára bejutásra.
 <XPD:ATTR name="Height" type="integer">29</XPD:ATTR>
 </XPD:OBJ>
 </XPD:OBJ>
-<XPD:OBJ name="OwnedViews[19]" type="UMLNoteView" guid="0iisp264j0SCmDZm+15+uAAA">
+<XPD:OBJ name="OwnedViews[25]" type="UMLNoteView" guid="0iisp264j0SCmDZm+15+uAAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="Left" type="integer">292</XPD:ATTR>
@@ -6499,7 +6557,7 @@ enemiesOut lista tetejéről veszi le,
 és átrakja az enemiesInbe.
 </XPD:ATTR>
 </XPD:OBJ>
-<XPD:OBJ name="OwnedViews[20]" type="UMLTextView" guid="1BzUYPD8bEqRMi2F4g3wgwAA">
+<XPD:OBJ name="OwnedViews[26]" type="UMLTextView" guid="1BzUYPD8bEqRMi2F4g3wgwAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="Left" type="integer">40</XPD:ATTR>
@@ -6509,7 +6567,7 @@ enemiesOut lista tetejéről veszi le,
 <XPD:ATTR name="Text" type="string">[Az enemiesIn lista minden elemére]
 </XPD:ATTR>
 </XPD:OBJ>
-<XPD:OBJ name="OwnedViews[21]" type="UMLSeqStimulusView" guid="b4Y14aw5GEqBF0DCN3wE2QAA">
+<XPD:OBJ name="OwnedViews[27]" type="UMLSeqStimulusView" guid="b4Y14aw5GEqBF0DCN3wE2QAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="LineStyle" type="LineStyleKind">lsRectilinear</XPD:ATTR>
@@ -6545,7 +6603,7 @@ enemiesOut lista tetejéről veszi le,
 <XPD:ATTR name="Height" type="integer">29</XPD:ATTR>
 </XPD:OBJ>
 </XPD:OBJ>
-<XPD:OBJ name="OwnedViews[22]" type="UMLSeqStimulusView" guid="xaOTIiaEP02rB9Chqyb8oAAA">
+<XPD:OBJ name="OwnedViews[28]" type="UMLSeqStimulusView" guid="xaOTIiaEP02rB9Chqyb8oAAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="LineStyle" type="LineStyleKind">lsRectilinear</XPD:ATTR>
@@ -6581,7 +6639,7 @@ enemiesOut lista tetejéről veszi le,
 <XPD:ATTR name="Height" type="integer">29</XPD:ATTR>
 </XPD:OBJ>
 </XPD:OBJ>
-<XPD:OBJ name="OwnedViews[23]" type="UMLTextView" guid="FtmcJ/qBV0mVq54qoJKrpgAA">
+<XPD:OBJ name="OwnedViews[29]" type="UMLTextView" guid="FtmcJ/qBV0mVq54qoJKrpgAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="Left" type="integer">40</XPD:ATTR>
@@ -6591,9 +6649,101 @@ enemiesOut lista tetejéről veszi le,
 <XPD:ATTR name="Text" type="string">[A towers lista minden elemére]
 </XPD:ATTR>
 </XPD:OBJ>
+<XPD:OBJ name="OwnedViews[30]" type="UMLSeqStimulusView" guid="/bC1dd5ybU23XPWI+kJ4dQAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="LineStyle" type="LineStyleKind">lsRectilinear</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">278,900;488,900</XPD:ATTR>
+<XPD:REF name="Model">IUiUIlOIPke4jhwRviW6+gAA</XPD:REF>
+<XPD:REF name="Head">d3c4k3NwgU6K1QoOrcugxAAA</XPD:REF>
+<XPD:REF name="Tail">lu31cEMepUeA3qhny/oXSQAA</XPD:REF>
+<XPD:OBJ name="NameLabel" type="EdgeLabelView" guid="Qlezhi4wjUOArBWY4CIi6AAA">
+<XPD:ATTR name="Alpha" type="real">1.5707963267949</XPD:ATTR>
+<XPD:ATTR name="Distance" type="real">10</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">1.5: haze()</XPD:ATTR>
+<XPD:REF name="Model">IUiUIlOIPke4jhwRviW6+gAA</XPD:REF>
+<XPD:REF name="HostEdge">/bC1dd5ybU23XPWI+kJ4dQAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="StereotypeLabel" type="EdgeLabelView" guid="EdxnP5geD02RYchtwC+z5gAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:ATTR name="Alpha" type="real">1.5707963267949</XPD:ATTR>
+<XPD:ATTR name="Distance" type="real">25</XPD:ATTR>
+<XPD:REF name="Model">IUiUIlOIPke4jhwRviW6+gAA</XPD:REF>
+<XPD:REF name="HostEdge">/bC1dd5ybU23XPWI+kJ4dQAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="PropertyLabel" type="EdgeLabelView" guid="GPHi9UaA+UKP5FnjBYkTCgAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:ATTR name="Alpha" type="real">-1.5707963267949</XPD:ATTR>
+<XPD:ATTR name="Distance" type="real">10</XPD:ATTR>
+<XPD:REF name="Model">IUiUIlOIPke4jhwRviW6+gAA</XPD:REF>
+<XPD:REF name="HostEdge">/bC1dd5ybU23XPWI+kJ4dQAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Activation" type="UMLActivationView" guid="489Cc1W0vk6yZdl/7Oy8XAAA">
+<XPD:ATTR name="Left" type="integer">488</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">900</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">14</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">29</XPD:ATTR>
 </XPD:OBJ>
 </XPD:OBJ>
-<XPD:ATTR name="#ParticipatingStimuli" type="integer">6</XPD:ATTR>
+<XPD:OBJ name="OwnedViews[31]" type="UMLTextView" guid="PSm7I/Q97Uu0WJQIrjIUnwAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">280</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">824</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">121</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">23</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">[Ha nincs köd, random]
+</XPD:ATTR>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[32]" type="UMLSeqStimulusView" guid="vr6Kcdji7EykQNmNdURjbgAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="LineStyle" type="LineStyleKind">lsRectilinear</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">278,1028;488,1028</XPD:ATTR>
+<XPD:REF name="Model">FzU5S1L29ES8SdGUlxxqOwAA</XPD:REF>
+<XPD:REF name="Head">2bOaBB3EcUOP2gRF97jEkwAA</XPD:REF>
+<XPD:REF name="Tail">lu31cEMepUeA3qhny/oXSQAA</XPD:REF>
+<XPD:OBJ name="NameLabel" type="EdgeLabelView" guid="VUWyx3C/zUCOI4JN0vBzLQAA">
+<XPD:ATTR name="Alpha" type="real">1.5707963267949</XPD:ATTR>
+<XPD:ATTR name="Distance" type="real">10</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">1.6: ClearUp()</XPD:ATTR>
+<XPD:REF name="Model">FzU5S1L29ES8SdGUlxxqOwAA</XPD:REF>
+<XPD:REF name="HostEdge">vr6Kcdji7EykQNmNdURjbgAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="StereotypeLabel" type="EdgeLabelView" guid="HkjBp/XiAUmu/jacOhvKtgAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:ATTR name="Alpha" type="real">1.5707963267949</XPD:ATTR>
+<XPD:ATTR name="Distance" type="real">25</XPD:ATTR>
+<XPD:REF name="Model">FzU5S1L29ES8SdGUlxxqOwAA</XPD:REF>
+<XPD:REF name="HostEdge">vr6Kcdji7EykQNmNdURjbgAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="PropertyLabel" type="EdgeLabelView" guid="Fz7UZhQ8+0O5xwSUr1DvVgAA">
+<XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
+<XPD:ATTR name="Alpha" type="real">-1.5707963267949</XPD:ATTR>
+<XPD:ATTR name="Distance" type="real">10</XPD:ATTR>
+<XPD:REF name="Model">FzU5S1L29ES8SdGUlxxqOwAA</XPD:REF>
+<XPD:REF name="HostEdge">vr6Kcdji7EykQNmNdURjbgAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Activation" type="UMLActivationView" guid="iJr2ns+mi0y2+WA0eHNj/QAA">
+<XPD:ATTR name="Left" type="integer">488</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">1028</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">14</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">29</XPD:ATTR>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="OwnedViews[33]" type="UMLTextView" guid="mzZwJ79iTUWEooZtt0zFbwAA">
+<XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
+<XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">280</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">956</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">158</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">23</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">[Ha a lent lévő köd ideje lejárt]
+</XPD:ATTR>
+</XPD:OBJ>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:ATTR name="#ParticipatingStimuli" type="integer">8</XPD:ATTR>
 <XPD:OBJ name="ParticipatingStimuli[0]" type="UMLStimulus" guid="6rV011EDDEiSRVMkjgbt1QAA">
 <XPD:ATTR name="Name" type="string">1: update</XPD:ATTR>
 <XPD:REF name="Sender">l09yEUW6AEybyeG4QyzMngAA</XPD:REF>
@@ -6679,8 +6829,37 @@ enemiesOut lista tetejéről veszi le,
 <XPD:REF name="Views[2]">9+QKbifmeE663h3HK8B70gAA</XPD:REF>
 <XPD:REF name="Views[3]">0k2cgaIAg0a5bkGNDLovSwAA</XPD:REF>
 </XPD:OBJ>
-<XPD:ATTR name="#Fragments" type="integer">2</XPD:ATTR>
+<XPD:OBJ name="ParticipatingStimuli[6]" type="UMLStimulus" guid="IUiUIlOIPke4jhwRviW6+gAA">
+<XPD:ATTR name="Name" type="string">1.5: haze</XPD:ATTR>
+<XPD:REF name="Sender">e+RCARw/okO884yZTCR3iQAA</XPD:REF>
+<XPD:REF name="Receiver">iF49nJ84jk67X0KFcAix/AAA</XPD:REF>
+<XPD:OBJ name="Action" type="UMLCallAction" guid="AGLMMcuHKkeF7gafERrM7QAA">
+<XPD:REF name="Stimulus">IUiUIlOIPke4jhwRviW6+gAA</XPD:REF>
+</XPD:OBJ>
+<XPD:REF name="InteractionInstanceSet">IV5ri3iDG0ibbQRbhzi1UAAA</XPD:REF>
+<XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
+<XPD:REF name="Views[0]">/bC1dd5ybU23XPWI+kJ4dQAA</XPD:REF>
+<XPD:REF name="Views[1]">Qlezhi4wjUOArBWY4CIi6AAA</XPD:REF>
+<XPD:REF name="Views[2]">EdxnP5geD02RYchtwC+z5gAA</XPD:REF>
+<XPD:REF name="Views[3]">GPHi9UaA+UKP5FnjBYkTCgAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="ParticipatingStimuli[7]" type="UMLStimulus" guid="FzU5S1L29ES8SdGUlxxqOwAA">
+<XPD:ATTR name="Name" type="string">1.6: ClearUp</XPD:ATTR>
+<XPD:REF name="Sender">e+RCARw/okO884yZTCR3iQAA</XPD:REF>
+<XPD:REF name="Receiver">zjZvZs6yhU2t94iAJutX5AAA</XPD:REF>
+<XPD:OBJ name="Action" type="UMLCallAction" guid="n1o4v2AoKUOx0IVFlXiNgAAA">
+<XPD:REF name="Stimulus">FzU5S1L29ES8SdGUlxxqOwAA</XPD:REF>
+</XPD:OBJ>
+<XPD:REF name="InteractionInstanceSet">IV5ri3iDG0ibbQRbhzi1UAAA</XPD:REF>
+<XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
+<XPD:REF name="Views[0]">vr6Kcdji7EykQNmNdURjbgAA</XPD:REF>
+<XPD:REF name="Views[1]">VUWyx3C/zUCOI4JN0vBzLQAA</XPD:REF>
+<XPD:REF name="Views[2]">HkjBp/XiAUmu/jacOhvKtgAA</XPD:REF>
+<XPD:REF name="Views[3]">Fz7UZhQ8+0O5xwSUr1DvVgAA</XPD:REF>
+</XPD:OBJ>
+<XPD:ATTR name="#Fragments" type="integer">6</XPD:ATTR>
 <XPD:OBJ name="Fragments[0]" type="UMLCombinedFragment" guid="rmljzk6YjUeLIkvIVGEkRQAA">
+<XPD:ATTR name="Name" type="string">Főciklus</XPD:ATTR>
 <XPD:ATTR name="InteractionOperator" type="UMLInteractionOperatorKind">iokLoop</XPD:ATTR>
 <XPD:REF name="EnclosingInteractionInstanceSet">IV5ri3iDG0ibbQRbhzi1UAAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">1</XPD:ATTR>
@@ -6693,56 +6872,32 @@ enemiesOut lista tetejéről veszi le,
 <XPD:REF name="Views[0]">M/KC2afv5UeenPJP1tI5DwAA</XPD:REF>
 <XPD:ATTR name="#Fragments" type="integer">4</XPD:ATTR>
 <XPD:OBJ name="Fragments[0]" type="UMLCombinedFragment" guid="h2HCWlhPW0eYBy6PxspUpgAA">
+<XPD:ATTR name="Name" type="string">Új ellenségek elhelyezése</XPD:ATTR>
 <XPD:ATTR name="InteractionOperator" type="UMLInteractionOperatorKind">iokOpt</XPD:ATTR>
 <XPD:REF name="EnclosingOperand">M6eK05rOvkebC8ATbogDpwAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">1</XPD:ATTR>
 <XPD:REF name="Views[0]">uHqaOdguhUSjZQFrL4U8gQAA</XPD:REF>
-<XPD:ATTR name="#Operands" type="integer">1</XPD:ATTR>
-<XPD:OBJ name="Operands[0]" type="UMLInteractionOperand" guid="m56MRUwjpUemeArmB+4UfwAA">
-<XPD:ATTR name="Name" type="string">InteractionOperand1</XPD:ATTR>
-<XPD:REF name="CombinedFragment">h2HCWlhPW0eYBy6PxspUpgAA</XPD:REF>
-<XPD:ATTR name="#Views" type="integer">1</XPD:ATTR>
-<XPD:REF name="Views[0]">nZL+hckNfUGGIX/jglAcDwAA</XPD:REF>
-</XPD:OBJ>
 </XPD:OBJ>
 <XPD:OBJ name="Fragments[1]" type="UMLCombinedFragment" guid="kf04jHIRjkWWfQDaONBagAAA">
+<XPD:ATTR name="Name" type="string">Bejutásra váró ellenségek behelyezése</XPD:ATTR>
 <XPD:ATTR name="InteractionOperator" type="UMLInteractionOperatorKind">iokOpt</XPD:ATTR>
 <XPD:REF name="EnclosingOperand">M6eK05rOvkebC8ATbogDpwAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">1</XPD:ATTR>
 <XPD:REF name="Views[0]">xNbTQ4LKbk6gVfnUo0kUKwAA</XPD:REF>
-<XPD:ATTR name="#Operands" type="integer">1</XPD:ATTR>
-<XPD:OBJ name="Operands[0]" type="UMLInteractionOperand" guid="hB/bZQxm+E+AnSbmU8eLNwAA">
-<XPD:ATTR name="Name" type="string">InteractionOperand1</XPD:ATTR>
-<XPD:REF name="CombinedFragment">kf04jHIRjkWWfQDaONBagAAA</XPD:REF>
-<XPD:ATTR name="#Views" type="integer">1</XPD:ATTR>
-<XPD:REF name="Views[0]">YrsrWTP9qE2ZxjzK2N/A7AAA</XPD:REF>
-</XPD:OBJ>
 </XPD:OBJ>
 <XPD:OBJ name="Fragments[2]" type="UMLCombinedFragment" guid="ULeevUO4/UWM14uoAt5gYQAA">
+<XPD:ATTR name="Name" type="string">Ellenségek mozgatása</XPD:ATTR>
 <XPD:ATTR name="InteractionOperator" type="UMLInteractionOperatorKind">iokLoop</XPD:ATTR>
 <XPD:REF name="EnclosingOperand">M6eK05rOvkebC8ATbogDpwAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">1</XPD:ATTR>
 <XPD:REF name="Views[0]">lo5O+ig0a0OcWLeso13+yQAA</XPD:REF>
-<XPD:ATTR name="#Operands" type="integer">1</XPD:ATTR>
-<XPD:OBJ name="Operands[0]" type="UMLInteractionOperand" guid="hHIm3C9nYE2tHFLKYtia8QAA">
-<XPD:ATTR name="Name" type="string">InteractionOperand1</XPD:ATTR>
-<XPD:REF name="CombinedFragment">ULeevUO4/UWM14uoAt5gYQAA</XPD:REF>
-<XPD:ATTR name="#Views" type="integer">1</XPD:ATTR>
-<XPD:REF name="Views[0]">NPvPL+0Fzk+MMS51Mi9hIAAA</XPD:REF>
-</XPD:OBJ>
 </XPD:OBJ>
 <XPD:OBJ name="Fragments[3]" type="UMLCombinedFragment" guid="2dvp0EK3EUuUD2HhlOb91AAA">
+<XPD:ATTR name="Name" type="string">Tornyok lövése</XPD:ATTR>
 <XPD:ATTR name="InteractionOperator" type="UMLInteractionOperatorKind">iokLoop</XPD:ATTR>
 <XPD:REF name="EnclosingOperand">M6eK05rOvkebC8ATbogDpwAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">1</XPD:ATTR>
 <XPD:REF name="Views[0]">X7OF+o5LWU6FLHlPYTJGzgAA</XPD:REF>
-<XPD:ATTR name="#Operands" type="integer">1</XPD:ATTR>
-<XPD:OBJ name="Operands[0]" type="UMLInteractionOperand" guid="hka6HfxhpkmTkCktNb8aagAA">
-<XPD:ATTR name="Name" type="string">InteractionOperand1</XPD:ATTR>
-<XPD:REF name="CombinedFragment">2dvp0EK3EUuUD2HhlOb91AAA</XPD:REF>
-<XPD:ATTR name="#Views" type="integer">1</XPD:ATTR>
-<XPD:REF name="Views[0]">iiwTf1vFWUmzhF0Rq9XfxgAA</XPD:REF>
-</XPD:OBJ>
 </XPD:OBJ>
 </XPD:OBJ>
 </XPD:OBJ>
@@ -6759,6 +6914,34 @@ enemiesOut lista tetejéről veszi le,
 <XPD:REF name="Views[0]">j4+FRk3C7ke871EFXddE6wAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
+<XPD:OBJ name="Fragments[2]" type="UMLCombinedFragment" guid="1N+JUsvPb0Kb4NyP2j/33wAA">
+<XPD:ATTR name="Name" type="string">Köd elhelyezése</XPD:ATTR>
+<XPD:ATTR name="InteractionOperator" type="UMLInteractionOperatorKind">iokOpt</XPD:ATTR>
+<XPD:REF name="EnclosingInteractionInstanceSet">IV5ri3iDG0ibbQRbhzi1UAAA</XPD:REF>
+<XPD:ATTR name="#Views" type="integer">1</XPD:ATTR>
+<XPD:REF name="Views[0]">u67Sg8aTJEW0fD1jgnWWxgAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Fragments[3]" type="UMLCombinedFragment" guid="a96y+LGxbki2L5yDOcxZoQAA">
+<XPD:ATTR name="Name" type="string">Tornyok bejárása</XPD:ATTR>
+<XPD:ATTR name="InteractionOperator" type="UMLInteractionOperatorKind">iokLoop</XPD:ATTR>
+<XPD:REF name="EnclosingInteractionInstanceSet">IV5ri3iDG0ibbQRbhzi1UAAA</XPD:REF>
+<XPD:ATTR name="#Views" type="integer">1</XPD:ATTR>
+<XPD:REF name="Views[0]">zYYeyPHBrE+j7Bq+79BctAAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Fragments[4]" type="UMLCombinedFragment" guid="cZYAk/LWiUSLlXq4Pojl4QAA">
+<XPD:ATTR name="Name" type="string">Köd eltisztítása</XPD:ATTR>
+<XPD:ATTR name="InteractionOperator" type="UMLInteractionOperatorKind">iokOpt</XPD:ATTR>
+<XPD:REF name="EnclosingInteractionInstanceSet">IV5ri3iDG0ibbQRbhzi1UAAA</XPD:REF>
+<XPD:ATTR name="#Views" type="integer">1</XPD:ATTR>
+<XPD:REF name="Views[0]">9RsqNHuEjE66+lqVCdCfeQAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Fragments[5]" type="UMLCombinedFragment" guid="+e/SQ6rK6Uu6f8gMVWdUQAAA">
+<XPD:ATTR name="Name" type="string">Tornyok bejárása</XPD:ATTR>
+<XPD:ATTR name="InteractionOperator" type="UMLInteractionOperatorKind">iokLoop</XPD:ATTR>
+<XPD:REF name="EnclosingInteractionInstanceSet">IV5ri3iDG0ibbQRbhzi1UAAA</XPD:REF>
+<XPD:ATTR name="#Views" type="integer">1</XPD:ATTR>
+<XPD:REF name="Views[0]">X3kRzjEOckKzkSq+EEQfTQAA</XPD:REF>
+</XPD:OBJ>
 <XPD:ATTR name="#OwnedFrames" type="integer">1</XPD:ATTR>
 <XPD:OBJ name="OwnedFrames[0]" type="UMLFrame" guid="xJ3wJhYrwk2Mt5X+5K4xBQAA">
 <XPD:ATTR name="Name" type="string">Játék menete</XPD:ATTR>
@@ -6768,7 +6951,7 @@ enemiesOut lista tetejéről veszi le,
 <XPD:REF name="Views[0]">ls3tBmY/u0SfMhdl9lcwvgAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
-<XPD:ATTR name="#ParticipatingInstances" type="integer">8</XPD:ATTR>
+<XPD:ATTR name="#ParticipatingInstances" type="integer">10</XPD:ATTR>
 <XPD:OBJ name="ParticipatingInstances[0]" type="UMLObject" guid="e+RCARw/okO884yZTCR3iQAA">
 <XPD:ATTR name="Name" type="string">game</XPD:ATTR>
 <XPD:REF name="Classifier">iitltHNWk0G5LIACE2FujQAA</XPD:REF>
@@ -6776,12 +6959,14 @@ enemiesOut lista tetejéről veszi le,
 <XPD:ATTR name="#Views" type="integer">2</XPD:ATTR>
 <XPD:REF name="Views[0]">61DI1dsqTUSlJxBw+88mPwAA</XPD:REF>
 <XPD:REF name="Views[1]">lu31cEMepUeA3qhny/oXSQAA</XPD:REF>
-<XPD:ATTR name="#SendingStimuli" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="#SendingStimuli" type="integer">7</XPD:ATTR>
 <XPD:REF name="SendingStimuli[0]">DcnSd7FZskiXb/mJgfCdNAAA</XPD:REF>
 <XPD:REF name="SendingStimuli[1]">QXGiNsUbMESMJ5PHdksNjAAA</XPD:REF>
 <XPD:REF name="SendingStimuli[2]">9WcGhJBqcU65Fa8LRz1aqgAA</XPD:REF>
 <XPD:REF name="SendingStimuli[3]">z24ITf5qm0igsRhsh6yeXQAA</XPD:REF>
 <XPD:REF name="SendingStimuli[4]">NJ55R3SeAEyij3h4ZCOwLQAA</XPD:REF>
+<XPD:REF name="SendingStimuli[5]">IUiUIlOIPke4jhwRviW6+gAA</XPD:REF>
+<XPD:REF name="SendingStimuli[6]">FzU5S1L29ES8SdGUlxxqOwAA</XPD:REF>
 <XPD:ATTR name="#ReceivingStimuli" type="integer">2</XPD:ATTR>
 <XPD:REF name="ReceivingStimuli[0]">6rV011EDDEiSRVMkjgbt1QAA</XPD:REF>
 <XPD:REF name="ReceivingStimuli[1]">DcnSd7FZskiXb/mJgfCdNAAA</XPD:REF>
@@ -6844,6 +7029,26 @@ enemiesOut lista tetejéről veszi le,
 <XPD:REF name="Views[1]">P1qD/i2ZM0+lLtCSS2NsIQAA</XPD:REF>
 <XPD:ATTR name="#SendingStimuli" type="integer">1</XPD:ATTR>
 <XPD:REF name="SendingStimuli[0]">6rV011EDDEiSRVMkjgbt1QAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="ParticipatingInstances[8]" type="UMLObject" guid="iF49nJ84jk67X0KFcAix/AAA">
+<XPD:ATTR name="Name" type="string">tower</XPD:ATTR>
+<XPD:REF name="Classifier">oQE0bnOSkka3rv8J7vSlWQAA</XPD:REF>
+<XPD:REF name="CollaborationInstanceSet">gSEUy1Ucl0ik8IjMIwnlRgAA</XPD:REF>
+<XPD:ATTR name="#Views" type="integer">2</XPD:ATTR>
+<XPD:REF name="Views[0]">1nrxwpfjqkKqiHgaNeqN8QAA</XPD:REF>
+<XPD:REF name="Views[1]">d3c4k3NwgU6K1QoOrcugxAAA</XPD:REF>
+<XPD:ATTR name="#ReceivingStimuli" type="integer">1</XPD:ATTR>
+<XPD:REF name="ReceivingStimuli[0]">IUiUIlOIPke4jhwRviW6+gAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="ParticipatingInstances[9]" type="UMLObject" guid="zjZvZs6yhU2t94iAJutX5AAA">
+<XPD:ATTR name="Name" type="string">tower</XPD:ATTR>
+<XPD:REF name="Classifier">oQE0bnOSkka3rv8J7vSlWQAA</XPD:REF>
+<XPD:REF name="CollaborationInstanceSet">gSEUy1Ucl0ik8IjMIwnlRgAA</XPD:REF>
+<XPD:ATTR name="#Views" type="integer">2</XPD:ATTR>
+<XPD:REF name="Views[0]">ZPMVfAiMZkWpSYMRJ4vnDgAA</XPD:REF>
+<XPD:REF name="Views[1]">2bOaBB3EcUOP2gRF97jEkwAA</XPD:REF>
+<XPD:ATTR name="#ReceivingStimuli" type="integer">1</XPD:ATTR>
+<XPD:REF name="ReceivingStimuli[0]">FzU5S1L29ES8SdGUlxxqOwAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
 </XPD:OBJ>
