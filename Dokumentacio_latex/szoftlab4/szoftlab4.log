@@ -1,44 +1,44 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.23)  25 MAR 2014 12:10
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2012.9.25)  26 MAR 2014 12:26
 entering extended mode
 **szoftlab4.tex
 
-(D:\SAJÁT\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\szoftlab
-4.tex
+(C:\Users\102917\Dokumentaciok-master\Dokumentaciok-master\Dokumentacio_latex\s
+zoftlab4\szoftlab4.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
 croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+lician, german, german-x-2012-05-30, greek, gujarati, hindi, hungarian, iceland
 ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
  lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
-german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
 
-(D:\SAJÁT\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\includes
-/header.tex
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\scrbook.cls"
+(C:\Users\102917\Dokumentaciok-master\Dokumentaciok-master\Dokumentacio_latex\s
+zoftlab4\includes/header.tex
+("C:\Program Files\tex\miktex29\tex\latex\koma-script\scrbook.cls"
 Document Class: scrbook 2013/12/19 v3.12 KOMA-Script document class (book)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\scrkbase.sty"
+("C:\Program Files\tex\miktex29\tex\latex\koma-script\scrkbase.sty"
 Package: scrkbase 2013/12/19 v3.12 KOMA-Script package (KOMA-Script-dependent b
 asics and keyval usage)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\scrbase.sty"
+("C:\Program Files\tex\miktex29\tex\latex\koma-script\scrbase.sty"
 Package: scrbase 2013/12/19 v3.12 KOMA-Script package (KOMA-Script-independent 
 basics and keyval usage)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+("C:\Program Files\tex\miktex29\tex\latex\graphics\keyval.sty"
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\scrlfile.sty"
+("C:\Program Files\tex\miktex29\tex\latex\koma-script\scrlfile.sty"
 Package: scrlfile 2013/12/19 v3.12 KOMA-Script package (loading files)
 
 Package scrlfile, 2013/12/19 v3.12 KOMA-Script package (loading files)
                   Copyright (C) Markus Kohm
 
-))) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\tocbasic.sty"
+))) ("C:\Program Files\tex\miktex29\tex\latex\koma-script\tocbasic.sty"
 Package: tocbasic 2013/12/19 v3.12 KOMA-Script package (handling toc-files)
 )
 Package tocbasic Info: omitting babel extension for `toc'
@@ -74,11 +74,11 @@ Package scrbase Info: Unknown processing state.
 Class scrbook Info: File `scrsize11pt.clo' used to setup font sizes on input li
 ne 1655.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\scrsize11pt.clo"
+("C:\Program Files\tex\miktex29\tex\latex\koma-script\scrsize11pt.clo"
 File: scrsize11pt.clo 2013/12/19 v3.12 KOMA-Script font size class option (11pt
 )
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\typearea.sty"
+("C:\Program Files\tex\miktex29\tex\latex\koma-script\typearea.sty"
 Package: typearea 2013/12/19 v3.12 KOMA-Script package (type area)
 
 Package typearea, 2013/12/19 v3.12 KOMA-Script package (type area)
@@ -128,19 +128,19 @@ Package typearea Info: These are the values describing the layout:
 \c@figure=\count87
 \c@table=\count88
 \bibindent=\dimen102
-) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+) ("C:\Program Files\tex\miktex29\tex\latex\base\inputenc.sty"
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks15
 \inpenc@posthook=\toks16
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+("C:\Program Files\tex\miktex29\tex\latex\base\utf8.def"
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
+("C:\Program Files\tex\miktex29\tex\latex\base\t1enc.dfu"
 File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -290,7 +290,7 @@ File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
+("C:\Program Files\tex\miktex29\tex\latex\base\ot1enc.dfu"
 File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -321,7 +321,7 @@ File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
+("C:\Program Files\tex\miktex29\tex\latex\base\omsenc.dfu"
 File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -345,10 +345,10 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+("C:\Program Files\tex\miktex29\tex\latex\base\fontenc.sty"
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.def"
+("C:\Program Files\tex\miktex29\tex\latex\base\t1enc.def"
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
@@ -360,7 +360,7 @@ Class scrbook Warning: Usage of package `fancyhdr' together
 (scrbook)              Nevertheless, using requested
 (scrbook)              package `fancyhdr' on input line 10.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+("C:\Program Files\tex\miktex29\tex\latex\fancyhdr\fancyhdr.sty"
 \fancy@headwidth=\skip48
 \f@ncyO@elh=\skip49
 \f@ncyO@erh=\skip50
@@ -371,26 +371,26 @@ Class scrbook Warning: Usage of package `fancyhdr' together
 \f@ncyO@olf=\skip55
 \f@ncyO@orf=\skip56
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
+("C:\Program Files\tex\miktex29\tex\generic\babel\babel.sty"
 Package: babel 2008/07/08 v3.8m The Babel package
 
 *************************************
 * Local config file bblopts.cfg used
 *
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+("C:\Program Files\tex\miktex29\tex\latex\00miktex\bblopts.cfg"
 File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\magyar.ldf"
+("C:\Program Files\tex\miktex29\tex\generic\babel\magyar.ldf"
 Language: magyar 2005/03/30 v1.4j Magyar support from the babel system
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
+("C:\Program Files\tex\miktex29\tex\generic\babel\babel.def"
 File: babel.def 2008/07/08 v3.8m Babel common definitions
 \babel@savecnt=\count89
 \U@D=\dimen103
 )
 Package babel Info: Making ` an active character on input line 597.
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\longtable.sty"
+("C:\Program Files\tex\miktex29\tex\latex\tools\longtable.sty"
 Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \LTleft=\skip57
 \LTright=\skip58
@@ -410,26 +410,26 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 )
 Class scrbook Info: longtable captions redefined on input line 14.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
+("C:\Program Files\tex\miktex29\tex\latex\graphics\color.sty"
 Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+("C:\Program Files\tex\miktex29\tex\latex\00miktex\color.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+("C:\Program Files\tex\miktex29\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+("C:\Program Files\tex\miktex29\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+("C:\Program Files\tex\miktex29\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count95
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
+("C:\Program Files\tex\miktex29\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count96
 \float@exts=\toks18
@@ -437,10 +437,10 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks19
 \@floatcapt=\box32
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\times.sty"
+("C:\Program Files\tex\miktex29\tex\latex\psnfss\times.sty"
 Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.sty"
+("C:\Program Files\tex\miktex29\tex\latex\listings\listings.sty"
 \lst@mode=\count97
 \lst@gtempboxa=\box33
 \lst@token=\toks20
@@ -454,28 +454,29 @@ Package: times 2005/04/12 PSNFSS-v9.2a (SPQR)
 \lst@lineno=\count102
 \lst@maxwidth=\dimen108
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+("C:\Program Files\tex\miktex29\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2014/03/04 1.5c (Carsten Heinz)
 \c@lstnumber=\count103
 \lst@skipnumbers=\count104
 \lst@framebox=\box34
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.cfg"
+("C:\Program Files\tex\miktex29\tex\latex\listings\listings.cfg"
 File: listings.cfg 2014/03/04 1.5c listings configuration
 ))
 Package: listings 2014/03/04 1.5c (Carsten Heinz)
 
-(D:\SAJÁT\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\includes
-/szglab4.sty ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.st
-y"
+(C:\Users\102917\Dokumentaciok-master\Dokumentaciok-master\Dokumentacio_latex\s
+zoftlab4\includes/szglab4.sty
+("C:\Program Files\tex\miktex29\tex\latex\graphics\graphicx.sty"
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+
+("C:\Program Files\tex\miktex29\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+("C:\Program Files\tex\miktex29\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+("C:\Program Files\tex\miktex29\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
@@ -483,7 +484,7 @@ Package graphics Info: Driver file: pdftex.def on input line 91.
 \Gin@req@height=\dimen109
 \Gin@req@width=\dimen110
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\anysize.sty"
+("C:\Program Files\tex\miktex29\tex\latex\ltxmisc\anysize.sty"
 Package: anysize 1994/08/13 1.0 Contributed LaTeX2e package
 
 Package: `anysize' 1.0 <1994/08/13>
@@ -491,14 +492,14 @@ Package: `anysize' 1.0 <1994/08/13>
 \@Rightmargin=\dimen112
 \@Topmargin=\dimen113
 \@Bottommargin=\dimen114
-)) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
-Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+)) ("C:\Program Files\tex\miktex29\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2012/08/21 v6.83c Hypertext links for LaTeX
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+("C:\Program Files\tex\miktex29\tex\generic\oberdiek\hobsub-hyperref.sty"
 Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
 
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+("C:\Program Files\tex\miktex29\tex\generic\oberdiek\hobsub-generic.sty"
 Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
@@ -539,65 +540,65 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+("C:\Program Files\tex\miktex29\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+("C:\Program Files\tex\miktex29\tex\latex\oberdiek\auxhook.sty"
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+("C:\Program Files\tex\miktex29\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen115
 \Hy@linkcounter=\count105
 \Hy@pagecounter=\count106
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
-File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+("C:\Program Files\tex\miktex29\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2012/08/21 v6.83c Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
 \Hy@SavedSpaceFactor=\count107
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+("C:\Program Files\tex\miktex29\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 431
+Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 413
 9.
-Package hyperref Info: Option `unicode' set `true' on input line 4319.
+Package hyperref Info: Option `unicode' set `true' on input line 4139.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\puenc.def"
-File: puenc.def 2012/11/06 v6.83m Hyperref: PDF Unicode definition (HO)
+("C:\Program Files\tex\miktex29\tex\latex\hyperref\puenc.def"
+File: puenc.def 2012/08/21 v6.83c Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Hyper figures OFF on input line 4443.
-Package hyperref Info: Link nesting OFF on input line 4448.
-Package hyperref Info: Hyper index ON on input line 4451.
-Package hyperref Info: Plain pages OFF on input line 4458.
-Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Hyper figures OFF on input line 4263.
+Package hyperref Info: Link nesting OFF on input line 4268.
+Package hyperref Info: Hyper index ON on input line 4271.
+Package hyperref Info: Plain pages OFF on input line 4278.
+Package hyperref Info: Backreferencing OFF on input line 4283.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4688.
+Package hyperref Info: Bookmarks ON on input line 4501.
 \c@Hy@tempcnt=\count108
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\url\url.sty"
+("C:\Program Files\tex\miktex29\tex\latex\ltxmisc\url.sty"
 \Urlmuskip=\muskip10
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5041.
+LaTeX Info: Redefining \url on input line 4854.
 \XeTeXLinkMargin=\dimen116
 \Fld@menulength=\count109
 \Field@Width=\dimen117
 \Fld@charsize=\dimen118
-Package hyperref Info: Hyper figures OFF on input line 6295.
-Package hyperref Info: Link nesting OFF on input line 6300.
-Package hyperref Info: Hyper index ON on input line 6303.
-Package hyperref Info: backreferencing OFF on input line 6310.
-Package hyperref Info: Link coloring OFF on input line 6315.
-Package hyperref Info: Link coloring with OCG OFF on input line 6320.
-Package hyperref Info: PDF/A mode OFF on input line 6325.
-LaTeX Info: Redefining \ref on input line 6365.
-LaTeX Info: Redefining \pageref on input line 6369.
+Package hyperref Info: Hyper figures OFF on input line 6094.
+Package hyperref Info: Link nesting OFF on input line 6099.
+Package hyperref Info: Hyper index ON on input line 6102.
+Package hyperref Info: backreferencing OFF on input line 6109.
+Package hyperref Info: Link coloring OFF on input line 6114.
+Package hyperref Info: Link coloring with OCG OFF on input line 6119.
+Package hyperref Info: PDF/A mode OFF on input line 6124.
+LaTeX Info: Redefining \ref on input line 6164.
+LaTeX Info: Redefining \pageref on input line 6168.
 \Hy@abspage=\count110
 \c@Item=\count111
 \c@Hfootnote=\count112
@@ -605,12 +606,12 @@ LaTeX Info: Redefining \pageref on input line 6369.
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
-File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+("C:\Program Files\tex\miktex29\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2012/08/21 v6.83c Hyperref driver for pdfTeX
 \Fld@listcount=\count113
 \c@bookmark@seq@number=\count114
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+("C:\Program Files\tex\miktex29\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
@@ -620,8 +621,12 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 Package hyperref Info: Option `colorlinks' set `true' on input line 48.
 Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 48.
 )
-(D:\SAJÁT\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\szoftlab
-4.aux)
+(C:\Users\102917\Dokumentaciok-master\Dokumentaciok-master\Dokumentacio_latex\s
+zoftlab4\szoftlab4.aux
+
+LaTeX Warning: Label `fig:SzkeletonUseCase1' multiply defined.
+
+)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
@@ -639,10 +644,10 @@ LaTeX Font Info:    ... okay on input line 18.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 18.
 LaTeX Font Info:    ... okay on input line 18.
 LaTeX Font Info:    Try loading font information for T1+ptm on input line 18.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\t1ptm.fd"
+ ("C:\Program Files\tex\miktex29\tex\latex\psnfss\t1ptm.fd"
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+("C:\Program Files\tex\miktex29\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count115
 \scratchdimen=\dimen119
@@ -659,10 +664,10 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 \c@lstlisting=\count121
 \AtBeginShipoutBox=\box36
 Package hyperref Info: Link coloring ON on input line 18.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
-Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+ ("C:\Program Files\tex\miktex29\tex\latex\hyperref\nameref.sty"
+Package: nameref 2012/07/31 v2.42 Cross-referencing by name of section
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+("C:\Program Files\tex\miktex29\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count122
@@ -671,25 +676,25 @@ LaTeX Info: Redefining \ref on input line 18.
 LaTeX Info: Redefining \pageref on input line 18.
 LaTeX Info: Redefining \nameref on input line 18.
 
-(D:\SAJÁT\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\szoftlab
-4.out)
-(D:\SAJÁT\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\szoftlab
-4.out)
+(C:\Users\102917\Dokumentaciok-master\Dokumentaciok-master\Dokumentacio_latex\s
+zoftlab4\szoftlab4.out)
+(C:\Users\102917\Dokumentaciok-master\Dokumentaciok-master\Dokumentacio_latex\s
+zoftlab4\szoftlab4.out)
 \@outlinefile=\write3
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 26.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 25.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 26.
+(Font)              <10.95> on input line 25.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 26.
+(Font)              <8> on input line 25.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 26.
+(Font)              <6> on input line 25.
 
-(D:\SAJÁT\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters
-/chapter06/sablon06.tex [1
+(C:\Users\102917\Dokumentaciok-master\Dokumentaciok-master\Dokumentacio_latex\s
+zoftlab4\chapters/chapter05/sablon05.tex [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-fejezet 6.
+{C:/Program Files/tex/miktex29/pdftex/config/pdftex.map}]
+fejezet 5.
 
 Class scrbook Warning: \float@addtolists detected!
 (scrbook)              Implementation of \float@addtolist became
@@ -713,73 +718,536 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 8.
 
-[2
+<chapters/chapter05/images/user_uc_1.jpg, id=130, 941.5175pt x 405.515pt>
+File: chapters/chapter05/images/user_uc_1.jpg Graphic file (type jpg)
+
+<use chapters/chapter05/images/user_uc_1.jpg>
+Package pdftex.def Info: chapters/chapter05/images/user_uc_1.jpg used on input 
+line 16.
+(pdftex.def)             Requested size: 483.69684pt x 208.33206pt.
+
+<chapters/chapter05/images/user_uc_2.jpg, id=131, 972.63374pt x 433.62pt>
+File: chapters/chapter05/images/user_uc_2.jpg Graphic file (type jpg)
+
+<use chapters/chapter05/images/user_uc_2.jpg>
+Package pdftex.def Info: chapters/chapter05/images/user_uc_2.jpg used on input 
+line 26.
+(pdftex.def)             Requested size: 483.69684pt x 215.63834pt.
+ [2
 
 
-])
-(D:\SAJÁT\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters
-/chapter06/naplo06.tex
-Underfull \hbox (badness 1132) in paragraph at lines 15--15
-[]|\T1/ptm/m/n/10.95 Tesztel� prog-ram, tesz-te-se-tek imp-le-men-t�-
+ <C:/Users/102917/Dokumentaciok-master/Dokumentaciok-master/Dokumentacio_latex/
+szoftlab4/chapters/chapter05/images/user_uc_1.jpg> <C:/Users/102917/Dokumentaci
+ok-master/Dokumentaciok-master/Dokumentacio_latex/szoftlab4/chapters/chapter05/
+images/user_uc_2.jpg>]
+Underfull \vbox (badness 10000) detected at line 39
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 27--27
-[]|\T1/ptm/m/n/10.95 2014.03.22.
+Underfull \vbox (badness 10000) detected at line 45
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--33
-[]|\T1/ptm/m/n/10.95 2014.03.22.
+Underfull \vbox (badness 10000) detected at line 51
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--39
-[]|\T1/ptm/m/n/10.95 2014.03.23.
+Underfull \vbox (badness 10000) detected at line 57
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--45
-[]|\T1/ptm/m/n/10.95 2014.03.23.
+Underfull \vbox (badness 10000) detected at line 63
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--51
-[]|\T1/ptm/m/n/10.95 2014.03.23.
+Underfull \vbox (badness 10000) detected at line 69
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--57
-[]|\T1/ptm/m/n/10.95 2014.03.24.
+Underfull \vbox (badness 10000) detected at line 75
  []
 
-)
+[3]
+Underfull \vbox (badness 10000) detected at line 81
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 87
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 93
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 99
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 105
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 111
+ []
+
+[4]
+Underfull \vbox (badness 10000) detected at line 117
+ []
+
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 124.
+
+
+Underfull \vbox (badness 10000) detected at line 161
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 167
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 173
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 179
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 185
+ []
+
+[5]
+Underfull \vbox (badness 10000) detected at line 191
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 197
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 203
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 209
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 215
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 221
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 227
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 233
+ []
+
+[6]
+Underfull \vbox (badness 10000) detected at line 239
+ []
+
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 248.
+
+
+<chapters/chapter05/images/sd_Akadaly_elhelyezese_ellenseg_altal_foglalt_utra.j
+pg, id=179, 397.485pt x 252.945pt>
+File: chapters/chapter05/images/sd_Akadaly_elhelyezese_ellenseg_altal_foglalt_u
+tra.jpg Graphic file (type jpg)
+
+<use chapters/chapter05/images/sd_Akadaly_elhelyezese_ellenseg_altal_foglalt_ut
+ra.jpg>
+Package pdftex.def Info: chapters/chapter05/images/sd_Akadaly_elhelyezese_ellen
+seg_altal_foglalt_utra.jpg used on input line 251.
+(pdftex.def)             Requested size: 483.69684pt x 307.81667pt.
+
+<chapters/chapter05/images/sd_Akadaly_elhelyezese_masik_akadaly_altal_foglalt_u
+tra.jpg, id=180, 397.485pt x 252.945pt>
+File: chapters/chapter05/images/sd_Akadaly_elhelyezese_masik_akadaly_altal_fogl
+alt_utra.jpg Graphic file (type jpg)
+
+<use chapters/chapter05/images/sd_Akadaly_elhelyezese_masik_akadaly_altal_fogla
+lt_utra.jpg>
+Package pdftex.def Info: chapters/chapter05/images/sd_Akadaly_elhelyezese_masik
+_akadaly_altal_foglalt_utra.jpg used on input line 260.
+(pdftex.def)             Requested size: 483.69684pt x 307.81667pt.
+ [7 <C:/Users/102917/Dokumentaciok-master/Dokumentaciok-master/Dokumentacio_lat
+ex/szoftlab4/chapters/chapter05/images/sd_Akadaly_elhelyezese_ellenseg_altal_fo
+glalt_utra.jpg>]
+<chapters/chapter05/images/sd_Akadaly_elhelyezese_ures_utra.jpg, id=186, 827.09
+pt x 618.31pt>
+File: chapters/chapter05/images/sd_Akadaly_elhelyezese_ures_utra.jpg Graphic fi
+le (type jpg)
+
+<use chapters/chapter05/images/sd_Akadaly_elhelyezese_ures_utra.jpg>
+Package pdftex.def Info: chapters/chapter05/images/sd_Akadaly_elhelyezese_ures_
+utra.jpg used on input line 269.
+(pdftex.def)             Requested size: 483.69684pt x 361.6014pt.
+ [8 <C:/Users/102917/Dokumentaciok-master/Dokumentaciok-master/Dokumentacio_lat
+ex/szoftlab4/chapters/chapter05/images/sd_Akadaly_elhelyezese_masik_akadaly_alt
+al_foglalt_utra.jpg>]
+<chapters/chapter05/images/sd_Akadaly_fejlesztese.jpg, id=191, 790.955pt x 778.
+91pt>
+File: chapters/chapter05/images/sd_Akadaly_fejlesztese.jpg Graphic file (type j
+pg)
+ <use chapters/chapter05/images/sd_Akadaly_fejlesztese.jpg>
+Package pdftex.def Info: chapters/chapter05/images/sd_Akadaly_fejlesztese.jpg u
+sed on input line 278.
+(pdftex.def)             Requested size: 483.69684pt x 476.33482pt.
+ [9 <C:/Users/102917/Dokumentaciok-master/Dokumentaciok-master/Dokumentacio_lat
+ex/szoftlab4/chapters/chapter05/images/sd_Akadaly_elhelyezese_ures_utra.jpg>]
+<chapters/chapter05/images/sd_Ellenfel_mozgasa.jpg, id=196, 1308.89pt x 839.135
+pt>
+File: chapters/chapter05/images/sd_Ellenfel_mozgasa.jpg Graphic file (type jpg)
+
+ <use chapters/chapter05/images/sd_Ellenfel_mozgasa.jpg>
+Package pdftex.def Info: chapters/chapter05/images/sd_Ellenfel_mozgasa.jpg used
+ on input line 287.
+(pdftex.def)             Requested size: 483.69684pt x 310.09096pt.
+ [10 <C:/Users/102917/Dokumentaciok-master/Dokumentaciok-master/Dokumentacio_la
+tex/szoftlab4/chapters/chapter05/images/sd_Akadaly_fejlesztese.jpg>]
+<chapters/chapter05/images/sd_Fejlesztetlen_torony_eladasa.jpg, id=201, 574.145
+pt x 369.38pt>
+File: chapters/chapter05/images/sd_Fejlesztetlen_torony_eladasa.jpg Graphic fil
+e (type jpg)
+
+<use chapters/chapter05/images/sd_Fejlesztetlen_torony_eladasa.jpg>
+Package pdftex.def Info: chapters/chapter05/images/sd_Fejlesztetlen_torony_elad
+asa.jpg used on input line 296.
+(pdftex.def)             Requested size: 483.69684pt x 311.19579pt.
+ [11 <C:/Users/102917/Dokumentaciok-master/Dokumentaciok-master/Dokumentacio_la
+tex/szoftlab4/chapters/chapter05/images/sd_Ellenfel_mozgasa.jpg>]
+<chapters/chapter05/images/sd_Fejlesztett_torony_eladasa.jpg, id=206, 574.145pt
+ x 513.92pt>
+File: chapters/chapter05/images/sd_Fejlesztett_torony_eladasa.jpg Graphic file 
+(type jpg)
+ <use chapters/chapter05/images/sd_Fejlesztett_torony_eladasa.jpg>
+Package pdftex.def Info: chapters/chapter05/images/sd_Fejlesztett_torony_eladas
+a.jpg used on input line 305.
+(pdftex.def)             Requested size: 483.69684pt x 432.96805pt.
+
+[12 <C:/Users/102917/Dokumentaciok-master/Dokumentaciok-master/Dokumentacio_lat
+ex/szoftlab4/chapters/chapter05/images/sd_Fejlesztetlen_torony_eladasa.jpg>]
+<chapters/chapter05/images/sd_Inicializalas.jpg, id=211, 554.07pt x 706.64pt>
+File: chapters/chapter05/images/sd_Inicializalas.jpg Graphic file (type jpg)
+
+<use chapters/chapter05/images/sd_Inicializalas.jpg>
+Package pdftex.def Info: chapters/chapter05/images/sd_Inicializalas.jpg used on
+ input line 314.
+(pdftex.def)             Requested size: 483.69684pt x 616.8852pt.
+ [13 <C:/Users/102917/Dokumentaciok-master/Dokumentaciok-master/Dokumentacio_la
+tex/szoftlab4/chapters/chapter05/images/sd_Fejlesztett_torony_eladasa.jpg>]
+<chapters/chapter05/images/sd_Torony_elhelyezese_foglalt_mezore.jpg, id=217, 37
+3.395pt x 216.81pt>
+File: chapters/chapter05/images/sd_Torony_elhelyezese_foglalt_mezore.jpg Graphi
+c file (type jpg)
+
+<use chapters/chapter05/images/sd_Torony_elhelyezese_foglalt_mezore.jpg>
+Package pdftex.def Info: chapters/chapter05/images/sd_Torony_elhelyezese_foglal
+t_mezore.jpg used on input line 323.
+(pdftex.def)             Requested size: 483.69684pt x 280.8704pt.
+
+[14 <C:/Users/102917/Dokumentaciok-master/Dokumentaciok-master/Dokumentacio_lat
+ex/szoftlab4/chapters/chapter05/images/sd_Inicializalas.jpg>]
+<chapters/chapter05/images/sd_Torony_elhelyezese_ures_mezore.jpg, id=222, 666.4
+9pt x 542.025pt>
+File: chapters/chapter05/images/sd_Torony_elhelyezese_ures_mezore.jpg Graphic f
+ile (type jpg)
+
+<use chapters/chapter05/images/sd_Torony_elhelyezese_ures_mezore.jpg>
+Package pdftex.def Info: chapters/chapter05/images/sd_Torony_elhelyezese_ures_m
+ezore.jpg used on input line 332.
+(pdftex.def)             Requested size: 483.69684pt x 393.37572pt.
+ [15 <C:/Users/102917/Dokumentaciok-master/Dokumentaciok-master/Dokumentacio_la
+tex/szoftlab4/chapters/chapter05/images/sd_Torony_elhelyezese_foglalt_mezore.jp
+g>]
+<chapters/chapter05/images/sd_Torony_fejlesztese_minden_gembol_eggyel.jpg, id=2
+27, 919.435pt x 1393.205pt>
+File: chapters/chapter05/images/sd_Torony_fejlesztese_minden_gembol_eggyel.jpg 
+Graphic file (type jpg)
+
+<use chapters/chapter05/images/sd_Torony_fejlesztese_minden_gembol_eggyel.jpg>
+Package pdftex.def Info: chapters/chapter05/images/sd_Torony_fejlesztese_minden
+_gembol_eggyel.jpg used on input line 341.
+(pdftex.def)             Requested size: 483.69684pt x 732.95296pt.
+
+[16 <C:/Users/102917/Dokumentaciok-master/Dokumentaciok-master/Dokumentacio_lat
+ex/szoftlab4/chapters/chapter05/images/sd_Torony_elhelyezese_ures_mezore.jpg>]
+Overfull \vbox (114.12874pt too high) has occurred while \output is active []
+
+
+[17 <C:/Users/102917/Dokumentaciok-master/Dokumentaciok-master/Dokumentacio_lat
+ex/szoftlab4/chapters/chapter05/images/sd_Torony_fejlesztese_minden_gembol_eggy
+el.jpg>]
+<chapters/chapter05/images/sd_Torony_hatokoreben_nincs_ellenseg_tuzeleskor.jpg,
+ id=236, 513.92pt x 369.38pt>
+File: chapters/chapter05/images/sd_Torony_hatokoreben_nincs_ellenseg_tuzeleskor
+.jpg Graphic file (type jpg)
+
+<use chapters/chapter05/images/sd_Torony_hatokoreben_nincs_ellenseg_tuzeleskor.
+jpg>
+Package pdftex.def Info: chapters/chapter05/images/sd_Torony_hatokoreben_nincs_
+ellenseg_tuzeleskor.jpg used on input line 350.
+(pdftex.def)             Requested size: 483.69684pt x 347.6625pt.
+
+<chapters/chapter05/images/sd_Torony_lelo_egy_ellenseget_fejlesztetlenul.jpg, i
+d=237, 1160.335pt x 658.46pt>
+File: chapters/chapter05/images/sd_Torony_lelo_egy_ellenseget_fejlesztetlenul.j
+pg Graphic file (type jpg)
+
+<use chapters/chapter05/images/sd_Torony_lelo_egy_ellenseget_fejlesztetlenul.jp
+g>
+Package pdftex.def Info: chapters/chapter05/images/sd_Torony_lelo_egy_ellensege
+t_fejlesztetlenul.jpg used on input line 359.
+(pdftex.def)             Requested size: 483.69684pt x 274.48158pt.
+ [18 <C:/Users/102917/Dokumentaciok-master/Dokumentaciok-master/Dokumentacio_la
+tex/szoftlab4/chapters/chapter05/images/sd_Torony_hatokoreben_nincs_ellenseg_tu
+zeleskor.jpg>]
+<chapters/chapter05/images/sd_Torony_tuzel_egy_ellensegre_fejlesztetlenul.jpg, 
+id=242, 943.525pt x 429.605pt>
+File: chapters/chapter05/images/sd_Torony_tuzel_egy_ellensegre_fejlesztetlenul.
+jpg Graphic file (type jpg)
+
+<use chapters/chapter05/images/sd_Torony_tuzel_egy_ellensegre_fejlesztetlenul.j
+pg>
+Package pdftex.def Info: chapters/chapter05/images/sd_Torony_tuzel_egy_ellenseg
+re_fejlesztetlenul.jpg used on input line 368.
+(pdftex.def)             Requested size: 483.69684pt x 220.23625pt.
+
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 379.
+
+
+<chapters/chapter05/images/cd_Akadaly_elhelyezese_ellenseg_altal_foglalt_utra.j
+pg, id=243, 638.385pt x 216.81pt>
+File: chapters/chapter05/images/cd_Akadaly_elhelyezese_ellenseg_altal_foglalt_u
+tra.jpg Graphic file (type jpg)
+
+<use chapters/chapter05/images/cd_Akadaly_elhelyezese_ellenseg_altal_foglalt_ut
+ra.jpg>
+Package pdftex.def Info: chapters/chapter05/images/cd_Akadaly_elhelyezese_ellen
+seg_altal_foglalt_utra.jpg used on input line 382.
+(pdftex.def)             Requested size: 483.69684pt x 164.27444pt.
+ [19 <C:/Users/102917/Dokumentaciok-master/Dokumentaciok-master/Dokumentacio_la
+tex/szoftlab4/chapters/chapter05/images/sd_Torony_lelo_egy_ellenseget_fejleszte
+tlenul.jpg> <C:/Users/102917/Dokumentaciok-master/Dokumentaciok-master/Dokument
+acio_latex/szoftlab4/chapters/chapter05/images/sd_Torony_tuzel_egy_ellensegre_f
+ejlesztetlenul.jpg>]
+<chapters/chapter05/images/cd_Akadaly_elhelyezese_masik_akadaly_altal_foglalt_u
+tra.jpg, id=249, 638.385pt x 216.81pt>
+File: chapters/chapter05/images/cd_Akadaly_elhelyezese_masik_akadaly_altal_fogl
+alt_utra.jpg Graphic file (type jpg)
+
+<use chapters/chapter05/images/cd_Akadaly_elhelyezese_masik_akadaly_altal_fogla
+lt_utra.jpg>
+Package pdftex.def Info: chapters/chapter05/images/cd_Akadaly_elhelyezese_masik
+_akadaly_altal_foglalt_utra.jpg used on input line 391.
+(pdftex.def)             Requested size: 483.69684pt x 164.27444pt.
+
+<chapters/chapter05/images/cd_Akadaly_elhelyezese_ures_utra.jpg, id=250, 642.4p
+t x 337.26pt>
+File: chapters/chapter05/images/cd_Akadaly_elhelyezese_ures_utra.jpg Graphic fi
+le (type jpg)
+
+<use chapters/chapter05/images/cd_Akadaly_elhelyezese_ures_utra.jpg>
+Package pdftex.def Info: chapters/chapter05/images/cd_Akadaly_elhelyezese_ures_
+utra.jpg used on input line 400.
+(pdftex.def)             Requested size: 483.69684pt x 253.94788pt.
+ [20 <C:/Users/102917/Dokumentaciok-master/Dokumentaciok-master/Dokumentacio_la
+tex/szoftlab4/chapters/chapter05/images/cd_Akadaly_elhelyezese_ellenseg_altal_f
+oglalt_utra.jpg> <C:/Users/102917/Dokumentaciok-master/Dokumentaciok-master/Dok
+umentacio_latex/szoftlab4/chapters/chapter05/images/cd_Akadaly_elhelyezese_masi
+k_akadaly_altal_foglalt_utra.jpg>]
+<chapters/chapter05/images/cd_Akadaly_fejlesztese.jpg, id=255, 891.33pt x 433.6
+2pt>
+File: chapters/chapter05/images/cd_Akadaly_fejlesztese.jpg Graphic file (type j
+pg)
+ <use chapters/chapter05/images/cd_Akadaly_fejlesztese.jpg>
+Package pdftex.def Info: chapters/chapter05/images/cd_Akadaly_fejlesztese.jpg u
+sed on input line 409.
+(pdftex.def)             Requested size: 483.69684pt x 235.31581pt.
+
+<chapters/chapter05/images/cd_Ellenfel_mozgasa.jpg, id=256, 1003.75pt x 401.5pt
+>
+File: chapters/chapter05/images/cd_Ellenfel_mozgasa.jpg Graphic file (type jpg)
+
+ <use chapters/chapter05/images/cd_Ellenfel_mozgasa.jpg>
+Package pdftex.def Info: chapters/chapter05/images/cd_Ellenfel_mozgasa.jpg used
+ on input line 418.
+(pdftex.def)             Requested size: 483.69684pt x 193.4836pt.
+ [21 <C:/Users/102917/Dokumentaciok-master/Dokumentaciok-master/Dokumentacio_la
+tex/szoftlab4/chapters/chapter05/images/cd_Akadaly_elhelyezese_ures_utra.jpg> <
+C:/Users/102917/Dokumentaciok-master/Dokumentaciok-master/Dokumentacio_latex/sz
+oftlab4/chapters/chapter05/images/cd_Akadaly_fejlesztese.jpg>]
+<chapters/chapter05/images/cd_Fejlesztetlen_torony_eladasa.jpg, id=261, 605.261
+25pt x 235.88126pt>
+File: chapters/chapter05/images/cd_Fejlesztetlen_torony_eladasa.jpg Graphic fil
+e (type jpg)
+
+<use chapters/chapter05/images/cd_Fejlesztetlen_torony_eladasa.jpg>
+Package pdftex.def Info: chapters/chapter05/images/cd_Fejlesztetlen_torony_elad
+asa.jpg used on input line 427.
+(pdftex.def)             Requested size: 483.69684pt x 188.5073pt.
+
+<chapters/chapter05/images/cd_Fejlesztett_torony_eladasa.jpg, id=262, 661.47125
+pt x 356.33125pt>
+File: chapters/chapter05/images/cd_Fejlesztett_torony_eladasa.jpg Graphic file 
+(type jpg)
+
+<use chapters/chapter05/images/cd_Fejlesztett_torony_eladasa.jpg>
+Package pdftex.def Info: chapters/chapter05/images/cd_Fejlesztett_torony_eladas
+a.jpg used on input line 436.
+(pdftex.def)             Requested size: 483.69684pt x 260.56004pt.
+ [22 <C:/Users/102917/Dokumentaciok-master/Dokumentaciok-master/Dokumentacio_la
+tex/szoftlab4/chapters/chapter05/images/cd_Ellenfel_mozgasa.jpg> <C:/Users/1029
+17/Dokumentaciok-master/Dokumentaciok-master/Dokumentacio_latex/szoftlab4/chapt
+ers/chapter05/images/cd_Fejlesztetlen_torony_eladasa.jpg>]
+<chapters/chapter05/images/cd_Inicializalas.jpg, id=267, 819.06pt x 325.215pt>
+File: chapters/chapter05/images/cd_Inicializalas.jpg Graphic file (type jpg)
+
+<use chapters/chapter05/images/cd_Inicializalas.jpg>
+Package pdftex.def Info: chapters/chapter05/images/cd_Inicializalas.jpg used on
+ input line 445.
+(pdftex.def)             Requested size: 483.69684pt x 192.05879pt.
+
+<chapters/chapter05/images/cd_Torony_elhelyezese_foglalt_mezore.jpg, id=268, 49
+3.845pt x 148.555pt>
+File: chapters/chapter05/images/cd_Torony_elhelyezese_foglalt_mezore.jpg Graphi
+c file (type jpg)
+
+<use chapters/chapter05/images/cd_Torony_elhelyezese_foglalt_mezore.jpg>
+Package pdftex.def Info: chapters/chapter05/images/cd_Torony_elhelyezese_foglal
+t_mezore.jpg used on input line 454.
+(pdftex.def)             Requested size: 483.69684pt x 145.50128pt.
+
+[23 <C:/Users/102917/Dokumentaciok-master/Dokumentaciok-master/Dokumentacio_lat
+ex/szoftlab4/chapters/chapter05/images/cd_Fejlesztett_torony_eladasa.jpg> <C:/U
+sers/102917/Dokumentaciok-master/Dokumentaciok-master/Dokumentacio_latex/szoftl
+ab4/chapters/chapter05/images/cd_Inicializalas.jpg>]
+<chapters/chapter05/images/cd_Torony_elhelyezese_ures_mezore.jpg, id=273, 746.7
+9pt x 325.215pt>
+File: chapters/chapter05/images/cd_Torony_elhelyezese_ures_mezore.jpg Graphic f
+ile (type jpg)
+
+<use chapters/chapter05/images/cd_Torony_elhelyezese_ures_mezore.jpg>
+Package pdftex.def Info: chapters/chapter05/images/cd_Torony_elhelyezese_ures_m
+ezore.jpg used on input line 463.
+(pdftex.def)             Requested size: 483.69684pt x 210.64288pt.
+
+<chapters/chapter05/images/cd_Torony_fejlesztese_minden_gembol_eggyel.jpg, id=2
+74, 1441.385pt x 508.90125pt>
+File: chapters/chapter05/images/cd_Torony_fejlesztese_minden_gembol_eggyel.jpg 
+Graphic file (type jpg)
+
+<use chapters/chapter05/images/cd_Torony_fejlesztese_minden_gembol_eggyel.jpg>
+Package pdftex.def Info: chapters/chapter05/images/cd_Torony_fejlesztese_minden
+_gembol_eggyel.jpg used on input line 472.
+(pdftex.def)             Requested size: 483.69684pt x 170.77223pt.
+
+[24 <C:/Users/102917/Dokumentaciok-master/Dokumentaciok-master/Dokumentacio_lat
+ex/szoftlab4/chapters/chapter05/images/cd_Torony_elhelyezese_foglalt_mezore.jpg
+> <C:/Users/102917/Dokumentaciok-master/Dokumentaciok-master/Dokumentacio_latex
+/szoftlab4/chapters/chapter05/images/cd_Torony_elhelyezese_ures_mezore.jpg>]
+<chapters/chapter05/images/cd_Torony_hatokoreben_nincs_ellenseg_tuzeleskor.jpg,
+ id=279, 594.22pt x 240.9pt>
+File: chapters/chapter05/images/cd_Torony_hatokoreben_nincs_ellenseg_tuzeleskor
+.jpg Graphic file (type jpg)
+
+<use chapters/chapter05/images/cd_Torony_hatokoreben_nincs_ellenseg_tuzeleskor.
+jpg>
+Package pdftex.def Info: chapters/chapter05/images/cd_Torony_hatokoreben_nincs_
+ellenseg_tuzeleskor.jpg used on input line 481.
+(pdftex.def)             Requested size: 483.69684pt x 196.10202pt.
+
+<chapters/chapter05/images/cd_Torony_lelo_egy_ellenseget_fejlesztetlenul.jpg, i
+d=280, 574.145pt x 525.965pt>
+File: chapters/chapter05/images/cd_Torony_lelo_egy_ellenseget_fejlesztetlenul.j
+pg Graphic file (type jpg)
+
+<use chapters/chapter05/images/cd_Torony_lelo_egy_ellenseget_fejlesztetlenul.jp
+g>
+Package pdftex.def Info: chapters/chapter05/images/cd_Torony_lelo_egy_ellensege
+t_fejlesztetlenul.jpg used on input line 490.
+(pdftex.def)             Requested size: 483.69684pt x 443.11574pt.
+ [25 <C:/Users/102917/Dokumentaciok-master/Dokumentaciok-master/Dokumentacio_la
+tex/szoftlab4/chapters/chapter05/images/cd_Torony_fejlesztese_minden_gembol_egg
+yel.jpg> <C:/Users/102917/Dokumentaciok-master/Dokumentaciok-master/Dokumentaci
+o_latex/szoftlab4/chapters/chapter05/images/cd_Torony_hatokoreben_nincs_ellense
+g_tuzeleskor.jpg>]
+<chapters/chapter05/images/cd_Torony_tuzel_egy_ellensegre_fejlesztetlenul.jpg, 
+id=286, 594.22pt x 389.455pt>
+File: chapters/chapter05/images/cd_Torony_tuzel_egy_ellensegre_fejlesztetlenul.
+jpg Graphic file (type jpg)
+
+<use chapters/chapter05/images/cd_Torony_tuzel_egy_ellensegre_fejlesztetlenul.j
+pg>
+Package pdftex.def Info: chapters/chapter05/images/cd_Torony_tuzel_egy_ellenseg
+re_fejlesztetlenul.jpg used on input line 499.
+(pdftex.def)             Requested size: 483.69684pt x 317.0316pt.
+ [26 <C:/Users/102917/Dokumentaciok-master/Dokumentaciok-master/Dokumentacio_la
+tex/szoftlab4/chapters/chapter05/images/cd_Torony_lelo_egy_ellenseget_fejleszte
+tlenul.jpg>])
+(C:\Users\102917\Dokumentaciok-master\Dokumentaciok-master\Dokumentacio_latex\s
+zoftlab4\chapters/chapter05/naplo05.tex
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
+[]|\T1/ptm/m/n/10.95 2014.03.15.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--60
+[]|\T1/ptm/m/n/10.95 2014.03.16.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--66
+[]|\T1/ptm/m/n/10.95 2014.03.16.
+ []
+
+[27 <C:/Users/102917/Dokumentaciok-master/Dokumentaciok-master/Dokumentacio_lat
+ex/szoftlab4/chapters/chapter05/images/cd_Torony_tuzel_egy_ellensegre_fejleszte
+tlenul.jpg>])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 83.
- [3]
+ [28]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 83.
 
-(D:\SAJÁT\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\szoftlab
-4.aux)
+(C:\Users\102917\Dokumentaciok-master\Dokumentaciok-master\Dokumentacio_latex\s
+zoftlab4\szoftlab4.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 83.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 83.
 Package rerunfilecheck Info: File `szoftlab4.out' has not changed.
-(rerunfilecheck)             Checksum: 6F3D705F3CEF88669817B980CEE7823B;1062.
+(rerunfilecheck)             Checksum: 0FB0A8EBB3CA8D547BFD1E99C77F46BE;10448.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 83.
  ) 
 Here is how much of TeX's memory you used:
- 12081 strings out of 493921
- 173528 string characters out of 3144849
- 314377 words of memory out of 3000000
- 15250 multiletter control sequences out of 15000+200000
- 36027 words of font info for 43 fonts, out of 3000000 for 9000
+ 12321 strings out of 493921
+ 184209 string characters out of 3146516
+ 303533 words of memory out of 3000000
+ 15406 multiletter control sequences out of 15000+200000
+ 33305 words of font info for 41 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 42i,11n,48p,326b,344s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x8
-6)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
-Output written on szoftlab4.pdf (3 pages, 45652 bytes).
+ 42i,11n,48p,452b,518s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/tex/miktex29/fonts/enc/dvips/fontname/8r.enc}<C:/Program Fi
+les/tex/miktex29/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/te
+x/miktex29/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/tex/miktex29/font
+s/type1/urw/times/utmr8a.pfb>
+Output written on szoftlab4.pdf (28 pages, 1915398 bytes).
 PDF statistics:
- 56 PDF objects out of 1000 (max. 8388607)
- 8 named destinations out of 1000 (max. 500000)
- 57 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 328 PDF objects out of 1000 (max. 8388607)
+ 62 named destinations out of 1000 (max. 500000)
+ 455 words of extra memory for PDF output out of 10000 (max. 10000000)
 
