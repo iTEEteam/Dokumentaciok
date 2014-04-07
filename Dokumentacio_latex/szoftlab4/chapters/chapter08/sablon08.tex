@@ -7,53 +7,6 @@
 
 \section{Osztályok és metódusok tervei}
 
-\subsection{Osztály1}
-\begin{itemize}
-\item Felelősség\newline
-\comment{Mi az osztály felelőssége. Kb 1 bekezdés. Ha szükséges, akkor state-chart is.}
-\item Ősosztályok\newline
-\comment{Mely osztályokból származik (öröklési hierarchia)\newline
-Legősebb osztály $\rightarrow$ Ősosztály2 $\rightarrow$ Ősosztály3...}
-\item Interfészek\newline
-\comment{Mely interfészeket valósítja meg.}
-\item Attribútumok\newline
-\comment{Milyen attribútumai vannak}
-	\begin{itemize}
-		\item attribútum1: attribútum jellemzése: mire való, láthatósága (UML jelöléssel), típusa
-		\item attribútum2: attribútum jellemzése: mire való, láthatósága (UML jelöléssel), típusa
-	\end{itemize}
-\item Metódusok\newline
-\comment{Milyen publikus, protected és privát  metódusokkal rendelkezik. Metódusonként precíz leírás, ha szükséges, activity diagram is  a metódusban megvalósítandó algoritmusról.}
-	\begin{itemize}
-		\item int foo(Osztály3 o1, Osztály4 o2): metódus leírása, láthatósága (UML jelöléssel)
-		\item int bar(Osztály5 o1): metódus leírása, láthatósága (UML jelöléssel)
-	\end{itemize}
-\end{itemize}
-
-\subsection{Osztály2}
-\begin{itemize}
-\item Felelősség\newline
-\comment{Mi az osztály felelőssége. Kb 1 bekezdés. Ha szükséges, akkor state-chart is.}
-\item Ősosztályok\newline
-\comment{Mely osztályokból származik (öröklési hierarchia)\newline
-Legősebb osztály $\rightarrow$ Ősosztály2 $\rightarrow$ Ősosztály3...}
-\item Interfészek\newline
-\comment{Mely interfészeket valósítja meg.}
-\item Attribútumok\newline
-\comment{Milyen attribútumai vannak}
-	\begin{itemize}
-		\item attribútum1: attribútum jellemzése: mire való, láthatósága (UML jelöléssel), típusa
-		\item attribútum2: attribútum jellemzése: mire való, láthatósága (UML jelöléssel), típusa
-	\end{itemize}
-\item Metódusok\newline
-\comment{Milyen publikus, protected és privát  metódusokkal rendelkezik. Metódusonként precíz leírás, ha szükséges, activity diagram is  a metódusban megvalósítandó algoritmusról.}
-	\begin{itemize}
-		\item int foo(Osztály3 o1, Osztály4 o2): metódus leírása, láthatósága (UML jelöléssel)
-		\item int bar(Osztály5 o1): metódus leírása, láthatósága (UML jelöléssel)
-	\end{itemize}
-\end{itemize}
-
-
 \subsection{Bullet}
 \begin{itemize}
 \item Felelősség\\
@@ -101,9 +54,9 @@ IPathPlaceable
 		\item[static final maxHP] A maximális életerő értéke. -, int
 \item[modSpeed] Az ellenség belső idő mérője. A setModSpeed változtathatja – jellemzően negatív irányba, akadályokon. -, int
 \item[nextPath] A soron következő path címe. -, Path
-\item[health] Életerejét tárolja ebben. Hurt függvényben csökkenti. #, int
-\item[myPath] Az a mező, ahol tartózkodik. #, Path
-\item[igame] Ezen keresztül tudja módosítani a manát, amikor meghal, illetve ha elér a végzet hegyére módosítani a számlálót (Game.succeededE), hogy nőjön egyel. #, IGame
+\item[health] Életerejét tárolja ebben. Hurt függvényben csökkenti. \#, int
+\item[myPath] Az a mező, ahol tartózkodik. \#, Path
+\item[igame] Ezen keresztül tudja módosítani a manát, amikor meghal, illetve ha elér a végzet hegyére módosítani a számlálót (Game.succeededE), hogy nőjön egyel. \#, IGame
 
 	\end{description}
 \item Metódusok\\
@@ -558,30 +511,202 @@ Interfész az útra helyezhető osztályok számára. Azonosítja azokat az obje
 
 
 \section{A tesztek részletes tervei, leírásuk a teszt nyelvén}
-[A tesztek részletes tervei alatt meg kell adni azokat a bemeneti adatsorozatokat, amelyekkel a program működése ellenőrizhető. Minden bemenő adatsorozathoz definiálni kell, hogy az adatsorozat végrehajtásától a program mely részeinek, funkcióinak ellenőrzését várjuk és konkrétan milyen eredményekre számítunk, ezek az eredmények hogyan vethetők össze a bemenetekkel.]
+%[A tesztek részletes tervei alatt meg kell adni azokat a bemeneti adatsorozatokat, amelyekkel a program működése ellenőrizhető. Minden bemenő adatsorozathoz definiálni kell, hogy az adatsorozat végrehajtásától a program mely részeinek, funkcióinak ellenőrzését várjuk és konkrétan milyen eredményekre számítunk, ezek az eredmények hogyan vethetők össze a bemenetekkel.]
 
-\subsection{Teszteset1}
+\subsection{Ellenség mozgás és sebzés}
 \begin{itemize}
 \item Leírás\newline
-\comment{szöveges leírás, kb. 1-5 mondat.}
-\item Ellenőrzött funkcionalitás, várható hibahelyek
+A tesztelő létrehoz 2 ellenséget és vesz 2 tornyot, egyiket a 3 kristállyal, a másikat Elf kristállyal. Ez után utukra indítja az ellenségeket, akik útközben meghalnak. Végén elad a játékos egy tornyot.
+\item Ellenőrzött funkcionalitás, várható hibahelyek \newline
+Ellenségek létrehozása, halála. Tornyok vétele, fejlesztése, tüzelés és eladást tesztel. 
+
+Várható hibahely: ellenség mozgatása, kristály vétel
 \item Bemenet\newline
-\comment{a proto bemeneti nyelvén megadva (lásd előző anyag)}
+\begin{verbatim}
+loadmap testmap1.txt
+buy tower 2-1
+buy tower 2-5
+buy gem  2-1 speed 
+buy gem 2-1 range 
+buy gem 2-1 damage 
+buy gem 2-5 enemy elf
+make hobbit 1-1
+update 2
+make elf 1-1
+update 2
+sell 2-1
+exit
+\end{verbatim}
 \item Elvárt kimenet\newline
-\comment{a proto kimeneti nyelvén megadva (lásd előző anyag)}
+\begin{verbatim}
+map testmap1.txt loaded
+Tower0 created
+Tower1 created 
+SpeedGem0 created
+RangeGem0 created
+DamageGem0 created
+EnemyTypeGem0 created
+Hobbit0 created
+update
+Hobbit0 move
+Tower0 shoots Hobbit0
+Hobbit0 damage 40
+update
+Hobbit0 move 
+Tower0 shoots Hobbit0
+Hobbit0 damage 40
+Tower1 shoots Hobbit0
+Hobbit0 damage 20
+Hobbit0 died
+Elf0 created
+update
+Elf0 move
+Tower0 shoots Elf0
+Elf0 damage 40
+update
+Elf0 move 
+Tower0 shoots Elf0
+Elf0 damage 40
+Tower1 shoots Elf0
+Elf0 damage 60
+Elf0 died
+Tower0 sold 80 mana
+\end{verbatim}
 \end{itemize}
 
-\subsection{Teszteset2}
+\subsection{Akadály teszt}
 \begin{itemize}
 \item Leírás\newline
-\comment{szöveges leírás, kb. 1-5 mondat.}
-\item Ellenőrzött funkcionalitás, várható hibahelyek
+A pályán elhelyez a játékos egy akadályt, amit fejleszt egy intenzitás növelő kristállyal, majd bejut az ellenség a végzet hegyéhez. Amikor az utolsó ellenség is áthaladt rajta elhasználódik.
+\item Ellenőrzött funkcionalitás, várható hibahelyek\newline
+Ellenségek létrehozása, akadály létrehozása, fejlesztése, elhasználódása. Végzet hegyére jutás.
+
+Várható hibahely: akadály elhasználódása, ellenség bejutása a Végzet Hegyéhez
 \item Bemenet\newline
-\comment{a proto bemeneti nyelvén megadva (lásd előző anyag)}
+\begin{verbatim}
+loadmap testmap2.txt
+buy obstacle 1-1
+buy gem 1-1 intensity
+make hobbit 1-0
+update 4 
+exit
+\end{verbatim}
 \item Elvárt kimenet\newline
-\comment{a proto kimeneti nyelvén megadva (lásd előző anyag)}
+\begin{verbatim}
+map testmap2.txt loaded
+Obstacle0 created
+IntensityGem0 created
+Hobbit0 created
+update
+Hobbit0 moves
+Obstacle0 slows Hobbit0 by 1
+Obstacle0 worn out
+update
+update
+Hobbit0 moves
+update 
+Hobbit0 reached Mount Doom
+\end{verbatim}
+\end{itemize}
+
+\subsection{Köd, és ellenség kettészelés}
+\begin{itemize}
+\item Leírás\newline
+A pályára feltesz a tesztelő egy Human ellenséget és egy tornyot. Frissíti a játékot, a torony lő az ellenségre. Beállítja a ködöt, és hogy kettészelő lövedékeket lőjenek a tornyok. Kétszer frissíti a pályát, elsőre csak lép, mert kikerült a torony hatósugarából, másodiknak újra bekerült, kettészelő lövedékkel lövi meg a torony.	
+\item Ellenőrzött funkcionalitás, várható hibahelyek\newline
+Köd, kettélövő lövedék.
+
+Várható hibahely: hatósugár újrakalibrálása, ellenség kettészelése
+\item Bemenet\newline
+\begin{verbatim}
+loadmap testmap3.txt
+make human 1-0
+make tower 2-3
+update 1
+haze on
+cut on
+update 2
+exit
+\end{verbatim}
+\item Elvárt kimenet\newline
+\begin{verbatim}
+map testmap3.txt loaded
+Human0 created
+Tower0 created
+update 
+Human0 moves
+Tower0 shoots Human0
+Human0 damage 20
+haze is turned on
+cut is turned on
+update
+Human0 moves
+update
+Human0 moves
+Tower0 shoots Human0
+Human0 damage 0
+Human0 cut in half
+Human1 created
+\end{verbatim}
+\end{itemize}
+
+\subsection{Ellenség elágazáshoz ér}
+\begin{itemize}
+\item Leírás\newline
+A pályára feltesz a tesztelő 3 különböző ellenséget. A pálya kialakításából adódóan 1 lépés után elágazáshoz érnek. Mindegyiket különböző irányba küldjük. 
+\item Ellenőrzött funkcionalitás, várható hibahelyek\newline
+Ellenségek elágazás kezelése.
+
+Várható hibahely: elágazás
+\item Bemenet\newline
+\begin{verbatim}
+loadmap testmap4.txt
+make elf 2-1
+make human 2-1
+make dwarf 2-1
+update 1
+route Elf0 1
+route Human0 0
+route Dwarf0 3
+update 1
+drawMap
+exit
+\end{verbatim}
+\item Elvárt kimenet\newline
+\begin{verbatim}
+map testmap4.txt loaded
+Elf0 created
+Human0 created
+Dwarf0 created
+update
+Elf0 moves
+Elf0 crossroad
+Human0 moves
+Human0 crossroad
+Dwarf0 moves
+Dwarf0 crossroad
+update
+Elf0 moves
+Human0 moves
+Dwarf0 moves
+\end{verbatim}
+\begin{lstlisting}
+	0	1	2	3	4	5
+0	x	x	x	x	x	x
+1	x	x	hob	r	r	x
+2	en	r	r	hum	r	ex
+3	x	x	elf	r	r	x
+4	x	x	x	x	x	x
+\end{lstlisting}
 \end{itemize}
 
 \section{A tesztelést támogató programok tervei}
-\comment{A tesztadatok előállítására, a tesztek eredményeinek kiértékelésére szolgáló segédprogramok részletes terveit kell elkészíteni.}
+%\comment{A tesztadatok előállítására, a tesztek eredményeinek kiértékelésére szolgáló segédprogramok részletes terveit kell elkészíteni.}
 
+Készülnek a prototípus program, illetve a szövegfájl összehasonlító segédprogram fordítását és futtatását megkönnyítő batch fájlok, melyek futtatásuk után automatizáltan elvégzik ezeket a feladatokat.
+
+Az előre elkészített, és a 8.2-es pontban leírt tesztesetek amellett, hogy futtathatóak a parancssorból a bemenet átirányításával a megfelelő fájlból (pl.: java ProtoTester < teszt1.dat), reprodukálhatjuk őket az erre a célra készített batch fájl segítségével is: test.bat.
+A batch fájl működése a következő: futtatás után ellenőrzi, hogy a szükséges programok (prototípus, illetve szöveges fájl összehasonlító) rendelkezésre állnak-e a megfelelő helyen, ha nem, akkor felkéri a felhasználót azoknak a lefordítására, vagy áthelyezésére, majd kilép. Amennyiben rendelkezésre állnak, megkérdezi a tesztelőtől, hogy melyik tesztesetet kívánja lefuttatni, illetve a kimenetet megjelenítse-e a konzolablakban. Amennyiben a megjelenítés mellett dönt a tesztelő, az adott teszteset lefuttatása után keletkező kimenet a konzolban jelenik meg, és billentyűlenyomásig ott is marad, így az elemezhető, az elvárt kimenettel összevethető. Ellenkező esetben, tehát ha a tesztelő úgy dönt, hogy ne jelenjen meg a prototípus kimenete, akkor egy fájlba irányítja azt a batch fájl, és az így keletkező fájlt összeveti az elvárt kimenettel a TxtComparer segédprogram segítségével (ennek specifikációja lentebb található), és megmondja, hogy egyezik-e, majd billentyűlenyomás után kilép.
+
+A tesztelést tovább segíti a TxtComparer nevű, szöveges fájlok összehasonlítását végző program. A program Java nyelven készül, forráskódja a prototípushoz hasonlóan adott. A program a fordítás után a parancssorból futtatható, ahol két paramétert vár: a két összehasonlítandó fájl nevét (pl.: java TxtComparer file1 file2). 
+Futtatás után, amennyiben a helyes paraméterek rendelkezésre állnak, illetve elérhetőek a megadott fájlok, a program soronként összehasonlítja a két fájlt, és amennyiben azok megegyeznek, értesíti erről a felhasználót. Azon esetben, amikor a fájlok tartalmában eltérést észlel, az eltérést tartalmazó sorok számai jelennek meg a kimeneten.
