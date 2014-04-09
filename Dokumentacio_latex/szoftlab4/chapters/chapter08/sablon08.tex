@@ -501,14 +501,8 @@ Interfész az útra helyezhető osztályok számára. Azonosítja azokat az obje
 		\item[void eliminate(Path p)] Az útra helyezhető objektum eltávolítása az útról (p-ről). +
 \item[void registerPath(Path p)] Az útra helyezhető objektumnak megadja paraméterben annak az útnak a referenciáját, amelyikre helyezve lesz. +
 
-
-
-		
 	\end{description}
 \end{itemize}
-
-
-
 
 \section{A tesztek részletes tervei, leírásuk a teszt nyelvén}
 %[A tesztek részletes tervei alatt meg kell adni azokat a bemeneti adatsorozatokat, amelyekkel a program működése ellenőrizhető. Minden bemenő adatsorozathoz definiálni kell, hogy az adatsorozat végrehajtásától a program mely részeinek, funkcióinak ellenőrzését várjuk és konkrétan milyen eredményekre számítunk, ezek az eredmények hogyan vethetők össze a bemenetekkel.]
@@ -521,57 +515,67 @@ A tesztelő létrehoz 2 ellenséget és vesz 2 tornyot, egyiket a 3 kristállyal
 Ellenségek létrehozása, halála. Tornyok vétele, fejlesztése, tüzelés és eladást tesztel. 
 
 Várható hibahely: ellenség mozgatása, kristály vétel
+\item Tesztesethez használt térkép \newline
+\texttt{
+testmap1.txt:
+\begin{tabbing}
+\hspace*{1cm}\=\hspace*{1cm}\=\hspace*{1cm}\=\hspace*{1cm}\=\hspace*{1cm}\=\hspace*{1cm}\= \kill
+x \> x \> x \> x \> x \> x \\
+en \> r \> r \> r \> r \> ex \\
+x \> x \> x \> x \> x \> x 
+\end{tabbing}
+}
 \item Bemenet\newline
-\begin{verbatim}
-loadmap testmap1.txt
-buy tower 2-1
-buy tower 2-5
-buy gem  2-1 speed 
-buy gem 2-1 range 
-buy gem 2-1 damage 
-buy gem 2-5 enemy elf
-make hobbit 1-1
-update 2
-make elf 1-1
-update 2
-sell 2-1
-exit
-\end{verbatim}
+\texttt{
+loadmap testmap1.txt \\
+buy tower 2-1 \\
+buy tower 2-5 \\
+buy gem  2-1 speed  \\
+buy gem 2-1 range  \\
+buy gem 2-1 damage  \\
+buy gem 2-5 enemy elf \\
+make hobbit 1-1 \\
+update 2 \\
+make elf 1-1 \\
+update 2 \\
+sell 2-1 \\
+exit \\
+}
 \item Elvárt kimenet\newline
-\begin{verbatim}
-map testmap1.txt loaded
-Tower0 created
-Tower1 created 
-SpeedGem0 created
-RangeGem0 created
-DamageGem0 created
-EnemyTypeGem0 created
-Hobbit0 created
-update
-Hobbit0 move
-Tower0 shoots Hobbit0
-Hobbit0 damage 40
-update
-Hobbit0 move 
-Tower0 shoots Hobbit0
-Hobbit0 damage 40
-Tower1 shoots Hobbit0
-Hobbit0 damage 20
-Hobbit0 died
-Elf0 created
-update
-Elf0 move
-Tower0 shoots Elf0
-Elf0 damage 40
-update
-Elf0 move 
-Tower0 shoots Elf0
-Elf0 damage 40
-Tower1 shoots Elf0
-Elf0 damage 60
-Elf0 died
-Tower0 sold 80 mana
-\end{verbatim}
+\texttt{
+map testmap1.txt loaded \\
+Tower0 created \\
+Tower1 created  \\
+SpeedGem0 created \\
+RangeGem0 created \\
+DamageGem0 created \\
+EnemyTypeGem0 created \\
+Hobbit0 created \\
+update \\
+Hobbit0 move \\
+Tower0 shoots Hobbit0 \\
+Hobbit0 damage 40 \\
+update \\
+Hobbit0 move  \\
+Tower0 shoots Hobbit0 \\
+Hobbit0 damage 40 \\
+Tower1 shoots Hobbit0 \\
+Hobbit0 damage 20 \\
+Hobbit0 died \\
+Elf0 created \\
+update \\
+Elf0 move \\
+Tower0 shoots Elf0 \\
+Elf0 damage 40 \\
+update \\
+Elf0 move  \\
+Tower0 shoots Elf0 \\
+Elf0 damage 40 \\
+Tower1 shoots Elf0 \\
+Elf0 damage 60 \\
+Elf0 died \\
+Tower0 sold 80 mana \\
+}
 \end{itemize}
 
 \subsection{Akadály teszt}
@@ -582,31 +586,41 @@ A pályán elhelyez a játékos egy akadályt, amit fejleszt egy intenzitás nö
 Ellenségek létrehozása, akadály létrehozása, fejlesztése, elhasználódása. Végzet hegyére jutás.
 
 Várható hibahely: akadály elhasználódása, ellenség bejutása a Végzet Hegyéhez
+\item Tesztesethez használt térkép \newline
+\texttt{
+testmap2.txt:
+\begin{tabbing}
+\hspace*{1cm}\=\hspace*{1cm}\=\hspace*{1cm}\=\hspace*{1cm}\= \kill
+x \> x \> x \> x \\
+en \> r \> r \> ex \\
+x \> x \> x \> x
+\end{tabbing}
+}
 \item Bemenet\newline
-\begin{verbatim}
-loadmap testmap2.txt
-buy obstacle 1-1
-buy gem 1-1 intensity
-make hobbit 1-0
-update 4 
-exit
-\end{verbatim}
+\texttt{
+loadmap testmap2.txt \\
+buy obstacle 1-1 \\
+buy gem 1-1 intensity \\
+make hobbit 1-0 \\
+update 4 \\ 
+exit \\
+}
 \item Elvárt kimenet\newline
-\begin{verbatim}
-map testmap2.txt loaded
-Obstacle0 created
-IntensityGem0 created
-Hobbit0 created
-update
-Hobbit0 moves
-Obstacle0 slows Hobbit0 by 1
-Obstacle0 worn out
-update
-update
-Hobbit0 moves
-update 
-Hobbit0 reached Mount Doom
-\end{verbatim}
+\texttt{
+map testmap2.txt loaded \\
+Obstacle0 created \\
+IntensityGem0 created \\
+Hobbit0 created \\
+update \\
+Hobbit0 moves \\
+Obstacle0 slows Hobbit0 by 1 \\
+Obstacle0 worn out \\
+update \\
+update \\
+Hobbit0 moves \\
+update  \\
+Hobbit0 reached Mount Doom \\
+}
 \end{itemize}
 
 \subsection{Köd, és ellenség kettészelés}
@@ -617,37 +631,47 @@ A pályára feltesz a tesztelő egy Human ellenséget és egy tornyot. Frissíti
 Köd, kettélövő lövedék.
 
 Várható hibahely: hatósugár újrakalibrálása, ellenség kettészelése
+\item Tesztesethez használt térkép \newline
+\texttt{
+testmap3.txt:
+\begin{tabbing}
+\hspace*{1cm}\=\hspace*{1cm}\=\hspace*{1cm}\=\hspace*{1cm}\=\hspace*{1cm}\= \kill
+x \> x \> x \> x \> x \\
+en \> r \> r \> r \> ex \\
+x \> x \> x \> x \> x
+\end{tabbing}
+}
 \item Bemenet\newline
-\begin{verbatim}
-loadmap testmap3.txt
-make human 1-0
-make tower 2-3
-update 1
-haze on
-cut on
-update 2
-exit
-\end{verbatim}
+\texttt{
+loadmap testmap3.txt \\
+make human 1-0 \\
+make tower 2-3 \\
+update 1 \\
+haze on \\
+cut on \\
+update 2 \\
+exit \\
+}
 \item Elvárt kimenet\newline
-\begin{verbatim}
-map testmap3.txt loaded
-Human0 created
-Tower0 created
-update 
-Human0 moves
-Tower0 shoots Human0
-Human0 damage 20
-haze is turned on
-cut is turned on
-update
-Human0 moves
-update
-Human0 moves
-Tower0 shoots Human0
-Human0 damage 0
-Human0 cut in half
-Human1 created
-\end{verbatim}
+\texttt{
+map testmap3.txt loaded \\
+Human0 created \\
+Tower0 created \\
+update  \\
+Human0 moves \\
+Tower0 shoots Human0 \\
+Human0 damage 20 \\
+haze is turned on \\
+cut is turned on \\
+update \\
+Human0 moves \\
+update \\
+Human0 moves \\
+Tower0 shoots Human0 \\
+Human0 damage 0 \\
+Human0 cut in half \\
+Human1 created \\
+}
 \end{itemize}
 
 \subsection{Ellenség elágazáshoz ér}
@@ -658,46 +682,59 @@ A pályára feltesz a tesztelő 3 különböző ellenséget. A pálya kialakít�
 Ellenségek elágazás kezelése.
 
 Várható hibahely: elágazás
+\item Tesztesethez használt térkép \newline
+\texttt{
+testmap4.txt:
+\begin{tabbing}
+\hspace*{1cm}\=\hspace*{1cm}\=\hspace*{1cm}\=\hspace*{1cm}\=\hspace*{1cm}\=\hspace*{1cm}\= \kill
+x \> x \> x \> x \> x \> x \\
+x \> x \> r \> r \> d \> x \\
+en \> r \> rud \> r \> r \> ex \\
+x \> x \> r \> r \> u \> x \\
+x \> x \> x \> x \> x \> x
+\end{tabbing}
+}
 \item Bemenet\newline
-\begin{verbatim}
-loadmap testmap4.txt
-make elf 2-1
-make human 2-1
-make dwarf 2-1
-update 1
-route Elf0 1
-route Human0 0
-route Dwarf0 3
-update 1
-drawMap
-exit
-\end{verbatim}
+\texttt{
+loadmap testmap4.txt \\
+make elf 2-1 \\
+make human 2-1 \\
+make dwarf 2-1 \\
+update 1 \\
+route Elf0 1 \\
+route Human0 0 \\
+route Dwarf0 3 \\
+update 1 \\
+drawMap \\
+exit  \\
+}
 \item Elvárt kimenet\newline
-\begin{verbatim}
-map testmap4.txt loaded
-Elf0 created
-Human0 created
-Dwarf0 created
-update
-Elf0 moves
-Elf0 crossroad
-Human0 moves
-Human0 crossroad
-Dwarf0 moves
-Dwarf0 crossroad
-update
-Elf0 moves
-Human0 moves
-Dwarf0 moves
-\end{verbatim}
-\begin{lstlisting}
-	0	1	2	3	4	5
-0	x	x	x	x	x	x
-1	x	x	hob	r	r	x
-2	en	r	r	hum	r	ex
-3	x	x	elf	r	r	x
-4	x	x	x	x	x	x
-\end{lstlisting}
+\texttt{
+map testmap4.txt loaded \\
+Elf0 created \\
+Human0 created \\
+Dwarf0 created \\
+update \\
+Elf0 moves \\
+Elf0 crossroad \\
+Human0 moves \\
+Human0 crossroad \\
+Dwarf0 moves \\
+Dwarf0 crossroad \\
+update \\
+Elf0 moves \\
+Human0 moves \\
+Dwarf0 moves \\
+\begin{tabbing}
+\hspace*{1cm}\=\hspace*{1cm}\=\hspace*{1cm}\=\hspace*{1cm}\=\hspace*{1cm}\=\hspace*{1cm}\=\hspace*{1cm}\= \kill
+ \> 0 \> 1 \> 2 \> 3 \> 4 \> 5 \\
+0 \> x \> x \> x \> x \> x \> x \\
+1 \> x \> x \> hob \> r \> r \> x \\
+2 \> en \> r \> r \> hum \> r \> ex \\
+3 \> x \> x \> elf \> r \> r \> x \\
+4 \> x \> x \> x \> x \> x \> x
+\end{tabbing}
+}
 \end{itemize}
 
 \section{A tesztelést támogató programok tervei}
