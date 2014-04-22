@@ -6,66 +6,434 @@
 \thispagestyle{fancy}
 
 \section{Fordítási és futtatási útmutató}
-\comment{A feltöltött program fordításával és futtatásával kapcsolatos útmutatás. Ennek tartalmaznia kell leltárszerűen az egyes fájlok pontos nevét, méretét byte-ban, keletkezési idejét, valamint azt, hogy a fájlban mi került megvalósításra.}
+%\comment{A feltöltött program fordításával és futtatásával kapcsolatos útmutatás. Ennek tartalmaznia kell leltárszerűen az egyes fájlok pontos nevét, méretét byte-ban, keletkezési idejét, valamint azt, hogy a fájlban mi került megvalósításra.}
 
 \subsection{Fájllista}
 
 \begin{fajllista}
 
 \fajl
-{Main.java} % Kezdet
-{250 byte} % Idptartam
-{2009.10.10~18:05~} % Résztvevők
-{...} % Leírás
+{proto/Application.java}
+{407}
+{2014.03.11.}
+{Névvel megegyező osztály.}
 
 \fajl
-{...}
-{...}
-{...}
-{...}
+{proto/Bullet.java}
+{2176}
+{2014.03.11.}
+{Névvel megegyező osztály.}
+
+\fajl
+{proto/Cell.java}
+{677}
+{2014.03.11.}
+{Névvel megegyező osztály.}
+
+\fajl
+{proto/Controller.java}
+{4601}
+{2014.03.11.}
+{Névvel megegyező osztály.}
+
+\fajl
+{proto/DamageGem.java}
+{459}
+{2014.03.11.}
+{Névvel megegyező osztály.}
+
+\fajl
+{proto/Dwarf.java}
+{1325}
+{2014.03.11.}
+{Névvel megegyező osztály.}
+
+\fajl
+{proto/Elf.java}
+{1310}
+{2014.03.11.}
+{Névvel megegyező osztály.}
+
+\fajl
+{proto/Enemy.java}
+{4436}
+{2014.03.11.}
+{Névvel megegyező osztály.}
+
+\fajl
+{proto/EnemyTypeGem.java}
+{504}
+{2014.03.11.}
+{Névvel megegyező osztály.}
+
+\fajl
+{proto/Field.java}
+{1222}
+{2014.03.11.}
+{Névvel megegyező osztály.}
+
+\fajl
+{proto/Game.java}
+{5368}
+{2014.03.11.}
+{Névvel megegyező osztály.}
+
+\fajl
+{proto/Gem.java}
+{274}
+{2014.03.11.}
+{Névvel megegyező osztály.}
+
+\fajl
+{proto/Hobbit.java}
+{1330}
+{2014.03.11.}
+{Névvel megegyező osztály.}
+
+\fajl
+{proto/Human.java}
+{1323}
+{2014.03.11.}
+{Névvel megegyező osztály.}
+
+\fajl
+{proto/IFieldPlaceable.java}
+{127}
+{2014.03.11.}
+{Névvel megegyező osztály.}
+
+\fajl
+{proto/IGame.java}
+{470}
+{2014.03.11.}
+{Névvel megegyező osztály.}
+
+\fajl
+{proto/IntensityGem.java}
+{460}
+{2014.03.11.}
+{Névvel megegyező osztály.}
+
+\fajl
+{proto/IObstacle.java}
+{216}
+{2014.03.11.}
+{Névvel megegyező osztály.}
+
+\fajl
+{proto/IOGem.java}
+{96}
+{2014.03.11.}
+{Névvel megegyező osztály.}
+
+\fajl
+{proto/IPathPlaceable.java}
+{129}
+{2014.03.11.}
+{Névvel megegyező osztály.}
+
+\fajl
+{proto/ITGem.java}
+{115}
+{2014.03.11.}
+{Névvel megegyező osztály.}
+
+\fajl
+{proto/ITower.java}
+{235}
+{2014.03.11.}
+{Névvel megegyező osztály.}
+
+\fajl
+{proto/Map.java}
+{4763}
+{2014.03.11.}
+{Névvel megegyező osztály.}
+
+\fajl
+{proto/Obstacle.java}
+{1815}
+{2014.03.11.}
+{Névvel megegyező osztály.}
+
+\fajl
+{proto/Path.java}
+{4517}
+{2014.03.11.}
+{Névvel megegyező osztály.}
+
+\fajl
+{proto/ProtoTester.java}
+{17002}
+{2014.03.11.}
+{A proto programot tesztelhetővé tevő program.}
+
+\fajl
+{proto/RangeGem.java}
+{420}
+{2014.03.11.}
+{Névvel megegyező osztály.}
+
+\fajl
+{proto/RepairGem.java}
+{297}
+{2014.03.11.}
+{Névvel megegyező osztály.}
+
+\fajl
+{proto/SpeedGem.java}
+{461}
+{2014.03.11.}
+{Névvel megegyező osztály.}
+
+\fajl
+{proto/Tower.java}
+{4416}
+{2014.03.11.}
+{Névvel megegyező osztály.}
+
+\fajl
+{txtComparer/TxtComparer.java}
+{1929}
+{2014.04.20.}
+{A kapott kimenetet az elvárt kimenettel összehasonlító program.}
+
+\fajl
+{test1.expected}
+{545}
+{2014.04.20.}
+{Teszteset1 elvárt kimenete}
+
+\fajl
+{test2.expected}
+{341}
+{2014.04.20.}
+{Teszteset2 elvárt kimenete}
+
+\fajl
+{test3.expected}
+{300}
+{2014.04.20.}
+{Teszteset3 elvárt kimenete}
+
+\fajl
+{test4.expected}
+{561}
+{2014.04.20.}
+{Teszteset4 elvárt kimenete}
+
+\fajl
+{test1.txt}
+{200}
+{2014.04.09.}
+{Teszteset1 bemenete}
+
+\fajl
+{test2.txt}
+{97}
+{2014.04.09.}
+{Teszteset2 bemenete}
+
+\fajl
+{test3.txt}
+{115}
+{2014.04.09.}
+{Teszteset3 bemenete}
+
+\fajl
+{test4.txt}
+{147}
+{2014.04.09.}
+{Teszteset4 bemenete}
+
+\fajl
+{testmap1.txt}
+{39}
+{2014.04.07.}
+{Teszteset1 térképe}
+
+\fajl
+{testmap2.txt}
+{27}
+{2014.04.07.}
+{Teszteset2 térképe}
+
+\fajl
+{testmap3.txt}
+{33}
+{2014.04.07.}
+{Teszteset3 térképe}
+
+\fajl
+{testmap4.txt}
+{67}
+{2014.04.07.}
+{Teszteset4 térképe}
+
+\fajl
+{ProtoCompileAndRun.bat}
+{288}
+{2014.04.21.}
+{Parancssoros fordítást végzi.}
+
+\fajl
+{ProtoTestAndCompare1.bat}
+{588}
+{2014.04.20.}
+{Teszteset1 futtatása és ellenőrzése}
+
+\fajl
+{ProtoTestAndCompare2.bat}
+{588}
+{2014.04.20.}
+{Teszteset2 futtatása és ellenőrzése}
+
+\fajl
+{ProtoTestAndCompare3.bat}
+{588}
+{2014.04.20.}
+{Teszteset3 futtatása és ellenőrzése}
+
+\fajl
+{ProtoTestAndCompare4.bat}
+{588}
+{2014.04.20.}
+{Teszteset4 futtatása és ellenőrzése}
 
 \end{fajllista}
 
-\subsection{Fordítás}
-\comment{A fenti listában szereplő forrásfájlokból milyen műveletekkel lehet a bináris, futtatható kódot előállítani. Az előállításhoz csak a 2. Követelmények c. dokumentumban leírt környezetet szabad előírni.}
-
 \lstset{escapeinside=`', xleftmargin=10pt, frame=single, basicstyle=\ttfamily\footnotesize, language=sh}
+
+\subsection{Fordítás}
+%\comment{A fenti listában szereplő forrásfájlokból milyen műveletekkel lehet a bináris, futtatható kódot előállítani. Az előállításhoz csak a 2. Követelmények c. dokumentumban leírt környezetet szabad előírni.}
+
+A fordítás a ''javac'' programmal történik, ezért olyan környezetben lehetséges csak, ahol ez a program elérhető. 
+
+A tesztelés megkönnyítése végett a fordítás és futtatás automatizálására több batch fájl áll rendelkezésre. Ezeknek a használata a 10.1.3 pontban van részletezve. 
+
+A fordítás parancssorból is lehetséges a következő, a project gyökerében kiadott paranccsal:
 \begin{lstlisting}
-javac -d bin *.java
+javac -d ./bin/ proto/*.java
+\end{lstlisting}
+Ez a parancs lefordítja a prototípust, és a lefordított állományokat a bin mappába helyezi.  
+
+A szövegfájlok összehasonlítására használt segédprogram (TxtComparer) fordításához a projekt gyökerében adjuk ki a következő parancsot:
+\begin{lstlisting}
+javac -d ./bin/ txtComparer/TxtComparer.java
 \end{lstlisting}
 
 \subsection{Futtatás}
-\comment{A futtatható kód elindításával kapcsolatos teendők leírása. Az indításhoz csak a 2. Követelmények c. dokumentumban leírt környezetet szabad előírni.}
+%\comment{A futtatható kód elindításával kapcsolatos teendők leírása. Az indításhoz csak a 2. Követelmények c. dokumentumban leírt környezetet szabad előírni.}
 
-\lstset{escapeinside=`', xleftmargin=10pt, frame=single, basicstyle=\ttfamily\footnotesize, language=sh}
+A futtatás a ''java'' programmal történik, ezért olyan környezetben lehetséges csak, ahol ez a program elérhető. 
+
+Az adott batch fájlok segítségével lehetséges lefordítani és futtatni a prototípust: ehhez a ProtoCompileAndRun.bat-ot futtassuk, ami a fordítás után azonnal el is indítja a prototípust.
+
+Ha a tesztelést az előre megírt teszteseteken keresztül végezzük, akkor a batch fájlokkal ez is automatizálva van: ProtoTestAndCompare(szám).bat fájlok, amelyek a prototípust lefordítják, az adott teszt bemenetével lefuttatják, és a kimenetet egy fájlba irányítják, amit aztán a szövegfájlok összehasonlítására használt segédprogram (TxtComparer) segítségével összehasonlítanak az elvárt bemenetet tartalmazó fájllal, majd végül az eredményt kiírják.
+
+Ha a futtatást parancssorból akarjuk végezni, lehetőség van arra is. Amennyiben a 10.1.2 pontban leírt módon végeztük a fordítást, a futtatás a következő, a project gyökerében kiadott paranccsal végezhető:
+
 \begin{lstlisting}
-cd bin
-java Main.java
+java -classpath .\bin\ proto.ProtoTester
+\end{lstlisting}
+Ez a parancs elindítja a prototípust.
+Ha egy adott tesztesetet akarunk lefuttatni, akkor azt a bemenet átirányításával tehetjük meg:
+\begin{lstlisting}
+java -classpath .\bin\ proto.ProtoTester < test1.txt
+\end{lstlisting}
+Ekkor a test1.txt-ben megadott parancsok hajtódnak végre a prototípusban.
+Ha az adott teszteset kimenetét össze akarjuk vetni az elvárt kimenettel, akkor futtassuk a prototípust a be- és kimenet átirányításával, majd az így kapott kimeneti fájlt és az elvárt kimenetet tartalmazó fájlt megadva paraméterként, futtassuk a szövegfájlok összehasonlítására használt segédprogramot (TxtComparer):
+\begin{lstlisting}
+java -classpath .\bin\ proto.ProtoTester < test2.txt > test2.out
+java -classpath .\bin\ txtComparer.TxtComparer test2.out test2.expected
 \end{lstlisting}
 
+A szövegfájlok összehasonlítására használt segédprogram futtatásához, amennyiben a 10.1.2 pontban leírt módon végeztük a fordítást, a projekt gyökerében adjuk ki a következő parancsot:
+\begin{lstlisting}
+java -classpath .\bin\ txtComparer.TxtComparer (egyik fajl) (masik fajl)
+\end{lstlisting}
 
 \section{Tesztek jegyzőkönyvei}
 
 \subsection{Teszteset1}
-\comment{Az alábbi táblázatot az utolsó, sikeres tesztfuttatáshoz kell kitölteni}
+%\comment{Az alábbi táblázatot az utolsó, sikeres tesztfuttatáshoz kell kitölteni}
+%\comment{Az alábbi táblázatot a megismételt (hibás) tesztek esetén kell kitölteni minden ismétléshez egyszer. Ha szükséges, akkor a valós kimenet is mellékelhető mint a teszt eredménye.}
 
-\tesztok{...}{...}
+\tesztok
+{Elekes Tamás}
+{2014.04.21.}
 
-\comment{Az alábbi táblázatot a megismételt (hibás) tesztek esetén kell kitölteni minden ismétléshez egyszer. Ha szükséges, akkor a valós kimenet is mellékelhető mint a teszt eredménye.}
+\tesztfail
+{Elekes Tamás}
+{2014.04.19}
+{Az enemyTypeGem-mel fejlesztett torony nem növelte a sebzést.}
+{A kristályt nem regisztrálta be, elírás.}
+{A bullet-ben az ellenségtípusok nagy betűvel kezdődtek, míg a kristályban kis betűvel voltak.}
+\subsection{Teszteset2}
 
-\tesztfail{...}{...}{...}{...}{...}
+\tesztok
+{Rédey Bálint, Elekes Tamás}
+{2014.04.21}
+
+\tesztfail
+{Elekes Tamás}
+{2014.04.20}
+{Az obstacle nem használódott el.}
+{Rossz értékre van állítva az obstacle életereje, vagy nem csökkenti.}
+{Az akadály életerejét akkorára állítottam hogy 1 ellenség is tönkretegye.}
+
+\subsection{Teszteset3}
+
+\tesztok
+{Elekes Tamás}
+{2014.04.21.}
+
+\tesztfail
+{Rédey Bálint, Elekes Tamás}
+{2014.04.21}
+{Hibás: első update után nem sebzi meg human0-t tower0, második update után kettévágja, harmadik után szintén.}
+{tower.setPaths nem működik helyesen, torony rossz ütemben lő}
+{Bemeneti parancs, kimenet rosszul volt megadva, azon változtattunk.}
+
+\tesztfail
+{Elekes Tamás}
+{2014.04.19}
+{A haze mintha nem csökkentené a hatósugarat.}
+{A haze() metódus beállította az új range értéket, majd az upgradeRange() metódust hívta. Ami újra megváltoztatta a range-t.}
+{A haze upgradeRange helyett a setPaths()-t hívja.}
+
+\subsection{Teszteset4}
+
+\tesztok
+{Rédey Bálint}
+{2014.04.21. 15:45}
+
+\tesztfail
+{Rédey Bálint}
+{2014.04.21}
+{Hibás: nem írja a kereszteződéshez érést: crossroad, kirajzoláskor rossz helyen vannak az enemy-k}
+{Hiányzik valahol egy kiírás, drawmap vagy az ellenségek mozgása nem működik helyesen.}
+{Enemy.move-ban elhelyeztem a crossroad kiírását, ami hiányzott, ehhez Path-ba elhelyeztem egy getNextPaths() metódust, ami a nextPaths listával tér vissza. Minden más helyesen működött, a megadott parancsok közt volt hiba: kereszteződésnél a dwarf0 visszafele lépett.}
 
 \section{Értékelés}
-\comment{A projekt kezdete óta az értékelésig eltelt időben tagokra bontva, százalékban.}
+%\comment{A projekt kezdete óta az értékelésig eltelt időben tagokra bontva, százalékban.}
 
-\begin{ertekeles}
-\tag{Horváth} % Tag neve
-{23.5}        % Munka szazalekban
-\tag{Német}
-{24.5}
-\tag{Tóth}
-{25}
-\tag{Oláh}
-{27}
-\end{ertekeles}
 
+\begin{ertekelesplusz}
+\tag{Elekes} % Tag neve
+{67,1} %óra
+{25}        % Munka szazalekban
+\tag{Fuksz}
+{59,2}
+{24}
+\tag{Nagy}
+{31}
+{5}
+\tag{Rédey}
+{59,2}
+{24}
+\tag{Seres}
+{59,3}
+{22}
+
+\end{ertekelesplusz}
