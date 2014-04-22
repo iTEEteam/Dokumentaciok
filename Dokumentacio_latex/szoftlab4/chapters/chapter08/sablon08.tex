@@ -504,6 +504,9 @@ Interfész az útra helyezhető osztályok számára. Azonosítja azokat az obje
 	\end{description}
 \end{itemize}
 
+\lstset{escapeinside=`', xleftmargin=10pt, frame=single, basicstyle=\ttfamily\footnotesize, language=sh}
+
+
 \section{A tesztek részletes tervei, leírásuk a teszt nyelvén}
 %[A tesztek részletes tervei alatt meg kell adni azokat a bemeneti adatsorozatokat, amelyekkel a program működése ellenőrizhető. Minden bemenő adatsorozathoz definiálni kell, hogy az adatsorozat végrehajtásától a program mely részeinek, funkcióinak ellenőrzését várjuk és konkrétan milyen eredményekre számítunk, ezek az eredmények hogyan vethetők össze a bemenetekkel.]
 
@@ -516,66 +519,66 @@ Ellenségek létrehozása, halála. Tornyok vétele, fejlesztése, tüzelés és
 
 Várható hibahely: ellenség mozgatása, kristály vétel
 \item Tesztesethez használt térkép \newline
-\texttt{
-testmap1.txt:
-\begin{tabbing}
-\hspace*{1cm}\=\hspace*{1cm}\=\hspace*{1cm}\=\hspace*{1cm}\=\hspace*{1cm}\=\hspace*{1cm}\= \kill
-x \> x \> x \> x \> x \> x \\
-en \> r \> r \> r \> r \> ex \\
-x \> x \> x \> x \> x \> x 
-\end{tabbing}
-}
+\begin{lstlisting}
+testmap1.txt
+
+x	x	x	x	x	x
+en	r	r	r	r	ex
+x	x	x	x	x	x
+\end{lstlisting}
+
 \item Bemenet\newline
-\texttt{
-loadmap testmap1.txt \\
-buy tower 2-1 \\
-buy tower 2-4 \\
-buy gem  2-1 speed  \\
-buy gem 2-1 range  \\
-buy gem 2-1 damage  \\
-buy gem 2-4 enemy elf \\
-make hobbit 1-1 \\
-update 2 \\
-make elf 1-1 \\
-update 2 \\
-sell 2-1 \\
-exit \\
-}
+\begin{lstlisting}
+loadmap testmap1.txt
+buy tower 2-1
+buy tower 2-4
+buy gem 2-1 speed
+buy gem 2-1 range
+buy gem 2-1 damage
+buy gem 2-4 enemy elf
+make hobbit 1-1
+update 2
+make elf 1-1
+update 2
+sell 2-1
+exit
+\end{lstlisting}
 \item Elvárt kimenet\newline
-\texttt{
-map testmap1.txt loaded \\
-Tower0 created \\
-Tower1 created  \\
-SpeedGem0 created \\
-RangeGem0 created \\
-DamageGem0 created \\
-EnemyTypeGem0 created \\
-Hobbit0 created \\
-update \\
-Hobbit0 move \\
-Tower0 shoots Hobbit0 \\
-Hobbit0 damage 40 \\
-update \\
-Hobbit0 move  \\
-Tower0 shoots Hobbit0 \\
-Hobbit0 damage 40 \\
-Tower1 shoots Hobbit0 \\
-Hobbit0 damage 20 \\
-Hobbit0 died \\
-Elf0 created \\
-update \\
-Elf0 move \\
-Tower0 shoots Elf0 \\
-Elf0 damage 40 \\
-update \\
-Elf0 move  \\
-Tower0 shoots Elf0 \\
-Elf0 damage 40 \\
-Tower1 shoots Elf0 \\
-Elf0 damage 60 \\
-Elf0 died \\
-Tower0 sold for 80 mana \\
-}
+\begin{lstlisting}
+map testmap1.txt loaded
+Tower0 created
+Tower1 created
+SpeedGem0 created
+RangeGem0 created
+DamageGem0 created
+EnemyTypeGem0 created
+Hobbit0 created
+update
+Hobbit0 moves
+Tower0 shoots Hobbit0
+Hobbit0 damage 40
+update
+Hobbit0 moves
+Tower0 shoots Hobbit0
+Hobbit0 damage 40
+Tower1 shoots Hobbit0
+Hobbit0 damage 20
+Hobbit0 died
+Elf0 created
+update
+Elf0 moves
+Tower0 shoots Elf0
+Elf0 damage 40
+update
+Elf0 moves
+Tower0 shoots Elf0
+Elf0 damage 40
+Tower1 shoots Elf0
+Elf0 damage 60
+Elf0 died
+Tower0 sold for 80 mana
+VEGE
+\end{lstlisting}
 \end{itemize}
 
 \subsection{Akadály teszt}
@@ -587,40 +590,51 @@ Ellenségek létrehozása, akadály létrehozása, fejlesztése, elhasználódá
 
 Várható hibahely: akadály elhasználódása, ellenség bejutása a Végzet Hegyéhez
 \item Tesztesethez használt térkép \newline
-\texttt{
+\begin{lstlisting}
 testmap2.txt:
-\begin{tabbing}
-\hspace*{1cm}\=\hspace*{1cm}\=\hspace*{1cm}\=\hspace*{1cm}\= \kill
-x \> x \> x \> x \\
-en \> r \> r \> ex \\
-x \> x \> x \> x
-\end{tabbing}
-}
+
+x	x	x	x
+en	r	r	ex
+x	x	x	x
+\end{lstlisting}
 \item Bemenet\newline
-\texttt{
-loadmap testmap2.txt \\
-buy obstacle 1-1 \\
-buy gem 1-1 intensity \\
-make hobbit 1-0 \\
-update 4 \\ 
-exit \\
-}
+\begin{lstlisting}
+loadmap testmap2.txt
+buy obstacle 1-1
+buy gem 1-1 intensity
+make hobbit 1-0
+update 14
+exit
+\end{lstlisting}
 \item Elvárt kimenet\newline
-\texttt{
-map testmap2.txt loaded \\
-Obstacle0 created \\
-IntensityGem0 created \\
-Hobbit0 created \\
-update \\
-Hobbit0 moves \\
-Obstacle0 slows Hobbit0 by 1 \\
-Obstacle0 worn out \\
-update \\
-update \\
-Hobbit0 moves \\
-update  \\
-Hobbit0 reached Mount Doom \\
-}
+\begin{lstlisting}
+map testmap2.txt loaded
+Obstacle0 created
+IntensityGem0 created
+Hobbit0 created
+update
+Hobbit0 moves
+Obstacle0 slows Hobbit0 by 10
+Obstacle0 worn out
+update
+update
+update
+update
+update
+update
+update
+update
+update
+update
+update
+Hobbit0 moves
+update
+Hobbit0 moves
+update
+Hobbit0 moves
+Hobbit0 reached Mount Doom
+VEGE
+\end{lstlisting}
 \end{itemize}
 
 \subsection{Köd, és ellenség kettészelés}
@@ -632,48 +646,47 @@ Köd, kettélövő lövedék.
 
 Várható hibahely: hatósugár újrakalibrálása, ellenség kettészelése
 \item Tesztesethez használt térkép \newline
-\texttt{
+\begin{lstlisting}
 testmap3.txt:
-\begin{tabbing}
-\hspace*{1cm}\=\hspace*{1cm}\=\hspace*{1cm}\=\hspace*{1cm}\=\hspace*{1cm}\= \kill
-x \> x \> x \> x \> x \\
-en \> r \> r \> r \> ex \\
-x \> x \> x \> x \> x
-\end{tabbing}
-}
+
+x	x	x	x	x
+en	r	r	r	ex
+x	x	x	x	x
+\end{lstlisting}
 \item Bemenet\newline
-\texttt{
-loadmap testmap3.txt \\
-make human 1-0 \\
-make tower 2-4 \\
-buy gem 2-4 range \\
-update 1 \\
-haze on \\
-cut on \\
-update 2 \\
-exit \\
-}
+\begin{lstlisting}
+loadmap testmap3.txt
+make human 1-0
+buy tower 2-4
+buy gem 2-4 range
+update 1
+haze on
+cut on
+update 2
+exit
+\end{lstlisting}
 \item Elvárt kimenet\newline
-\texttt{
-map testmap3.txt loaded \\
-Human0 created \\
-Tower0 created \\
-RangeGem0 created \\
-update  \\
-Human0 moves \\
-Tower0 shoots Human0 \\
-Human0 damage 20 \\
-Haze is turned on \\
-Cut is turned on \\
-update \\
-Human0 moves \\
-update \\
-Human0 moves \\
-Tower0 shoots Human0 \\
-Human0 damage 0 \\
-Human0 cut in half \\
-Human1 created \\
-}
+\begin{lstlisting}
+map testmap3.txt loaded
+Human0 created
+Tower0 created
+RangeGem0 created
+update
+Human0 moves
+Tower0 shoots Human0
+Human0 damage 20
+Haze is turned on
+Cut is turned on
+update
+Human0 moves
+update
+Human0 moves
+Tower0 shoots Human0
+Human0 damage 0
+Human0 cut in half
+Human1 created
+VEGE
+\end{lstlisting}
 \end{itemize}
 
 \subsection{Ellenség elágazáshoz ér}
@@ -685,58 +698,64 @@ Ellenségek elágazás kezelése.
 
 Várható hibahely: elágazás
 \item Tesztesethez használt térkép \newline
-\texttt{
+\begin{lstlisting}
 testmap4.txt:
-\begin{tabbing}
-\hspace*{1cm}\=\hspace*{1cm}\=\hspace*{1cm}\=\hspace*{1cm}\=\hspace*{1cm}\=\hspace*{1cm}\= \kill
-x \> x \> x \> x \> x \> x \\
-x \> x \> r \> r \> d \> x \\
-en \> r \> rud \> r \> r \> ex \\
-x \> x \> r \> r \> u \> x \\
-x \> x \> x \> x \> x \> x
-\end{tabbing}
-}
+
+x	x	x	x	x	x
+x	x	r	r	d	x
+en	r	rud	r	r	ex
+x	x	r	r	u	x
+x	x	x	x	x	x
+\end{lstlisting}
 \item Bemenet\newline
-\texttt{
-loadmap testmap4.txt \\
-make elf 2-1 \\
-make human 2-1 \\
-make dwarf 2-1 \\
-update 1 \\
-route Elf0 1 \\
-route Human0 0 \\
-route Dwarf0 2 \\
-update 1 \\
-drawMap \\
-exit  \\
-}
+\begin{lstlisting}
+loadmap testmap4.txt
+make elf 2-1
+make human 2-1
+make dwarf 2-1
+update 1
+route Elf0 1
+route Human0 0
+route Dwarf0 2
+update 1
+drawMap
+exit
+\end{lstlisting}
 \item Elvárt kimenet\newline
-\texttt{
-map testmap4.txt loaded \\
-Elf0 created \\
-Human0 created \\
-Dwarf0 created \\
-update \\
-Elf0 moves \\
-Elf0 crossroad \\
-Human0 moves \\
-Human0 crossroad \\
-Dwarf0 moves \\
-Dwarf0 crossroad \\
-update \\
-Elf0 moves \\
-Human0 moves \\
-Dwarf0 moves \\
-\begin{tabbing}
-\hspace*{1cm}\=\hspace*{1cm}\=\hspace*{1cm}\=\hspace*{1cm}\=\hspace*{1cm}\=\hspace*{1cm}\=\hspace*{1cm}\= \kill
- \> 0 \> 1 \> 2 \> 3 \> 4 \> 5 \\
-0 \> x \> x \> x \> x \> x \> x \\
-1 \> x \> x \> hob \> r \> r \> x \\
-2 \> en \> r \> r \> hum \> r \> ex \\
-3 \> x \> x \> elf \> r \> r \> x \\
-4 \> x \> x \> x \> x \> x \> x
-\end{tabbing}
-}
+\begin{lstlisting}
+map testmap4.txt loaded
+Elf0 created
+Human0 created
+Dwarf0 created
+update
+Elf0 moves
+Human0 moves
+Dwarf0 moves
+update
+Elf0 moves
+Elf0 crossroad
+Human0 moves
+Human0 crossroad
+Dwarf0 moves
+Dwarf0 crossroad
+/-----------------\
+|xx|xx|xx|xx|xx|xx|
+|xx|xx|xx|xx|xx|xx|
+|--+--+--+--+--+--|
+|xx|xx|e |  |  |xx|
+|xx|xx|  |  |  |xx|
+|--+--+--+--+--+--|
+|  |  |  |e |  |  |
+|  |  |  |  |  |  |
+|--+--+--+--+--+--|
+|xx|xx|e |  |  |xx|
+|xx|xx|  |  |  |xx|
+|--+--+--+--+--+--|
+|xx|xx|xx|xx|xx|xx|
+|xx|xx|xx|xx|xx|xx|
+\-----------------/
+VEGE
+\end{lstlisting}
 \end{itemize}
 
 \section{A tesztelést támogató programok tervei}

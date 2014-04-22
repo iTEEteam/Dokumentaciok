@@ -56,6 +56,7 @@ A módosított diagramok alapjai az analízis modell szekvenciadiagramjai.
 %\comment{Definiálni kell a teszteket leíró nyelvet. Külön figyelmet kell fordítani arra, hogy ha a rendszer véletlen elemeket is tartalmaz, akkor a véletlenszerűség ki-bekapcsolható legyen, és a program determinisztikusan is tesztelhető legyen.}
 
 
+\lstset{escapeinside=`', xleftmargin=10pt, frame=single, basicstyle=\ttfamily\footnotesize, language=sh}
 
 
 \subsection{Az interfész általános leírása}
@@ -65,9 +66,9 @@ Az interfész teljesen karakteres alapú, a szabványos ki- és bemenetet haszn�
 Lehetséges a ki- és bemenet átirányítása is, így például előre összeállított teszteseteket elmenthetünk fájlban, és átirányítással megadhatjuk a programnak, továbbá a kimenetét is fájlba irányíthatjuk a könnyebb elemzés érdekében. 
 
 Az átirányítás a hagyományos módon történik, például a 
-\begin{verbatim}
-java „osztálynév” < bemenet.txt > kimenet.txt
-\end{verbatim}
+\begin{lstlisting}
+java "osztalynev" < bemenet.txt > kimenet.txt
+\end{lstlisting}
 parancs hatására a program megkapja soronként a bemenet.txt tartalmát, és a kimenet.txt fájlba írja a kimenetét.
 
 \subsection{Bemeneti nyelv}
