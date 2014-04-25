@@ -1,0 +1,13 @@
+GPath
+GField
+GTower
+GObstacle
+GGame
+GController
+GMap
+
+minden grafikus objektum a neki megfelelő modell beli obejktumra tárol egy referenciát vica versa
+
+Interfész:
+IView
+
