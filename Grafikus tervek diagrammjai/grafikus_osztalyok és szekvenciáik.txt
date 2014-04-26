@@ -24,10 +24,24 @@ IGraphic
 --> e.eliminate() -> myPath.deleteEnemy(e) -> iview.deleteGEnemy(e) -> iview.notify() -> this.draw()
 
 -> akadály vétele, elhasználódása: törléskor/regisztráláskor értesítjük a GPath-t, hogy rajzolja újra magát
+-> repair() szintén értesítést küld myPath.getIView().notify és azon belül draw()
 
 --> Controller.buyObstacle() -> ami eddig volt.. -> chosenPath.registerIPathPlaceable(o) -> o.registerPath(chosenPath vagy this) -> this.registerObstacle() -> iview.notify() -> this.draw 
 --> trölés ugyanez: a deleteObstacle-ben notify és abban draw()
 
-->torony tökugyanaz, mint az akadálynál, csak eladás is a controllertől indul
+-> torony tökugyanaz, mint az akadálynál, csak eladás is a controllertől indul
++--> controller.buyEnemyTypeGem() -> ami eddig és még controller vagy this.chosenField.getIView.notify() -> iview.draw()
 
-->game
+-> game: changeMana() mindig iview.notify() -> this.draw() -t hív
+-> game: incSucceeded() szintén
+
+-> enemy.hurt-ben notify() és draw()
+
+--> ... e.myPath.getIView().notify() -> draw()
+
+-> map: load-ban minden cella létrehozásakor konstruktorban kap egy iview-t, ami megfelel a típusának; aztán ugyanitt 
+   az igame-en keresztül értesíteni a GGame-et, hogy rajzolja meg a fenti sávot (mana, level, succeededE stb)
+--> loop grid.get().get().getIView().notify() -> draw()
+--> igame.getIView().notify() -> draw()
+
+
