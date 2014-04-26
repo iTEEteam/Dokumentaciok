@@ -1760,7 +1760,7 @@
 <XPD:ATTR name="Left" type="integer">484</XPD:ATTR>
 <XPD:ATTR name="Top" type="integer">20</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">197</XPD:ATTR>
-<XPD:ATTR name="Height" type="integer">150</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">163</XPD:ATTR>
 <XPD:ATTR name="StereotypeDisplay" type="UMLStereotypeDisplayKind">sdkNone</XPD:ATTR>
 <XPD:REF name="Model">85l4lzfDvE+4caUcC6MTNAAA</XPD:REF>
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="/z1wsuH3F0aDAsZYUZof1QAA">
@@ -1786,7 +1786,7 @@
 <XPD:OBJ name="OwnedViews[43]" type="UMLRealizationView" guid="zG8vGjw1ukOGIBbSGwfPJwAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Points" type="Points">500,232;537,169</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">502,232;533,182</XPD:ATTR>
 <XPD:REF name="Model">Wwl0XaVfM0OcjwV1M2Cp4QAA</XPD:REF>
 <XPD:REF name="Head">MBY56mgdD0CnMbVDRX1tXgAA</XPD:REF>
 <XPD:REF name="Tail">2eP45jJ8vk+OMhaF9h37eQAA</XPD:REF>
@@ -2535,7 +2535,7 @@
 <XPD:OBJ name="OwnedViews[68]" type="UMLAssociationView" guid="xf+jZ0AlPEuoqs0OOS1lKgAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Points" type="Points">484,129;180,236;180,1156;344,1289</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">484,134;180,236;180,1156;344,1289</XPD:ATTR>
 <XPD:REF name="Model">cQe3Ox0Ikk2wPy6WFgNjSAAA</XPD:REF>
 <XPD:REF name="Head">CtYeUPSPmEqsLJrWs1SFRwAA</XPD:REF>
 <XPD:REF name="Tail">MBY56mgdD0CnMbVDRX1tXgAA</XPD:REF>
@@ -2619,7 +2619,7 @@
 <XPD:OBJ name="OwnedViews[69]" type="UMLAssociationView" guid="9jNhXf4f70663Jiz4jMLYAAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Points" type="Points">680,92;1288,80;1288,952;1305,1044</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">680,98;1288,80;1288,952;1305,1044</XPD:ATTR>
 <XPD:REF name="Model">xATCrWMu4EapAPafHifJfwAA</XPD:REF>
 <XPD:REF name="Head">v8otwTS6TEu0ajzg/BDoLQAA</XPD:REF>
 <XPD:REF name="Tail">MBY56mgdD0CnMbVDRX1tXgAA</XPD:REF>
@@ -2734,7 +2734,7 @@
 <XPD:OBJ name="OwnedViews[71]" type="UMLAssociationView" guid="yV2SD+r+ikqkPIOAdQ/5rwAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Points" type="Points">680,99;1152,124;1152,352</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">680,105;1152,124;1152,352</XPD:ATTR>
 <XPD:REF name="Model">Ojx197J8Y0uyNSG/xiDV2QAA</XPD:REF>
 <XPD:REF name="Head">Uw5ihLR1a0C6bNjo+rma7AAA</XPD:REF>
 <XPD:REF name="Tail">MBY56mgdD0CnMbVDRX1tXgAA</XPD:REF>
@@ -5063,7 +5063,7 @@
 <XPD:REF name="SupplierDependencies[1]">Z76tub4ipU2TA4bvjCjLpgAA</XPD:REF>
 <XPD:REF name="SupplierDependencies[2]">tiYPiwCDP0qHGRtmIP90egAA</XPD:REF>
 <XPD:REF name="SupplierDependencies[3]">MYvpr9LqGUeCBFHuK+iN5QAA</XPD:REF>
-<XPD:ATTR name="#Operations" type="integer">8</XPD:ATTR>
+<XPD:ATTR name="#Operations" type="integer">9</XPD:ATTR>
 <XPD:OBJ name="Operations[0]" type="UMLOperation" guid="E60kvPK/wEGKq6v/f3UQQwAA">
 <XPD:ATTR name="Name" type="string">changeMana</XPD:ATTR>
 <XPD:ATTR name="Documentation" type="string">A manát csökkentő/jóváíró függvény.</XPD:ATTR>
@@ -5168,6 +5168,16 @@
 <XPD:ATTR name="Name" type="string">e</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">Ibj4qeWGskimKoxyJwzcbAAA</XPD:REF>
 <XPD:REF name="Type_">pm6Z43QQAEK7oG09ehHtXgAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="Operations[8]" type="UMLOperation" guid="fTX/w1pANUa6i19VKN9J1gAA">
+<XPD:ATTR name="Name" type="string">getIView</XPD:ATTR>
+<XPD:REF name="Owner">85l4lzfDvE+4caUcC6MTNAAA</XPD:REF>
+<XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="xCc42f4nZ0KQ/+GrMp46LgAA">
+<XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">IView</XPD:ATTR>
+<XPD:REF name="BehavioralFeature">fTX/w1pANUa6i19VKN9J1gAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:ATTR name="#TypedFeatures" type="integer">5</XPD:ATTR>

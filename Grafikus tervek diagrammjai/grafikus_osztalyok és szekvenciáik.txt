@@ -1,17 +1,26 @@
 ﻿GPath
 GField
-GTower
-GObstacle
+//GTower
+//GObstacle
 GGame
 GController
-GMap
+//GMap
+GEnemy
 
 minden grafikus objektum a neki megfelelő modell beli obejktumra tárol egy referenciát vica versa
 
 Interfész:
 IView
 
->ellenség lép
+
+-> ellenség keletkezik és lép: minden ellenséghez, amikor létrehozzuk, készítünk egy megjelenítőt, amit elteszünk a GGame-be,
+   hogy meglegyen. Amikor belép a pályára az enemy a fPath-hoz tartozó GPath-hoz hozzáadjuk azt a GEnemy-t, ami tárolja őt. 
+   Namost egyébként, amikor lépés vagy meghalás van, akkor a Path-hoz register/delete metódusokban értesítjük a GPath-t
+   notify-al, hogy rajzolja újra magát.
+
+--> emakeEnemies() -> loop crt e-k -> ge GEnemy() -> ge.getEnemy() = e -> GGame.addGEnemies(ge)	
+--> fPath.registerIPathPlaceable(e) -> e.registerPath(fPath) -> fPath.registerEnemy(e) -> this.iview.addGEnemy( this.igame.getIView().getGEnemy(e) ) -> this.iview.notify()	
+
 >akadály 
 >torony
 >game
