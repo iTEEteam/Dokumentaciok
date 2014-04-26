@@ -11,17 +11,23 @@ minden grafikus objektum a neki megfelelő modell beli obejktumra tárol egy ref
 
 Interfész:
 IView
+IGraphic
 
 
--> ellenség keletkezik és lép: minden ellenséghez, amikor létrehozzuk, készítünk egy megjelenítőt, amit elteszünk a GGame-be,
+-> ellenség keletkezik, meghal és lép: minden ellenséghez, amikor létrehozzuk, készítünk egy megjelenítőt, amit elteszünk a GGame-be,
    hogy meglegyen. Amikor belép a pályára az enemy a fPath-hoz tartozó GPath-hoz hozzáadjuk azt a GEnemy-t, ami tárolja őt. 
    Namost egyébként, amikor lépés vagy meghalás van, akkor a Path-hoz register/delete metódusokban értesítjük a GPath-t
    notify-al, hogy rajzolja újra magát.
 
 --> emakeEnemies() -> loop crt e-k -> ge GEnemy() -> ge.getEnemy() = e -> GGame.addGEnemies(ge)	
---> fPath.registerIPathPlaceable(e) -> e.registerPath(fPath) -> fPath.registerEnemy(e) -> this.iview.addGEnemy( this.igame.getIView().getGEnemy(e) ) -> this.iview.notify()	
+--> fPath.registerIPathPlaceable(e) -> e.registerPath(fPath) -> fPath.registerEnemy(e) -> this.iview.addGEnemy( this.igame.getIView().getGEnemy(e) ) -> this.iview.notify() -> this.draw()	
+--> e.eliminate() -> myPath.deleteEnemy(e) -> iview.deleteGEnemy(e) -> iview.notify() -> this.draw()
 
->akadály 
->torony
->game
->vásárlás
+-> akadály vétele, elhasználódása: törléskor/regisztráláskor értesítjük a GPath-t, hogy rajzolja újra magát
+
+--> Controller.buyObstacle() -> ami eddig volt.. -> chosenPath.registerIPathPlaceable(o) -> o.registerPath(chosenPath vagy this) -> this.registerObstacle() -> iview.notify() -> this.draw 
+--> trölés ugyanez: a deleteObstacle-ben notify és abban draw()
+
+->torony tökugyanaz, mint az akadálynál, csak eladás is a controllertől indul
+
+->game
