@@ -1,4 +1,4 @@
-GPath
+﻿GPath
 GField
 GTower
 GObstacle
