@@ -11,3 +11,8 @@ minden grafikus objektum a neki megfelelő modell beli obejktumra tárol egy ref
 Interfész:
 IView
 
+>ellenség lép
+>akadály 
+>torony
+>game
+>vásárlás
