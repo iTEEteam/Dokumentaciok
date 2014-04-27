@@ -19,29 +19,43 @@ IGraphic
    Namost egyébként, amikor lépés vagy meghalás van, akkor a Path-hoz register/delete metódusokban értesítjük a GPath-t
    notify-al, hogy rajzolja újra magát.
 
---> emakeEnemies() -> loop crt e-k -> ge GEnemy() -> ge.getEnemy() = e -> GGame.addGEnemies(ge)	
+--> emakeEnemies() -> loop crt e enemies -> crt ge GEnemy(e) -> GGame.addGEnemy(ge)	
 --> fPath.registerIPathPlaceable(e) -> e.registerPath(fPath) -> fPath.registerEnemy(e) -> this.iview.addGEnemy( this.igame.getIView().getGEnemy(e) ) -> this.iview.notify() -> this.draw()	
 --> e.eliminate() -> myPath.deleteEnemy(e) -> iview.deleteGEnemy(e) -> iview.notify() -> this.draw()
 
+
+---------------------
 -> akadály vétele, elhasználódása: törléskor/regisztráláskor értesítjük a GPath-t, hogy rajzolja újra magát
 -> repair() szintén értesítést küld myPath.getIView().notify és azon belül draw()
 
---> Controller.buyObstacle() -> ami eddig volt.. -> chosenPath.registerIPathPlaceable(o) -> o.registerPath(chosenPath vagy this) -> this.registerObstacle() -> iview.notify() -> this.draw 
+--> Controller.buyObstacle() -> ami eddig volt.. -> chosenPath.registerIPathPlaceable(o) -> o.registerPath(chosenPath vagy this) -> this.registerObstacle() -> iview.notify() -> this.draw()  
 --> trölés ugyanez: a deleteObstacle-ben notify és abban draw()
 
--> torony tökugyanaz, mint az akadálynál, csak eladás is a controllertől indul
+
+---------------------
+-> torony tökugyanaz, mint az akadálynál, csak eladás is a controllertől indul, EnemyTypeGem-hez máshogy néz ki a torony
 +--> controller.buyEnemyTypeGem() -> ami eddig és még controller vagy this.chosenField.getIView.notify() -> iview.draw()
 
+
+---------------------
 -> game: changeMana() mindig iview.notify() -> this.draw() -t hív
 -> game: incSucceeded() szintén
 
+
+---------------------
 -> enemy.hurt-ben notify() és draw()
 
 --> ... e.myPath.getIView().notify() -> draw()
 
+
+---------------------
 -> map: load-ban minden cella létrehozásakor konstruktorban kap egy iview-t, ami megfelel a típusának; aztán ugyanitt 
    az igame-en keresztül értesíteni a GGame-et, hogy rajzolja meg a fenti sávot (mana, level, succeededE stb)
---> loop grid.get().get().getIView().notify() -> draw()
+--> loop grid.get(i).get(j).getIView().notify() -> draw()
 --> igame.getIView().notify() -> draw()
+
+
+
+
 
 
