@@ -6,74 +6,356 @@
 \thispagestyle{fancy}
 
 \section{A grafikus interfész}
-\comment{A menürendszer, a kezelői felület grafikus képe. A grafikus felület megjelenését, a használt ikonokat, stb screenshot-szerű képekkel kell bemutatni. Az építészetben ez a homlokzati terv.}
+%\comment{A menürendszer, a kezelői felület grafikus képe. A grafikus felület megjelenését, a használt ikonokat, stb screenshot-szerű képekkel kell bemutatni. Az építészetben ez a homlokzati terv.}
 
-\begin{figure}[h]
+\begin{figure}[H]
 \begin{center}
-%\includegraphics[width=17cm]{chapters/chapter11/example.pdf}
-\caption{x}
+\includegraphics[width=17cm]{chapters/chapter11/images/GraphicPlans.jpg}
+\caption{Grafikus interfész}
 \label{fig:Grafikus}
 \end{center}
 \end{figure}
 
 \section{A grafikus rendszer architektúrája}
-\comment{A felület működésének elve, a grafikus rendszer architektúrája (struktúra diagramok). A struktúra diagramokon a prototípus azon és csak azon osztályainak is szerepelnie kell, amelyekhez a grafikus felületet létrehozó osztályok kapcsolódnak.}
+%\comment{A felület működésének elve, a grafikus rendszer architektúrája (struktúra diagramok). A struktúra diagramokon a prototípus azon és csak azon osztályainak is szerepelnie kell, amelyekhez a grafikus felületet létrehozó osztályok kapcsolódnak.}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=17cm]{chapters/chapter11/images/GraphClassesD.jpg}
+\caption{Grafikus rendszer struktúra diagram}
+\label{fig:Grafikus_struktura}
+\end{center}
+\end{figure}
 
 \subsection{A felület működési elve}
-\comment{Le kell írni, hogy a grafikai megjelenésért felelős osztályok, objektumok hogyan kapcsolódnak a meglevő rendszerhez, a megjelenítés során mi volt az alapelv. Törekedni kell az MVC megvalósításra. Alapelvek lehetnek: \textbf{push} alapú: a modell értesíti a felületet, hogy változott; \textbf{pull} alapú: a felület kérdezi le a modellt, hogy változott-e; \textbf{kevert}: a kettő kombinációja.}
+%\comment{Le kell írni, hogy a grafikai megjelenésért felelős osztályok, objektumok hogyan kapcsolódnak a meglevő rendszerhez, a megjelenítés során mi volt az alapelv. Törekedni kell az MVC megvalósításra. Alapelvek lehetnek: \textbf{push} alapú: a modell értesíti a felületet, hogy változott; \textbf{pull} alapú: a felület kérdezi le a modellt, hogy változott-e; \textbf{kevert}: a kettő kombinációja.}
+
+A grafikus felület kialakításánál elsődleges célunk az volt, hogy a program modelljébe ne épüljön bele a megjelenítés  mivolta, könnyen cserélhető legyen.
+
+Ezért létrehoztunk a megjelenítendő elemeknek egy-egy testvér osztályt amik az objektum kirajzolásáért felelnek.
+Két interfésszel általánosítottuk a grafikus objektumokat.
+
+Az IGraphic interfészt megvalósító osztályok a draw() metódussal tudják kirajzolni magukat.
+
+Az IView interfészen keresztül tudnak a testvérosztályaikra hivatkozni, és a notify() metóduson keresztül értesítheti, hogy változott, aminek hatására kirajzolja magát.
+
+Ez a megoldás, miszerint modell beli objektum minden változáskor értesíti a felületet push alapú megoldás.
+
+
 
 \subsection{A felület osztály-struktúrája}
-\comment{Osztálydiagram. Minden új osztály, és azon régiek, akik az újakhoz közvetlenül kapcsolódnak.}
+%\comment{Osztálydiagram. Minden új osztály, és azon régiek, akik az újakhoz közvetlenül kapcsolódnak.}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=17cm]{chapters/chapter11/images/SimaClassDiag.jpg}
+\caption{Osztály diagram}
+\label{fig:Osztaly_diagram}
+\end{center}
+\end{figure}
+
 
 \section{A grafikus objektumok felsorolása}
-\comment{Az új osztályok felsorolása. Az régi osztályok közül azoknak a felsorolása, ahol változás volt. Ezek esetén csak a változásokat kell leírni.}
+%\comment{Az új osztályok felsorolása. Az régi osztályok közül azoknak a felsorolása, ahol változás volt. Ezek esetén csak a változásokat kell leírni.}
 
-\subsection{Osztály1}
+\subsection{GPath}
 \begin{itemize}
-\item Felelősség\newline
-\comment{Mi az osztály felelőssége. Kb 1 bekezdés. Ha szükséges, akkor state-chart is.}
-\item Ősosztályok\newline
-\comment{Mely osztályokból származik (öröklési hierarchia)\newline
-Legősebb osztály $\rightarrow$ Ősosztály2 $\rightarrow$ Ősosztály3...}
-\item Interfészek\newline
-\comment{Mely interfészeket valósítja meg.}
-\item Attribútumok\newline
-\comment{Milyen attribútumai vannak}
-	\begin{itemize}
-		\item attribútum1: attribútum jellemzése: mire való, láthatósága (UML jelöléssel), típusa
-		\item attribútum2: attribútum jellemzése: mire való, láthatósága (UML jelöléssel), típusa
-	\end{itemize}
-\item Metódusok\newline
-\comment{Milyen publikus, protected és privát  metódusokkal rendelkezik. Metódusonként precíz leírás, ha szükséges, activity diagram is  a metódusban megvalósítandó algoritmusról.}
-	\begin{itemize}
-		\item int foo(Osztály3 o1, Osztály4 o2): metódus leírása, láthatósága (UML jelöléssel)
-		\item int bar(Osztály5 o1): metódus leírása, láthatósága (UML jelöléssel)
-	\end{itemize}
+\item Felelősség\\
+A GPath felel a Path osztály megjelenítéséért, kirajzolásáért. Minden Path-hoz tartozik egy, és mindegyikhez egy Path tartozik.
+\item Ősosztályok\\
+Object
+\item Interfészek\\
+IGraphic, IView
+\item Attribútumok\\
+	\begin{description}
+		\item[-path: Path] Referencia arra az útra, amelyikhez tartozik. Ezen keresztül kérheti le a szükséges adatokat a modellből.
+		\item[-gEnemies: ArrayList<GEnemy>] Az path enemies-hez tartozó GEnemy-k listája.
+\end{description}
+\item Metódusok\\
+	\begin{description}
+		\item[+drawGHuman/GHobbit/GElf/GDwarf: void] A különböző GEnemy-khez tartozó rajzoló függvény.
+		\item[+getPath(): Path] Getter path-hoz
+		\item[+GPath(p: Path)] Konstruktor.
+	\end{description}
 \end{itemize}
 
-\subsection{Osztály2}
+\subsection{GField}
 \begin{itemize}
-\item Felelősség\newline
-\comment{Mi az osztály felelőssége. Kb 1 bekezdés. Ha szükséges, akkor state-chart is.}
-\item Ősosztályok\newline
-\comment{Mely osztályokból származik (öröklési hierarchia)\newline
-Legősebb osztály $\rightarrow$ Ősosztály2 $\rightarrow$ Ősosztály3...}
-\item Interfészek\newline
-\comment{Mely interfészeket valósítja meg.}
-\item Attribútumok\newline
-\comment{Milyen attribútumai vannak}
-	\begin{itemize}
-		\item attribútum1: attribútum jellemzése: mire való, láthatósága (UML jelöléssel), típusa
-		\item attribútum2: attribútum jellemzése: mire való, láthatósága (UML jelöléssel), típusa
-	\end{itemize}
-\item Metódusok\newline
-\comment{Milyen publikus, protected és privát  metódusokkal rendelkezik. Metódusonként precíz leírás, ha szükséges, activity diagram is  a metódusban megvalósítandó algoritmusról.}
-	\begin{itemize}
-		\item int foo(Osztály3 o1, Osztály4 o2): metódus leírása, láthatósága (UML jelöléssel)
-		\item int bar(Osztály5 o1): metódus leírása, láthatósága (UML jelöléssel)
-	\end{itemize}
+\item Felelősség\\
+A GField felel a Field osztály megjelenítéséért, kirajzolásáért. Minden Field-hez tartozik egy, és mindegyikhez egy Field tartozik.
+\item Ősosztályok\\
+Object
+\item Interfészek\\
+IGraphic, IView
+\item Attribútumok\\
+	\begin{description}
+		\item[-field: Field] Referencia arra  mezőre, amelyikhez tartozik. Ezen keresztül kérheti le a szükséges adatokat a modellből.
+\end{description}
+\item Metódusok\\
+	\begin{description}
+		\item[+getField(): void] Getter fieldhez.
+		\item[+GField(f: Field)] Konstruktor.
+	\end{description}
 \end{itemize}
+
+\subsection{GGame}
+\begin{itemize}
+\item Felelősség\\
+A GGame felel a Game osztály megjelenítéséért. Elsősorban a felső sávért, vagyis a Game azon attribútumainak megjelenéséért, amiket a játékosnak célszerű látnia: mana, bejutott ellenségek száma, pálya szintje stb. 
+\item Ősosztályok\\
+Object
+\item Interfészek\\
+IGraphic, IView
+\item Attribútumok\\
+	\begin{description}
+		\item[-game: Game] A Game referencia, ami ahhoz kell, hogy meg tudja jeleníteni az adatokat.
+		\item[-gEnemies] ArrayList<GEnemy>: A Game enemiesIn és enemiesOut-ban lévő Enemy-khez tartozó megjelenítők listája. 
+\end{description}
+\item Metódusok\\
+	\begin{description}
+		\item[+getGame()] Game: Getter game-hez.
+		\item[+GGame(g: Game)] Konstruktor.
+	\end{description}
+\end{itemize}
+
+\subsection{GEnemy és leszármazottai: GHobbit, GHuman, GElf, GDwarf}
+\begin{itemize}
+\item Felelősség\\
+A GEnemy felel azért, hogy a GPath tudja, hogy milyen típusú Enemy-ket kell rajzolni. Ezt az enemy attribútumból tudja meg, illetve drawMe metódus különféle implementációinak segítségével üzen GEnemy a GPath-nak. Minden Enemy-hez létrehozáskor társítunk egy példányt, amit elhelyezünk a GGame-ben.
+\item Ősosztályok\\
+Object
+\item Interfészek\\
+Nincs
+\item Attribútumok\\
+	\begin{description}
+		\item[-enemy: Enemy] Ez a hivatkozási pont a modellbeli Enemy-re.
+\end{description}
+\item Metódusok\\
+	\begin{description}
+		\item[+drawMe(): void] Ez a metódus gondoskodik arról, hogy a megfelelő típusú Enemy kirajzolása történjen meg a Path-on.
+		\item[+GEnemy(e: Enemy)] Konstruktor.
+	\end{description}
+\end{itemize}
+
+\subsection{Controller}
+\begin{itemize}
+\item Attribútumok\\
+	\begin{description}
+		\item[-iview: IView] Interfész az értesítéshez.
+\end{description}
+\item Metódusok\\
+	\begin{description}
+		\item[+getIView()] IView: Getter az iview-hoz.
+	\end{description}
+\end{itemize}
+
+\subsection{GController}
+\begin{itemize}
+\item Felelősség\\
+A GController irányítja a grafikus elemeket, végzi a felhasználói interakciók érvényre jutásának a felületre vonatkozó részeit, illetve kezdeményezi a modell megváltoztatását.
+\item Ősosztályok\\
+Object
+\item Interfészek\\
+IGraphic, IView
+\item Attribútumok\\
+	\begin{description}
+		\item[-control: Controller] Ez a hivatkozási pont a modellhez.
+		\item[-chosenGPath: Path] A kijelölt út, pl akadály vétele.
+		\item[-chosenGField: Field] A kijelölt mező, pl torony vétele.
+		\item[-ggame: GGame] Ez a hivatkozási pont a grafika másik részéhez.
+\end{description}
+\item Metódusok\\
+	\begin{description}
+		\item[+set chosenGField/GPath(f/p Field/Path)] void: GField/GPath setter.
+		\item[+get chosenGField/GPath(): void] GField/GPath getter.
+		\item[+buyGSpeed/Range/Damage/EnemyType/Intesity/RepairGem(): void] Gem-ek vétele.
+		\item[+buyTower/Obstacle()] Tower/Obstacle vétele.
+	\end{description}
+\end{itemize}
+
+\subsection{IView}
+\begin{itemize}
+\item Felelősség\\
+Az IView interfész teremt kapcsolatot a modellből a grafikus felület felé. Segítségével lehet értesíteni a felületet a modellbeli változásokról. Ehhez különböző értesítő metódusokat tartalmaz.
+\item Ősosztályok\\
+Nincs
+\item Interfészek\\
+Nincs
+\item Metódusok\\
+	\begin{description}
+		\item[+notify()] void: Alap értesítő metódus.
+		\item[+notify(ge: GEnemy)] void: Értesítő metódus Enemy és GEnemyk kezeléséhez. Pl Enemy létrehozásakor vele azonos típusú GEnemy-t hozunk létre, amit odaadunk a megfelelő megjelenítőnek.
+	\end{description}
+\end{itemize}
+
+\subsection{IGraphic}
+\begin{itemize}
+\item Felelősség\\
+Az IGraphic a rajzoló interfész. Különböző rajzolásokat tesz lehetővé.
+\item Ősosztályok\\
+Nincs
+\item Interfészek\\
+Nincs
+\item Metódusok\\
+	\begin{description}
+		\item[-draw()] void: Alap rajzoló metódus.
+		\item[+highlight()] void: Kijelölő metódus, pl mezőre kattintáshoz.
+		\item[+deHighlight()] void: Highlight inverze.
+	\end{description}
+\end{itemize}
+
+\subsection{Cell}
+\begin{itemize}
+\item Attribútumok\\
+	\begin{description}
+		\item[\#iview: IView] Interfész a grafika értesítéséhez.
+		\item[\#igame: IGame] A Path és Field igame-je felkerült ide, protected lett.
+\end{description}
+\item Metódusok\\
+	\begin{description}
+		\item[+getIView()] IView: Getter az iview-hoz.
+	\end{description}
+\end{itemize}
+
+\subsection{Game és IGame}
+\begin{itemize}
+\item Attribútumok\\
+	\begin{description}
+		\item[-iview: IView] Game-ben interfész az értesítéshez.
+\end{description}
+\item Metódusok\\
+	\begin{description}
+		\item[+getIView(): IView] IGame-be getter, hogy mások is elérjék, akik a Gamet elérik az interfészén keresztül.
+	\end{description}
+\end{itemize}
+
+
 
 \section{Kapcsolat az alkalmazói rendszerrel}
-\comment{Szekvencia-diagramokon ábrázolni kell a grafikus rendszer működését. Konzisztens kell legyen az előző alfejezetekkel. Minden metódus, ami ott szerepel, fel kell tűnjön valamelyik szekvenciában. Minden metódusnak, ami szekvenciában szerepel, szereplnie kell a valamelyik osztálydiagramon.}
+%\comment{Szekvencia-diagramokon ábrázolni kell a grafikus rendszer működését. Konzisztens kell legyen az előző alfejezetekkel. Minden metódus, ami ott szerepel, fel kell tűnjön valamelyik szekvenciában. Minden metódusnak, ami szekvenciában szerepel, szereplnie kell a valamelyik osztálydiagramon.}
+\subsection{Akadály elhelyezése}
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=17cm]{chapters/chapter11/images/Akadaly_elhelyezese.jpg}
+\caption{Akadály elhelyezése szekvenciadiagram}
+\label{fig:Akadaly_elhelyezese}
+\end{center}
+\end{figure}
+
+\subsection{Akadály javítása}
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=17cm]{chapters/chapter11/images/Akadaly_javitasa.jpg}
+\caption{Akadály javítása szekvenciadiagram}
+\label{fig:Akadaly_javitasa}
+\end{center}
+\end{figure}
+
+\subsection{Akadály törlődése}
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=17cm]{chapters/chapter11/images/Akadaly_torlodese.jpg}
+\caption{Akadály törlődése szekvenciadiagram}
+\label{fig:Akadaly_torlodese}
+\end{center}
+\end{figure}
+
+\subsection{Betöltés}
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=13cm]{chapters/chapter11/images/Betoltes.jpg}
+\caption{Betöltés szekvenciadiagram}
+\label{fig:Betoltes}
+\end{center}
+\end{figure}
+
+\subsection{Ellenség beérkezik}
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=17cm]{chapters/chapter11/images/Ellenseg_beerkezik.jpg}
+\caption{Ellenség beérkezik szekvenciadiagram}
+\label{fig:Ellenseg_beerkezik}
+\end{center}
+\end{figure}
+
+\subsection{Ellenség halála}
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=17cm]{chapters/chapter11/images/Ellenseg_halala.jpg}
+\caption{Ellenség halála szekvenciadiagram}
+\label{fig:Ellenseg_halala}
+\end{center}
+\end{figure}
+
+\subsection{Ellenség lépése}
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=17cm]{chapters/chapter11/images/Ellenseg_lepese.jpg}
+\caption{Ellenség lépése szekvenciadiagram}
+\label{fig:Ellenseg_lepese}
+\end{center}
+\end{figure}
+
+\subsection{Ellenség létrehozása}
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=17cm]{chapters/chapter11/images/Ellenseg_letrehozasa.jpg}
+\caption{Ellenség létrehozása szekvenciadiagram}
+\label{fig:Ellenseg_letrehozasa}
+\end{center}
+\end{figure}
+
+\subsection{Ellenség sebzése}
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=17cm]{chapters/chapter11/images/Ellenseg_sebzese.jpg}
+\caption{Ellenség sebzése szekvenciadiagram}
+\label{fig:Ellenseg_sebzese}
+\end{center}
+\end{figure}
+
+\subsection{Torony elhelyezése}
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=17cm]{chapters/chapter11/images/Torony_elhelyezese.jpg}
+\caption{Torony elhelyezése szekvenciadiagram}
+\label{fig:Torony_elhelyezese}
+\end{center}
+\end{figure}
+
+\subsection{Torony fejlesztése ellenség típusra}
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=17cm]{chapters/chapter11/images/Torony_fejlesztese_ellenseg_tipusra.jpg}
+\caption{Torony fejlesztése ellenség típusra szekvenciadiagram}
+\label{fig:Torony_fejlesztese_ellenseg_tipusra}
+\end{center}
+\end{figure}
+
+\subsection{Torony törlődése}
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=17cm]{chapters/chapter11/images/Torony_torlodese.jpg}
+\caption{Torony törlődése szekvenciadiagram}
+\label{fig:Torony_torlodese}
+\end{center}
+\end{figure}
+
+\subsection{Varázserő változása}
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=17cm]{chapters/chapter11/images/Varazsero_valtozasa.jpg}
+\caption{Varázserő változása szekvenciadiagram}
+\label{fig:Varazsero_valtozasa}
+\end{center}
+\end{figure}
+
+
+
+
+
+
+
+
+
 
