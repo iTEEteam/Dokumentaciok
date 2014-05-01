@@ -461,7 +461,7 @@
 <XPD:ATTR name="Left" type="integer">240</XPD:ATTR>
 <XPD:ATTR name="Top" type="integer">1008</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">149</XPD:ATTR>
-<XPD:ATTR name="Height" type="integer">137</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">150</XPD:ATTR>
 <XPD:ATTR name="StereotypeDisplay" type="UMLStereotypeDisplayKind">sdkNone</XPD:ATTR>
 <XPD:ATTR name="ShowProperty" type="boolean">True</XPD:ATTR>
 <XPD:REF name="Model">Vup/rpdE7UOAWTjFphgjowAA</XPD:REF>
@@ -714,7 +714,7 @@
 <XPD:OBJ name="OwnedViews[22]" type="UMLRealizationView" guid="2u0w4A+R6kytdLf3MbrDtQAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Points" type="Points">392,1256;343,1144</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">391,1256;347,1157</XPD:ATTR>
 <XPD:REF name="Model">oi8da4ffs0Ocf34X5WzOegAA</XPD:REF>
 <XPD:REF name="Head">aaXfrflJ/Uunnvlq4Bxt5QAA</XPD:REF>
 <XPD:REF name="Tail">CtYeUPSPmEqsLJrWs1SFRwAA</XPD:REF>
@@ -922,7 +922,7 @@
 <XPD:OBJ name="OwnedViews[30]" type="UMLDependencyView" guid="PvXYI6LqtECoDRScUWxodgAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Points" type="Points">405,889;347,1008</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">405,889;349,1008</XPD:ATTR>
 <XPD:REF name="Model">0HYm9ACZakC3g2qaYY+VpwAA</XPD:REF>
 <XPD:REF name="Head">aaXfrflJ/Uunnvlq4Bxt5QAA</XPD:REF>
 <XPD:REF name="Tail">BXooEV4GwkWUJF4w7S9LuAAA</XPD:REF>
@@ -4462,7 +4462,7 @@
 <XPD:ATTR name="#SupplierDependencies" type="integer">2</XPD:ATTR>
 <XPD:REF name="SupplierDependencies[0]">oi8da4ffs0Ocf34X5WzOegAA</XPD:REF>
 <XPD:REF name="SupplierDependencies[1]">0HYm9ACZakC3g2qaYY+VpwAA</XPD:REF>
-<XPD:ATTR name="#Operations" type="integer">7</XPD:ATTR>
+<XPD:ATTR name="#Operations" type="integer">8</XPD:ATTR>
 <XPD:OBJ name="Operations[0]" type="UMLOperation" guid="HVn2x1+lhk+ob4eLEX7usQAA">
 <XPD:ATTR name="Name" type="string">chooseEnemy</XPD:ATTR>
 <XPD:REF name="Owner">Vup/rpdE7UOAWTjFphgjowAA</XPD:REF>
@@ -4538,6 +4538,16 @@
 <XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">void</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">Xu/4c0ocq0iwoNiq7vDuswAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="Operations[7]" type="UMLOperation" guid="Y2aMuHZqW0a0+rJXmuistwAA">
+<XPD:ATTR name="Name" type="string">getEnemyType</XPD:ATTR>
+<XPD:REF name="Owner">Vup/rpdE7UOAWTjFphgjowAA</XPD:REF>
+<XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="DA8z0/c1PU6AOVSwohWoRAAA">
+<XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
+<XPD:REF name="BehavioralFeature">Y2aMuHZqW0a0+rJXmuistwAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:ATTR name="#TypedFeatures" type="integer">1</XPD:ATTR>

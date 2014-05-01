@@ -63,9 +63,9 @@ Ez a megoldás, miszerint modell beli objektum minden változáskor értesíti a
 \item Felelősség\\
 A GPath felel a Path osztály megjelenítéséért, kirajzolásáért. Minden Path-hoz tartozik egy, és mindegyikhez egy Path tartozik.
 \item Ősosztályok\\
-Object
+Object, Graphic abstract
 \item Interfészek\\
-IGraphic, IView
+IView
 \item Attribútumok\\
 	\begin{description}
 		\item[-path: Path] Referencia arra az útra, amelyikhez tartozik. Ezen keresztül kérheti le a szükséges adatokat a modellből.
@@ -84,9 +84,9 @@ IGraphic, IView
 \item Felelősség\\
 A GField felel a Field osztály megjelenítéséért, kirajzolásáért. Minden Field-hez tartozik egy, és mindegyikhez egy Field tartozik.
 \item Ősosztályok\\
-Object
+Object, Graphic abstract
 \item Interfészek\\
-IGraphic, IView
+IView
 \item Attribútumok\\
 	\begin{description}
 		\item[-field: Field] Referencia arra  mezőre, amelyikhez tartozik. Ezen keresztül kérheti le a szükséges adatokat a modellből.
@@ -103,9 +103,9 @@ IGraphic, IView
 \item Felelősség\\
 A GGame felel a Game osztály megjelenítéséért. Elsősorban a felső sávért, vagyis a Game azon attribútumainak megjelenéséért, amiket a játékosnak célszerű látnia: mana, bejutott ellenségek száma, pálya szintje stb. 
 \item Ősosztályok\\
-Object
+Object, Graphic abstract
 \item Interfészek\\
-IGraphic, IView
+IView
 \item Attribútumok\\
 	\begin{description}
 		\item[-game: Game] A Game referencia, ami ahhoz kell, hogy meg tudja jeleníteni az adatokat.
@@ -154,9 +154,9 @@ Nincs
 \item Felelősség\\
 A GController irányítja a grafikus elemeket, végzi a felhasználói interakciók érvényre jutásának a felületre vonatkozó részeit, illetve kezdeményezi a modell megváltoztatását.
 \item Ősosztályok\\
-Object
+Object, Graphic abstract
 \item Interfészek\\
-IGraphic, IView
+IView
 \item Attribútumok\\
 	\begin{description}
 		\item[-control: Controller] Ez a hivatkozási pont a modellhez.
@@ -188,10 +188,10 @@ Nincs
 	\end{description}
 \end{itemize}
 
-\subsection{IGraphic}
+\subsection{Graphic}
 \begin{itemize}
 \item Felelősség\\
-Az IGraphic a rajzoló interfész. Különböző rajzolásokat tesz lehetővé.
+Az Graphic a rajzoló abstract ősosztály. Különböző rajzolásokat tesz lehetővé.
 \item Ősosztályok\\
 Nincs
 \item Interfészek\\
