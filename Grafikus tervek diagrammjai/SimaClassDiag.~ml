@@ -5927,15 +5927,15 @@
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:OBJ name="Operations[10]" type="UMLOperation" guid="lzjQkJQgw0KX+KfHpXtv5AAA">
-<XPD:ATTR name="Name" type="string">setEnemy</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">setEnemyType</XPD:ATTR>
 <XPD:REF name="Owner">apbu0Jgr6UqcM/EMP3U7iwAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">2</XPD:ATTR>
-<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="YXUOwn91b0a97mn71UwpKQAA">
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="44trP91WUkS/lSGEMsvO9AAA">
 <XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">void</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">lzjQkJQgw0KX+KfHpXtv5AAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="Parameters[1]" type="UMLParameter" guid="Fsej3NidykiWxT8S2Pgt8AAA">
+<XPD:OBJ name="Parameters[1]" type="UMLParameter" guid="2iQCe6DSJUC+YNExW/KJ8AAA">
 <XPD:ATTR name="Name" type="string">e</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">String</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">lzjQkJQgw0KX+KfHpXtv5AAA</XPD:REF>
