@@ -3835,11 +3835,16 @@
 <XPD:OBJ name="Operations[3]" type="UMLOperation" guid="M9ymbvA82k6qpTkH5NrvHQAA">
 <XPD:ATTR name="Name" type="string">deleteIObstacle</XPD:ATTR>
 <XPD:REF name="Owner">anZkK9ELP0yO+HN7udlUSgAA</XPD:REF>
-<XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
-<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="nxhW7AoS/USU2PjwSKjMdgAA">
+<XPD:ATTR name="#Parameters" type="integer">2</XPD:ATTR>
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="O/+jsHpUYk+KqK4E6Jn6UgAA">
 <XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">bool</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">M9ymbvA82k6qpTkH5NrvHQAA</XPD:REF>
+</XPD:OBJ>
+<XPD:OBJ name="Parameters[1]" type="UMLParameter" guid="QznHWdsFUUG5garOW1FsvgAA">
+<XPD:ATTR name="Name" type="string">io</XPD:ATTR>
+<XPD:REF name="BehavioralFeature">M9ymbvA82k6qpTkH5NrvHQAA</XPD:REF>
+<XPD:REF name="Type_">WTvt4Ra5/kmf8dj1k7TfzwAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:OBJ name="Operations[4]" type="UMLOperation" guid="KzhotExdeEiTeWgLrXuSpQAA">
@@ -4407,9 +4412,10 @@
 <XPD:REF name="BehavioralFeature">4Klwmc3l00ikj96aisjy9wAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
-<XPD:ATTR name="#TypedParameters" type="integer">2</XPD:ATTR>
+<XPD:ATTR name="#TypedParameters" type="integer">3</XPD:ATTR>
 <XPD:REF name="TypedParameters[0]">MU/5VKxjb0KnBzy8zEhPqAAA</XPD:REF>
 <XPD:REF name="TypedParameters[1]">0cNVpTnLZU6Hg83bd+xy3wAA</XPD:REF>
+<XPD:REF name="TypedParameters[2]">QznHWdsFUUG5garOW1FsvgAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedElements[11]" type="UMLInterface" guid="e9I73ppJG0+VZgI005FACQAA">
 <XPD:ATTR name="Name" type="string">IPathPlaceable</XPD:ATTR>

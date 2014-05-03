@@ -167,11 +167,11 @@ Az IGame interfész szolgáltatást nyújt az akadályoknak, tornyoknak, ellens�
 	\begin{description}
 		\item[+changeMana(): void] A manát megváltoztató metódus. 
 \item[+incSucceeded(): void] A succeededE értékét megváltoztató metódus.
-\item[+addTower(Tower t): void] A hozzáad egy tornyot a towers listához.
-\item[+removeEnemyIn(Enemy e): void] Az ellenség törlése enemiesIn-ből. 
-\item[+removeEnemyOut(Enemy e): void] Az ellenség törlése enemiesOut-ból. 
-\item[+removeTower(Tower t): void] A torony törlése towers-ből. 
-\item[+addEnemyIn(Enemy e): void] Ellenség hozzáadása enemiesIn-hez. 
+\item[+addTower(t: Tower): void] A hozzáad egy tornyot a towers listához.
+\item[+removeEnemyIn(e: Enemy): void] Az ellenség törlése enemiesIn-ből. 
+\item[+removeEnemyOut(e: Enemy): void] Az ellenség törlése enemiesOut-ból. 
+\item[+removeTower(t: Tower): void] A torony törlése towers-ből. 
+\item[+addEnemyIn(e: Enemy): void] Ellenség hozzáadása enemiesIn-hez. 
 \item[+getMana(): int] A mana lekérdezése. 
 
 
@@ -189,7 +189,7 @@ Object
 Nincs
 \item Attribútumok\\
 	\begin{description}
-		\item[-price: int] Az ár, amennyi varázserőbe kerül. static
+		\item[+price: int] Az ár, amennyi varázserőbe kerül. static, final
 	\end{description}
 \item Metódusok\\
 	\begin{description}
@@ -234,7 +234,7 @@ IObsacle, IPathPlaceable
 	\item[-slowIntens: int] A lassítás mértéke. 
 \item[-myPath: Path] A path, amin rajta van. 
 \item[-amort: int] Az elhasználódottság mértéke. 
-\item[-price: int] Az ára. static, final
+\item[+price: int] Az ára. static, final
 \item[-gems: ArrayList<IOGem>] A megvett kristályok listája. 
 
 
@@ -259,7 +259,8 @@ A torony funkciói vannak benne. Egy olyan interfész, amin keresztül a tornyok
 \item[+chooseEnemy(): Enemy] A torony tárolja a hatókörbe eső path cellákat. Minden tick-ben végig megy rajtuk, és kiválaszt egyet, amelyiken van ellenség, és oda fog lőni. Az ellenséggel tér vissza. 
 \item[+haze(): void] Ködöt generál a tornyon mod range beállításával. 
 \item[+clearUp(): void] Beállítja a modRange-et normál, köd nélküli értékre range alapján. 
-\item[+getEnemyType(): String] lekérdezi és visszaadja a Bulletben tárolt enemyType-ot.
+\item[+getEnemyType(): String] Lekérdezi és visszaadja a Bulletben tárolt enemyType-ot.
+\item[sell(): void] Torony eladása. 
 
 		
 		
@@ -275,14 +276,13 @@ Nincs
 ITower, IFieldPlaceable
 \item Attribútumok\\
 	\begin{description}
-		\item[-price: int] Az ára varázserőben. static, final
-\item[-range: int] lőtáv, hatókör.
+		\item[+price: int] Az ára varázserőben. static, final
+\item[-range: int] Lőtáv, hatókör.
 \item[-modRange: int] Módosított hatókör. 
 \item[-speedCtr: int] A torony belső idő mérője. Ezt vizsgálja minden lövés előtt, hogy eltelt e elég idő. 
 \item[-speed: int] két lövés között eltelt minimális idő. 
 \item[-bullet: Bullet] A torony tárol egy lövedéket, mindig ezt lövi ki. 
-\item[-gems: ArrayList<ITGem> ] A megvásárolt kristályokat tárolja. 
-\item[-myField: Field] A mezőt tárolja amin áll. 
+\item[-gems: ArrayList<ITGem> ] A megvásárolt kristályokat tárolja.  
 \item[-paths: ArrayList<Path>] Hatósugárba eső út cellák.   
 \item[-myField: Field] Mező, amin áll. 
 \item[-igame: IGame] Egy interfész a játék logikára, amivel a bejutott ellenségek számát, és a varázserőt is lehet állítani.  
@@ -347,7 +347,7 @@ Nincs
 \item Attribútumok\\
 	\begin{description}
 		\item[-neighbours: Array<Cell>]: 4 elemű tömb, tárolja 4 irányban a szomszédjai referenciáját.  
-		\item[#igame: IGame]: Referencia Game interfészéhez.
+		
 
 		
 	\end{description}
@@ -356,6 +356,8 @@ Nincs
 		
 		\item[+Cell(+cells: Array<Cell>, igame: IGame)] Konstruktor, paraméterként kapja a szomszédos mezők referenciáit. 
 		\item[+isPath(): bool] Olyan értékkel tér vissza amilyen típusú a cella (true/false megfelelés). 
+		\item[+getNeighbours(): Array<Cell>] Getter a neighbours-höz.
+		\item[setNeighbours(neig: Array<Cell>)] Setter a neighbours-höz.
 		
 		
 	\end{description}
@@ -371,7 +373,7 @@ Nincs
 \item Attribútumok\\
 	\begin{description}
 		\item[-itower: ITower] A mezőn álló torony interfészű elem tárolása.  
-		\item[-igame: IGame] IGame referencia, hogy tudja módosítani a Game-et. 
+		\item[-igame: IGame]: Referencia Game interfészéhez.
 
 		
 	\end{description}
@@ -409,18 +411,20 @@ Nincs
 		
 	\end{description}
 \item Metódusok\\
-	\begin{description}
-		\item[+hasEnemy(): ArrayList<Enemy>] Visszaadja a rajta lévő ellenségek listáját (enemies-t). 
+	\begin{description} 
 		\item[+isPath(): bool] Igaz értékkel tér vissza. 
 		\item[+deleteIPathPlaceable(ipath: IPathPlaceable): void] Kitörli a tárolójából a paraméterként kapott referenciával megegyező tárolt referenciát. 
-		\item[+deleteEnemy(e: Enemy): void] Kitörli enemies-ből a kapott e-t. 
+		\item[+deleteEnemy(e: Enemy): bool] Kitörli enemies-ből a kapott e-t. 
+		\item[+deleteIObstacle(io: IOsbtacle): bool] Akadály törlése az útról. 
 		\item[+registerIPathPlaceable(ipath: IPathPlaceable): void] Beregisztrálja a paraméterként kapott objektumot, mint saját magán tartózkodó ellenség vagy akadály. RegisterPath-t hív az ipath-on, ami a rá jellemző registert hívja vissza. 
 		\item[+hasEnemy(): bool] Megmutatja, hogy van-e a cellán ellenség. 
 		\item[+registerEnemy(e: Enemy): void] A kapott ellenséget beteszi az enemies-be. 
-		\item[+registerObstacle(o: Obstacle): void] A kapott akadály lesz az obstacle. 
+		\item[+registerIObstacle(io: IObstacle): void] A kapott akadály lesz az obstacle. 
 		\item[+getEnemies(): ArrayList<Enemy>] Visszatér az enemies-el. 
+		\item[getIObstacle(): IObstacle] Visszatér myIObstacle-el.
 		\item[+getNext(): Path] Paths-ből ad vissza egy random elemet. 
 		\item[+hasObstacle(): bool] Megadja, hogy van-e rajta Obstacle.
+		\item[+setNextPaths(np: ArrayList<Path>): void] Következő utak címeinek beállítása, nextPaths setter.
 		
 		
 	\end{description}
@@ -498,7 +502,7 @@ Interfész a mezőre helyezhető osztályok számára. Azonosítja azokat az obj
 \item Metódusok\\
 	\begin{description}
 		\item[+registerField(field: Field): void] A mezőre helyezhető objektumnak megadja  paraméterben annak a mezőnek a referenciáját, amelyikre helyezve lesz. 
-\item[+sell(): void] A mezőre helyezhető objektum eladása, annak megfelelő manát ad a játékosnak amennyit az objektum ér, majd a mező törli magáról az objektumot.
+
 
 		
 	\end{description}
