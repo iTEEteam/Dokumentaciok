@@ -132,7 +132,7 @@ Nincs
 \end{description}
 \item Metódusok\\
 	\begin{description}
-		\item[+drawMe(): void] Ez a metódus gondoskodik arról, hogy a megfelelő típusú Enemy kirajzolása történjen meg a Path-on.
+		\item[+drawMe(gp: GPath): void] Ez a metódus gondoskodik arról, hogy a megfelelő típusú Enemy kirajzolása történjen meg a Path-on. Visszahívja gp az enemy típusának megfelelő drawXXX() metódust.
 		\item[+GEnemy(e: Enemy)] Konstruktor.
 	\end{description}
 \end{itemize}
@@ -184,7 +184,9 @@ Nincs
 \item Metódusok\\
 	\begin{description}
 		\item[+notify()] void: Alap értesítő metódus.
-		\item[+notify(ge: GEnemy)] void: Értesítő metódus Enemy és GEnemyk kezeléséhez. Pl Enemy létrehozásakor vele azonos típusú GEnemy-t hozunk létre, amit odaadunk a megfelelő megjelenítőnek.
+		\item[+addGEnemy(ge: GEnemy)] void: Hozzáadunk az iview-hoz egy GEnemy-t.
+		\item[+getGEnemy(e: Enemy)] void: Lekérjük az e-hez tartozó GEnemy-t az iview-ból.
+		\item[+deleteGEnemy(e: Enemy)] void: Töröljük az e-hez tartozó GEnemy-t az iview-ból.
 	\end{description}
 \end{itemize}
 
