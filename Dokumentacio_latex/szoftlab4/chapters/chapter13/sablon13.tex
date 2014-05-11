@@ -6,7 +6,7 @@
 \thispagestyle{fancy}
 
 \section{Fordítási és futtatási útmutató}
-\comment{A feltöltött program fordításával és futtatásával kapcsolatos útmutatás. Ennek tartalmaznia kell leltárszerűen az egyes fájlok pontos nevét, méretét byte-ban, keletkezési idejét, valamint azt, hogy a fájlban mi került megvalósításra.}
+%\comment{A feltöltött program fordításával és futtatásával kapcsolatos útmutatás. Ennek tartalmaznia kell leltárszerűen az egyes fájlok pontos nevét, méretét byte-ban, keletkezési idejét, valamint azt, hogy a fájlban mi került megvalósításra.}
 
 \subsection{Fájllista}
 
@@ -26,34 +26,59 @@
 
 \end{fajllista}
 
-\subsection{Fordítás}
-\comment{A fenti listában szereplő forrásfájlokból milyen műveletekkel lehet a bináris, futtatható kódot előállítani. Az előállításhoz csak a 2. Követelmények c. dokumentumban leírt környezetet szabad előírni.}
-
 \lstset{escapeinside=`', xleftmargin=10pt, frame=single, basicstyle=\ttfamily\footnotesize, language=sh}
+
+\subsection{Fordítás}
+%\comment{A fenti listában szereplő forrásfájlokból milyen műveletekkel lehet a bináris, futtatható kódot előállítani. Az előállításhoz csak a 2. Követelmények c. dokumentumban leírt környezetet szabad előírni.}
+
+
+A fordítás a ''javac'' programmal történik, ezért olyan környezetben lehetséges csak, ahol ez a program elérhető. 
+
+A tesztelés megkönnyítése végett a fordítás és futtatás automatizálására egy batch fájl áll rendelkezésre. Ennek a használata a 13.1.3 pontban van részletezve. 
+
+A fordítás parancssorból is lehetséges a következő, a project gyökerében kiadott paranccsal:
+
 \begin{lstlisting}
-javac -d bin *.java
+if exist bin rmdir bin /s /q
+mkdir bin
+javac -d ./bin/ graph/*.java
 \end{lstlisting}
+
+Ez a parancs lefordítja a programot, és a lefordított állományokat a bin mappába helyezi.  
+
+
 
 \subsection{Futtatás}
-\comment{A futtatható kód elindításával kapcsolatos teendők leírása. Az indításhoz csak a 2. Követelmények c. dokumentumban leírt környezetet szabad előírni.}
+%\comment{A futtatható kód elindításával kapcsolatos teendők leírása. Az indításhoz csak a 2. Követelmények c. dokumentumban leírt környezetet szabad előírni.}
 
-\lstset{escapeinside=`', xleftmargin=10pt, frame=single, basicstyle=\ttfamily\footnotesize, language=sh}
+A futtatás a ''java'' programmal történik, ezért olyan környezetben lehetséges csak, ahol ez a program elérhető. 
+
+Az adott batch fájlok segítségével lehetséges lefordítani és futtatni a programot: ehhez a GraphicCompileAndRun.bat-ot futtassuk, ami a fordítás után azonnal el is indítja a programot.
+
+Ha a futtatást parancssorból akarjuk végezni, lehetőség van arra is. Amennyiben a 13.1.2 pontban leírt módon végeztük a fordítást, a futtatás a következő, a project gyökerében kiadott paranccsal végezhető:
+
 \begin{lstlisting}
-cd bin
-java Main.java
+java -classpath .\bin\ graph.Application
 \end{lstlisting}
+Ez a parancs elindítja a programot.
 
 \section{Értékelés}
-\comment{A projekt kezdete óta az értékelésig eltelt időben tagokra bontva, százalékban.}
+%\comment{A projekt kezdete óta az értékelésig eltelt időben tagokra bontva, százalékban.}
 
-\begin{ertekeles}
-\tag{Horváth} % Tag neve
-{23.5}        % Munka szazalekban
-\tag{Német}
-{24.5}
-\tag{Tóth}
-{25}
-\tag{Oláh}
-{27}
-\end{ertekeles}
+%\begin{ertekelesplusz}
+%\tag{Elekes} % Tag neve
+%{} %óra
+%{}        % Munka szazalekban
+%\tag{Fuksz}
+%{}
+%{}
+%\tag{Nagy}
+%{}
+%{}
+%\tag{Rédey}
+%{}
+%{}
+%\tag{Seres}
+%{}
+%{}
 
