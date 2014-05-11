@@ -1,2 +1,0 @@
-Hatszog alakú cella
-Random útirányválasztás
