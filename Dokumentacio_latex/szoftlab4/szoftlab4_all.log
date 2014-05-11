@@ -1,0 +1,4258 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.23)  11 MAY 2014 19:59
+entering extended mode
+**szoftlab4_all.tex
+
+(D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\szoftlab4
+_all.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
+
+(D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\includes/
+header.tex ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\scrbook.cl
+s"
+Document Class: scrbook 2013/12/19 v3.12 KOMA-Script document class (book)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\scrkbase.sty"
+Package: scrkbase 2013/12/19 v3.12 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\scrbase.sty"
+Package: scrbase 2013/12/19 v3.12 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\scrlfile.sty"
+Package: scrlfile 2013/12/19 v3.12 KOMA-Script package (loading files)
+
+Package scrlfile, 2013/12/19 v3.12 KOMA-Script package (loading files)
+                  Copyright (C) Markus Kohm
+
+))) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\tocbasic.sty"
+Package: tocbasic 2013/12/19 v3.12 KOMA-Script package (handling toc-files)
+)
+Package tocbasic Info: omitting babel extension for `toc'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `toc' on input line 117.
+Package tocbasic Info: omitting babel extension for `lof'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lof' on input line 118.
+Package tocbasic Info: omitting babel extension for `lot'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lot' on input line 119.
+Package tocbasic Info: defining new hook before heading of `' on input line 111
+8.
+Package scrbook Info: You've used standard option `11pt'.
+(scrbook)             This is correct!
+(scrbook)             Internally I'm using `fontsize=11pt'.
+(scrbook)             If you'd like to set the option with \KOMAoptions,
+(scrbook)             you'd have to use `fontsize=11pt' there
+(scrbook)             instead of `11pt', too.
+Class scrbook Info: You've used standard option `oneside'.
+(scrbook)           This is correct!
+(scrbook)           Internally I'm using `twoside=false'.
+(scrbook)           If you'd like to set the option with \KOMAoptions,
+(scrbook)           you'd have to use `twoside=false' there
+(scrbook)           instead of `oneside', too.
+Package scrbase Info: Unknown processing state.
+(scrbase)             Processing option `twoside=false'
+(scrbase)             of member `.scrbook.cls'
+(scrbase)             of family `KOMA'
+(scrbase)             doesn't set a valid state.
+(scrbase)             This will be interpreted
+(scrbase)             as \FamilyKeyStateProcessed on input line 1269.
+Class scrbook Info: File `scrsize11pt.clo' used to setup font sizes on input li
+ne 1655.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\scrsize11pt.clo"
+File: scrsize11pt.clo 2013/12/19 v3.12 KOMA-Script font size class option (11pt
+)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\typearea.sty"
+Package: typearea 2013/12/19 v3.12 KOMA-Script package (type area)
+
+Package typearea, 2013/12/19 v3.12 KOMA-Script package (type area)
+                  Copyright (C) Frank Neukam, 1992-1994
+                  Copyright (C) Markus Kohm, 1994-
+
+\ta@bcor=\skip41
+\ta@div=\count79
+Package typearea Info: You've used standard option `oneside'.
+(typearea)             This is correct!
+(typearea)             Internally I'm using `twoside=false'.
+(typearea)             If you'd like to set the option with \KOMAoptions,
+(typearea)             you'd have to use `twoside=false' there
+(typearea)             instead of `oneside', too.
+\ta@hblk=\skip42
+\ta@vblk=\skip43
+\ta@temp=\skip44
+\footheight=\skip45
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 10
+(typearea)             BCOR = 0.0pt
+(typearea)             \paperwidth      = 597.50793pt
+(typearea)              \textwidth      = 418.25555pt
+(typearea)              DIV departure   = -6%
+(typearea)              \evensidemargin = 17.3562pt
+(typearea)              \oddsidemargin  = 17.3562pt
+(typearea)             \paperheight     = 845.04694pt
+(typearea)              \textheight     = 595.80026pt
+(typearea)              \topmargin      = -25.16531pt
+(typearea)              \headheight     = 17.0pt
+(typearea)              \headsep        = 20.40001pt
+(typearea)              \topskip        = 11.0pt
+(typearea)              \footskip       = 47.6pt
+(typearea)              \baselineskip   = 13.6pt
+(typearea)              on input line 1330.
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\abovecaptionskip=\skip46
+\belowcaptionskip=\skip47
+\c@pti@nb@sid@b@x=\box26
+\c@figure=\count87
+\c@table=\count88
+\bibindent=\dimen102
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
+File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
+File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
+File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+
+Class scrbook Warning: Usage of package `fancyhdr' together
+(scrbook)              with a KOMA-Script class is not recommended.
+(scrbook)              I'd suggest to use 
+(scrbook)              package `scrpage2' or `scrlayer-scrpage'.
+(scrbook)              Nevertheless, using requested
+(scrbook)              package `fancyhdr' on input line 12.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+\fancy@headwidth=\skip48
+\f@ncyO@elh=\skip49
+\f@ncyO@erh=\skip50
+\f@ncyO@olh=\skip51
+\f@ncyO@orh=\skip52
+\f@ncyO@elf=\skip53
+\f@ncyO@erf=\skip54
+\f@ncyO@olf=\skip55
+\f@ncyO@orf=\skip56
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2008/07/08 v3.8m The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\magyar.ldf"
+Language: magyar 2005/03/30 v1.4j Magyar support from the babel system
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2008/07/08 v3.8m Babel common definitions
+\babel@savecnt=\count89
+\U@D=\dimen103
+)
+Package babel Info: Making ` an active character on input line 597.
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\longtable.sty"
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip57
+\LTright=\skip58
+\LTpre=\skip59
+\LTpost=\skip60
+\LTchunksize=\count90
+\LTcapwidth=\dimen104
+\LT@head=\box27
+\LT@firsthead=\box28
+\LT@foot=\box29
+\LT@lastfoot=\box30
+\LT@cols=\count91
+\LT@rows=\count92
+\c@LT@tables=\count93
+\c@LT@chunks=\count94
+\LT@p@ftn=\toks17
+)
+Class scrbook Info: longtable captions redefined on input line 16.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count95
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count96
+\float@exts=\toks18
+\float@box=\box31
+\@float@everytoks=\toks19
+\@floatcapt=\box32
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\times.sty"
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.sty"
+\lst@mode=\count97
+\lst@gtempboxa=\box33
+\lst@token=\toks20
+\lst@length=\count98
+\lst@currlwidth=\dimen105
+\lst@column=\count99
+\lst@pos=\count100
+\lst@lostspace=\dimen106
+\lst@width=\dimen107
+\lst@newlines=\count101
+\lst@lineno=\count102
+\lst@maxwidth=\dimen108
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+File: lstmisc.sty 2014/03/04 1.5c (Carsten Heinz)
+\c@lstnumber=\count103
+\lst@skipnumbers=\count104
+\lst@framebox=\box34
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.cfg"
+File: listings.cfg 2014/03/04 1.5c listings configuration
+))
+Package: listings 2014/03/04 1.5c (Carsten Heinz)
+
+(D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\includes/
+szglab4.sty ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty
+"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+)
+\Gin@req@height=\dimen109
+\Gin@req@width=\dimen110
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\anysize.sty"
+Package: anysize 1994/08/13 1.0 Contributed LaTeX2e package
+
+Package: `anysize' 1.0 <1994/08/13>
+\@Leftmargin=\dimen111
+\@Rightmargin=\dimen112
+\@Topmargin=\dimen113
+\@Bottommargin=\dimen114
+)) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
+
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen115
+\Hy@linkcounter=\count105
+\Hy@pagecounter=\count106
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count107
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 431
+9.
+Package hyperref Info: Option `unicode' set `true' on input line 4319.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\puenc.def"
+File: puenc.def 2012/11/06 v6.83m Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4688.
+\c@Hy@tempcnt=\count108
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\url\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen116
+\Fld@menulength=\count109
+\Field@Width=\dimen117
+\Fld@charsize=\dimen118
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
+\Hy@abspage=\count110
+\c@Item=\count111
+\c@Hfootnote=\count112
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
+\Fld@listcount=\count113
+\c@bookmark@seq@number=\count114
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip61
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
+Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\epsfig.sty"
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+\epsfxsize=\dimen119
+\epsfysize=\dimen120
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 59.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 59.
+)
+No file szoftlab4_all.aux.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 16.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\t1ptm.fd"
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count115
+\scratchdimen=\dimen121
+\scratchbox=\box35
+\nofMPsegments=\count116
+\nofMParguments=\count117
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count118
+\MPscratchDim=\dimen122
+\MPnumerator=\count119
+\makeMPintoPDFobject=\count120
+\everyMPtoPDFconversion=\toks22
+)
+\c@lstlisting=\count121
+\AtBeginShipoutBox=\box36
+Package hyperref Info: Link coloring ON on input line 16.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count122
+)
+LaTeX Info: Redefining \ref on input line 16.
+LaTeX Info: Redefining \pageref on input line 16.
+LaTeX Info: Redefining \nameref on input line 16.
+\@outlinefile=\write3
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 20.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 20.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 20.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 20.
+
+[1
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 25.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 25.
+\tf@toc=\write4
+ [2
+
+
+
+]
+\tf@lof=\write5
+
+(D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
+chapter02/sablon02.tex [3
+
+
+
+]
+fejezet 2.
+
+Class scrbook Warning: \float@addtolists detected!
+(scrbook)              Implementation of \float@addtolist became
+(scrbook)              deprecated in KOMA-Script v3.01 2008/11/14 and
+(scrbook)              has been replaced by more several more flexible
+(scrbook)              features of package `tocbasic`.
+(scrbook)              Since Version 3.12 support for deprecated
+(scrbook)              \float@addtolist interface has been
+(scrbook)              restricted to only some of the KOMA-Script
+(scrbook)              features and been removed from others.
+(scrbook)              Loading of package `scrhack' may help to
+(scrbook)              avoid this warning, if you are using a
+(scrbook)              a package that still implements the
+(scrbook)              deprecated \float@addtolist interface .
+
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 8.
+
+LaTeX Font Info:    Try loading font information for T1+phv on input line 22.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\t1phv.fd"
+File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
+)
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 22.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 32.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 32.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 32.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\t1pcr.fd"
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 51.
+
+[4
+
+
+] [5]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 128.
+
+
+Underfull \hbox (badness 2096) in paragraph at lines 140--141
+\T1/ptm/m/n/10.95 je-len® f®-me-nü-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--143
+[]|\T1/ptm/m/n/10.95 Funkcionális
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--147
+[]|\T1/ptm/m/n/10.95 feladat-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--155
+\T1/ptm/m/n/10.95 já-ték kez-dése
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
+[]|\T1/ptm/m/n/10.95 Funkcionális
+ []
+
+
+Underfull \hbox (badness 2503) in paragraph at lines 162--163
+[]|\T1/ptm/m/n/10.95 Pálya ki-vá-lasz-
+ []
+
+
+Underfull \hbox (badness 1371) in paragraph at lines 168--169
+\T1/ptm/m/n/10.95 aka-dá-lyo-kat el-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
+[]|\T1/ptm/m/n/10.95 Funkcionális
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 174--175
+[]|\T1/ptm/m/n/10.95 feladat-
+ []
+
+
+Underfull \hbox (badness 8170) in paragraph at lines 182--183
+\T1/ptm/m/n/10.95 lye-zett tor-nyo-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--185
+[]|\T1/ptm/m/n/10.95 Funkcionális
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 188--188
+[]|\T1/ptm/m/n/10.95 feladat-
+ []
+
+
+Underfull \hbox (badness 8170) in paragraph at lines 195--196
+\T1/ptm/m/n/10.95 lye-zett tor-nyo-
+ []
+
+
+Underfull \hbox (badness 1082) in paragraph at lines 195--196
+\T1/ptm/m/n/10.95 kat el le-hes-sen
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--198
+[]|\T1/ptm/m/n/10.95 Funkcionális
+ []
+
+
+Underfull \hbox (badness 5260) in paragraph at lines 209--210
+[]|\T1/ptm/m/n/10.95 A szoft-ver ne
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
+[]|\T1/ptm/m/n/10.95 Funkcionális
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 221
+ []
+
+[6]
+Underfull \hbox (badness 1478) in paragraph at lines 234--235
+[]|\T1/ptm/m/n/10.95 Java 1.6 fut-tató kör-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 240--241
+[]|\T1/ptm/m/n/10.95 HSZK gép-kö-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--247
+[]|\T1/ptm/m/n/10.95 Operációs rend-szer:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--247
+\T1/ptm/m/n/10.95 Win-dows XP vagy
+ []
+
+
+Underfull \hbox (badness 1571) in paragraph at lines 252--253
+[]|\T1/ptm/m/n/10.95 Java 1.6 kö-ve-
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 258
+ []
+
+
+Underfull \hbox (badness 1231) in paragraph at lines 271--272
+\T1/ptm/m/n/10.95 Mind-há-rom eset-ben for-
+ []
+
+
+Underfull \hbox (badness 7273) in paragraph at lines 278--279
+\T1/ptm/m/n/10.95 se-gít-sé-gé-vel egy ál-
+ []
+
+
+Underfull \hbox (badness 7168) in paragraph at lines 278--279
+\T1/ptm/m/n/10.95 ta-lá-nos szá-mí-tó-gé-pes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 278--279
+\T1/ptm/m/n/10.95 is-me-re-tek-kel ren-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 278--279
+\T1/ptm/m/n/10.95 del-kez® fel-hasz-náló
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 282
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 294--295
+[]|\T1/ptm/m/n/10.95 Bárki szá-mára
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 294--295
+\T1/ptm/m/n/10.95 könnyen ke-zel-het®
+ []
+
+
+Underfull \hbox (badness 4819) in paragraph at lines 301--302
+\T1/ptm/m/n/10.95 tar-tozó RE-ADME
+ []
+
+
+Underfull \hbox (badness 2443) in paragraph at lines 301--302
+\T1/ptm/m/n/10.95 alatt for-dít-ha-tó-nak
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 301--302
+\T1/ptm/m/n/10.95 és fut-tat-ha-tó-nak
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 305--306
+[]|\T1/ptm/m/n/10.95 Bemenetekre egy-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 305--306
+\T1/ptm/m/n/10.95 b®l kell re-gálni a
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 307--308
+[]|\T1/ptm/m/n/10.95 Tesztelés a
+ []
+
+
+Underfull \hbox (badness 5741) in paragraph at lines 307--308
+\T1/ptm/m/n/10.95 mi-ni-mum gép-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 307--308
+\T1/ptm/m/n/10.95 igény-nek a
+ []
+
+
+Underfull \hbox (badness 3088) in paragraph at lines 330--331
+\T1/ptm/m/n/10.95 rá-ciós rend-sze-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 336--338
+[]|\T1/ptm/m/n/10.95 Windows, Li-nux,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 343--344
+[]|\T1/ptm/m/n/10.95 Olyan tesz-te-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 343--344
+\T1/ptm/m/n/10.95 se-tek-kel amik
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 353--354
+[]|\T1/ptm/m/n/10.95 Megfelel® do-ku-men-
+ []
+
+
+Underfull \hbox (badness 5563) in paragraph at lines 353--354
+\T1/ptm/m/n/10.95 tált-ság, töb-bek közt
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 353--354
+\T1/ptm/m/n/10.95 kar-ban-tart-ha-tó-ság
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 355--356
+[]|\T1/ptm/m/n/10.95 Projektvezet®
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 364
+ []
+
+[7]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 370.
+
+
+Underfull \vbox (badness 10000) detected at line 378
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 384
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 389
+ []
+
+[8]
+Underfull \vbox (badness 10000) detected at line 393
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 397
+ []
+
+Package epstopdf Info: Source file: <chapters/chapter02/images/asd.eps>
+(epstopdf)                    date: 2014-05-11 19:22:39
+(epstopdf)                    size: 44050 bytes
+(epstopdf)             Output file: <chapters/chapter02/images/asd-eps-converte
+d-to.pdf>
+(epstopdf)                    date: 2014-05-11 19:38:55
+(epstopdf)                    size: 9696 bytes
+(epstopdf)             Command: <epstopdf --outfile=chapters/chapter02/images/a
+sd-eps-converted-to.pdf chapters/chapter02/images/asd.eps>
+(epstopdf)             \includegraphics on input line 402.
+Package epstopdf Info: Output file is already uptodate.
+
+<chapters/chapter02/images/asd-eps-converted-to.pdf, id=57, 399.4925pt x 340.27
+126pt>
+File: chapters/chapter02/images/asd-eps-converted-to.pdf Graphic file (type pdf
+)
+ <use chapters/chapter02/images/asd-eps-converted-to.pdf>
+Package pdftex.def Info: chapters/chapter02/images/asd-eps-converted-to.pdf use
+d on input line 402.
+(pdftex.def)             Requested size: 483.69684pt x 412.01505pt.
+ [9] [10 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/
+chapters/chapter02/images/asd-eps-converted-to.pdf>]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 450.
+
+
+Underfull \vbox (badness 10000) detected at line 472
+ []
+
+[11] [12])
+(D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
+chapter02/naplo02.tex
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+[]|\T1/ptm/m/n/10.95 2014.02.09.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+[]|\T1/ptm/b/n/10.95 Seres Ré-dey
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+\T1/ptm/b/n/10.95 Fuksz Nagy
+ []
+
+
+Underfull \hbox (badness 3471) in paragraph at lines 17--17
+[]|\T1/ptm/m/n/10.95 Alakuló ér-te-kez-let. Is-mer-ke-dés, ada-tok
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--26
+[]|\T1/ptm/m/n/10.95 2014.02.19.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--26
+[]|\T1/ptm/b/n/10.95 Seres Ré-dey
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--26
+\T1/ptm/b/n/10.95 Fuksz Nagy
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--47
+[]|\T1/ptm/m/n/10.95 2014.02.19.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--47
+[]|\T1/ptm/b/n/10.95 Seres Ré-dey
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--47
+\T1/ptm/b/n/10.95 Fuksz Nagy
+ []
+
+
+Underfull \hbox (badness 1242) in paragraph at lines 47--47
+[]\T1/ptm/m/n/10.95 Fuksz do-ku-men-tálja a 2.1.1, 2.1.2, 2.3.2,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
+[]|\T1/ptm/m/n/10.95 2014.02.19.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+[]|\T1/ptm/m/n/10.95 2014.02.19.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--62
+[]|\T1/ptm/m/n/10.95 2014.02.19.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
+[]|\T1/ptm/m/n/10.95 2014.02.21.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--72
+[]|\T1/ptm/m/n/10.95 2014.02.21.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
+[]|\T1/ptm/m/n/10.95 2014.02.22.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--82
+[]|\T1/ptm/m/n/10.95 2014.02.22.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--87
+[]|\T1/ptm/m/n/10.95 2014.02.23.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--92
+[]|\T1/ptm/m/n/10.95 2014.02.23.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
+[]|\T1/ptm/m/n/10.95 2014.02.23.
+ []
+
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table \relax 2.11 on input line 100.
+
+[13])
+(D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
+chapter03/sablon03.tex [14]
+fejezet 3.
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 8.
+
+[15
+
+
+] <chapters/chapter03/images/Main.jpg, id=102, 1568.86125pt x 1316.92pt>
+File: chapters/chapter03/images/Main.jpg Graphic file (type jpg)
+
+<use chapters/chapter03/images/Main.jpg>
+Package pdftex.def Info: chapters/chapter03/images/Main.jpg used on input line 
+51.
+(pdftex.def)             Requested size: 483.69684pt x 406.01048pt.
+
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 61.
+
+[16 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
+ers/chapter03/images/Main.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 73--75
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--81
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
+
+ []
+
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 131--132
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--143
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--162
+
+ []
+
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 189--190
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 198--199
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
+
+ []
+
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 223--224
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 239--240
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--256
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 264--265
+
+ []
+
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 297--298
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 318--319
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 326--327
+
+ []
+
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 343--344
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 349--350
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--367
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 372--373
+
+ []
+
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 395--396
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 403--404
+
+ []
+
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 432.
+
+
+<chapters/chapter03/images/Akadaly_elhelyezese.jpg, id=133, 566.115pt x 385.44p
+t>
+File: chapters/chapter03/images/Akadaly_elhelyezese.jpg Graphic file (type jpg)
+
+ <use chapters/chapter03/images/Akadaly_elhelyezese.jpg>
+Package pdftex.def Info: chapters/chapter03/images/Akadaly_elhelyezese.jpg used
+ on input line 435.
+(pdftex.def)             Requested size: 483.69684pt x 329.337pt.
+ [23]
+<chapters/chapter03/images/Ellenfel_mozgasa.jpg, id=138, 1196.47pt x 678.535pt>
+File: chapters/chapter03/images/Ellenfel_mozgasa.jpg Graphic file (type jpg)
+<use chapters/chapter03/images/Ellenfel_mozgasa.jpg>
+Package pdftex.def Info: chapters/chapter03/images/Ellenfel_mozgasa.jpg used on
+ input line 444.
+(pdftex.def)             Requested size: 483.69684pt x 274.3082pt.
+ [24 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter03/images/Akadaly_elhelyezese.jpg>]
+<chapters/chapter03/images/Torony_eladasa.jpg, id=144, 630.355pt x 349.305pt>
+File: chapters/chapter03/images/Torony_eladasa.jpg Graphic file (type jpg)
+
+<use chapters/chapter03/images/Torony_eladasa.jpg>
+Package pdftex.def Info: chapters/chapter03/images/Torony_eladasa.jpg used on i
+nput line 453.
+(pdftex.def)             Requested size: 483.69684pt x 268.03825pt.
+ [25 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter03/images/Ellenfel_mozgasa.jpg>]
+<chapters/chapter03/images/Torony_elhelyezese.jpg, id=150, 538.01pt x 369.38pt>
+File: chapters/chapter03/images/Torony_elhelyezese.jpg Graphic file (type jpg)
+<use chapters/chapter03/images/Torony_elhelyezese.jpg>
+Package pdftex.def Info: chapters/chapter03/images/Torony_elhelyezese.jpg used 
+on input line 462.
+(pdftex.def)             Requested size: 483.69684pt x 332.09511pt.
+ [26 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter03/images/Torony_eladasa.jpg>]
+<chapters/chapter03/images/Torony_fejlesztese.jpg, id=155, 554.07pt x 361.35pt>
+File: chapters/chapter03/images/Torony_fejlesztese.jpg Graphic file (type jpg)
+<use chapters/chapter03/images/Torony_fejlesztese.jpg>
+Package pdftex.def Info: chapters/chapter03/images/Torony_fejlesztese.jpg used 
+on input line 471.
+(pdftex.def)             Requested size: 483.69684pt x 315.45265pt.
+ [27 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter03/images/Torony_elhelyezese.jpg>]
+<chapters/chapter03/images/Torony_tuzelese.jpg, id=160, 1116.17pt x 642.4pt>
+File: chapters/chapter03/images/Torony_tuzelese.jpg Graphic file (type jpg)
+
+<use chapters/chapter03/images/Torony_tuzelese.jpg>
+Package pdftex.def Info: chapters/chapter03/images/Torony_tuzelese.jpg used on 
+input line 480.
+(pdftex.def)             Requested size: 483.69684pt x 278.3831pt.
+ [28 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter03/images/Torony_fejlesztese.jpg>]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 489.
+
+
+<chapters/chapter03/images/StatechartDiagram_Field.jpg, id=165, 301.125pt x 207
+.77625pt>
+File: chapters/chapter03/images/StatechartDiagram_Field.jpg Graphic file (type 
+jpg)
+ <use chapters/chapter03/images/StatechartDiagram_Field.jpg>
+Package pdftex.def Info: chapters/chapter03/images/StatechartDiagram_Field.jpg 
+used on input line 492.
+(pdftex.def)             Requested size: 483.69684pt x 333.78351pt.
+ [29 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter03/images/Torony_tuzelese.jpg>]
+<chapters/chapter03/images/StatechartDiagram_Path.jpg, id=170, 952.55875pt x 55
+2.0625pt>
+File: chapters/chapter03/images/StatechartDiagram_Path.jpg Graphic file (type j
+pg)
+ <use chapters/chapter03/images/StatechartDiagram_Path.jpg>
+Package pdftex.def Info: chapters/chapter03/images/StatechartDiagram_Path.jpg u
+sed on input line 501.
+(pdftex.def)             Requested size: 483.69684pt x 280.33511pt.
+)
+(D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
+chapter03/naplo03.tex [30 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio
+_latex/szoftlab4/chapters/chapter03/images/StatechartDiagram_Field.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+[]|\T1/ptm/m/n/10.95 2014.02.26.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+[]|\T1/ptm/b/n/10.95 Elekes Fuksz
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--24
+[]|\T1/ptm/m/n/10.95 2014.02.27.
+ []
+
+
+Underfull \hbox (badness 1112) in paragraph at lines 24--24
+[]|\T1/ptm/m/n/10.95 Megbeszélés az ana-lí-zis mo-dell-r®l. Use-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+[]|\T1/ptm/m/n/10.95 2014.02.27.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--36
+[]|\T1/ptm/m/n/10.95 2014.02.27.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
+[]|\T1/ptm/m/n/10.95 2014.02.28.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--55
+[]|\T1/ptm/b/n/10.95 Elekes Fuksz
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--60
+[]|\T1/ptm/m/n/10.95 2014.03.01.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--70
+[]|\T1/ptm/m/n/10.95 2014.03.01.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--75
+[]|\T1/ptm/m/n/10.95 2014.03.01.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--83
+[]|\T1/ptm/m/n/10.95 2014.03.01.
+ []
+
+
+Underfull \hbox (badness 3068) in paragraph at lines 88--88
+[]|\T1/ptm/m/n/10.95 Osztálydiagram szer-kesz-tése az ér-te-kez-let
+ []
+
+
+Underfull \hbox (badness 1509) in paragraph at lines 93--93
+[]|\T1/ptm/m/n/10.95 Use ca-sek szer-kesz-tése az osz-tály-di-ag-ram
+ []
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 93--93
+\T1/ptm/m/n/10.95 alap-ján, osz-tály-di-ag-ram és a do-ku-men-tum
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--103
+[]|\T1/ptm/m/n/10.95 2014.03.02.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--108
+[]|\T1/ptm/m/n/10.95 2014.03.02.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--114
+[]|\T1/ptm/m/n/10.95 2014.03.02.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 120--120
+[]|\T1/ptm/m/n/10.95 2014.03.03.
+ []
+
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table \relax 3.1 on input line 130.
+
+[31 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
+ers/chapter03/images/StatechartDiagram_Path.jpg>])
+(D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
+chapter04/sablon04.tex [32]
+fejezet 4.
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 8.
+
+[33
+
+
+] <chapters/chapter04/images/Main.jpg, id=191, 1512.65125pt x 1597.97pt>
+File: chapters/chapter04/images/Main.jpg Graphic file (type jpg)
+
+<use chapters/chapter04/images/Main.jpg>
+Package pdftex.def Info: chapters/chapter04/images/Main.jpg used on input line 
+62.
+(pdftex.def)             Requested size: 483.69684pt x 510.97072pt.
+ [34]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 72.
+
+[35 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
+ers/chapter04/images/Main.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 84--86
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--92
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--114
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
+
+ []
+
+[36]
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 161--162
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 173--174
+
+ []
+
+[37]
+Underfull \hbox (badness 10000) in paragraph at lines 194--195
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--204
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 225--226
+
+ []
+
+[38]
+Underfull \hbox (badness 10000) in paragraph at lines 248--249
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 252--253
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 268--269
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 289--290
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 299--300
+
+ []
+
+[39]
+Underfull \hbox (badness 10000) in paragraph at lines 311--312
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 332--333
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 345--346
+
+ []
+
+[40]
+Underfull \hbox (badness 10000) in paragraph at lines 365--366
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 373--374
+
+ []
+
+[41]
+Underfull \hbox (badness 10000) in paragraph at lines 400--401
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 406--407
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 425--426
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 431--432
+
+ []
+
+[42]
+Underfull \hbox (badness 10000) in paragraph at lines 455--456
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 463--464
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 490--491
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 495--496
+
+ []
+
+[43]
+Underfull \hbox (badness 10000) in paragraph at lines 510--511
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 515--516
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 526--527
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 537--538
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 550--551
+
+ []
+
+[44]
+Underfull \hbox (badness 10000) in paragraph at lines 562--563
+
+ []
+
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 576.
+
+
+<chapters/chapter04/images/Akadaly_elhelyezese.jpg, id=239, 646.415pt x 501.875
+pt>
+File: chapters/chapter04/images/Akadaly_elhelyezese.jpg Graphic file (type jpg)
+
+ <use chapters/chapter04/images/Akadaly_elhelyezese.jpg>
+Package pdftex.def Info: chapters/chapter04/images/Akadaly_elhelyezese.jpg used
+ on input line 579.
+(pdftex.def)             Requested size: 483.69684pt x 375.53996pt.
+
+<chapters/chapter04/images/Ellenfel_mozgasa.jpg, id=240, 1284.8pt x 694.595pt>
+File: chapters/chapter04/images/Ellenfel_mozgasa.jpg Graphic file (type jpg)
+
+<use chapters/chapter04/images/Ellenfel_mozgasa.jpg>
+Package pdftex.def Info: chapters/chapter04/images/Ellenfel_mozgasa.jpg used on
+ input line 588.
+(pdftex.def)             Requested size: 483.69684pt x 261.50055pt.
+ [45 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter04/images/Akadaly_elhelyezese.jpg>]
+<chapters/chapter04/images/Torony_eladasa.jpg, id=246, 574.145pt x 513.92pt>
+File: chapters/chapter04/images/Torony_eladasa.jpg Graphic file (type jpg)
+
+<use chapters/chapter04/images/Torony_eladasa.jpg>
+Package pdftex.def Info: chapters/chapter04/images/Torony_eladasa.jpg used on i
+nput line 597.
+(pdftex.def)             Requested size: 483.69684pt x 432.96805pt.
+ [46 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter04/images/Ellenfel_mozgasa.jpg>]
+<chapters/chapter04/images/Torony_elhelyezese.jpg, id=251, 594.22pt x 489.83pt>
+File: chapters/chapter04/images/Torony_elhelyezese.jpg Graphic file (type jpg)
+<use chapters/chapter04/images/Torony_elhelyezese.jpg>
+Package pdftex.def Info: chapters/chapter04/images/Torony_elhelyezese.jpg used 
+on input line 606.
+(pdftex.def)             Requested size: 483.69684pt x 398.74078pt.
+ [47 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter04/images/Torony_eladasa.jpg>]
+<chapters/chapter04/images/Torony_fejlesztese.jpg, id=256, 582.175pt x 730.73pt
+>
+File: chapters/chapter04/images/Torony_fejlesztese.jpg Graphic file (type jpg)
+ <use chapters/chapter04/images/Torony_fejlesztese.jpg>
+Package pdftex.def Info: chapters/chapter04/images/Torony_fejlesztese.jpg used 
+on input line 615.
+(pdftex.def)             Requested size: 483.69684pt x 607.13014pt.
+ [48 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter04/images/Torony_elhelyezese.jpg>]
+<chapters/chapter04/images/Torony_tuzelese.jpg, id=261, 1116.17pt x 642.4pt>
+File: chapters/chapter04/images/Torony_tuzelese.jpg Graphic file (type jpg)
+
+<use chapters/chapter04/images/Torony_tuzelese.jpg>
+Package pdftex.def Info: chapters/chapter04/images/Torony_tuzelese.jpg used on 
+input line 624.
+(pdftex.def)             Requested size: 483.69684pt x 278.3831pt.
+ [49 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter04/images/Torony_fejlesztese.jpg>]
+<chapters/chapter04/images/Inicializalas.jpg, id=267, 554.07pt x 706.64pt>
+File: chapters/chapter04/images/Inicializalas.jpg Graphic file (type jpg)
+
+<use chapters/chapter04/images/Inicializalas.jpg>
+Package pdftex.def Info: chapters/chapter04/images/Inicializalas.jpg used on in
+put line 633.
+(pdftex.def)             Requested size: 483.69684pt x 616.8852pt.
+ [50 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter04/images/Torony_tuzelese.jpg>]
+<chapters/chapter04/images/Jatek_menete.jpg, id=272, 626.34pt x 915.42pt>
+File: chapters/chapter04/images/Jatek_menete.jpg Graphic file (type jpg)
+
+<use chapters/chapter04/images/Jatek_menete.jpg>
+Package pdftex.def Info: chapters/chapter04/images/Jatek_menete.jpg used on inp
+ut line 642.
+(pdftex.def)             Requested size: 483.69684pt x 706.97081pt.
+ [51 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter04/images/Inicializalas.jpg>]
+Overfull \vbox (85.88542pt too high) has occurred while \output is active []
+
+
+[52 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
+ers/chapter04/images/Jatek_menete.jpg>])
+(D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
+chapter04/naplo04.tex
+Underfull \hbox (badness 1681) in paragraph at lines 17--17
+[]|\T1/ptm/b/n/10.95 Elekes Se-res Ré-
+ []
+
+
+Underfull \hbox (badness 1038) in paragraph at lines 23--23
+\T1/ptm/m/n/10.95 ik/imp-le-men-tá-lóik be-ve-ze-tése az osz-tály-di-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--28
+[]|\T1/ptm/m/n/10.95 2014.03.06.
+ []
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 28--28
+[]|\T1/ptm/m/n/10.95 IOGem, IT-Gem, Speed, Range, Da-mage,
+ []
+
+
+Underfull \hbox (badness 1681) in paragraph at lines 35--35
+[]|\T1/ptm/b/n/10.95 Elekes Se-res Ré-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
+[]|\T1/ptm/m/n/10.95 2014.03.08.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--47
+[]|\T1/ptm/m/n/10.95 2014.03.08.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--52
+[]|\T1/ptm/m/n/10.95 2014.03.09.
+ []
+
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table \relax 4.1 on input line 61.
+
+)
+(D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
+chapter05/sablon05.tex [53]
+fejezet 5.
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 8.
+
+<chapters/chapter05/images/user_uc_1.jpg, id=286, 941.5175pt x 405.515pt>
+File: chapters/chapter05/images/user_uc_1.jpg Graphic file (type jpg)
+
+<use chapters/chapter05/images/user_uc_1.jpg>
+Package pdftex.def Info: chapters/chapter05/images/user_uc_1.jpg used on input 
+line 16.
+(pdftex.def)             Requested size: 483.69684pt x 208.33206pt.
+
+<chapters/chapter05/images/user_uc_2.jpg, id=287, 972.63374pt x 433.62pt>
+File: chapters/chapter05/images/user_uc_2.jpg Graphic file (type jpg)
+
+<use chapters/chapter05/images/user_uc_2.jpg>
+Package pdftex.def Info: chapters/chapter05/images/user_uc_2.jpg used on input 
+line 26.
+(pdftex.def)             Requested size: 483.69684pt x 215.63834pt.
+ [54
+
+
+ <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapters
+/chapter05/images/user_uc_1.jpg> <D:/FILES/Documents/GitHub/Dokumentaciok/Dokum
+entacio_latex/szoftlab4/chapters/chapter05/images/user_uc_2.jpg>]
+Underfull \vbox (badness 10000) detected at line 39
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 45
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 51
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 57
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 63
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 69
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 75
+ []
+
+[55]
+Underfull \vbox (badness 10000) detected at line 81
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 87
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 93
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 99
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 105
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 111
+ []
+
+[56]
+Underfull \vbox (badness 10000) detected at line 117
+ []
+
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 124.
+
+
+Underfull \vbox (badness 10000) detected at line 161
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 167
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 173
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 179
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 185
+ []
+
+[57]
+Underfull \vbox (badness 10000) detected at line 191
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 197
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 203
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 209
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 215
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 221
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 227
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 233
+ []
+
+[58]
+Underfull \vbox (badness 10000) detected at line 239
+ []
+
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 248.
+
+
+<chapters/chapter05/images/sd_Akadaly_elhelyezese_ellenseg_altal_foglalt_utra.j
+pg, id=338, 397.485pt x 252.945pt>
+File: chapters/chapter05/images/sd_Akadaly_elhelyezese_ellenseg_altal_foglalt_u
+tra.jpg Graphic file (type jpg)
+
+<use chapters/chapter05/images/sd_Akadaly_elhelyezese_ellenseg_altal_foglalt_ut
+ra.jpg>
+Package pdftex.def Info: chapters/chapter05/images/sd_Akadaly_elhelyezese_ellen
+seg_altal_foglalt_utra.jpg used on input line 251.
+(pdftex.def)             Requested size: 483.69684pt x 307.81667pt.
+
+<chapters/chapter05/images/sd_Akadaly_elhelyezese_masik_akadaly_altal_foglalt_u
+tra.jpg, id=339, 397.485pt x 252.945pt>
+File: chapters/chapter05/images/sd_Akadaly_elhelyezese_masik_akadaly_altal_fogl
+alt_utra.jpg Graphic file (type jpg)
+
+<use chapters/chapter05/images/sd_Akadaly_elhelyezese_masik_akadaly_altal_fogla
+lt_utra.jpg>
+Package pdftex.def Info: chapters/chapter05/images/sd_Akadaly_elhelyezese_masik
+_akadaly_altal_foglalt_utra.jpg used on input line 260.
+(pdftex.def)             Requested size: 483.69684pt x 307.81667pt.
+ [59 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter05/images/sd_Akadaly_elhelyezese_ellenseg_altal_foglalt_utra.jpg>]
+<chapters/chapter05/images/sd_Akadaly_elhelyezese_ures_utra.jpg, id=346, 827.09
+pt x 618.31pt>
+File: chapters/chapter05/images/sd_Akadaly_elhelyezese_ures_utra.jpg Graphic fi
+le (type jpg)
+
+<use chapters/chapter05/images/sd_Akadaly_elhelyezese_ures_utra.jpg>
+Package pdftex.def Info: chapters/chapter05/images/sd_Akadaly_elhelyezese_ures_
+utra.jpg used on input line 269.
+(pdftex.def)             Requested size: 483.69684pt x 361.6014pt.
+ [60 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter05/images/sd_Akadaly_elhelyezese_masik_akadaly_altal_foglalt_utra.j
+pg>]
+<chapters/chapter05/images/sd_Akadaly_fejlesztese.jpg, id=351, 790.955pt x 778.
+91pt>
+File: chapters/chapter05/images/sd_Akadaly_fejlesztese.jpg Graphic file (type j
+pg)
+ <use chapters/chapter05/images/sd_Akadaly_fejlesztese.jpg>
+Package pdftex.def Info: chapters/chapter05/images/sd_Akadaly_fejlesztese.jpg u
+sed on input line 278.
+(pdftex.def)             Requested size: 483.69684pt x 476.33482pt.
+ [61 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter05/images/sd_Akadaly_elhelyezese_ures_utra.jpg>]
+<chapters/chapter05/images/sd_Ellenfel_mozgasa.jpg, id=357, 1308.89pt x 839.135
+pt>
+File: chapters/chapter05/images/sd_Ellenfel_mozgasa.jpg Graphic file (type jpg)
+
+ <use chapters/chapter05/images/sd_Ellenfel_mozgasa.jpg>
+Package pdftex.def Info: chapters/chapter05/images/sd_Ellenfel_mozgasa.jpg used
+ on input line 287.
+(pdftex.def)             Requested size: 483.69684pt x 310.09096pt.
+ [62 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter05/images/sd_Akadaly_fejlesztese.jpg>]
+<chapters/chapter05/images/sd_Fejlesztetlen_torony_eladasa.jpg, id=362, 574.145
+pt x 369.38pt>
+File: chapters/chapter05/images/sd_Fejlesztetlen_torony_eladasa.jpg Graphic fil
+e (type jpg)
+
+<use chapters/chapter05/images/sd_Fejlesztetlen_torony_eladasa.jpg>
+Package pdftex.def Info: chapters/chapter05/images/sd_Fejlesztetlen_torony_elad
+asa.jpg used on input line 296.
+(pdftex.def)             Requested size: 483.69684pt x 311.19579pt.
+ [63 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter05/images/sd_Ellenfel_mozgasa.jpg>]
+<chapters/chapter05/images/sd_Fejlesztett_torony_eladasa.jpg, id=367, 574.145pt
+ x 513.92pt>
+File: chapters/chapter05/images/sd_Fejlesztett_torony_eladasa.jpg Graphic file 
+(type jpg)
+ <use chapters/chapter05/images/sd_Fejlesztett_torony_eladasa.jpg>
+Package pdftex.def Info: chapters/chapter05/images/sd_Fejlesztett_torony_eladas
+a.jpg used on input line 305.
+(pdftex.def)             Requested size: 483.69684pt x 432.96805pt.
+
+[64 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
+ers/chapter05/images/sd_Fejlesztetlen_torony_eladasa.jpg>]
+<chapters/chapter05/images/sd_Inicializalas.jpg, id=372, 554.07pt x 706.64pt>
+File: chapters/chapter05/images/sd_Inicializalas.jpg Graphic file (type jpg)
+
+<use chapters/chapter05/images/sd_Inicializalas.jpg>
+Package pdftex.def Info: chapters/chapter05/images/sd_Inicializalas.jpg used on
+ input line 314.
+(pdftex.def)             Requested size: 483.69684pt x 616.8852pt.
+ [65 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter05/images/sd_Fejlesztett_torony_eladasa.jpg>]
+<chapters/chapter05/images/sd_Torony_elhelyezese_foglalt_mezore.jpg, id=377, 37
+3.395pt x 216.81pt>
+File: chapters/chapter05/images/sd_Torony_elhelyezese_foglalt_mezore.jpg Graphi
+c file (type jpg)
+
+<use chapters/chapter05/images/sd_Torony_elhelyezese_foglalt_mezore.jpg>
+Package pdftex.def Info: chapters/chapter05/images/sd_Torony_elhelyezese_foglal
+t_mezore.jpg used on input line 323.
+(pdftex.def)             Requested size: 483.69684pt x 280.8704pt.
+
+[66 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
+ers/chapter05/images/sd_Inicializalas.jpg>]
+<chapters/chapter05/images/sd_Torony_elhelyezese_ures_mezore.jpg, id=382, 666.4
+9pt x 542.025pt>
+File: chapters/chapter05/images/sd_Torony_elhelyezese_ures_mezore.jpg Graphic f
+ile (type jpg)
+
+<use chapters/chapter05/images/sd_Torony_elhelyezese_ures_mezore.jpg>
+Package pdftex.def Info: chapters/chapter05/images/sd_Torony_elhelyezese_ures_m
+ezore.jpg used on input line 332.
+(pdftex.def)             Requested size: 483.69684pt x 393.37572pt.
+ [67 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter05/images/sd_Torony_elhelyezese_foglalt_mezore.jpg>]
+<chapters/chapter05/images/sd_Torony_fejlesztese_minden_gembol_eggyel.jpg, id=3
+88, 919.435pt x 1393.205pt>
+File: chapters/chapter05/images/sd_Torony_fejlesztese_minden_gembol_eggyel.jpg 
+Graphic file (type jpg)
+
+<use chapters/chapter05/images/sd_Torony_fejlesztese_minden_gembol_eggyel.jpg>
+Package pdftex.def Info: chapters/chapter05/images/sd_Torony_fejlesztese_minden
+_gembol_eggyel.jpg used on input line 341.
+(pdftex.def)             Requested size: 483.69684pt x 732.95296pt.
+
+[68 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
+ers/chapter05/images/sd_Torony_elhelyezese_ures_mezore.jpg>]
+Overfull \vbox (114.12874pt too high) has occurred while \output is active []
+
+
+[69 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
+ers/chapter05/images/sd_Torony_fejlesztese_minden_gembol_eggyel.jpg>]
+<chapters/chapter05/images/sd_Torony_hatokoreben_nincs_ellenseg_tuzeleskor.jpg,
+ id=397, 513.92pt x 369.38pt>
+File: chapters/chapter05/images/sd_Torony_hatokoreben_nincs_ellenseg_tuzeleskor
+.jpg Graphic file (type jpg)
+
+<use chapters/chapter05/images/sd_Torony_hatokoreben_nincs_ellenseg_tuzeleskor.
+jpg>
+Package pdftex.def Info: chapters/chapter05/images/sd_Torony_hatokoreben_nincs_
+ellenseg_tuzeleskor.jpg used on input line 350.
+(pdftex.def)             Requested size: 483.69684pt x 347.6625pt.
+
+<chapters/chapter05/images/sd_Torony_lelo_egy_ellenseget_fejlesztetlenul.jpg, i
+d=398, 1160.335pt x 658.46pt>
+File: chapters/chapter05/images/sd_Torony_lelo_egy_ellenseget_fejlesztetlenul.j
+pg Graphic file (type jpg)
+
+<use chapters/chapter05/images/sd_Torony_lelo_egy_ellenseget_fejlesztetlenul.jp
+g>
+Package pdftex.def Info: chapters/chapter05/images/sd_Torony_lelo_egy_ellensege
+t_fejlesztetlenul.jpg used on input line 359.
+(pdftex.def)             Requested size: 483.69684pt x 274.48158pt.
+ [70 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter05/images/sd_Torony_hatokoreben_nincs_ellenseg_tuzeleskor.jpg>]
+<chapters/chapter05/images/sd_Torony_tuzel_egy_ellensegre_fejlesztetlenul.jpg, 
+id=403, 943.525pt x 429.605pt>
+File: chapters/chapter05/images/sd_Torony_tuzel_egy_ellensegre_fejlesztetlenul.
+jpg Graphic file (type jpg)
+
+<use chapters/chapter05/images/sd_Torony_tuzel_egy_ellensegre_fejlesztetlenul.j
+pg>
+Package pdftex.def Info: chapters/chapter05/images/sd_Torony_tuzel_egy_ellenseg
+re_fejlesztetlenul.jpg used on input line 368.
+(pdftex.def)             Requested size: 483.69684pt x 220.23625pt.
+
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 379.
+
+
+<chapters/chapter05/images/cd_Akadaly_elhelyezese_ellenseg_altal_foglalt_utra.j
+pg, id=404, 638.385pt x 216.81pt>
+File: chapters/chapter05/images/cd_Akadaly_elhelyezese_ellenseg_altal_foglalt_u
+tra.jpg Graphic file (type jpg)
+
+<use chapters/chapter05/images/cd_Akadaly_elhelyezese_ellenseg_altal_foglalt_ut
+ra.jpg>
+Package pdftex.def Info: chapters/chapter05/images/cd_Akadaly_elhelyezese_ellen
+seg_altal_foglalt_utra.jpg used on input line 382.
+(pdftex.def)             Requested size: 483.69684pt x 164.27444pt.
+ [71 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter05/images/sd_Torony_lelo_egy_ellenseget_fejlesztetlenul.jpg> <D:/FI
+LES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapters/chapte
+r05/images/sd_Torony_tuzel_egy_ellensegre_fejlesztetlenul.jpg>]
+<chapters/chapter05/images/cd_Akadaly_elhelyezese_masik_akadaly_altal_foglalt_u
+tra.jpg, id=409, 638.385pt x 216.81pt>
+File: chapters/chapter05/images/cd_Akadaly_elhelyezese_masik_akadaly_altal_fogl
+alt_utra.jpg Graphic file (type jpg)
+
+<use chapters/chapter05/images/cd_Akadaly_elhelyezese_masik_akadaly_altal_fogla
+lt_utra.jpg>
+Package pdftex.def Info: chapters/chapter05/images/cd_Akadaly_elhelyezese_masik
+_akadaly_altal_foglalt_utra.jpg used on input line 391.
+(pdftex.def)             Requested size: 483.69684pt x 164.27444pt.
+
+<chapters/chapter05/images/cd_Akadaly_elhelyezese_ures_utra.jpg, id=410, 642.4p
+t x 337.26pt>
+File: chapters/chapter05/images/cd_Akadaly_elhelyezese_ures_utra.jpg Graphic fi
+le (type jpg)
+
+<use chapters/chapter05/images/cd_Akadaly_elhelyezese_ures_utra.jpg>
+Package pdftex.def Info: chapters/chapter05/images/cd_Akadaly_elhelyezese_ures_
+utra.jpg used on input line 400.
+(pdftex.def)             Requested size: 483.69684pt x 253.94788pt.
+ [72 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter05/images/cd_Akadaly_elhelyezese_ellenseg_altal_foglalt_utra.jpg> <
+D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapters/c
+hapter05/images/cd_Akadaly_elhelyezese_masik_akadaly_altal_foglalt_utra.jpg>]
+<chapters/chapter05/images/cd_Akadaly_fejlesztese.jpg, id=416, 891.33pt x 433.6
+2pt>
+File: chapters/chapter05/images/cd_Akadaly_fejlesztese.jpg Graphic file (type j
+pg)
+ <use chapters/chapter05/images/cd_Akadaly_fejlesztese.jpg>
+Package pdftex.def Info: chapters/chapter05/images/cd_Akadaly_fejlesztese.jpg u
+sed on input line 409.
+(pdftex.def)             Requested size: 483.69684pt x 235.31581pt.
+
+<chapters/chapter05/images/cd_Ellenfel_mozgasa.jpg, id=417, 1003.75pt x 401.5pt
+>
+File: chapters/chapter05/images/cd_Ellenfel_mozgasa.jpg Graphic file (type jpg)
+
+ <use chapters/chapter05/images/cd_Ellenfel_mozgasa.jpg>
+Package pdftex.def Info: chapters/chapter05/images/cd_Ellenfel_mozgasa.jpg used
+ on input line 418.
+(pdftex.def)             Requested size: 483.69684pt x 193.4836pt.
+ [73 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter05/images/cd_Akadaly_elhelyezese_ures_utra.jpg> <D:/FILES/Documents
+/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapters/chapter05/images/cd
+_Akadaly_fejlesztese.jpg>]
+<chapters/chapter05/images/cd_Fejlesztetlen_torony_eladasa.jpg, id=423, 605.261
+25pt x 235.88126pt>
+File: chapters/chapter05/images/cd_Fejlesztetlen_torony_eladasa.jpg Graphic fil
+e (type jpg)
+
+<use chapters/chapter05/images/cd_Fejlesztetlen_torony_eladasa.jpg>
+Package pdftex.def Info: chapters/chapter05/images/cd_Fejlesztetlen_torony_elad
+asa.jpg used on input line 427.
+(pdftex.def)             Requested size: 483.69684pt x 188.5073pt.
+
+<chapters/chapter05/images/cd_Fejlesztett_torony_eladasa.jpg, id=424, 661.47125
+pt x 356.33125pt>
+File: chapters/chapter05/images/cd_Fejlesztett_torony_eladasa.jpg Graphic file 
+(type jpg)
+
+<use chapters/chapter05/images/cd_Fejlesztett_torony_eladasa.jpg>
+Package pdftex.def Info: chapters/chapter05/images/cd_Fejlesztett_torony_eladas
+a.jpg used on input line 436.
+(pdftex.def)             Requested size: 483.69684pt x 260.56004pt.
+ [74 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter05/images/cd_Ellenfel_mozgasa.jpg> <D:/FILES/Documents/GitHub/Dokum
+entaciok/Dokumentacio_latex/szoftlab4/chapters/chapter05/images/cd_Fejlesztetle
+n_torony_eladasa.jpg>]
+<chapters/chapter05/images/cd_Inicializalas.jpg, id=429, 819.06pt x 325.215pt>
+File: chapters/chapter05/images/cd_Inicializalas.jpg Graphic file (type jpg)
+
+<use chapters/chapter05/images/cd_Inicializalas.jpg>
+Package pdftex.def Info: chapters/chapter05/images/cd_Inicializalas.jpg used on
+ input line 445.
+(pdftex.def)             Requested size: 483.69684pt x 192.05879pt.
+
+<chapters/chapter05/images/cd_Torony_elhelyezese_foglalt_mezore.jpg, id=430, 49
+3.845pt x 148.555pt>
+File: chapters/chapter05/images/cd_Torony_elhelyezese_foglalt_mezore.jpg Graphi
+c file (type jpg)
+
+<use chapters/chapter05/images/cd_Torony_elhelyezese_foglalt_mezore.jpg>
+Package pdftex.def Info: chapters/chapter05/images/cd_Torony_elhelyezese_foglal
+t_mezore.jpg used on input line 454.
+(pdftex.def)             Requested size: 483.69684pt x 145.50128pt.
+
+[75 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
+ers/chapter05/images/cd_Fejlesztett_torony_eladasa.jpg> <D:/FILES/Documents/Git
+Hub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapters/chapter05/images/cd_Ini
+cializalas.jpg>]
+<chapters/chapter05/images/cd_Torony_elhelyezese_ures_mezore.jpg, id=435, 746.7
+9pt x 325.215pt>
+File: chapters/chapter05/images/cd_Torony_elhelyezese_ures_mezore.jpg Graphic f
+ile (type jpg)
+
+<use chapters/chapter05/images/cd_Torony_elhelyezese_ures_mezore.jpg>
+Package pdftex.def Info: chapters/chapter05/images/cd_Torony_elhelyezese_ures_m
+ezore.jpg used on input line 463.
+(pdftex.def)             Requested size: 483.69684pt x 210.64288pt.
+
+<chapters/chapter05/images/cd_Torony_fejlesztese_minden_gembol_eggyel.jpg, id=4
+36, 1441.385pt x 508.90125pt>
+File: chapters/chapter05/images/cd_Torony_fejlesztese_minden_gembol_eggyel.jpg 
+Graphic file (type jpg)
+
+<use chapters/chapter05/images/cd_Torony_fejlesztese_minden_gembol_eggyel.jpg>
+Package pdftex.def Info: chapters/chapter05/images/cd_Torony_fejlesztese_minden
+_gembol_eggyel.jpg used on input line 472.
+(pdftex.def)             Requested size: 483.69684pt x 170.77223pt.
+
+[76 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
+ers/chapter05/images/cd_Torony_elhelyezese_foglalt_mezore.jpg> <D:/FILES/Docume
+nts/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapters/chapter05/images
+/cd_Torony_elhelyezese_ures_mezore.jpg>]
+<chapters/chapter05/images/cd_Torony_hatokoreben_nincs_ellenseg_tuzeleskor.jpg,
+ id=441, 594.22pt x 240.9pt>
+File: chapters/chapter05/images/cd_Torony_hatokoreben_nincs_ellenseg_tuzeleskor
+.jpg Graphic file (type jpg)
+
+<use chapters/chapter05/images/cd_Torony_hatokoreben_nincs_ellenseg_tuzeleskor.
+jpg>
+Package pdftex.def Info: chapters/chapter05/images/cd_Torony_hatokoreben_nincs_
+ellenseg_tuzeleskor.jpg used on input line 481.
+(pdftex.def)             Requested size: 483.69684pt x 196.10202pt.
+
+<chapters/chapter05/images/cd_Torony_lelo_egy_ellenseget_fejlesztetlenul.jpg, i
+d=442, 574.145pt x 525.965pt>
+File: chapters/chapter05/images/cd_Torony_lelo_egy_ellenseget_fejlesztetlenul.j
+pg Graphic file (type jpg)
+
+<use chapters/chapter05/images/cd_Torony_lelo_egy_ellenseget_fejlesztetlenul.jp
+g>
+Package pdftex.def Info: chapters/chapter05/images/cd_Torony_lelo_egy_ellensege
+t_fejlesztetlenul.jpg used on input line 490.
+(pdftex.def)             Requested size: 483.69684pt x 443.11574pt.
+ [77 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter05/images/cd_Torony_fejlesztese_minden_gembol_eggyel.jpg> <D:/FILES
+/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapters/chapter05
+/images/cd_Torony_hatokoreben_nincs_ellenseg_tuzeleskor.jpg>]
+<chapters/chapter05/images/cd_Torony_tuzel_egy_ellensegre_fejlesztetlenul.jpg, 
+id=447, 594.22pt x 389.455pt>
+File: chapters/chapter05/images/cd_Torony_tuzel_egy_ellensegre_fejlesztetlenul.
+jpg Graphic file (type jpg)
+
+<use chapters/chapter05/images/cd_Torony_tuzel_egy_ellensegre_fejlesztetlenul.j
+pg>
+Package pdftex.def Info: chapters/chapter05/images/cd_Torony_tuzel_egy_ellenseg
+re_fejlesztetlenul.jpg used on input line 499.
+(pdftex.def)             Requested size: 483.69684pt x 317.0316pt.
+ [78 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter05/images/cd_Torony_lelo_egy_ellenseget_fejlesztetlenul.jpg>])
+(D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
+chapter05/naplo05.tex
+Underfull \hbox (badness 10000) in paragraph at lines 30--30
+[]|\T1/ptm/m/n/10.95 2014.03.15.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--60
+[]|\T1/ptm/m/n/10.95 2014.03.16.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--66
+[]|\T1/ptm/m/n/10.95 2014.03.16.
+ []
+
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table \relax 5.29 on input line 73.
+
+[79 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
+ers/chapter05/images/cd_Torony_tuzel_egy_ellensegre_fejlesztetlenul.jpg>])
+(D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
+chapter06/sablon06.tex [80]
+fejezet 6.
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 8.
+
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table \relax 6.1 on input line 207.
+
+[81
+
+
+]
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table \relax 6.2 on input line 256.
+
+)
+(D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
+chapter06/naplo06.tex
+Underfull \hbox (badness 1132) in paragraph at lines 15--15
+[]|\T1/ptm/m/n/10.95 Tesztel® prog-ram, tesz-te-se-tek imp-le-men-tá-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--27
+[]|\T1/ptm/m/n/10.95 2014.03.22.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--33
+[]|\T1/ptm/m/n/10.95 2014.03.22.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
+[]|\T1/ptm/m/n/10.95 2014.03.23.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
+[]|\T1/ptm/m/n/10.95 2014.03.23.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--51
+[]|\T1/ptm/m/n/10.95 2014.03.23.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+[]|\T1/ptm/m/n/10.95 2014.03.24.
+ []
+
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table \relax 6.3 on input line 61.
+
+)
+(D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
+chapter07/sablon07.tex [82]
+fejezet 7.
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 10.
+
+<chapters/chapter07/images/MainModSpec.jpg, id=474, 1512.65125pt x 1597.97pt>
+File: chapters/chapter07/images/MainModSpec.jpg Graphic file (type jpg)
+
+<use chapters/chapter07/images/MainModSpec.jpg>
+Package pdftex.def Info: chapters/chapter07/images/MainModSpec.jpg used on inpu
+t line 26.
+(pdftex.def)             Requested size: 483.69684pt x 510.97072pt.
+ [83
+
+
+]
+<chapters/chapter07/images/sd_Jatek_menete.jpg, id=480, 678.535pt x 1276.77pt>
+File: chapters/chapter07/images/sd_Jatek_menete.jpg Graphic file (type jpg)
+
+<use chapters/chapter07/images/sd_Jatek_menete.jpg>
+Package pdftex.def Info: chapters/chapter07/images/sd_Jatek_menete.jpg used on 
+input line 38.
+(pdftex.def)             Requested size: 369.88582pt x 695.99147pt.
+ [84 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter07/images/MainModSpec.jpg>]
+Overfull \vbox (74.90608pt too high) has occurred while \output is active []
+
+
+[85 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
+ers/chapter07/images/sd_Jatek_menete.jpg>]
+<chapters/chapter07/images/sd_torony_kettevag_egy_ellenseget.jpg, id=490, 1156.
+32pt x 851.18pt>
+File: chapters/chapter07/images/sd_torony_kettevag_egy_ellenseget.jpg Graphic f
+ile (type jpg)
+
+<use chapters/chapter07/images/sd_torony_kettevag_egy_ellenseget.jpg>
+Package pdftex.def Info: chapters/chapter07/images/sd_torony_kettevag_egy_ellen
+seget.jpg used on input line 47.
+(pdftex.def)             Requested size: 483.69684pt x 356.0515pt.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+File: lstlang1.sty 2014/03/04 1.5c listings language file
+)
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 62.
+
+[86 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
+ers/chapter07/images/sd_torony_kettevag_egy_ellenseget.jpg>] [87]
+Underfull \hbox (badness 10000) in paragraph at lines 188--190
+
+ []
+
+[88]
+Underfull \hbox (badness 10000) in paragraph at lines 267--269
+
+ []
+
+[89]
+Underfull \vbox (badness 10000) detected at line 291
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 297
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 303
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 309
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 315
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 321
+ []
+
+[90]
+Underfull \vbox (badness 10000) detected at line 327
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 333
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 339
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 345
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 351
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 357
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 363
+ []
+
+[91]
+Underfull \vbox (badness 10000) detected at line 369
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 380
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 385
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 390
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 399
+ []
+
+[92])
+(D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
+chapter07/naplo07.tex
+Underfull \hbox (badness 10000) in paragraph at lines 16--16
+[]|\T1/ptm/m/n/10.95 2014.03.26.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--23
+[]|\T1/ptm/m/n/10.95 2014.03.27.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--29
+[]|\T1/ptm/m/n/10.95 2014.03.27.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
+[]|\T1/ptm/m/n/10.95 2014.03.29.
+ []
+
+
+Underfull \hbox (badness 2818) in paragraph at lines 51--51
+[]|\T1/ptm/m/n/10.95 Kimeneti nyelv spe-ci-fi-ká-lása, teszt-esetek
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--75
+[]|\T1/ptm/m/n/10.95 2014.03.31.
+ []
+
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table \relax 7.19 on input line 78.
+
+)
+(D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
+chapter08/sablon08.tex [93]
+fejezet 8.
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 8.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--24
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--30
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
+
+ []
+
+[94
+
+
+]
+! Illegal parameter number in definition of \GetTitleStringResult.
+<to be read again> 
+                   h
+l.57 \item[#health: int]
+                         Ã‰leterejÃ©t tÃ¡rolja ebben. Hurt fÃ¼ggvÃ©nyben csÃ...
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \GTS@GlobalString.
+<to be read again> 
+                   h
+l.57 \item[#health: int]
+                         Ã‰leterejÃ©t tÃ¡rolja ebben. Hurt fÃ¼ggvÃ©nyben csÃ...
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! You can't use `macro parameter character #' in restricted horizontal mode.
+<argument> ##
+             health: int
+l.57 \item[#health: int]
+                         Ã‰leterejÃ©t tÃ¡rolja ebben. Hurt fÃ¼ggvÃ©nyben csÃ...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Illegal parameter number in definition of \GetTitleStringResult.
+<to be read again> 
+                   m
+l.58 \item[#myPath: Path]
+                          Az a mezÅ‘, ahol tartÃ³zkodik.
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \GTS@GlobalString.
+<to be read again> 
+                   m
+l.58 \item[#myPath: Path]
+                          Az a mezÅ‘, ahol tartÃ³zkodik.
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! You can't use `macro parameter character #' in restricted horizontal mode.
+<argument> ##
+             myPath: Path
+l.58 \item[#myPath: Path]
+                          Az a mezÅ‘, ahol tartÃ³zkodik.
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Illegal parameter number in definition of \GetTitleStringResult.
+<to be read again> 
+                   i
+l.59 \item[#igame: IGame]
+                          Ezen keresztÃ¼l tudja mÃ³dosÃ­tani a manÃ¡t, amiko...
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \GTS@GlobalString.
+<to be read again> 
+                   i
+l.59 \item[#igame: IGame]
+                          Ezen keresztÃ¼l tudja mÃ³dosÃ­tani a manÃ¡t, amiko...
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! You can't use `macro parameter character #' in restricted horizontal mode.
+<argument> ##
+             igame: IGame
+l.59 \item[#igame: IGame]
+                          Ezen keresztÃ¼l tudja mÃ³dosÃ­tani a manÃ¡t, amiko...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
+
+ []
+
+[95]
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
+
+ []
+
+
+Overfull \hbox (19.46078pt too wide) in paragraph at lines 121--122
+[]\T1/ptm/m/n/10.95 Létrehoz no-Ene-mies db el-len-sé-get, ran-dom tí-pu-sút, e
+ze-ket be-te-szi az enemiesOut-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
+
+ []
+
+[96]
+Underfull \hbox (badness 10000) in paragraph at lines 146--147
+
+ []
+
+
+Overfull \hbox (8.20447pt too wide) in paragraph at lines 151--152
+[]\T1/ptm/m/n/10.95 Kristályok vá-sár-lása. A
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 166--167
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--195
+
+ []
+
+[97]
+Underfull \hbox (badness 10000) in paragraph at lines 210--211
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 232--233
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 242--243
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 254--255
+
+ []
+
+[98]
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 291--292
+
+ []
+
+[99]
+Underfull \hbox (badness 10000) in paragraph at lines 310--311
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--320
+
+ []
+
+[100]
+Underfull \hbox (badness 10000) in paragraph at lines 347--348
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 354--355
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 373--374
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 380--381
+
+ []
+
+[101]
+Underfull \hbox (badness 10000) in paragraph at lines 405--406
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 413--414
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 441--442
+
+ []
+
+[102]
+Underfull \hbox (badness 10000) in paragraph at lines 446--447
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 461--462
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 467--468
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 478--479
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 489--490
+
+ []
+
+
+Overfull \hbox (7.75598pt too wide) in paragraph at lines 491--492
+[]\T1/ptm/m/n/10.95 Fejleszti a ka-pott t tor-nyot ma-gá-val. Meg-hívja a rá je
+l-lepz® upgrade...
+ []
+
+[103]
+Underfull \hbox (badness 10000) in paragraph at lines 502--503
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 515--516
+
+ []
+
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 529.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 537--538
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 546--547
+
+ []
+
+[104]
+LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <9> not available
+(Font)              Font shape `T1/pcr/b/n' tried instead on input line 560.
+
+Underfull \hbox (badness 10000) in paragraph at lines 562--563
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 608--609
+
+ []
+
+[105]
+Underfull \hbox (badness 10000) in paragraph at lines 616--617
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 625--626
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 664--665
+
+ []
+
+[106]
+Underfull \hbox (badness 10000) in paragraph at lines 672--673
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 684--685
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 716--717
+
+ []
+
+[107]
+Underfull \hbox (badness 10000) in paragraph at lines 726--727
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 740--741
+
+ []
+
+[108])
+(D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
+chapter08/naplo08.tex
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 11--11
+[]|\T1/ptm/m/n/10.95 2014.04.03. 15:00 | 
+ []
+
+
+Underfull \hbox (badness 2495) in paragraph at lines 30--30
+[]|\T1/ptm/m/n/10.95 Tevékenység Tesz-te-set meg-írása Ki-me-neti
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--44
+[]|\T1/ptm/m/n/10.95 2014.04.07.
+ []
+
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table \relax 8.1 on input line 46.
+
+)
+(D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
+chapter10/sablon10.tex [109]
+fejezet 10.
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 8.
+
+
+Overfull \hbox (11.55765pt too wide) in paragraph at lines 199--199
+[]|\T1/ptm/m/n/10 txtComparer/TxtComparer.java| 
+ []
+
+[110
+
+
+]
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table \relax 10.1 on input line 303.
+
+
+Overfull \hbox (16.91983pt too wide) in paragraph at lines 330--331
+[]\T1/ptm/m/n/10.95 Az adott batch fáj-lok se-gít-sé-gé-vel le-het-sé-ges le-fo
+r-dí-tani és fut-tatni a pro-to-tí-pust: eh-hez a ProtoCompileAndRun.bat-
+ []
+
+[111]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 358.
+
+
+Underfull \vbox (badness 10000) detected at line 364
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 371
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 376
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 383
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 389
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 396
+ []
+
+[112]
+Underfull \vbox (badness 10000) detected at line 403
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 409
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 416
+ []
+
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table \relax 10.11 on input line 439.
+
+)
+(D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
+chapter10/naplo10.tex
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
+[]|\T1/ptm/b/n/10.95 Elekes Fuksz
+ []
+
+
+Underfull \hbox (badness 4048) in paragraph at lines 70--70
+[]|\T1/ptm/m/n/10.95 Enemy és le-szár-ma-zot-ta-i-nak hi-ba-ja-ví-tása,
+ []
+
+
+Underfull \hbox (badness 1189) in paragraph at lines 70--70
+\T1/ptm/m/n/10.95 szö-veg-fájl össze-ha-son-lító prog-ram el-ké-szí-
+ []
+
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table \relax 10.12 on input line 97.
+
+[113])
+(D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
+chapter11/sablon11.tex [114]
+fejezet 11.
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 8.
+
+<chapters/chapter11/images/GraphicPlans.jpg, id=673, 2007.5pt x 1907.125pt>
+File: chapters/chapter11/images/GraphicPlans.jpg Graphic file (type jpg)
+
+<use chapters/chapter11/images/GraphicPlans.jpg>
+Package pdftex.def Info: chapters/chapter11/images/GraphicPlans.jpg used on inp
+ut line 13.
+(pdftex.def)             Requested size: 483.69684pt x 459.49448pt.
+
+<chapters/chapter11/images/GraphClassesD.jpg, id=674, 823.075pt x 636.3775pt>
+File: chapters/chapter11/images/GraphClassesD.jpg Graphic file (type jpg)
+
+<use chapters/chapter11/images/GraphClassesD.jpg>
+Package pdftex.def Info: chapters/chapter11/images/GraphClassesD.jpg used on in
+put line 24.
+(pdftex.def)             Requested size: 483.69684pt x 373.9835pt.
+ [115
+
+
+ <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapters
+/chapter11/images/GraphicPlans.jpg>]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 30.
+
+
+<chapters/chapter11/images/SimaClassDiag.jpg, id=681, 1540.75626pt x 1838.87pt>
+File: chapters/chapter11/images/SimaClassDiag.jpg Graphic file (type jpg)
+<use chapters/chapter11/images/SimaClassDiag.jpg>
+Package pdftex.def Info: chapters/chapter11/images/SimaClassDiag.jpg used on in
+put line 51.
+(pdftex.def)             Requested size: 483.69684pt x 577.283pt.
+ [116 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/cha
+pters/chapter11/images/GraphClassesD.jpg>]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 61.
+
+[117 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter11/images/SimaClassDiag.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
+
+ []
+
+
+Overfull \hbox (1.7555pt too wide) in paragraph at lines 76--77
+[]\T1/ptm/m/n/10.95 A kü-lön-böz® GEnemy-khez tar-tozó raj-zoló függ-vény. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
+
+ []
+
+[118]
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--115
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 142--143
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 146--147
+
+ []
+
+[119]
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--185
+
+ []
+
+[120]
+Underfull \hbox (badness 10000) in paragraph at lines 201--202
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--217
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--225
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 228--229
+
+ []
+
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 238.
+
+
+<chapters/chapter11/images/Akadaly_elhelyezese.jpg, id=704, 528.97626pt x 272.0
+1625pt>
+File: chapters/chapter11/images/Akadaly_elhelyezese.jpg Graphic file (type jpg)
+
+ <use chapters/chapter11/images/Akadaly_elhelyezese.jpg>
+Package pdftex.def Info: chapters/chapter11/images/Akadaly_elhelyezese.jpg used
+ on input line 241.
+(pdftex.def)             Requested size: 483.69684pt x 248.7347pt.
+ [121]
+<chapters/chapter11/images/Akadaly_javitasa.jpg, id=710, 386.19281pt x 220.5740
+7pt>
+File: chapters/chapter11/images/Akadaly_javitasa.jpg Graphic file (type jpg)
+ <use chapters/chapter11/images/Akadaly_javitasa.jpg>
+Package pdftex.def Info: chapters/chapter11/images/Akadaly_javitasa.jpg used on
+ input line 250.
+(pdftex.def)             Requested size: 483.69684pt x 276.26549pt.
+ [122 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/cha
+pters/chapter11/images/Akadaly_elhelyezese.jpg>]
+<chapters/chapter11/images/Akadaly_torlodese.jpg, id=716, 528.97626pt x 272.016
+25pt>
+File: chapters/chapter11/images/Akadaly_torlodese.jpg Graphic file (type jpg)
+ <use chapters/chapter11/images/Akadaly_torlodese.jpg>
+Package pdftex.def Info: chapters/chapter11/images/Akadaly_torlodese.jpg used o
+n input line 259.
+(pdftex.def)             Requested size: 483.69684pt x 248.7347pt.
+
+<chapters/chapter11/images/Betoltes.jpg, id=717, 574.145pt x 1043.9pt>
+File: chapters/chapter11/images/Betoltes.jpg Graphic file (type jpg)
+
+<use chapters/chapter11/images/Betoltes.jpg>
+Package pdftex.def Info: chapters/chapter11/images/Betoltes.jpg used on input l
+ine 268.
+(pdftex.def)             Requested size: 369.88582pt x 672.5378pt.
+ [123 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/cha
+pters/chapter11/images/Akadaly_javitasa.jpg> <D:/FILES/Documents/GitHub/Dokumen
+taciok/Dokumentacio_latex/szoftlab4/chapters/chapter11/images/Akadaly_torlodese
+.jpg>]
+Overfull \vbox (51.45241pt too high) has occurred while \output is active []
+
+
+[124 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter11/images/Betoltes.jpg>]
+<chapters/chapter11/images/Ellenseg_beerkezik.jpg, id=726, 304.88907pt x 149.80
+97pt>
+File: chapters/chapter11/images/Ellenseg_beerkezik.jpg Graphic file (type jpg)
+ <use chapters/chapter11/images/Ellenseg_beerkezik.jpg>
+Package pdftex.def Info: chapters/chapter11/images/Ellenseg_beerkezik.jpg used 
+on input line 277.
+(pdftex.def)             Requested size: 483.69684pt x 237.67735pt.
+
+<chapters/chapter11/images/Ellenseg_halala.jpg, id=727, 374.14781pt x 219.82124
+pt>
+File: chapters/chapter11/images/Ellenseg_halala.jpg Graphic file (type jpg)
+ <use chapters/chapter11/images/Ellenseg_halala.jpg>
+Package pdftex.def Info: chapters/chapter11/images/Ellenseg_halala.jpg used on 
+input line 286.
+(pdftex.def)             Requested size: 483.69684pt x 284.1978pt.
+
+<chapters/chapter11/images/Ellenseg_lepese.jpg, id=728, 986.68625pt x 574.145pt
+>
+File: chapters/chapter11/images/Ellenseg_lepese.jpg Graphic file (type jpg)
+ <use chapters/chapter11/images/Ellenseg_lepese.jpg>
+Package pdftex.def Info: chapters/chapter11/images/Ellenseg_lepese.jpg used on 
+input line 295.
+(pdftex.def)             Requested size: 483.69684pt x 281.46492pt.
+ [125 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/cha
+pters/chapter11/images/Ellenseg_beerkezik.jpg> <D:/FILES/Documents/GitHub/Dokum
+entaciok/Dokumentacio_latex/szoftlab4/chapters/chapter11/images/Ellenseg_halala
+.jpg>]
+<chapters/chapter11/images/Ellenseg_letrehozasa.jpg, id=733, 460.72125pt x 404.
+51125pt>
+File: chapters/chapter11/images/Ellenseg_letrehozasa.jpg Graphic file (type jpg
+)
+ <use chapters/chapter11/images/Ellenseg_letrehozasa.jpg>
+Package pdftex.def Info: chapters/chapter11/images/Ellenseg_letrehozasa.jpg use
+d on input line 304.
+(pdftex.def)             Requested size: 483.69684pt x 424.68144pt.
+ [126 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/cha
+pters/chapter11/images/Ellenseg_lepese.jpg>]
+<chapters/chapter11/images/Ellenseg_sebzese.jpg, id=738, 327.47343pt x 207.0234
+4pt>
+File: chapters/chapter11/images/Ellenseg_sebzese.jpg Graphic file (type jpg)
+ <use chapters/chapter11/images/Ellenseg_sebzese.jpg>
+Package pdftex.def Info: chapters/chapter11/images/Ellenseg_sebzese.jpg used on
+ input line 313.
+(pdftex.def)             Requested size: 483.69684pt x 305.78651pt.
+ [127 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/cha
+pters/chapter11/images/Ellenseg_letrehozasa.jpg>]
+<chapters/chapter11/images/Torony_elhelyezese.jpg, id=744, 528.97626pt x 272.01
+625pt>
+File: chapters/chapter11/images/Torony_elhelyezese.jpg Graphic file (type jpg)
+ <use chapters/chapter11/images/Torony_elhelyezese.jpg>
+Package pdftex.def Info: chapters/chapter11/images/Torony_elhelyezese.jpg used 
+on input line 322.
+(pdftex.def)             Requested size: 483.69684pt x 248.7347pt.
+ [128 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/cha
+pters/chapter11/images/Ellenseg_sebzese.jpg>]
+<chapters/chapter11/images/Torony_fejlesztese_ellenseg_tipusra.jpg, id=749, 376
+.40625pt x 219.82124pt>
+File: chapters/chapter11/images/Torony_fejlesztese_ellenseg_tipusra.jpg Graphic
+ file (type jpg)
+
+<use chapters/chapter11/images/Torony_fejlesztese_ellenseg_tipusra.jpg>
+Package pdftex.def Info: chapters/chapter11/images/Torony_fejlesztese_ellenseg_
+tipusra.jpg used on input line 331.
+(pdftex.def)             Requested size: 483.69684pt x 282.50058pt.
+
+<chapters/chapter11/images/Torony_torlodese.jpg, id=750, 528.97626pt x 272.0162
+5pt>
+File: chapters/chapter11/images/Torony_torlodese.jpg Graphic file (type jpg)
+ <use chapters/chapter11/images/Torony_torlodese.jpg>
+Package pdftex.def Info: chapters/chapter11/images/Torony_torlodese.jpg used on
+ input line 340.
+(pdftex.def)             Requested size: 483.69684pt x 248.7347pt.
+ [129 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/cha
+pters/chapter11/images/Torony_elhelyezese.jpg> <D:/FILES/Documents/GitHub/Dokum
+entaciok/Dokumentacio_latex/szoftlab4/chapters/chapter11/images/Torony_fejleszt
+ese_ellenseg_tipusra.jpg>]
+<chapters/chapter11/images/Varazsero_valtozasa.jpg, id=755, 293.59688pt x 152.8
+2094pt>
+File: chapters/chapter11/images/Varazsero_valtozasa.jpg Graphic file (type jpg)
+
+ <use chapters/chapter11/images/Varazsero_valtozasa.jpg>
+Package pdftex.def Info: chapters/chapter11/images/Varazsero_valtozasa.jpg used
+ on input line 349.
+(pdftex.def)             Requested size: 483.69684pt x 251.77052pt.
+)
+(D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
+chapter11/naplo11.tex
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
+[]|\T1/ptm/b/n/10.95 Elekes Fuksz
+ []
+
+[130 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter11/images/Torony_torlodese.jpg> <D:/FILES/Documents/GitHub/Dokument
+aciok/Dokumentacio_latex/szoftlab4/chapters/chapter11/images/Varazsero_valtozas
+a.jpg>]
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table \relax 11.1 on input line 57.
+
+)
+(D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
+chapter13/sablon13.tex [131]
+fejezet 13.
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 8.
+
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table \relax 13.1 on input line 27.
+
+! Argument of \tag has an extra }.
+<inserted text> 
+                \par 
+l.52 \tag
+         {NÃ©met}
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \tag was complete.
+<to be read again> 
+                   \par 
+l.52 \tag
+         {NÃ©met}
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.52 \tag
+         {NÃ©met}
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.52 \tag
+         {NÃ©met}
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.52 \tag
+         {NÃ©met}
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.52 \tag
+         {NÃ©met}
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.52 \tag
+         {NÃ©met}
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.52 \tag
+         {NÃ©met}
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.52 \tag
+         {NÃ©met}
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.52 \tag
+         {NÃ©met}
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.52 \tag
+         {NÃ©met}
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.52 \tag
+         {NÃ©met}
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.52 \tag
+         {NÃ©met}
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.52 \tag
+         {NÃ©met}
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.52 \tag
+         {NÃ©met}
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.52 \tag
+         {NÃ©met}
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.52 \tag
+         {NÃ©met}
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.52 \tag
+         {NÃ©met}
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.52 \tag
+         {NÃ©met}
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.52 \tag
+         {NÃ©met}
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.52 \tag
+         {NÃ©met}
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.52 \tag
+         {NÃ©met}
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.52 \tag
+         {NÃ©met}
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.52 \tag
+         {NÃ©met}
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.52 \tag
+         {NÃ©met}
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.52 \tag
+         {NÃ©met}
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.52 \tag
+         {NÃ©met}
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.52 \tag
+         {NÃ©met}
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.52 \tag
+         {NÃ©met}
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.52 \tag
+         {NÃ©met}
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.52 \tag
+         {NÃ©met}
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.52 \tag
+         {NÃ©met}
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.52 \tag
+         {NÃ©met}
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.52 \tag
+         {NÃ©met}
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.52 \tag
+         {NÃ©met}
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.52 \tag
+         {NÃ©met}
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.52 \tag
+         {NÃ©met}
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.52 \tag
+         {NÃ©met}
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.52 \tag
+         {NÃ©met}
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.52 \tag
+         {NÃ©met}
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.52 \tag
+         {NÃ©met}
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.52 \tag
+         {NÃ©met}
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.52 \tag
+         {NÃ©met}
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.52 \tag
+         {NÃ©met}
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.52 \tag
+         {NÃ©met}
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.52 \tag
+         {NÃ©met}
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.52 \tag
+         {NÃ©met}
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.52 \tag
+         {NÃ©met}
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.52 \tag
+         {NÃ©met}
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.52 \tag
+         {NÃ©met}
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.52 \tag
+         {NÃ©met}
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.52 \tag
+         {NÃ©met}
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.52 \tag
+         {NÃ©met}
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.52 \tag
+         {NÃ©met}
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.52 \tag
+         {NÃ©met}
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.52 \tag
+         {NÃ©met}
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.52 \tag
+         {NÃ©met}
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.52 \tag
+         {NÃ©met}
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.52 \tag
+         {NÃ©met}
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.52 \tag
+         {NÃ©met}
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.52 \tag
+         {NÃ©met}
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.52 \tag
+         {NÃ©met}
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.52 \tag
+         {NÃ©met}
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.52 \tag
+         {NÃ©met}
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.52 \tag
+         {NÃ©met}
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.52 \tag
+         {NÃ©met}
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.52 \tag
+         {NÃ©met}
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.52 \tag
+         {NÃ©met}
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.52 \tag
+         {NÃ©met}
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.52 \tag
+         {NÃ©met}
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.52 \tag
+         {NÃ©met}
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.52 \tag
+         {NÃ©met}
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.52 \tag
+         {NÃ©met}
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.52 \tag
+         {NÃ©met}
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.52 \tag
+         {NÃ©met}
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.52 \tag
+         {NÃ©met}
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.52 \tag
+         {NÃ©met}
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.52 \tag
+         {NÃ©met}
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.52 \tag
+         {NÃ©met}
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.52 \tag
+         {NÃ©met}
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.52 \tag
+         {NÃ©met}
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.52 \tag
+         {NÃ©met}
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.52 \tag
+         {NÃ©met}
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.52 \tag
+         {NÃ©met}
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.52 \tag
+         {NÃ©met}
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.52 \tag
+         {NÃ©met}
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.52 \tag
+         {NÃ©met}
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.52 \tag
+         {NÃ©met}
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.52 \tag
+         {NÃ©met}
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.52 \tag
+         {NÃ©met}
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.52 \tag
+         {NÃ©met}
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.52 \tag
+         {NÃ©met}
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.52 \tag
+         {NÃ©met}
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.52 \tag
+         {NÃ©met}
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.52 \tag
+         {NÃ©met}
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.52 \tag
+         {NÃ©met}
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.52 \tag
+         {NÃ©met}
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.52 \tag
+         {NÃ©met}
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.52 \tag
+         {NÃ©met}
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.52 \tag
+         {NÃ©met}
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.52 \tag
+         {NÃ©met}
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.52 \tag
+         {NÃ©met}
+I'm guessing that you meant to end an alignment here.
+
+! Misplaced \cr.
+<inserted text> \cr 
+                    
+l.52 \tag
+         {NÃ©met}
+(That makes 100 errors; please try again.) 
+Here is how much of TeX's memory you used:
+ 13619 strings out of 493921
+ 209190 string characters out of 3144849
+ 345171 words of memory out of 3000000
+ 16367 multiletter control sequences out of 15000+200000
+ 49570 words of font info for 57 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 42i,12n,48p,1140b,1881s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+!  ==> Fatal error occurred, no output PDF file produced!
