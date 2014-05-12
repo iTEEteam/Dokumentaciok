@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.23)  11 MAY 2014 20:41
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.23)  12 MAY 2014 06:52
 entering extended mode
 **szoftlab4_13.tex
 
@@ -732,23 +732,36 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 8.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+
+Overfull \hbox (2.55826pt too wide) in paragraph at lines 277--277
+[]|\T1/ptm/m/n/10 gameImages/game_over.jpeg| 
+ []
+
+
+Overfull \hbox (1.45795pt too wide) in paragraph at lines 385--385
+[]|\T1/ptm/m/n/10 GraphicCompileAndRun.bat| 
+ []
+
+[2
+
+
+] ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2014/03/04 1.5c listings language file
 )
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 41.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 402.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\t1pcr.fd"
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <9> not available
-(Font)              Font shape `T1/pcr/b/n' tried instead on input line 42.
+(Font)              Font shape `T1/pcr/b/n' tried instead on input line 403.
 
-Overfull \hbox (37.5095pt too wide) in paragraph at lines 56--57
+Overfull \hbox (37.5095pt too wide) in paragraph at lines 417--418
 []\T1/ptm/m/n/10.95 Az adott batch fáj-lok se-gít-sé-gé-vel le-het-sé-ges le-fo
 r-dí-tani és fut-tatni a prog-ra-mot: eh-hez a GraphicCompileAndRun.bat-
  []
 
-)
+[3])
 (D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
 chapter13/naplo13.tex
 Overfull \hbox (1.44955pt too wide) in paragraph at lines 19--19
@@ -782,49 +795,37 @@ Overfull \hbox (1.44955pt too wide) in paragraph at lines 49--49
 
 
 Overfull \hbox (1.44955pt too wide) in paragraph at lines 55--55
-[]|\T1/ptm/m/n/10.95 2014.05.11. 15:00 | 
+[]|\T1/ptm/m/n/10.95 2014.05.10. 15:00 | 
  []
 
 
 Overfull \hbox (1.44955pt too wide) in paragraph at lines 61--61
-[]|\T1/ptm/m/n/10.95 2014.05.11. 16:00 | 
+[]|\T1/ptm/m/n/10.95 2014.05.10. 15:00 | 
  []
 
 
-Package longtable Warning: Column widths have changed
-(longtable)                in table \relax 13.2 on input line 65.
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 67--67
+[]|\T1/ptm/m/n/10.95 2014.05.11. 16:00 | 
+ []
 
-[2
-
-
-])
-
-Package longtable Warning: Table widths have changed. Rerun LaTeX.
-
+)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 86.
-[3]
+ [4]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 86.
 
 (D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\szoftlab4
 _13.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 86.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 86.
-
-
-Package rerunfilecheck Warning: File `szoftlab4_13.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `szoftlab4_13.out':
-(rerunfilecheck)             Before: 37FEC6EAABABB5B10F8D7FC93549873A;1082
-(rerunfilecheck)             After:  E32EBBB1C1D801CE0A1A5E81E435C370;1203.
+Package rerunfilecheck Info: File `szoftlab4_13.out' has not changed.
+(rerunfilecheck)             Checksum: 5344D55B35A6C50E3F13083830B32E99;1197.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 86.
  ) 
 Here is how much of TeX's memory you used:
- 12655 strings out of 493921
- 180457 string characters out of 3144849
- 327230 words of memory out of 3000000
- 15799 multiletter control sequences out of 15000+200000
+ 12658 strings out of 493921
+ 180485 string characters out of 3144849
+ 352111 words of memory out of 3000000
+ 15800 multiletter control sequences out of 15000+200000
  37591 words of font info for 48 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  42i,11n,48p,323b,1119s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -833,9 +834,9 @@ m Files (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrb8a.pfb><C:/Program Files (
 x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x86)/MiKT
 eX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
 s/type1/urw/times/utmr8a.pfb>
-Output written on szoftlab4_13.pdf (3 pages, 61719 bytes).
+Output written on szoftlab4_13.pdf (4 pages, 68622 bytes).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
- 9 named destinations out of 1000 (max. 500000)
- 49 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 70 PDF objects out of 1000 (max. 8388607)
+ 11 named destinations out of 1000 (max. 500000)
+ 57 words of extra memory for PDF output out of 10000 (max. 10000000)
 

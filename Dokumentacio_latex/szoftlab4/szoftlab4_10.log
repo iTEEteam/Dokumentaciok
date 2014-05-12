@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.23)  11 MAY 2014 20:37
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.23)  12 MAY 2014 06:42
 entering extended mode
 **szoftlab4_10.tex
 
@@ -639,7 +639,8 @@ Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 Package hyperref Info: Option `colorlinks' set `true' on input line 59.
 Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 59.
 )
-No file szoftlab4_10.aux.
+(D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\szoftlab4
+_10.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
@@ -657,7 +658,7 @@ LaTeX Font Info:    ... okay on input line 16.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
 LaTeX Font Info:    Try loading font information for T1+ptm on input line 16.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\t1ptm.fd"
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\t1ptm.fd"
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
@@ -688,6 +689,11 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 16.
 LaTeX Info: Redefining \pageref on input line 16.
 LaTeX Info: Redefining \nameref on input line 16.
+
+(D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\szoftlab4
+_10.out)
+(D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\szoftlab4
+_10.out)
 \@outlinefile=\write3
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 27.
@@ -734,12 +740,7 @@ Overfull \hbox (11.55765pt too wide) in paragraph at lines 199--199
 [2
 
 
-]
-
-Package longtable Warning: Column widths have changed
-(longtable)                in table \relax 10.1 on input line 303.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+] ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2014/03/04 1.5c listings language file
 )
 LaTeX Font Info:    Try loading font information for T1+pcr on input line 315.
@@ -793,59 +794,101 @@ Underfull \vbox (badness 10000) detected at line 409
 Underfull \vbox (badness 10000) detected at line 416
  []
 
-
-Package longtable Warning: Column widths have changed
-(longtable)                in table \relax 10.11 on input line 439.
-
 )
 (D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
 chapter10/naplo10.tex
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-[]|\T1/ptm/b/n/10.95 Elekes Fuksz
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 16--16
+[]|\T1/ptm/m/n/10.95 2014.04.09. 08:15 | 
  []
 
 
-Underfull \hbox (badness 4048) in paragraph at lines 70--70
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 22--22
+[]|\T1/ptm/m/n/10.95 2014.04.09. 10:00 | 
+ []
+
+
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 28--28
+[]|\T1/ptm/m/n/10.95 2014.04.09. 12:00 | 
+ []
+
+
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 34--34
+[]|\T1/ptm/m/n/10.95 2014.04.09. 14:00 | 
+ []
+
+
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 40--40
+[]|\T1/ptm/m/n/10.95 2014.04.12. 20:00 | 
+ []
+
+
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 46--46
+[]|\T1/ptm/m/n/10.95 2014.04.18. 14:30 | 
+ []
+
+
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 56--56
+[]|\T1/ptm/m/n/10.95 2014.04.20. 20:00 | 
+ []
+
+
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 62--62
+[]|\T1/ptm/m/n/10.95 2014.04.20. 20:00 | 
+ []
+
+
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 68--68
+[]|\T1/ptm/m/n/10.95 2014.04.20. 20:00 | 
+ []
+
+
+Underfull \hbox (badness 4048) in paragraph at lines 68--68
 []|\T1/ptm/m/n/10.95 Enemy és le-szár-ma-zot-ta-i-nak hi-ba-ja-ví-tása,
  []
 
 
-Underfull \hbox (badness 1189) in paragraph at lines 70--70
+Underfull \hbox (badness 1189) in paragraph at lines 68--68
 \T1/ptm/m/n/10.95 szö-veg-fájl össze-ha-son-lító prog-ram el-ké-szí-
  []
 
 
-Package longtable Warning: Column widths have changed
-(longtable)                in table \relax 10.12 on input line 97.
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 74--74
+[]|\T1/ptm/m/n/10.95 2014.04.21. 12:30 | 
+ []
+
+
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 80--80
+[]|\T1/ptm/m/n/10.95 2014.04.21. 14:00 | 
+ []
+
+
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 86--86
+[]|\T1/ptm/m/n/10.95 2014.04.21. 20:00 | 
+ []
+
+
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 92--92
+[]|\T1/ptm/m/n/10.95 2014.04.22. 00:00 | 
+ []
 
 [5])
-
-Package longtable Warning: Table widths have changed. Rerun LaTeX.
-
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 86.
-[6]
+ [6]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 86.
 
 (D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\szoftlab4
 _10.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 86.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 86.
-
-
-Package rerunfilecheck Warning: File `szoftlab4_10.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `szoftlab4_10.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  72BF07049592677F78DF03024BC6FE7E;1948.
+Package rerunfilecheck Info: File `szoftlab4_10.out' has not changed.
+(rerunfilecheck)             Checksum: 72BF07049592677F78DF03024BC6FE7E;1948.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 86.
  ) 
 Here is how much of TeX's memory you used:
- 12669 strings out of 493921
- 180100 string characters out of 3144849
- 341418 words of memory out of 3000000
- 15803 multiletter control sequences out of 15000+200000
+ 12689 strings out of 493921
+ 180804 string characters out of 3144849
+ 341897 words of memory out of 3000000
+ 15817 multiletter control sequences out of 15000+200000
  36970 words of font info for 46 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  42i,12n,48p,556b,1078s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -853,9 +896,9 @@ Here is how much of TeX's memory you used:
 m Files (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (
 x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX
  2.9/fonts/type1/urw/times/utmr8a.pfb>
-Output written on szoftlab4_10.pdf (6 pages, 69355 bytes).
+Output written on szoftlab4_10.pdf (6 pages, 72972 bytes).
 PDF statistics:
- 69 PDF objects out of 1000 (max. 8388607)
+ 106 PDF objects out of 1000 (max. 8388607)
  27 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 97 words of extra memory for PDF output out of 10000 (max. 10000000)
 
