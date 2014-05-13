@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.23)  11 MAY 2014 19:59
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.23)  13 MAY 2014 07:47
 entering extended mode
 **szoftlab4_all.tex
 
@@ -639,7 +639,35 @@ Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
 Package hyperref Info: Option `colorlinks' set `true' on input line 59.
 Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 59.
 )
-No file szoftlab4_all.aux.
+(D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\szoftlab4
+_all.aux
+
+LaTeX Warning: Label `fig:Oszt\IeC {\'a}lydiagram' multiply defined.
+
+
+LaTeX Warning: Label `fig:Akad\IeC {\'a}ly_elhelyez\IeC {\'e}se' multiply defin
+ed.
+
+
+LaTeX Warning: Label `fig:Ellenf\IeC {\'e}l_mozg\IeC {\'a}sa' multiply defined.
+
+
+
+LaTeX Warning: Label `fig:Torony_elad\IeC {\'a}sa' multiply defined.
+
+
+LaTeX Warning: Label `fig:Torony_elhelyez\IeC {\'e}se' multiply defined.
+
+
+LaTeX Warning: Label `fig:Torony_fejleszt\IeC {\'e}se' multiply defined.
+
+
+LaTeX Warning: Label `fig:Torony_t\IeC {\"u}zel\IeC {\'e}se' multiply defined.
+
+
+LaTeX Warning: Label `fig:SzkeletonUseCase1' multiply defined.
+
+)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
@@ -657,7 +685,7 @@ LaTeX Font Info:    ... okay on input line 16.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
 LaTeX Font Info:    Try loading font information for T1+ptm on input line 16.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\t1ptm.fd"
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\t1ptm.fd"
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
@@ -688,6 +716,11 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 16.
 LaTeX Info: Redefining \pageref on input line 16.
 LaTeX Info: Redefining \nameref on input line 16.
+
+(D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\szoftlab4
+_all.out)
+(D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\szoftlab4
+_all.out)
 \@outlinefile=\write3
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 20.
@@ -697,28 +730,100 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 20.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 20.
-
-[1
+ [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 25.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 25.
+
+(D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\szoftlab4
+_all.toc
+LaTeX Font Info:    Try loading font information for T1+phv on input line 2.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\t1phv.fd"
+File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
+)
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 2.
+
+[2
+
+
+
+] [3] [4] [5]
+Overfull \hbox (0.54747pt too wide) detected at line 241
+\T1/ptm/m/n/10.95 11.3.10. 
+ []
+
+
+Overfull \hbox (0.54747pt too wide) detected at line 252
+\T1/ptm/m/n/10.95 11.4.10. 
+ []
+
+
+Overfull \hbox (0.54747pt too wide) detected at line 253
+\T1/ptm/m/n/10.95 11.4.11. 
+ []
+
+
+Overfull \hbox (0.54747pt too wide) detected at line 254
+\T1/ptm/m/n/10.95 11.4.12. 
+ []
+
+[6]
+Overfull \hbox (0.54747pt too wide) detected at line 255
+\T1/ptm/m/n/10.95 11.4.13. 
+ []
+
+)
 \tf@toc=\write4
- [2
+ [7]
+(D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\szoftlab4
+_all.lof [8
 
 
 
 ]
+Overfull \hbox (2.18993pt too wide) detected at line 72
+\T1/ptm/m/n/10.95 11.10. 
+ []
+
+
+Overfull \hbox (2.18993pt too wide) detected at line 73
+\T1/ptm/m/n/10.95 11.11. 
+ []
+
+
+Overfull \hbox (2.18993pt too wide) detected at line 74
+\T1/ptm/m/n/10.95 11.12. 
+ []
+
+
+Overfull \hbox (2.18993pt too wide) detected at line 75
+\T1/ptm/m/n/10.95 11.13. 
+ []
+
+
+Overfull \hbox (2.18993pt too wide) detected at line 76
+\T1/ptm/m/n/10.95 11.14. 
+ []
+
+
+Overfull \hbox (2.18993pt too wide) detected at line 77
+\T1/ptm/m/n/10.95 11.15. 
+ []
+
+
+Overfull \hbox (2.18993pt too wide) detected at line 78
+\T1/ptm/m/n/10.95 11.16. 
+ []
+
+)
 \tf@lof=\write5
 
 (D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
-chapter02/sablon02.tex [3
-
-
-
-]
+chapter02/sablon02.tex [9]
 fejezet 2.
 
 Class scrbook Warning: \float@addtolists detected!
@@ -739,14 +844,7 @@ Class scrbook Warning: \float@addtolists detected!
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 8.
 
-LaTeX Font Info:    Try loading font information for T1+phv on input line 22.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\t1phv.fd"
-File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
-)
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 22.
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 32.
-
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
 File: omsptm.fd 
 )
@@ -761,10 +859,10 @@ File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 51.
 
-[4
+[10
 
 
-] [5]
+] [11]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 128.
@@ -858,7 +956,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 211--212
 Underfull \vbox (badness 10000) detected at line 221
  []
 
-[6]
+[12]
 Underfull \hbox (badness 1478) in paragraph at lines 234--235
 []|\T1/ptm/m/n/10.95 Java 1.6 fut-tat� k�r-
  []
@@ -1010,7 +1108,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 355--356
 Underfull \vbox (badness 10000) detected at line 364
  []
 
-[7]
+[13]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 370.
@@ -1027,7 +1125,7 @@ Underfull \vbox (badness 10000) detected at line 384
 Underfull \vbox (badness 10000) detected at line 389
  []
 
-[8]
+[14]
 Underfull \vbox (badness 10000) detected at line 393
  []
 
@@ -1035,28 +1133,32 @@ Underfull \vbox (badness 10000) detected at line 393
 Underfull \vbox (badness 10000) detected at line 397
  []
 
-Package epstopdf Info: Source file: <chapters/chapter02/images/asd.eps>
+Package epstopdf Info: Source file: <chapters/chapter02/images/2_4_2_use_case_d
+iagram.eps>
 (epstopdf)                    date: 2014-05-11 19:22:39
 (epstopdf)                    size: 44050 bytes
-(epstopdf)             Output file: <chapters/chapter02/images/asd-eps-converte
-d-to.pdf>
-(epstopdf)                    date: 2014-05-11 19:38:55
+(epstopdf)             Output file: <chapters/chapter02/images/2_4_2_use_case_d
+iagram-eps-converted-to.pdf>
+(epstopdf)                    date: 2014-05-11 20:01:49
 (epstopdf)                    size: 9696 bytes
-(epstopdf)             Command: <epstopdf --outfile=chapters/chapter02/images/a
-sd-eps-converted-to.pdf chapters/chapter02/images/asd.eps>
+(epstopdf)             Command: <epstopdf --outfile=chapters/chapter02/images/2
+_4_2_use_case_diagram-eps-converted-to.pdf chapters/chapter02/images/2_4_2_use_
+case_diagram.eps>
 (epstopdf)             \includegraphics on input line 402.
 Package epstopdf Info: Output file is already uptodate.
 
-<chapters/chapter02/images/asd-eps-converted-to.pdf, id=57, 399.4925pt x 340.27
-126pt>
-File: chapters/chapter02/images/asd-eps-converted-to.pdf Graphic file (type pdf
-)
- <use chapters/chapter02/images/asd-eps-converted-to.pdf>
-Package pdftex.def Info: chapters/chapter02/images/asd-eps-converted-to.pdf use
-d on input line 402.
+<chapters/chapter02/images/2_4_2_use_case_diagram-eps-converted-to.pdf, id=1227
+, 399.4925pt x 340.27126pt>
+File: chapters/chapter02/images/2_4_2_use_case_diagram-eps-converted-to.pdf Gra
+phic file (type pdf)
+
+<use chapters/chapter02/images/2_4_2_use_case_diagram-eps-converted-to.pdf>
+Package pdftex.def Info: chapters/chapter02/images/2_4_2_use_case_diagram-eps-c
+onverted-to.pdf used on input line 402.
 (pdftex.def)             Requested size: 483.69684pt x 412.01505pt.
- [9] [10 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/
-chapters/chapter02/images/asd-eps-converted-to.pdf>]
+
+[15] [16 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/
+chapters/chapter02/images/2_4_2_use_case_diagram-eps-converted-to.pdf>]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 450.
@@ -1065,21 +1167,11 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 Underfull \vbox (badness 10000) detected at line 472
  []
 
-[11] [12])
+[17] [18])
 (D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
 chapter02/naplo02.tex
-Underfull \hbox (badness 10000) in paragraph at lines 17--17
-[]|\T1/ptm/m/n/10.95 2014.02.09.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--17
-[]|\T1/ptm/b/n/10.95 Seres R�-dey
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 17--17
-\T1/ptm/b/n/10.95 Fuksz Nagy
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 17--17
+[]|\T1/ptm/m/n/10.95 2014.02.09. 16:00 | 
  []
 
 
@@ -1088,106 +1180,82 @@ Underfull \hbox (badness 3471) in paragraph at lines 17--17
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--26
-[]|\T1/ptm/m/n/10.95 2014.02.19.
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 26--26
+[]|\T1/ptm/m/n/10.95 2014.02.19. 08:15 | 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--26
-[]|\T1/ptm/b/n/10.95 Seres R�-dey
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 41--41
+[]|\T1/ptm/m/n/10.95 2014.02.19. 09:20 | 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--26
-\T1/ptm/b/n/10.95 Fuksz Nagy
+Underfull \hbox (badness 1242) in paragraph at lines 41--41
+\T1/ptm/m/n/10.95 Fuksz do-ku-men-t�lja a 2.1.1, 2.1.2, 2.3.2,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--47
-[]|\T1/ptm/m/n/10.95 2014.02.19.
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 46--46
+[]|\T1/ptm/m/n/10.95 2014.02.19. 13:00 | 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--47
-[]|\T1/ptm/b/n/10.95 Seres R�-dey
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 51--51
+[]|\T1/ptm/m/n/10.95 2014.02.19. 14:15 | 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--47
-\T1/ptm/b/n/10.95 Fuksz Nagy
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 56--56
+[]|\T1/ptm/m/n/10.95 2014.02.19. 18:00 | 
  []
 
 
-Underfull \hbox (badness 1242) in paragraph at lines 47--47
-[]\T1/ptm/m/n/10.95 Fuksz do-ku-men-t�lja a 2.1.1, 2.1.2, 2.3.2,
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 61--61
+[]|\T1/ptm/m/n/10.95 2014.02.21. 16:00 | 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
-[]|\T1/ptm/m/n/10.95 2014.02.19.
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 66--66
+[]|\T1/ptm/m/n/10.95 2014.02.21. 16:00 | 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--57
-[]|\T1/ptm/m/n/10.95 2014.02.19.
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 71--71
+[]|\T1/ptm/m/n/10.95 2014.02.22. 18:30 | 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--62
-[]|\T1/ptm/m/n/10.95 2014.02.19.
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 76--76
+[]|\T1/ptm/m/n/10.95 2014.02.22. 19:30 | 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--67
-[]|\T1/ptm/m/n/10.95 2014.02.21.
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 81--81
+[]|\T1/ptm/m/n/10.95 2014.02.23. 15:45 | 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--72
-[]|\T1/ptm/m/n/10.95 2014.02.21.
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 86--86
+[]|\T1/ptm/m/n/10.95 2014.02.23. 17:00 | 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--77
-[]|\T1/ptm/m/n/10.95 2014.02.22.
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 91--91
+[]|\T1/ptm/m/n/10.95 2014.02.23. 19:00 | 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 82--82
-[]|\T1/ptm/m/n/10.95 2014.02.22.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 87--87
-[]|\T1/ptm/m/n/10.95 2014.02.23.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 92--92
-[]|\T1/ptm/m/n/10.95 2014.02.23.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--97
-[]|\T1/ptm/m/n/10.95 2014.02.23.
- []
-
-
-Package longtable Warning: Column widths have changed
-(longtable)                in table \relax 2.11 on input line 100.
-
-[13])
+[19])
 (D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
-chapter03/sablon03.tex [14]
+chapter03/sablon03.tex [20]
 fejezet 3.
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 8.
 
-[15
+[21
 
 
-] <chapters/chapter03/images/Main.jpg, id=102, 1568.86125pt x 1316.92pt>
+] <chapters/chapter03/images/Main.jpg, id=1267, 1568.86125pt x 1316.92pt>
 File: chapters/chapter03/images/Main.jpg Graphic file (type jpg)
 
 <use chapters/chapter03/images/Main.jpg>
@@ -1199,7 +1267,7 @@ Package pdftex.def Info: chapters/chapter03/images/Main.jpg used on input line
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 61.
 
-[16 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
+[22 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
 ers/chapter03/images/Main.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 73--75
 
@@ -1220,7 +1288,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 109--110
 
  []
 
-[17]
+[23]
 Underfull \hbox (badness 10000) in paragraph at lines 131--132
 
  []
@@ -1235,7 +1303,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 161--162
 
  []
 
-[18]
+[24]
 Underfull \hbox (badness 10000) in paragraph at lines 170--171
 
  []
@@ -1255,7 +1323,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 215--216
 
  []
 
-[19]
+[25]
 Underfull \hbox (badness 10000) in paragraph at lines 223--224
 
  []
@@ -1275,7 +1343,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 264--265
 
  []
 
-[20]
+[26]
 Underfull \hbox (badness 10000) in paragraph at lines 286--287
 
  []
@@ -1295,7 +1363,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 326--327
 
  []
 
-[21]
+[27]
 Underfull \hbox (badness 10000) in paragraph at lines 343--344
 
  []
@@ -1315,7 +1383,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 372--373
 
  []
 
-[22]
+[28]
 Underfull \hbox (badness 10000) in paragraph at lines 395--396
 
  []
@@ -1330,74 +1398,77 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 432.
 
 
-<chapters/chapter03/images/Akadaly_elhelyezese.jpg, id=133, 566.115pt x 385.44p
-t>
+<chapters/chapter03/images/Akadaly_elhelyezese.jpg, id=1297, 566.115pt x 385.44
+pt>
 File: chapters/chapter03/images/Akadaly_elhelyezese.jpg Graphic file (type jpg)
 
  <use chapters/chapter03/images/Akadaly_elhelyezese.jpg>
 Package pdftex.def Info: chapters/chapter03/images/Akadaly_elhelyezese.jpg used
  on input line 435.
 (pdftex.def)             Requested size: 483.69684pt x 329.337pt.
- [23]
-<chapters/chapter03/images/Ellenfel_mozgasa.jpg, id=138, 1196.47pt x 678.535pt>
+ [29]
+<chapters/chapter03/images/Ellenfel_mozgasa.jpg, id=1302, 1196.47pt x 678.535pt
+>
 File: chapters/chapter03/images/Ellenfel_mozgasa.jpg Graphic file (type jpg)
-<use chapters/chapter03/images/Ellenfel_mozgasa.jpg>
+ <use chapters/chapter03/images/Ellenfel_mozgasa.jpg>
 Package pdftex.def Info: chapters/chapter03/images/Ellenfel_mozgasa.jpg used on
  input line 444.
 (pdftex.def)             Requested size: 483.69684pt x 274.3082pt.
- [24 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ [30 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
 ters/chapter03/images/Akadaly_elhelyezese.jpg>]
-<chapters/chapter03/images/Torony_eladasa.jpg, id=144, 630.355pt x 349.305pt>
+<chapters/chapter03/images/Torony_eladasa.jpg, id=1307, 630.355pt x 349.305pt>
 File: chapters/chapter03/images/Torony_eladasa.jpg Graphic file (type jpg)
 
 <use chapters/chapter03/images/Torony_eladasa.jpg>
 Package pdftex.def Info: chapters/chapter03/images/Torony_eladasa.jpg used on i
 nput line 453.
 (pdftex.def)             Requested size: 483.69684pt x 268.03825pt.
- [25 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ [31 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
 ters/chapter03/images/Ellenfel_mozgasa.jpg>]
-<chapters/chapter03/images/Torony_elhelyezese.jpg, id=150, 538.01pt x 369.38pt>
+<chapters/chapter03/images/Torony_elhelyezese.jpg, id=1313, 538.01pt x 369.38pt
+>
 File: chapters/chapter03/images/Torony_elhelyezese.jpg Graphic file (type jpg)
-<use chapters/chapter03/images/Torony_elhelyezese.jpg>
+ <use chapters/chapter03/images/Torony_elhelyezese.jpg>
 Package pdftex.def Info: chapters/chapter03/images/Torony_elhelyezese.jpg used 
 on input line 462.
 (pdftex.def)             Requested size: 483.69684pt x 332.09511pt.
- [26 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ [32 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
 ters/chapter03/images/Torony_eladasa.jpg>]
-<chapters/chapter03/images/Torony_fejlesztese.jpg, id=155, 554.07pt x 361.35pt>
+<chapters/chapter03/images/Torony_fejlesztese.jpg, id=1318, 554.07pt x 361.35pt
+>
 File: chapters/chapter03/images/Torony_fejlesztese.jpg Graphic file (type jpg)
-<use chapters/chapter03/images/Torony_fejlesztese.jpg>
+ <use chapters/chapter03/images/Torony_fejlesztese.jpg>
 Package pdftex.def Info: chapters/chapter03/images/Torony_fejlesztese.jpg used 
 on input line 471.
 (pdftex.def)             Requested size: 483.69684pt x 315.45265pt.
- [27 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ [33 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
 ters/chapter03/images/Torony_elhelyezese.jpg>]
-<chapters/chapter03/images/Torony_tuzelese.jpg, id=160, 1116.17pt x 642.4pt>
+<chapters/chapter03/images/Torony_tuzelese.jpg, id=1323, 1116.17pt x 642.4pt>
 File: chapters/chapter03/images/Torony_tuzelese.jpg Graphic file (type jpg)
 
 <use chapters/chapter03/images/Torony_tuzelese.jpg>
 Package pdftex.def Info: chapters/chapter03/images/Torony_tuzelese.jpg used on 
 input line 480.
 (pdftex.def)             Requested size: 483.69684pt x 278.3831pt.
- [28 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ [34 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
 ters/chapter03/images/Torony_fejlesztese.jpg>]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 489.
 
 
-<chapters/chapter03/images/StatechartDiagram_Field.jpg, id=165, 301.125pt x 207
-.77625pt>
+<chapters/chapter03/images/StatechartDiagram_Field.jpg, id=1328, 301.125pt x 20
+7.77625pt>
 File: chapters/chapter03/images/StatechartDiagram_Field.jpg Graphic file (type 
 jpg)
  <use chapters/chapter03/images/StatechartDiagram_Field.jpg>
 Package pdftex.def Info: chapters/chapter03/images/StatechartDiagram_Field.jpg 
 used on input line 492.
 (pdftex.def)             Requested size: 483.69684pt x 333.78351pt.
- [29 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ [35 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
 ters/chapter03/images/Torony_tuzelese.jpg>]
-<chapters/chapter03/images/StatechartDiagram_Path.jpg, id=170, 952.55875pt x 55
-2.0625pt>
+<chapters/chapter03/images/StatechartDiagram_Path.jpg, id=1333, 952.55875pt x 5
+52.0625pt>
 File: chapters/chapter03/images/StatechartDiagram_Path.jpg Graphic file (type j
 pg)
  <use chapters/chapter03/images/StatechartDiagram_Path.jpg>
@@ -1406,20 +1477,15 @@ sed on input line 501.
 (pdftex.def)             Requested size: 483.69684pt x 280.33511pt.
 )
 (D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
-chapter03/naplo03.tex [30 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio
+chapter03/naplo03.tex [36 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio
 _latex/szoftlab4/chapters/chapter03/images/StatechartDiagram_Field.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 17--17
-[]|\T1/ptm/m/n/10.95 2014.02.26.
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 17--17
+[]|\T1/ptm/m/n/10.95 2014.02.26. 08:00 | 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--17
-[]|\T1/ptm/b/n/10.95 Elekes Fuksz
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--24
-[]|\T1/ptm/m/n/10.95 2014.02.27.
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 24--24
+[]|\T1/ptm/m/n/10.95 2014.02.27. 13:00 | 
  []
 
 
@@ -1428,109 +1494,110 @@ Underfull \hbox (badness 1112) in paragraph at lines 24--24
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--29
-[]|\T1/ptm/m/n/10.95 2014.02.27.
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 29--29
+[]|\T1/ptm/m/n/10.95 2014.02.27. 17:00 | 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--36
-[]|\T1/ptm/m/n/10.95 2014.02.27.
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 36--36
+[]|\T1/ptm/m/n/10.95 2014.02.27. 18:00 | 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--55
-[]|\T1/ptm/m/n/10.95 2014.02.28.
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 50--50
+[]|\T1/ptm/m/n/10.95 2014.02.28. 14:00 | 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--55
-[]|\T1/ptm/b/n/10.95 Elekes Fuksz
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 55--55
+[]|\T1/ptm/m/n/10.95 2014.03.01. 10:00 | 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
-[]|\T1/ptm/m/n/10.95 2014.03.01.
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 65--65
+[]|\T1/ptm/m/n/10.95 2014.03.01. 12:30 | 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--70
-[]|\T1/ptm/m/n/10.95 2014.03.01.
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 70--70
+[]|\T1/ptm/m/n/10.95 2014.03.01. 13:00 | 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--75
-[]|\T1/ptm/m/n/10.95 2014.03.01.
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 78--78
+[]|\T1/ptm/m/n/10.95 2014.03.01. 15:00 | 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--83
-[]|\T1/ptm/m/n/10.95 2014.03.01.
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 83--83
+[]|\T1/ptm/m/n/10.95 2014.03.01. 15:00 | 
  []
 
 
-Underfull \hbox (badness 3068) in paragraph at lines 88--88
+Underfull \hbox (badness 3068) in paragraph at lines 83--83
 []|\T1/ptm/m/n/10.95 Oszt�lydiagram szer-kesz-t�se az �r-te-kez-let
  []
 
 
-Underfull \hbox (badness 1509) in paragraph at lines 93--93
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 88--88
+[]|\T1/ptm/m/n/10.95 2014.03.01. 17:00 | 
+ []
+
+
+Underfull \hbox (badness 1509) in paragraph at lines 88--88
 []|\T1/ptm/m/n/10.95 Use ca-sek szer-kesz-t�se az osz-t�ly-di-ag-ram
  []
 
 
-Underfull \hbox (badness 1024) in paragraph at lines 93--93
+Underfull \hbox (badness 1024) in paragraph at lines 88--88
 \T1/ptm/m/n/10.95 alap-j�n, osz-t�ly-di-ag-ram �s a do-ku-men-tum
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 103--103
-[]|\T1/ptm/m/n/10.95 2014.03.02.
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 99--99
+[]|\T1/ptm/m/n/10.95 2014.03.02. 11:00 | 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--108
-[]|\T1/ptm/m/n/10.95 2014.03.02.
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 108--108
+[]|\T1/ptm/m/n/10.95 2014.03.02. 13:00 | 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 114--114
-[]|\T1/ptm/m/n/10.95 2014.03.02.
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 113--113
+[]|\T1/ptm/m/n/10.95 2014.03.02. 19:30 | 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--120
-[]|\T1/ptm/m/n/10.95 2014.03.03.
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 119--119
+[]|\T1/ptm/m/n/10.95 2014.03.03. 01:00 | 
  []
 
-
-Package longtable Warning: Column widths have changed
-(longtable)                in table \relax 3.1 on input line 130.
-
-[31 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
+[37 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
 ers/chapter03/images/StatechartDiagram_Path.jpg>])
 (D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
-chapter04/sablon04.tex [32]
+chapter04/sablon04.tex [38]
 fejezet 4.
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 8.
 
-[33
+[39
 
 
-] <chapters/chapter04/images/Main.jpg, id=191, 1512.65125pt x 1597.97pt>
+] <chapters/chapter04/images/Main.jpg, id=1351, 1512.65125pt x 1597.97pt>
 File: chapters/chapter04/images/Main.jpg Graphic file (type jpg)
 
 <use chapters/chapter04/images/Main.jpg>
 Package pdftex.def Info: chapters/chapter04/images/Main.jpg used on input line 
 62.
 (pdftex.def)             Requested size: 483.69684pt x 510.97072pt.
- [34]
+ [40]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 72.
 
-[35 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
+[41 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
 ers/chapter04/images/Main.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 84--86
 
@@ -1551,7 +1618,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 124--125
 
  []
 
-[36]
+[42]
 Underfull \hbox (badness 10000) in paragraph at lines 144--145
 
  []
@@ -1566,7 +1633,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 173--174
 
  []
 
-[37]
+[43]
 Underfull \hbox (badness 10000) in paragraph at lines 194--195
 
  []
@@ -1581,7 +1648,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 225--226
 
  []
 
-[38]
+[44]
 Underfull \hbox (badness 10000) in paragraph at lines 248--249
 
  []
@@ -1606,7 +1673,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 299--300
 
  []
 
-[39]
+[45]
 Underfull \hbox (badness 10000) in paragraph at lines 311--312
 
  []
@@ -1621,7 +1688,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 345--346
 
  []
 
-[40]
+[46]
 Underfull \hbox (badness 10000) in paragraph at lines 365--366
 
  []
@@ -1631,7 +1698,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 373--374
 
  []
 
-[41]
+[47]
 Underfull \hbox (badness 10000) in paragraph at lines 400--401
 
  []
@@ -1651,7 +1718,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 431--432
 
  []
 
-[42]
+[48]
 Underfull \hbox (badness 10000) in paragraph at lines 455--456
 
  []
@@ -1671,7 +1738,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 495--496
 
  []
 
-[43]
+[49]
 Underfull \hbox (badness 10000) in paragraph at lines 510--511
 
  []
@@ -1696,7 +1763,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 550--551
 
  []
 
-[44]
+[50]
 Underfull \hbox (badness 10000) in paragraph at lines 562--563
 
  []
@@ -1706,8 +1773,8 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 576.
 
 
-<chapters/chapter04/images/Akadaly_elhelyezese.jpg, id=239, 646.415pt x 501.875
-pt>
+<chapters/chapter04/images/Akadaly_elhelyezese.jpg, id=1398, 646.415pt x 501.87
+5pt>
 File: chapters/chapter04/images/Akadaly_elhelyezese.jpg Graphic file (type jpg)
 
  <use chapters/chapter04/images/Akadaly_elhelyezese.jpg>
@@ -1715,77 +1782,82 @@ Package pdftex.def Info: chapters/chapter04/images/Akadaly_elhelyezese.jpg used
  on input line 579.
 (pdftex.def)             Requested size: 483.69684pt x 375.53996pt.
 
-<chapters/chapter04/images/Ellenfel_mozgasa.jpg, id=240, 1284.8pt x 694.595pt>
+<chapters/chapter04/images/Ellenfel_mozgasa.jpg, id=1399, 1284.8pt x 694.595pt>
 File: chapters/chapter04/images/Ellenfel_mozgasa.jpg Graphic file (type jpg)
-
 <use chapters/chapter04/images/Ellenfel_mozgasa.jpg>
 Package pdftex.def Info: chapters/chapter04/images/Ellenfel_mozgasa.jpg used on
  input line 588.
 (pdftex.def)             Requested size: 483.69684pt x 261.50055pt.
- [45 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ [51 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
 ters/chapter04/images/Akadaly_elhelyezese.jpg>]
-<chapters/chapter04/images/Torony_eladasa.jpg, id=246, 574.145pt x 513.92pt>
+<chapters/chapter04/images/Torony_eladasa.jpg, id=1404, 574.145pt x 513.92pt>
 File: chapters/chapter04/images/Torony_eladasa.jpg Graphic file (type jpg)
 
 <use chapters/chapter04/images/Torony_eladasa.jpg>
 Package pdftex.def Info: chapters/chapter04/images/Torony_eladasa.jpg used on i
 nput line 597.
 (pdftex.def)             Requested size: 483.69684pt x 432.96805pt.
- [46 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ [52 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
 ters/chapter04/images/Ellenfel_mozgasa.jpg>]
-<chapters/chapter04/images/Torony_elhelyezese.jpg, id=251, 594.22pt x 489.83pt>
+<chapters/chapter04/images/Torony_elhelyezese.jpg, id=1409, 594.22pt x 489.83pt
+>
 File: chapters/chapter04/images/Torony_elhelyezese.jpg Graphic file (type jpg)
-<use chapters/chapter04/images/Torony_elhelyezese.jpg>
+ <use chapters/chapter04/images/Torony_elhelyezese.jpg>
 Package pdftex.def Info: chapters/chapter04/images/Torony_elhelyezese.jpg used 
 on input line 606.
 (pdftex.def)             Requested size: 483.69684pt x 398.74078pt.
- [47 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ [53 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
 ters/chapter04/images/Torony_eladasa.jpg>]
-<chapters/chapter04/images/Torony_fejlesztese.jpg, id=256, 582.175pt x 730.73pt
->
+<chapters/chapter04/images/Torony_fejlesztese.jpg, id=1414, 582.175pt x 730.73p
+t>
 File: chapters/chapter04/images/Torony_fejlesztese.jpg Graphic file (type jpg)
  <use chapters/chapter04/images/Torony_fejlesztese.jpg>
 Package pdftex.def Info: chapters/chapter04/images/Torony_fejlesztese.jpg used 
 on input line 615.
 (pdftex.def)             Requested size: 483.69684pt x 607.13014pt.
- [48 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ [54 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
 ters/chapter04/images/Torony_elhelyezese.jpg>]
-<chapters/chapter04/images/Torony_tuzelese.jpg, id=261, 1116.17pt x 642.4pt>
+<chapters/chapter04/images/Torony_tuzelese.jpg, id=1419, 1116.17pt x 642.4pt>
 File: chapters/chapter04/images/Torony_tuzelese.jpg Graphic file (type jpg)
 
 <use chapters/chapter04/images/Torony_tuzelese.jpg>
 Package pdftex.def Info: chapters/chapter04/images/Torony_tuzelese.jpg used on 
 input line 624.
 (pdftex.def)             Requested size: 483.69684pt x 278.3831pt.
- [49 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ [55 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
 ters/chapter04/images/Torony_fejlesztese.jpg>]
-<chapters/chapter04/images/Inicializalas.jpg, id=267, 554.07pt x 706.64pt>
+<chapters/chapter04/images/Inicializalas.jpg, id=1425, 554.07pt x 706.64pt>
 File: chapters/chapter04/images/Inicializalas.jpg Graphic file (type jpg)
 
 <use chapters/chapter04/images/Inicializalas.jpg>
 Package pdftex.def Info: chapters/chapter04/images/Inicializalas.jpg used on in
 put line 633.
 (pdftex.def)             Requested size: 483.69684pt x 616.8852pt.
- [50 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ [56 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
 ters/chapter04/images/Torony_tuzelese.jpg>]
-<chapters/chapter04/images/Jatek_menete.jpg, id=272, 626.34pt x 915.42pt>
+<chapters/chapter04/images/Jatek_menete.jpg, id=1430, 626.34pt x 915.42pt>
 File: chapters/chapter04/images/Jatek_menete.jpg Graphic file (type jpg)
 
 <use chapters/chapter04/images/Jatek_menete.jpg>
 Package pdftex.def Info: chapters/chapter04/images/Jatek_menete.jpg used on inp
 ut line 642.
 (pdftex.def)             Requested size: 483.69684pt x 706.97081pt.
- [51 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ [57 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
 ters/chapter04/images/Inicializalas.jpg>]
 Overfull \vbox (85.88542pt too high) has occurred while \output is active []
 
 
-[52 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
+[58 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
 ers/chapter04/images/Jatek_menete.jpg>])
 (D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
 chapter04/naplo04.tex
-Underfull \hbox (badness 1681) in paragraph at lines 17--17
-[]|\T1/ptm/b/n/10.95 Elekes Se-res R�-
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 17--17
+[]|\T1/ptm/m/n/10.95 2014.03.05. 08:00 | 
+ []
+
+
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 23--23
+[]|\T1/ptm/m/n/10.95 2014.03.05. 15:00 | 
  []
 
 
@@ -1794,8 +1866,8 @@ Underfull \hbox (badness 1038) in paragraph at lines 23--23
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--28
-[]|\T1/ptm/m/n/10.95 2014.03.06.
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 28--28
+[]|\T1/ptm/m/n/10.95 2014.03.06. 11:45 | 
  []
 
 
@@ -1804,38 +1876,39 @@ Underfull \hbox (badness 1205) in paragraph at lines 28--28
  []
 
 
-Underfull \hbox (badness 1681) in paragraph at lines 35--35
-[]|\T1/ptm/b/n/10.95 Elekes Se-res R�-
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 35--35
+[]|\T1/ptm/m/n/10.95 2014.03.07. 14:00 | 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--42
-[]|\T1/ptm/m/n/10.95 2014.03.08.
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 42--42
+[]|\T1/ptm/m/n/10.95 2014.03.08. 14:00 | 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--47
-[]|\T1/ptm/m/n/10.95 2014.03.08.
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 47--47
+[]|\T1/ptm/m/n/10.95 2014.03.08. 16:00 | 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--52
-[]|\T1/ptm/m/n/10.95 2014.03.09.
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 52--52
+[]|\T1/ptm/m/n/10.95 2014.03.09. 21:00 | 
  []
 
 
-Package longtable Warning: Column widths have changed
-(longtable)                in table \relax 4.1 on input line 61.
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 57--57
+[]|\T1/ptm/m/n/10.95 2014.03.10. 01:00 | 
+ []
 
 )
 (D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
-chapter05/sablon05.tex [53]
+chapter05/sablon05.tex [59]
 fejezet 5.
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 8.
 
-<chapters/chapter05/images/user_uc_1.jpg, id=286, 941.5175pt x 405.515pt>
+<chapters/chapter05/images/user_uc_1.jpg, id=1443, 941.5175pt x 405.515pt>
 File: chapters/chapter05/images/user_uc_1.jpg Graphic file (type jpg)
 
 <use chapters/chapter05/images/user_uc_1.jpg>
@@ -1843,14 +1916,14 @@ Package pdftex.def Info: chapters/chapter05/images/user_uc_1.jpg used on input
 line 16.
 (pdftex.def)             Requested size: 483.69684pt x 208.33206pt.
 
-<chapters/chapter05/images/user_uc_2.jpg, id=287, 972.63374pt x 433.62pt>
+<chapters/chapter05/images/user_uc_2.jpg, id=1444, 972.63374pt x 433.62pt>
 File: chapters/chapter05/images/user_uc_2.jpg Graphic file (type jpg)
 
 <use chapters/chapter05/images/user_uc_2.jpg>
 Package pdftex.def Info: chapters/chapter05/images/user_uc_2.jpg used on input 
 line 26.
 (pdftex.def)             Requested size: 483.69684pt x 215.63834pt.
- [54
+ [60
 
 
  <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapters
@@ -1883,7 +1956,7 @@ Underfull \vbox (badness 10000) detected at line 69
 Underfull \vbox (badness 10000) detected at line 75
  []
 
-[55]
+[61]
 Underfull \vbox (badness 10000) detected at line 81
  []
 
@@ -1907,7 +1980,7 @@ Underfull \vbox (badness 10000) detected at line 105
 Underfull \vbox (badness 10000) detected at line 111
  []
 
-[56]
+[62]
 Underfull \vbox (badness 10000) detected at line 117
  []
 
@@ -1935,7 +2008,7 @@ Underfull \vbox (badness 10000) detected at line 179
 Underfull \vbox (badness 10000) detected at line 185
  []
 
-[57]
+[63]
 Underfull \vbox (badness 10000) detected at line 191
  []
 
@@ -1967,7 +2040,7 @@ Underfull \vbox (badness 10000) detected at line 227
 Underfull \vbox (badness 10000) detected at line 233
  []
 
-[58]
+[64]
 Underfull \vbox (badness 10000) detected at line 239
  []
 
@@ -1977,7 +2050,7 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 
 
 <chapters/chapter05/images/sd_Akadaly_elhelyezese_ellenseg_altal_foglalt_utra.j
-pg, id=338, 397.485pt x 252.945pt>
+pg, id=1492, 397.485pt x 252.945pt>
 File: chapters/chapter05/images/sd_Akadaly_elhelyezese_ellenseg_altal_foglalt_u
 tra.jpg Graphic file (type jpg)
 
@@ -1988,7 +2061,7 @@ seg_altal_foglalt_utra.jpg used on input line 251.
 (pdftex.def)             Requested size: 483.69684pt x 307.81667pt.
 
 <chapters/chapter05/images/sd_Akadaly_elhelyezese_masik_akadaly_altal_foglalt_u
-tra.jpg, id=339, 397.485pt x 252.945pt>
+tra.jpg, id=1493, 397.485pt x 252.945pt>
 File: chapters/chapter05/images/sd_Akadaly_elhelyezese_masik_akadaly_altal_fogl
 alt_utra.jpg Graphic file (type jpg)
 
@@ -1997,10 +2070,10 @@ lt_utra.jpg>
 Package pdftex.def Info: chapters/chapter05/images/sd_Akadaly_elhelyezese_masik
 _akadaly_altal_foglalt_utra.jpg used on input line 260.
 (pdftex.def)             Requested size: 483.69684pt x 307.81667pt.
- [59 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ [65 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
 ters/chapter05/images/sd_Akadaly_elhelyezese_ellenseg_altal_foglalt_utra.jpg>]
-<chapters/chapter05/images/sd_Akadaly_elhelyezese_ures_utra.jpg, id=346, 827.09
-pt x 618.31pt>
+<chapters/chapter05/images/sd_Akadaly_elhelyezese_ures_utra.jpg, id=1498, 827.0
+9pt x 618.31pt>
 File: chapters/chapter05/images/sd_Akadaly_elhelyezese_ures_utra.jpg Graphic fi
 le (type jpg)
 
@@ -2008,31 +2081,31 @@ le (type jpg)
 Package pdftex.def Info: chapters/chapter05/images/sd_Akadaly_elhelyezese_ures_
 utra.jpg used on input line 269.
 (pdftex.def)             Requested size: 483.69684pt x 361.6014pt.
- [60 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ [66 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
 ters/chapter05/images/sd_Akadaly_elhelyezese_masik_akadaly_altal_foglalt_utra.j
 pg>]
-<chapters/chapter05/images/sd_Akadaly_fejlesztese.jpg, id=351, 790.955pt x 778.
-91pt>
+<chapters/chapter05/images/sd_Akadaly_fejlesztese.jpg, id=1503, 790.955pt x 778
+.91pt>
 File: chapters/chapter05/images/sd_Akadaly_fejlesztese.jpg Graphic file (type j
 pg)
  <use chapters/chapter05/images/sd_Akadaly_fejlesztese.jpg>
 Package pdftex.def Info: chapters/chapter05/images/sd_Akadaly_fejlesztese.jpg u
 sed on input line 278.
 (pdftex.def)             Requested size: 483.69684pt x 476.33482pt.
- [61 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ [67 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
 ters/chapter05/images/sd_Akadaly_elhelyezese_ures_utra.jpg>]
-<chapters/chapter05/images/sd_Ellenfel_mozgasa.jpg, id=357, 1308.89pt x 839.135
-pt>
+<chapters/chapter05/images/sd_Ellenfel_mozgasa.jpg, id=1509, 1308.89pt x 839.13
+5pt>
 File: chapters/chapter05/images/sd_Ellenfel_mozgasa.jpg Graphic file (type jpg)
 
  <use chapters/chapter05/images/sd_Ellenfel_mozgasa.jpg>
 Package pdftex.def Info: chapters/chapter05/images/sd_Ellenfel_mozgasa.jpg used
  on input line 287.
 (pdftex.def)             Requested size: 483.69684pt x 310.09096pt.
- [62 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ [68 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
 ters/chapter05/images/sd_Akadaly_fejlesztese.jpg>]
-<chapters/chapter05/images/sd_Fejlesztetlen_torony_eladasa.jpg, id=362, 574.145
-pt x 369.38pt>
+<chapters/chapter05/images/sd_Fejlesztetlen_torony_eladasa.jpg, id=1514, 574.14
+5pt x 369.38pt>
 File: chapters/chapter05/images/sd_Fejlesztetlen_torony_eladasa.jpg Graphic fil
 e (type jpg)
 
@@ -2040,30 +2113,30 @@ e (type jpg)
 Package pdftex.def Info: chapters/chapter05/images/sd_Fejlesztetlen_torony_elad
 asa.jpg used on input line 296.
 (pdftex.def)             Requested size: 483.69684pt x 311.19579pt.
- [63 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ [69 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
 ters/chapter05/images/sd_Ellenfel_mozgasa.jpg>]
-<chapters/chapter05/images/sd_Fejlesztett_torony_eladasa.jpg, id=367, 574.145pt
- x 513.92pt>
+<chapters/chapter05/images/sd_Fejlesztett_torony_eladasa.jpg, id=1519, 574.145p
+t x 513.92pt>
 File: chapters/chapter05/images/sd_Fejlesztett_torony_eladasa.jpg Graphic file 
 (type jpg)
- <use chapters/chapter05/images/sd_Fejlesztett_torony_eladasa.jpg>
+
+<use chapters/chapter05/images/sd_Fejlesztett_torony_eladasa.jpg>
 Package pdftex.def Info: chapters/chapter05/images/sd_Fejlesztett_torony_eladas
 a.jpg used on input line 305.
 (pdftex.def)             Requested size: 483.69684pt x 432.96805pt.
-
-[64 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
-ers/chapter05/images/sd_Fejlesztetlen_torony_eladasa.jpg>]
-<chapters/chapter05/images/sd_Inicializalas.jpg, id=372, 554.07pt x 706.64pt>
+ [70 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter05/images/sd_Fejlesztetlen_torony_eladasa.jpg>]
+<chapters/chapter05/images/sd_Inicializalas.jpg, id=1524, 554.07pt x 706.64pt>
 File: chapters/chapter05/images/sd_Inicializalas.jpg Graphic file (type jpg)
 
 <use chapters/chapter05/images/sd_Inicializalas.jpg>
 Package pdftex.def Info: chapters/chapter05/images/sd_Inicializalas.jpg used on
  input line 314.
 (pdftex.def)             Requested size: 483.69684pt x 616.8852pt.
- [65 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ [71 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
 ters/chapter05/images/sd_Fejlesztett_torony_eladasa.jpg>]
-<chapters/chapter05/images/sd_Torony_elhelyezese_foglalt_mezore.jpg, id=377, 37
-3.395pt x 216.81pt>
+<chapters/chapter05/images/sd_Torony_elhelyezese_foglalt_mezore.jpg, id=1529, 3
+73.395pt x 216.81pt>
 File: chapters/chapter05/images/sd_Torony_elhelyezese_foglalt_mezore.jpg Graphi
 c file (type jpg)
 
@@ -2072,10 +2145,10 @@ Package pdftex.def Info: chapters/chapter05/images/sd_Torony_elhelyezese_foglal
 t_mezore.jpg used on input line 323.
 (pdftex.def)             Requested size: 483.69684pt x 280.8704pt.
 
-[66 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
+[72 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
 ers/chapter05/images/sd_Inicializalas.jpg>]
-<chapters/chapter05/images/sd_Torony_elhelyezese_ures_mezore.jpg, id=382, 666.4
-9pt x 542.025pt>
+<chapters/chapter05/images/sd_Torony_elhelyezese_ures_mezore.jpg, id=1534, 666.
+49pt x 542.025pt>
 File: chapters/chapter05/images/sd_Torony_elhelyezese_ures_mezore.jpg Graphic f
 ile (type jpg)
 
@@ -2083,10 +2156,10 @@ ile (type jpg)
 Package pdftex.def Info: chapters/chapter05/images/sd_Torony_elhelyezese_ures_m
 ezore.jpg used on input line 332.
 (pdftex.def)             Requested size: 483.69684pt x 393.37572pt.
- [67 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ [73 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
 ters/chapter05/images/sd_Torony_elhelyezese_foglalt_mezore.jpg>]
-<chapters/chapter05/images/sd_Torony_fejlesztese_minden_gembol_eggyel.jpg, id=3
-88, 919.435pt x 1393.205pt>
+<chapters/chapter05/images/sd_Torony_fejlesztese_minden_gembol_eggyel.jpg, id=1
+540, 919.435pt x 1393.205pt>
 File: chapters/chapter05/images/sd_Torony_fejlesztese_minden_gembol_eggyel.jpg 
 Graphic file (type jpg)
 
@@ -2095,15 +2168,15 @@ Package pdftex.def Info: chapters/chapter05/images/sd_Torony_fejlesztese_minden
 _gembol_eggyel.jpg used on input line 341.
 (pdftex.def)             Requested size: 483.69684pt x 732.95296pt.
 
-[68 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
+[74 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
 ers/chapter05/images/sd_Torony_elhelyezese_ures_mezore.jpg>]
 Overfull \vbox (114.12874pt too high) has occurred while \output is active []
 
 
-[69 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
+[75 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
 ers/chapter05/images/sd_Torony_fejlesztese_minden_gembol_eggyel.jpg>]
 <chapters/chapter05/images/sd_Torony_hatokoreben_nincs_ellenseg_tuzeleskor.jpg,
- id=397, 513.92pt x 369.38pt>
+ id=1549, 513.92pt x 369.38pt>
 File: chapters/chapter05/images/sd_Torony_hatokoreben_nincs_ellenseg_tuzeleskor
 .jpg Graphic file (type jpg)
 
@@ -2114,7 +2187,7 @@ ellenseg_tuzeleskor.jpg used on input line 350.
 (pdftex.def)             Requested size: 483.69684pt x 347.6625pt.
 
 <chapters/chapter05/images/sd_Torony_lelo_egy_ellenseget_fejlesztetlenul.jpg, i
-d=398, 1160.335pt x 658.46pt>
+d=1550, 1160.335pt x 658.46pt>
 File: chapters/chapter05/images/sd_Torony_lelo_egy_ellenseget_fejlesztetlenul.j
 pg Graphic file (type jpg)
 
@@ -2123,10 +2196,10 @@ g>
 Package pdftex.def Info: chapters/chapter05/images/sd_Torony_lelo_egy_ellensege
 t_fejlesztetlenul.jpg used on input line 359.
 (pdftex.def)             Requested size: 483.69684pt x 274.48158pt.
- [70 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ [76 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
 ters/chapter05/images/sd_Torony_hatokoreben_nincs_ellenseg_tuzeleskor.jpg>]
 <chapters/chapter05/images/sd_Torony_tuzel_egy_ellensegre_fejlesztetlenul.jpg, 
-id=403, 943.525pt x 429.605pt>
+id=1555, 943.525pt x 429.605pt>
 File: chapters/chapter05/images/sd_Torony_tuzel_egy_ellensegre_fejlesztetlenul.
 jpg Graphic file (type jpg)
 
@@ -2142,7 +2215,7 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 
 
 <chapters/chapter05/images/cd_Akadaly_elhelyezese_ellenseg_altal_foglalt_utra.j
-pg, id=404, 638.385pt x 216.81pt>
+pg, id=1556, 638.385pt x 216.81pt>
 File: chapters/chapter05/images/cd_Akadaly_elhelyezese_ellenseg_altal_foglalt_u
 tra.jpg Graphic file (type jpg)
 
@@ -2151,12 +2224,12 @@ ra.jpg>
 Package pdftex.def Info: chapters/chapter05/images/cd_Akadaly_elhelyezese_ellen
 seg_altal_foglalt_utra.jpg used on input line 382.
 (pdftex.def)             Requested size: 483.69684pt x 164.27444pt.
- [71 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ [77 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
 ters/chapter05/images/sd_Torony_lelo_egy_ellenseget_fejlesztetlenul.jpg> <D:/FI
 LES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapters/chapte
 r05/images/sd_Torony_tuzel_egy_ellensegre_fejlesztetlenul.jpg>]
 <chapters/chapter05/images/cd_Akadaly_elhelyezese_masik_akadaly_altal_foglalt_u
-tra.jpg, id=409, 638.385pt x 216.81pt>
+tra.jpg, id=1561, 638.385pt x 216.81pt>
 File: chapters/chapter05/images/cd_Akadaly_elhelyezese_masik_akadaly_altal_fogl
 alt_utra.jpg Graphic file (type jpg)
 
@@ -2166,8 +2239,8 @@ Package pdftex.def Info: chapters/chapter05/images/cd_Akadaly_elhelyezese_masik
 _akadaly_altal_foglalt_utra.jpg used on input line 391.
 (pdftex.def)             Requested size: 483.69684pt x 164.27444pt.
 
-<chapters/chapter05/images/cd_Akadaly_elhelyezese_ures_utra.jpg, id=410, 642.4p
-t x 337.26pt>
+<chapters/chapter05/images/cd_Akadaly_elhelyezese_ures_utra.jpg, id=1562, 642.4
+pt x 337.26pt>
 File: chapters/chapter05/images/cd_Akadaly_elhelyezese_ures_utra.jpg Graphic fi
 le (type jpg)
 
@@ -2175,12 +2248,12 @@ le (type jpg)
 Package pdftex.def Info: chapters/chapter05/images/cd_Akadaly_elhelyezese_ures_
 utra.jpg used on input line 400.
 (pdftex.def)             Requested size: 483.69684pt x 253.94788pt.
- [72 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ [78 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
 ters/chapter05/images/cd_Akadaly_elhelyezese_ellenseg_altal_foglalt_utra.jpg> <
 D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapters/c
 hapter05/images/cd_Akadaly_elhelyezese_masik_akadaly_altal_foglalt_utra.jpg>]
-<chapters/chapter05/images/cd_Akadaly_fejlesztese.jpg, id=416, 891.33pt x 433.6
-2pt>
+<chapters/chapter05/images/cd_Akadaly_fejlesztese.jpg, id=1567, 891.33pt x 433.
+62pt>
 File: chapters/chapter05/images/cd_Akadaly_fejlesztese.jpg Graphic file (type j
 pg)
  <use chapters/chapter05/images/cd_Akadaly_fejlesztese.jpg>
@@ -2188,20 +2261,20 @@ Package pdftex.def Info: chapters/chapter05/images/cd_Akadaly_fejlesztese.jpg u
 sed on input line 409.
 (pdftex.def)             Requested size: 483.69684pt x 235.31581pt.
 
-<chapters/chapter05/images/cd_Ellenfel_mozgasa.jpg, id=417, 1003.75pt x 401.5pt
->
+<chapters/chapter05/images/cd_Ellenfel_mozgasa.jpg, id=1568, 1003.75pt x 401.5p
+t>
 File: chapters/chapter05/images/cd_Ellenfel_mozgasa.jpg Graphic file (type jpg)
 
  <use chapters/chapter05/images/cd_Ellenfel_mozgasa.jpg>
 Package pdftex.def Info: chapters/chapter05/images/cd_Ellenfel_mozgasa.jpg used
  on input line 418.
 (pdftex.def)             Requested size: 483.69684pt x 193.4836pt.
- [73 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ [79 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
 ters/chapter05/images/cd_Akadaly_elhelyezese_ures_utra.jpg> <D:/FILES/Documents
 /GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapters/chapter05/images/cd
 _Akadaly_fejlesztese.jpg>]
-<chapters/chapter05/images/cd_Fejlesztetlen_torony_eladasa.jpg, id=423, 605.261
-25pt x 235.88126pt>
+<chapters/chapter05/images/cd_Fejlesztetlen_torony_eladasa.jpg, id=1574, 605.26
+125pt x 235.88126pt>
 File: chapters/chapter05/images/cd_Fejlesztetlen_torony_eladasa.jpg Graphic fil
 e (type jpg)
 
@@ -2210,8 +2283,8 @@ Package pdftex.def Info: chapters/chapter05/images/cd_Fejlesztetlen_torony_elad
 asa.jpg used on input line 427.
 (pdftex.def)             Requested size: 483.69684pt x 188.5073pt.
 
-<chapters/chapter05/images/cd_Fejlesztett_torony_eladasa.jpg, id=424, 661.47125
-pt x 356.33125pt>
+<chapters/chapter05/images/cd_Fejlesztett_torony_eladasa.jpg, id=1575, 661.4712
+5pt x 356.33125pt>
 File: chapters/chapter05/images/cd_Fejlesztett_torony_eladasa.jpg Graphic file 
 (type jpg)
 
@@ -2219,20 +2292,19 @@ File: chapters/chapter05/images/cd_Fejlesztett_torony_eladasa.jpg Graphic file
 Package pdftex.def Info: chapters/chapter05/images/cd_Fejlesztett_torony_eladas
 a.jpg used on input line 436.
 (pdftex.def)             Requested size: 483.69684pt x 260.56004pt.
- [74 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ [80 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
 ters/chapter05/images/cd_Ellenfel_mozgasa.jpg> <D:/FILES/Documents/GitHub/Dokum
 entaciok/Dokumentacio_latex/szoftlab4/chapters/chapter05/images/cd_Fejlesztetle
 n_torony_eladasa.jpg>]
-<chapters/chapter05/images/cd_Inicializalas.jpg, id=429, 819.06pt x 325.215pt>
+<chapters/chapter05/images/cd_Inicializalas.jpg, id=1580, 819.06pt x 325.215pt>
 File: chapters/chapter05/images/cd_Inicializalas.jpg Graphic file (type jpg)
-
 <use chapters/chapter05/images/cd_Inicializalas.jpg>
 Package pdftex.def Info: chapters/chapter05/images/cd_Inicializalas.jpg used on
  input line 445.
 (pdftex.def)             Requested size: 483.69684pt x 192.05879pt.
 
-<chapters/chapter05/images/cd_Torony_elhelyezese_foglalt_mezore.jpg, id=430, 49
-3.845pt x 148.555pt>
+<chapters/chapter05/images/cd_Torony_elhelyezese_foglalt_mezore.jpg, id=1581, 4
+93.845pt x 148.555pt>
 File: chapters/chapter05/images/cd_Torony_elhelyezese_foglalt_mezore.jpg Graphi
 c file (type jpg)
 
@@ -2241,12 +2313,12 @@ Package pdftex.def Info: chapters/chapter05/images/cd_Torony_elhelyezese_foglal
 t_mezore.jpg used on input line 454.
 (pdftex.def)             Requested size: 483.69684pt x 145.50128pt.
 
-[75 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
+[81 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
 ers/chapter05/images/cd_Fejlesztett_torony_eladasa.jpg> <D:/FILES/Documents/Git
 Hub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapters/chapter05/images/cd_Ini
 cializalas.jpg>]
-<chapters/chapter05/images/cd_Torony_elhelyezese_ures_mezore.jpg, id=435, 746.7
-9pt x 325.215pt>
+<chapters/chapter05/images/cd_Torony_elhelyezese_ures_mezore.jpg, id=1586, 746.
+79pt x 325.215pt>
 File: chapters/chapter05/images/cd_Torony_elhelyezese_ures_mezore.jpg Graphic f
 ile (type jpg)
 
@@ -2255,8 +2327,8 @@ Package pdftex.def Info: chapters/chapter05/images/cd_Torony_elhelyezese_ures_m
 ezore.jpg used on input line 463.
 (pdftex.def)             Requested size: 483.69684pt x 210.64288pt.
 
-<chapters/chapter05/images/cd_Torony_fejlesztese_minden_gembol_eggyel.jpg, id=4
-36, 1441.385pt x 508.90125pt>
+<chapters/chapter05/images/cd_Torony_fejlesztese_minden_gembol_eggyel.jpg, id=1
+587, 1441.385pt x 508.90125pt>
 File: chapters/chapter05/images/cd_Torony_fejlesztese_minden_gembol_eggyel.jpg 
 Graphic file (type jpg)
 
@@ -2265,12 +2337,12 @@ Package pdftex.def Info: chapters/chapter05/images/cd_Torony_fejlesztese_minden
 _gembol_eggyel.jpg used on input line 472.
 (pdftex.def)             Requested size: 483.69684pt x 170.77223pt.
 
-[76 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
+[82 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
 ers/chapter05/images/cd_Torony_elhelyezese_foglalt_mezore.jpg> <D:/FILES/Docume
 nts/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapters/chapter05/images
 /cd_Torony_elhelyezese_ures_mezore.jpg>]
 <chapters/chapter05/images/cd_Torony_hatokoreben_nincs_ellenseg_tuzeleskor.jpg,
- id=441, 594.22pt x 240.9pt>
+ id=1592, 594.22pt x 240.9pt>
 File: chapters/chapter05/images/cd_Torony_hatokoreben_nincs_ellenseg_tuzeleskor
 .jpg Graphic file (type jpg)
 
@@ -2281,7 +2353,7 @@ ellenseg_tuzeleskor.jpg used on input line 481.
 (pdftex.def)             Requested size: 483.69684pt x 196.10202pt.
 
 <chapters/chapter05/images/cd_Torony_lelo_egy_ellenseget_fejlesztetlenul.jpg, i
-d=442, 574.145pt x 525.965pt>
+d=1593, 574.145pt x 525.965pt>
 File: chapters/chapter05/images/cd_Torony_lelo_egy_ellenseget_fejlesztetlenul.j
 pg Graphic file (type jpg)
 
@@ -2290,12 +2362,12 @@ g>
 Package pdftex.def Info: chapters/chapter05/images/cd_Torony_lelo_egy_ellensege
 t_fejlesztetlenul.jpg used on input line 490.
 (pdftex.def)             Requested size: 483.69684pt x 443.11574pt.
- [77 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ [83 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
 ters/chapter05/images/cd_Torony_fejlesztese_minden_gembol_eggyel.jpg> <D:/FILES
 /Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapters/chapter05
 /images/cd_Torony_hatokoreben_nincs_ellenseg_tuzeleskor.jpg>]
 <chapters/chapter05/images/cd_Torony_tuzel_egy_ellensegre_fejlesztetlenul.jpg, 
-id=447, 594.22pt x 389.455pt>
+id=1598, 594.22pt x 389.455pt>
 File: chapters/chapter05/images/cd_Torony_tuzel_egy_ellensegre_fejlesztetlenul.
 jpg Graphic file (type jpg)
 
@@ -2304,125 +2376,133 @@ pg>
 Package pdftex.def Info: chapters/chapter05/images/cd_Torony_tuzel_egy_ellenseg
 re_fejlesztetlenul.jpg used on input line 499.
 (pdftex.def)             Requested size: 483.69684pt x 317.0316pt.
- [78 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ [84 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
 ters/chapter05/images/cd_Torony_lelo_egy_ellenseget_fejlesztetlenul.jpg>])
 (D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
 chapter05/naplo05.tex
-Underfull \hbox (badness 10000) in paragraph at lines 30--30
-[]|\T1/ptm/m/n/10.95 2014.03.15.
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 30--30
+[]|\T1/ptm/m/n/10.95 2014.03.15. 11:00 | 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--60
-[]|\T1/ptm/m/n/10.95 2014.03.16.
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 36--36
+[]|\T1/ptm/m/n/10.95 2014.03.15. 11:40 | 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--66
-[]|\T1/ptm/m/n/10.95 2014.03.16.
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 42--42
+[]|\T1/ptm/m/n/10.95 2014.03.15. 12:00 | 
  []
 
 
-Package longtable Warning: Column widths have changed
-(longtable)                in table \relax 5.29 on input line 73.
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 48--48
+[]|\T1/ptm/m/n/10.95 2014.03.16. 13:50 | 
+ []
 
-[79 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
+
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 54--54
+[]|\T1/ptm/m/n/10.95 2014.03.16. 14:00 | 
+ []
+
+
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 60--60
+[]|\T1/ptm/m/n/10.95 2014.03.16. 19:30 | 
+ []
+
+
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 66--66
+[]|\T1/ptm/m/n/10.95 2014.03.16. 22:00 | 
+ []
+
+
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 72--72
+[]|\T1/ptm/m/n/10.95 2014.03.17. 01:30 | 
+ []
+
+[85 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
 ers/chapter05/images/cd_Torony_tuzel_egy_ellensegre_fejlesztetlenul.jpg>])
 (D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
-chapter06/sablon06.tex [80]
+chapter06/sablon06.tex [86]
 fejezet 6.
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 8.
 
-
-Package longtable Warning: Column widths have changed
-(longtable)                in table \relax 6.1 on input line 207.
-
-[81
+[87
 
 
-]
-
-Package longtable Warning: Column widths have changed
-(longtable)                in table \relax 6.2 on input line 256.
-
-)
+])
 (D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
 chapter06/naplo06.tex
-Underfull \hbox (badness 1132) in paragraph at lines 15--15
+Underfull \hbox (badness 1132) in paragraph at lines 14--14
 []|\T1/ptm/m/n/10.95 Tesztel� prog-ram, tesz-te-se-tek imp-le-men-t�-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 27--27
-[]|\T1/ptm/m/n/10.95 2014.03.22.
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 26--26
+[]|\T1/ptm/m/n/10.95 2014.03.22. 11:00 | 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--33
-[]|\T1/ptm/m/n/10.95 2014.03.22.
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 32--32
+[]|\T1/ptm/m/n/10.95 2014.03.22. 20:00 | 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--39
-[]|\T1/ptm/m/n/10.95 2014.03.23.
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 38--38
+[]|\T1/ptm/m/n/10.95 2014.03.23. 11:00 | 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--45
-[]|\T1/ptm/m/n/10.95 2014.03.23.
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 44--44
+[]|\T1/ptm/m/n/10.95 2014.03.23. 20:00 | 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--51
-[]|\T1/ptm/m/n/10.95 2014.03.23.
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 50--50
+[]|\T1/ptm/m/n/10.95 2014.03.23. 18:00 | 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--57
-[]|\T1/ptm/m/n/10.95 2014.03.24.
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 56--56
+[]|\T1/ptm/m/n/10.95 2014.03.24. 01:00 | 
  []
-
-
-Package longtable Warning: Column widths have changed
-(longtable)                in table \relax 6.3 on input line 61.
 
 )
 (D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
-chapter07/sablon07.tex [82]
+chapter07/sablon07.tex [88]
 fejezet 7.
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 10.
 
-<chapters/chapter07/images/MainModSpec.jpg, id=474, 1512.65125pt x 1597.97pt>
+
+<chapters/chapter07/images/MainModSpec.jpg, id=1620, 1512.65125pt x 1597.97pt>
 File: chapters/chapter07/images/MainModSpec.jpg Graphic file (type jpg)
 
 <use chapters/chapter07/images/MainModSpec.jpg>
 Package pdftex.def Info: chapters/chapter07/images/MainModSpec.jpg used on inpu
 t line 26.
 (pdftex.def)             Requested size: 483.69684pt x 510.97072pt.
- [83
+ [89
 
 
 ]
-<chapters/chapter07/images/sd_Jatek_menete.jpg, id=480, 678.535pt x 1276.77pt>
+<chapters/chapter07/images/sd_Jatek_menete.jpg, id=1625, 678.535pt x 1276.77pt>
 File: chapters/chapter07/images/sd_Jatek_menete.jpg Graphic file (type jpg)
-
 <use chapters/chapter07/images/sd_Jatek_menete.jpg>
 Package pdftex.def Info: chapters/chapter07/images/sd_Jatek_menete.jpg used on 
 input line 38.
 (pdftex.def)             Requested size: 369.88582pt x 695.99147pt.
- [84 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ [90 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
 ters/chapter07/images/MainModSpec.jpg>]
 Overfull \vbox (74.90608pt too high) has occurred while \output is active []
 
 
-[85 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
+[91 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
 ers/chapter07/images/sd_Jatek_menete.jpg>]
-<chapters/chapter07/images/sd_torony_kettevag_egy_ellenseget.jpg, id=490, 1156.
-32pt x 851.18pt>
+<chapters/chapter07/images/sd_torony_kettevag_egy_ellenseget.jpg, id=1635, 1156
+.32pt x 851.18pt>
 File: chapters/chapter07/images/sd_torony_kettevag_egy_ellenseget.jpg Graphic f
 ile (type jpg)
 
@@ -2438,18 +2518,18 @@ File: lstlang1.sty 2014/03/04 1.5c listings language file
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 62.
 
-[86 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
-ers/chapter07/images/sd_torony_kettevag_egy_ellenseget.jpg>] [87]
+[92 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
+ers/chapter07/images/sd_torony_kettevag_egy_ellenseget.jpg>] [93]
 Underfull \hbox (badness 10000) in paragraph at lines 188--190
 
  []
 
-[88]
+[94]
 Underfull \hbox (badness 10000) in paragraph at lines 267--269
 
  []
 
-[89]
+[95]
 Underfull \vbox (badness 10000) detected at line 291
  []
 
@@ -2473,7 +2553,7 @@ Underfull \vbox (badness 10000) detected at line 315
 Underfull \vbox (badness 10000) detected at line 321
  []
 
-[90]
+[96]
 Underfull \vbox (badness 10000) detected at line 327
  []
 
@@ -2501,7 +2581,7 @@ Underfull \vbox (badness 10000) detected at line 357
 Underfull \vbox (badness 10000) detected at line 363
  []
 
-[91]
+[97]
 Underfull \vbox (badness 10000) detected at line 369
  []
 
@@ -2521,45 +2601,66 @@ Underfull \vbox (badness 10000) detected at line 390
 Underfull \vbox (badness 10000) detected at line 399
  []
 
-[92])
+[98])
 (D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
 chapter07/naplo07.tex
-Underfull \hbox (badness 10000) in paragraph at lines 16--16
-[]|\T1/ptm/m/n/10.95 2014.03.26.
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 16--16
+[]|\T1/ptm/m/n/10.95 2014.03.26. 08:15 | 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--23
-[]|\T1/ptm/m/n/10.95 2014.03.27.
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 22--22
+[]|\T1/ptm/m/n/10.95 2014.03.27. 15:00 | 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--29
-[]|\T1/ptm/m/n/10.95 2014.03.27.
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 28--28
+[]|\T1/ptm/m/n/10.95 2014.03.27. 17:00 | 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 45--45
-[]|\T1/ptm/m/n/10.95 2014.03.29.
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 34--34
+[]|\T1/ptm/m/n/10.95 2014.03.28. 18:00 | 
  []
 
 
-Underfull \hbox (badness 2818) in paragraph at lines 51--51
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 44--44
+[]|\T1/ptm/m/n/10.95 2014.03.29. 14:00 | 
+ []
+
+
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 50--50
+[]|\T1/ptm/m/n/10.95 2014.03.30. 17:00 | 
+ []
+
+
+Underfull \hbox (badness 2818) in paragraph at lines 50--50
 []|\T1/ptm/m/n/10.95 Kimeneti nyelv spe-ci-fi-k�-l�sa, teszt-esetek
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--75
-[]|\T1/ptm/m/n/10.95 2014.03.31.
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 56--56
+[]|\T1/ptm/m/n/10.95 2014.03.28. 19:00 | 
  []
 
 
-Package longtable Warning: Column widths have changed
-(longtable)                in table \relax 7.19 on input line 78.
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 62--62
+[]|\T1/ptm/m/n/10.95 2014.03.30. 15:30 | 
+ []
+
+
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 68--68
+[]|\T1/ptm/m/n/10.95 2014.03.30. 22:00 | 
+ []
+
+
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 74--74
+[]|\T1/ptm/m/n/10.95 2014.03.31. 00:30 | 
+ []
 
 )
 (D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
-chapter08/sablon08.tex [93]
+chapter08/sablon08.tex [99]
 fejezet 8.
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
@@ -2580,95 +2681,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
-[94
+[100
 
 
 ]
-! Illegal parameter number in definition of \GetTitleStringResult.
-<to be read again> 
-                   h
-l.57 \item[#health: int]
-                         Életerejét tárolja ebben. Hurt függvényben cs�...
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \GTS@GlobalString.
-<to be read again> 
-                   h
-l.57 \item[#health: int]
-                         Életerejét tárolja ebben. Hurt függvényben cs�...
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! You can't use `macro parameter character #' in restricted horizontal mode.
-<argument> ##
-             health: int
-l.57 \item[#health: int]
-                         Életerejét tárolja ebben. Hurt függvényben cs�...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! Illegal parameter number in definition of \GetTitleStringResult.
-<to be read again> 
-                   m
-l.58 \item[#myPath: Path]
-                          Az a mező, ahol tartózkodik.
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \GTS@GlobalString.
-<to be read again> 
-                   m
-l.58 \item[#myPath: Path]
-                          Az a mező, ahol tartózkodik.
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! You can't use `macro parameter character #' in restricted horizontal mode.
-<argument> ##
-             myPath: Path
-l.58 \item[#myPath: Path]
-                          Az a mező, ahol tartózkodik.
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! Illegal parameter number in definition of \GetTitleStringResult.
-<to be read again> 
-                   i
-l.59 \item[#igame: IGame]
-                          Ezen keresztül tudja módosítani a manát, amiko...
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! Illegal parameter number in definition of \GTS@GlobalString.
-<to be read again> 
-                   i
-l.59 \item[#igame: IGame]
-                          Ezen keresztül tudja módosítani a manát, amiko...
-You meant to type ## instead of #, right?
-Or maybe a } was forgotten somewhere earlier, and things
-are all screwed up? I'm going to assume that you meant ##.
-
-! You can't use `macro parameter character #' in restricted horizontal mode.
-<argument> ##
-             igame: IGame
-l.59 \item[#igame: IGame]
-                          Ezen keresztül tudja módosítani a manát, amiko...
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 62--63
 
  []
@@ -2683,7 +2699,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 100--101
 
  []
 
-[95]
+[101]
 Underfull \hbox (badness 10000) in paragraph at lines 116--117
 
  []
@@ -2699,7 +2715,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 137--138
 
  []
 
-[96]
+[102]
 Underfull \hbox (badness 10000) in paragraph at lines 146--147
 
  []
@@ -2724,7 +2740,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 194--195
 
  []
 
-[97]
+[103]
 Underfull \hbox (badness 10000) in paragraph at lines 210--211
 
  []
@@ -2744,7 +2760,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 254--255
 
  []
 
-[98]
+[104]
 Underfull \hbox (badness 10000) in paragraph at lines 277--278
 
  []
@@ -2754,7 +2770,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 291--292
 
  []
 
-[99]
+[105]
 Underfull \hbox (badness 10000) in paragraph at lines 310--311
 
  []
@@ -2764,7 +2780,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 319--320
 
  []
 
-[100]
+[106]
 Underfull \hbox (badness 10000) in paragraph at lines 347--348
 
  []
@@ -2784,7 +2800,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 380--381
 
  []
 
-[101]
+[107]
 Underfull \hbox (badness 10000) in paragraph at lines 405--406
 
  []
@@ -2799,7 +2815,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 441--442
 
  []
 
-[102]
+[108]
 Underfull \hbox (badness 10000) in paragraph at lines 446--447
 
  []
@@ -2830,7 +2846,7 @@ Overfull \hbox (7.75598pt too wide) in paragraph at lines 491--492
 l-lepz� upgrade...
  []
 
-[103]
+[109]
 Underfull \hbox (badness 10000) in paragraph at lines 502--503
 
  []
@@ -2854,7 +2870,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 546--547
 
  []
 
-[104]
+[110]
 LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <9> not available
 (Font)              Font shape `T1/pcr/b/n' tried instead on input line 560.
 
@@ -2867,7 +2883,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 608--609
 
  []
 
-[105]
+[111]
 Underfull \hbox (badness 10000) in paragraph at lines 616--617
 
  []
@@ -2882,7 +2898,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 664--665
 
  []
 
-[106]
+[112]
 Underfull \hbox (badness 10000) in paragraph at lines 672--673
 
  []
@@ -2897,7 +2913,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 716--717
 
  []
 
-[107]
+[113]
 Underfull \hbox (badness 10000) in paragraph at lines 726--727
 
  []
@@ -2907,7 +2923,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 740--741
 
  []
 
-[108])
+[114])
 (D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
 chapter08/naplo08.tex
 Overfull \hbox (1.44955pt too wide) in paragraph at lines 11--11
@@ -2915,22 +2931,18 @@ Overfull \hbox (1.44955pt too wide) in paragraph at lines 11--11
  []
 
 
-Underfull \hbox (badness 2495) in paragraph at lines 30--30
-[]|\T1/ptm/m/n/10.95 Tev�kenys�g Tesz-te-set meg-�r�sa Ki-me-neti
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 33--33
+[]|\T1/ptm/m/n/10.95 2014.04.05. 21:40 | 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--44
-[]|\T1/ptm/m/n/10.95 2014.04.07.
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 40--40
+[]|\T1/ptm/m/n/10.95 2014.04.07. 00:30 | 
  []
-
-
-Package longtable Warning: Column widths have changed
-(longtable)                in table \relax 8.1 on input line 46.
 
 )
 (D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
-chapter10/sablon10.tex [109]
+chapter10/sablon10.tex [115]
 fejezet 10.
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
@@ -2941,21 +2953,16 @@ Overfull \hbox (11.55765pt too wide) in paragraph at lines 199--199
 []|\T1/ptm/m/n/10 txtComparer/TxtComparer.java| 
  []
 
-[110
+[116
 
 
 ]
-
-Package longtable Warning: Column widths have changed
-(longtable)                in table \relax 10.1 on input line 303.
-
-
 Overfull \hbox (16.91983pt too wide) in paragraph at lines 330--331
 []\T1/ptm/m/n/10.95 Az adott batch f�j-lok se-g�t-s�-g�-vel le-het-s�-ges le-fo
 r-d�-tani �s fut-tatni a pro-to-t�-pust: eh-hez a ProtoCompileAndRun.bat-
  []
 
-[111]
+[117]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 358.
@@ -2984,7 +2991,7 @@ Underfull \vbox (badness 10000) detected at line 389
 Underfull \vbox (badness 10000) detected at line 396
  []
 
-[112]
+[118]
 Underfull \vbox (badness 10000) detected at line 403
  []
 
@@ -2996,40 +3003,92 @@ Underfull \vbox (badness 10000) detected at line 409
 Underfull \vbox (badness 10000) detected at line 416
  []
 
-
-Package longtable Warning: Column widths have changed
-(longtable)                in table \relax 10.11 on input line 439.
-
 )
 (D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
 chapter10/naplo10.tex
-Underfull \hbox (badness 10000) in paragraph at lines 58--58
-[]|\T1/ptm/b/n/10.95 Elekes Fuksz
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 16--16
+[]|\T1/ptm/m/n/10.95 2014.04.09. 08:15 | 
  []
 
 
-Underfull \hbox (badness 4048) in paragraph at lines 70--70
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 22--22
+[]|\T1/ptm/m/n/10.95 2014.04.09. 10:00 | 
+ []
+
+
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 28--28
+[]|\T1/ptm/m/n/10.95 2014.04.09. 12:00 | 
+ []
+
+
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 34--34
+[]|\T1/ptm/m/n/10.95 2014.04.09. 14:00 | 
+ []
+
+
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 40--40
+[]|\T1/ptm/m/n/10.95 2014.04.12. 20:00 | 
+ []
+
+
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 46--46
+[]|\T1/ptm/m/n/10.95 2014.04.18. 14:30 | 
+ []
+
+
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 56--56
+[]|\T1/ptm/m/n/10.95 2014.04.20. 20:00 | 
+ []
+
+
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 62--62
+[]|\T1/ptm/m/n/10.95 2014.04.20. 20:00 | 
+ []
+
+
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 68--68
+[]|\T1/ptm/m/n/10.95 2014.04.20. 20:00 | 
+ []
+
+
+Underfull \hbox (badness 4048) in paragraph at lines 68--68
 []|\T1/ptm/m/n/10.95 Enemy �s le-sz�r-ma-zot-ta-i-nak hi-ba-ja-v�-t�sa,
  []
 
 
-Underfull \hbox (badness 1189) in paragraph at lines 70--70
+Underfull \hbox (badness 1189) in paragraph at lines 68--68
 \T1/ptm/m/n/10.95 sz�-veg-f�jl �ssze-ha-son-l�t� prog-ram el-k�-sz�-
  []
 
 
-Package longtable Warning: Column widths have changed
-(longtable)                in table \relax 10.12 on input line 97.
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 74--74
+[]|\T1/ptm/m/n/10.95 2014.04.21. 12:30 | 
+ []
 
-[113])
+
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 80--80
+[]|\T1/ptm/m/n/10.95 2014.04.21. 14:00 | 
+ []
+
+
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 86--86
+[]|\T1/ptm/m/n/10.95 2014.04.21. 20:00 | 
+ []
+
+
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 92--92
+[]|\T1/ptm/m/n/10.95 2014.04.22. 00:00 | 
+ []
+
+[119])
 (D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
-chapter11/sablon11.tex [114]
+chapter11/sablon11.tex [120]
 fejezet 11.
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 8.
 
-<chapters/chapter11/images/GraphicPlans.jpg, id=673, 2007.5pt x 1907.125pt>
+<chapters/chapter11/images/GraphicPlans.jpg, id=1794, 2007.5pt x 1907.125pt>
 File: chapters/chapter11/images/GraphicPlans.jpg Graphic file (type jpg)
 
 <use chapters/chapter11/images/GraphicPlans.jpg>
@@ -3037,14 +3096,14 @@ Package pdftex.def Info: chapters/chapter11/images/GraphicPlans.jpg used on inp
 ut line 13.
 (pdftex.def)             Requested size: 483.69684pt x 459.49448pt.
 
-<chapters/chapter11/images/GraphClassesD.jpg, id=674, 823.075pt x 636.3775pt>
+<chapters/chapter11/images/GraphClassesD.jpg, id=1795, 823.075pt x 636.3775pt>
 File: chapters/chapter11/images/GraphClassesD.jpg Graphic file (type jpg)
 
 <use chapters/chapter11/images/GraphClassesD.jpg>
 Package pdftex.def Info: chapters/chapter11/images/GraphClassesD.jpg used on in
 put line 24.
 (pdftex.def)             Requested size: 483.69684pt x 373.9835pt.
- [115
+ [121
 
 
  <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapters
@@ -3054,19 +3113,20 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 30.
 
 
-<chapters/chapter11/images/SimaClassDiag.jpg, id=681, 1540.75626pt x 1838.87pt>
+<chapters/chapter11/images/SimaClassDiag.jpg, id=1801, 1540.75626pt x 1838.87pt
+>
 File: chapters/chapter11/images/SimaClassDiag.jpg Graphic file (type jpg)
-<use chapters/chapter11/images/SimaClassDiag.jpg>
+ <use chapters/chapter11/images/SimaClassDiag.jpg>
 Package pdftex.def Info: chapters/chapter11/images/SimaClassDiag.jpg used on in
 put line 51.
 (pdftex.def)             Requested size: 483.69684pt x 577.283pt.
- [116 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/cha
+ [122 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/cha
 pters/chapter11/images/GraphClassesD.jpg>]
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 61.
 
-[117 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+[123 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
 ters/chapter11/images/SimaClassDiag.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 69--70
 
@@ -3092,7 +3152,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
 
-[118]
+[124]
 Underfull \hbox (badness 10000) in paragraph at lines 109--110
 
  []
@@ -3122,7 +3182,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 146--147
 
  []
 
-[119]
+[125]
 Underfull \hbox (badness 10000) in paragraph at lines 160--161
 
  []
@@ -3137,7 +3197,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 184--185
 
  []
 
-[120]
+[126]
 Underfull \hbox (badness 10000) in paragraph at lines 201--202
 
  []
@@ -3167,105 +3227,105 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 238.
 
 
-<chapters/chapter11/images/Akadaly_elhelyezese.jpg, id=704, 528.97626pt x 272.0
-1625pt>
+<chapters/chapter11/images/Akadaly_elhelyezese.jpg, id=1822, 528.97626pt x 272.
+01625pt>
 File: chapters/chapter11/images/Akadaly_elhelyezese.jpg Graphic file (type jpg)
 
  <use chapters/chapter11/images/Akadaly_elhelyezese.jpg>
 Package pdftex.def Info: chapters/chapter11/images/Akadaly_elhelyezese.jpg used
  on input line 241.
 (pdftex.def)             Requested size: 483.69684pt x 248.7347pt.
- [121]
-<chapters/chapter11/images/Akadaly_javitasa.jpg, id=710, 386.19281pt x 220.5740
-7pt>
+ [127]
+<chapters/chapter11/images/Akadaly_javitasa.jpg, id=1828, 386.19281pt x 220.574
+07pt>
 File: chapters/chapter11/images/Akadaly_javitasa.jpg Graphic file (type jpg)
  <use chapters/chapter11/images/Akadaly_javitasa.jpg>
 Package pdftex.def Info: chapters/chapter11/images/Akadaly_javitasa.jpg used on
  input line 250.
 (pdftex.def)             Requested size: 483.69684pt x 276.26549pt.
- [122 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/cha
+ [128 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/cha
 pters/chapter11/images/Akadaly_elhelyezese.jpg>]
-<chapters/chapter11/images/Akadaly_torlodese.jpg, id=716, 528.97626pt x 272.016
-25pt>
+<chapters/chapter11/images/Akadaly_torlodese.jpg, id=1833, 528.97626pt x 272.01
+625pt>
 File: chapters/chapter11/images/Akadaly_torlodese.jpg Graphic file (type jpg)
  <use chapters/chapter11/images/Akadaly_torlodese.jpg>
 Package pdftex.def Info: chapters/chapter11/images/Akadaly_torlodese.jpg used o
 n input line 259.
 (pdftex.def)             Requested size: 483.69684pt x 248.7347pt.
 
-<chapters/chapter11/images/Betoltes.jpg, id=717, 574.145pt x 1043.9pt>
+<chapters/chapter11/images/Betoltes.jpg, id=1834, 574.145pt x 1043.9pt>
 File: chapters/chapter11/images/Betoltes.jpg Graphic file (type jpg)
 
 <use chapters/chapter11/images/Betoltes.jpg>
 Package pdftex.def Info: chapters/chapter11/images/Betoltes.jpg used on input l
 ine 268.
 (pdftex.def)             Requested size: 369.88582pt x 672.5378pt.
- [123 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/cha
+ [129 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/cha
 pters/chapter11/images/Akadaly_javitasa.jpg> <D:/FILES/Documents/GitHub/Dokumen
 taciok/Dokumentacio_latex/szoftlab4/chapters/chapter11/images/Akadaly_torlodese
 .jpg>]
 Overfull \vbox (51.45241pt too high) has occurred while \output is active []
 
 
-[124 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+[130 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
 ters/chapter11/images/Betoltes.jpg>]
-<chapters/chapter11/images/Ellenseg_beerkezik.jpg, id=726, 304.88907pt x 149.80
-97pt>
+<chapters/chapter11/images/Ellenseg_beerkezik.jpg, id=1843, 304.88907pt x 149.8
+097pt>
 File: chapters/chapter11/images/Ellenseg_beerkezik.jpg Graphic file (type jpg)
  <use chapters/chapter11/images/Ellenseg_beerkezik.jpg>
 Package pdftex.def Info: chapters/chapter11/images/Ellenseg_beerkezik.jpg used 
 on input line 277.
 (pdftex.def)             Requested size: 483.69684pt x 237.67735pt.
 
-<chapters/chapter11/images/Ellenseg_halala.jpg, id=727, 374.14781pt x 219.82124
-pt>
+<chapters/chapter11/images/Ellenseg_halala.jpg, id=1844, 374.14781pt x 219.8212
+4pt>
 File: chapters/chapter11/images/Ellenseg_halala.jpg Graphic file (type jpg)
  <use chapters/chapter11/images/Ellenseg_halala.jpg>
 Package pdftex.def Info: chapters/chapter11/images/Ellenseg_halala.jpg used on 
 input line 286.
 (pdftex.def)             Requested size: 483.69684pt x 284.1978pt.
 
-<chapters/chapter11/images/Ellenseg_lepese.jpg, id=728, 986.68625pt x 574.145pt
->
+<chapters/chapter11/images/Ellenseg_lepese.jpg, id=1845, 986.68625pt x 574.145p
+t>
 File: chapters/chapter11/images/Ellenseg_lepese.jpg Graphic file (type jpg)
  <use chapters/chapter11/images/Ellenseg_lepese.jpg>
 Package pdftex.def Info: chapters/chapter11/images/Ellenseg_lepese.jpg used on 
 input line 295.
 (pdftex.def)             Requested size: 483.69684pt x 281.46492pt.
- [125 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/cha
+ [131 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/cha
 pters/chapter11/images/Ellenseg_beerkezik.jpg> <D:/FILES/Documents/GitHub/Dokum
 entaciok/Dokumentacio_latex/szoftlab4/chapters/chapter11/images/Ellenseg_halala
 .jpg>]
-<chapters/chapter11/images/Ellenseg_letrehozasa.jpg, id=733, 460.72125pt x 404.
-51125pt>
+<chapters/chapter11/images/Ellenseg_letrehozasa.jpg, id=1850, 460.72125pt x 404
+.51125pt>
 File: chapters/chapter11/images/Ellenseg_letrehozasa.jpg Graphic file (type jpg
 )
  <use chapters/chapter11/images/Ellenseg_letrehozasa.jpg>
 Package pdftex.def Info: chapters/chapter11/images/Ellenseg_letrehozasa.jpg use
 d on input line 304.
 (pdftex.def)             Requested size: 483.69684pt x 424.68144pt.
- [126 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/cha
+ [132 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/cha
 pters/chapter11/images/Ellenseg_lepese.jpg>]
-<chapters/chapter11/images/Ellenseg_sebzese.jpg, id=738, 327.47343pt x 207.0234
-4pt>
+<chapters/chapter11/images/Ellenseg_sebzese.jpg, id=1855, 327.47343pt x 207.023
+44pt>
 File: chapters/chapter11/images/Ellenseg_sebzese.jpg Graphic file (type jpg)
  <use chapters/chapter11/images/Ellenseg_sebzese.jpg>
 Package pdftex.def Info: chapters/chapter11/images/Ellenseg_sebzese.jpg used on
  input line 313.
 (pdftex.def)             Requested size: 483.69684pt x 305.78651pt.
- [127 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/cha
+ [133 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/cha
 pters/chapter11/images/Ellenseg_letrehozasa.jpg>]
-<chapters/chapter11/images/Torony_elhelyezese.jpg, id=744, 528.97626pt x 272.01
-625pt>
+<chapters/chapter11/images/Torony_elhelyezese.jpg, id=1861, 528.97626pt x 272.0
+1625pt>
 File: chapters/chapter11/images/Torony_elhelyezese.jpg Graphic file (type jpg)
  <use chapters/chapter11/images/Torony_elhelyezese.jpg>
 Package pdftex.def Info: chapters/chapter11/images/Torony_elhelyezese.jpg used 
 on input line 322.
 (pdftex.def)             Requested size: 483.69684pt x 248.7347pt.
- [128 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/cha
+ [134 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/cha
 pters/chapter11/images/Ellenseg_sebzese.jpg>]
-<chapters/chapter11/images/Torony_fejlesztese_ellenseg_tipusra.jpg, id=749, 376
-.40625pt x 219.82124pt>
+<chapters/chapter11/images/Torony_fejlesztese_ellenseg_tipusra.jpg, id=1866, 37
+6.40625pt x 219.82124pt>
 File: chapters/chapter11/images/Torony_fejlesztese_ellenseg_tipusra.jpg Graphic
  file (type jpg)
 
@@ -3274,19 +3334,19 @@ Package pdftex.def Info: chapters/chapter11/images/Torony_fejlesztese_ellenseg_
 tipusra.jpg used on input line 331.
 (pdftex.def)             Requested size: 483.69684pt x 282.50058pt.
 
-<chapters/chapter11/images/Torony_torlodese.jpg, id=750, 528.97626pt x 272.0162
-5pt>
+<chapters/chapter11/images/Torony_torlodese.jpg, id=1867, 528.97626pt x 272.016
+25pt>
 File: chapters/chapter11/images/Torony_torlodese.jpg Graphic file (type jpg)
  <use chapters/chapter11/images/Torony_torlodese.jpg>
 Package pdftex.def Info: chapters/chapter11/images/Torony_torlodese.jpg used on
  input line 340.
 (pdftex.def)             Requested size: 483.69684pt x 248.7347pt.
- [129 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/cha
+ [135 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/cha
 pters/chapter11/images/Torony_elhelyezese.jpg> <D:/FILES/Documents/GitHub/Dokum
 entaciok/Dokumentacio_latex/szoftlab4/chapters/chapter11/images/Torony_fejleszt
 ese_ellenseg_tipusra.jpg>]
-<chapters/chapter11/images/Varazsero_valtozasa.jpg, id=755, 293.59688pt x 152.8
-2094pt>
+<chapters/chapter11/images/Varazsero_valtozasa.jpg, id=1872, 293.59688pt x 152.
+82094pt>
 File: chapters/chapter11/images/Varazsero_valtozasa.jpg Graphic file (type jpg)
 
  <use chapters/chapter11/images/Varazsero_valtozasa.jpg>
@@ -3295,964 +3355,159 @@ Package pdftex.def Info: chapters/chapter11/images/Varazsero_valtozasa.jpg used
 (pdftex.def)             Requested size: 483.69684pt x 251.77052pt.
 )
 (D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
-chapter11/naplo11.tex
-Underfull \hbox (badness 10000) in paragraph at lines 17--17
-[]|\T1/ptm/b/n/10.95 Elekes Fuksz
- []
-
-[130 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
-ters/chapter11/images/Torony_torlodese.jpg> <D:/FILES/Documents/GitHub/Dokument
-aciok/Dokumentacio_latex/szoftlab4/chapters/chapter11/images/Varazsero_valtozas
-a.jpg>]
-
-Package longtable Warning: Column widths have changed
-(longtable)                in table \relax 11.1 on input line 57.
-
-)
+chapter11/naplo11.tex [136 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentaci
+o_latex/szoftlab4/chapters/chapter11/images/Torony_torlodese.jpg> <D:/FILES/Doc
+uments/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapters/chapter11/ima
+ges/Varazsero_valtozasa.jpg>])
 (D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
-chapter13/sablon13.tex [131]
+chapter13/sablon13.tex [137]
 fejezet 13.
 
 Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 8.
 
 
-Package longtable Warning: Column widths have changed
-(longtable)                in table \relax 13.1 on input line 27.
-
-! Argument of \tag has an extra }.
-<inserted text> 
-                \par 
-l.52 \tag
-         {Német}
-I've run across a `}' that doesn't seem to match anything.
-For example, `\def\a#1{...}' and `\a}' would produce
-this error. If you simply proceed now, the `\par' that
-I've just inserted will cause me to report a runaway
-argument that might be the root of the problem. But if
-your `}' was spurious, just type `2' and it will go away.
-
-Runaway argument?
-! Paragraph ended before \tag was complete.
-<to be read again> 
-                   \par 
-l.52 \tag
-         {Német}
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.52 \tag
-         {Német}
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.52 \tag
-         {Német}
-I'm guessing that you meant to end an alignment here.
-
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.52 \tag
-         {Német}
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.52 \tag
-         {Német}
-I'm guessing that you meant to end an alignment here.
-
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.52 \tag
-         {Német}
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.52 \tag
-         {Német}
-I'm guessing that you meant to end an alignment here.
-
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.52 \tag
-         {Német}
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.52 \tag
-         {Német}
-I'm guessing that you meant to end an alignment here.
-
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.52 \tag
-         {Német}
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.52 \tag
-         {Német}
-I'm guessing that you meant to end an alignment here.
-
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.52 \tag
-         {Német}
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.52 \tag
-         {Német}
-I'm guessing that you meant to end an alignment here.
-
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.52 \tag
-         {Német}
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.52 \tag
-         {Német}
-I'm guessing that you meant to end an alignment here.
-
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.52 \tag
-         {Német}
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.52 \tag
-         {Német}
-I'm guessing that you meant to end an alignment here.
-
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.52 \tag
-         {Német}
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.52 \tag
-         {Német}
-I'm guessing that you meant to end an alignment here.
-
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.52 \tag
-         {Német}
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.52 \tag
-         {Német}
-I'm guessing that you meant to end an alignment here.
-
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.52 \tag
-         {Német}
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.52 \tag
-         {Német}
-I'm guessing that you meant to end an alignment here.
-
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.52 \tag
-         {Német}
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.52 \tag
-         {Német}
-I'm guessing that you meant to end an alignment here.
-
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.52 \tag
-         {Német}
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.52 \tag
-         {Német}
-I'm guessing that you meant to end an alignment here.
-
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.52 \tag
-         {Német}
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.52 \tag
-         {Német}
-I'm guessing that you meant to end an alignment here.
-
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.52 \tag
-         {Német}
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.52 \tag
-         {Német}
-I'm guessing that you meant to end an alignment here.
-
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.52 \tag
-         {Német}
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.52 \tag
-         {Német}
-I'm guessing that you meant to end an alignment here.
-
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.52 \tag
-         {Német}
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.52 \tag
-         {Német}
-I'm guessing that you meant to end an alignment here.
-
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.52 \tag
-         {Német}
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.52 \tag
-         {Német}
-I'm guessing that you meant to end an alignment here.
-
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.52 \tag
-         {Német}
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.52 \tag
-         {Német}
-I'm guessing that you meant to end an alignment here.
-
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.52 \tag
-         {Német}
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.52 \tag
-         {Német}
-I'm guessing that you meant to end an alignment here.
-
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.52 \tag
-         {Német}
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.52 \tag
-         {Német}
-I'm guessing that you meant to end an alignment here.
-
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.52 \tag
-         {Német}
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.52 \tag
-         {Német}
-I'm guessing that you meant to end an alignment here.
-
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.52 \tag
-         {Német}
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.52 \tag
-         {Német}
-I'm guessing that you meant to end an alignment here.
-
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.52 \tag
-         {Német}
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.52 \tag
-         {Német}
-I'm guessing that you meant to end an alignment here.
-
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.52 \tag
-         {Német}
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.52 \tag
-         {Német}
-I'm guessing that you meant to end an alignment here.
-
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.52 \tag
-         {Német}
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.52 \tag
-         {Német}
-I'm guessing that you meant to end an alignment here.
-
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.52 \tag
-         {Német}
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.52 \tag
-         {Német}
-I'm guessing that you meant to end an alignment here.
-
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.52 \tag
-         {Német}
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.52 \tag
-         {Német}
-I'm guessing that you meant to end an alignment here.
-
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.52 \tag
-         {Német}
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.52 \tag
-         {Német}
-I'm guessing that you meant to end an alignment here.
-
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.52 \tag
-         {Német}
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.52 \tag
-         {Német}
-I'm guessing that you meant to end an alignment here.
-
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.52 \tag
-         {Német}
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.52 \tag
-         {Német}
-I'm guessing that you meant to end an alignment here.
-
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.52 \tag
-         {Német}
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.52 \tag
-         {Német}
-I'm guessing that you meant to end an alignment here.
-
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.52 \tag
-         {Német}
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.52 \tag
-         {Német}
-I'm guessing that you meant to end an alignment here.
-
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.52 \tag
-         {Német}
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.52 \tag
-         {Német}
-I'm guessing that you meant to end an alignment here.
-
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.52 \tag
-         {Német}
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.52 \tag
-         {Német}
-I'm guessing that you meant to end an alignment here.
-
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.52 \tag
-         {Német}
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.52 \tag
-         {Német}
-I'm guessing that you meant to end an alignment here.
-
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.52 \tag
-         {Német}
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.52 \tag
-         {Német}
-I'm guessing that you meant to end an alignment here.
-
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.52 \tag
-         {Német}
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.52 \tag
-         {Német}
-I'm guessing that you meant to end an alignment here.
-
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.52 \tag
-         {Német}
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.52 \tag
-         {Német}
-I'm guessing that you meant to end an alignment here.
-
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.52 \tag
-         {Német}
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.52 \tag
-         {Német}
-I'm guessing that you meant to end an alignment here.
-
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.52 \tag
-         {Német}
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.52 \tag
-         {Német}
-I'm guessing that you meant to end an alignment here.
-
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.52 \tag
-         {Német}
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.52 \tag
-         {Német}
-I'm guessing that you meant to end an alignment here.
-
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.52 \tag
-         {Német}
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.52 \tag
-         {Német}
-I'm guessing that you meant to end an alignment here.
-
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.52 \tag
-         {Német}
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.52 \tag
-         {Német}
-I'm guessing that you meant to end an alignment here.
-
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.52 \tag
-         {Német}
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.52 \tag
-         {Német}
-I'm guessing that you meant to end an alignment here.
-
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.52 \tag
-         {Német}
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.52 \tag
-         {Német}
-I'm guessing that you meant to end an alignment here.
-
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.52 \tag
-         {Német}
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.52 \tag
-         {Német}
-I'm guessing that you meant to end an alignment here.
-
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.52 \tag
-         {Német}
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.52 \tag
-         {Német}
-I'm guessing that you meant to end an alignment here.
-
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.52 \tag
-         {Német}
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.52 \tag
-         {Német}
-I'm guessing that you meant to end an alignment here.
-
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.52 \tag
-         {Német}
-I can't figure out why you would want to use a tab mark
-or \cr or \span just now. If something like a right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-! Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.52 \tag
-         {Német}
-I'm guessing that you meant to end an alignment here.
-
-! Misplaced \cr.
-<inserted text> \cr 
-                    
-l.52 \tag
-         {Német}
-(That makes 100 errors; please try again.) 
+Overfull \hbox (2.55826pt too wide) in paragraph at lines 277--277
+[]|\T1/ptm/m/n/10 gameImages/game_over.jpeg| 
+ []
+
+
+Overfull \hbox (1.45795pt too wide) in paragraph at lines 385--385
+[]|\T1/ptm/m/n/10 GraphicCompileAndRun.bat| 
+ []
+
+[138
+
+
+]
+Overfull \hbox (26.62163pt too wide) in paragraph at lines 417--418
+[]\T1/ptm/m/n/10.95 Az adott batch f�j-lok se-g�t-s�-g�-vel le-het-s�-ges le-fo
+r-d�-tani �s fut-tatni a prog-ra-mot: eh-hez a GraphicCompileAndRun.bat-
+ []
+
+[139])
+(D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
+chapter13/naplo13.tex
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 19--19
+[]|\T1/ptm/m/n/10.95 2014.05.03. 13:00 | 
+ []
+
+
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 25--25
+[]|\T1/ptm/m/n/10.95 2014.05.05. 13:00 | 
+ []
+
+
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 31--31
+[]|\T1/ptm/m/n/10.95 2014.05.05. 19:00 | 
+ []
+
+
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 37--37
+[]|\T1/ptm/m/n/10.95 2014.05.06. 20:00 | 
+ []
+
+
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 43--43
+[]|\T1/ptm/m/n/10.95 2014.05.08. 12:00 | 
+ []
+
+
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 49--49
+[]|\T1/ptm/m/n/10.95 2014.05.09. 16:00 | 
+ []
+
+
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 55--55
+[]|\T1/ptm/m/n/10.95 2014.05.10. 15:00 | 
+ []
+
+
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 61--61
+[]|\T1/ptm/m/n/10.95 2014.05.10. 15:00 | 
+ []
+
+
+Overfull \hbox (1.44955pt too wide) in paragraph at lines 67--67
+[]|\T1/ptm/m/n/10.95 2014.05.11. 16:00 | 
+ []
+
+)
+(D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
+chapter14/sablon14.tex [140]
+fejezet 14.
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 8.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
+
+ []
+
+) [141
+
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 89.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 89.
+
+(D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\szoftlab4
+_all.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 89.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 89.
+Package rerunfilecheck Info: File `szoftlab4_all.out' has not changed.
+(rerunfilecheck)             Checksum: EFAD27E051925C79E51D633169F28AA1;49766.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 89.
+ ) 
 Here is how much of TeX's memory you used:
- 13619 strings out of 493921
- 209190 string characters out of 3144849
- 345171 words of memory out of 3000000
- 16367 multiletter control sequences out of 15000+200000
+ 13809 strings out of 493921
+ 214242 string characters out of 3144849
+ 362554 words of memory out of 3000000
+ 16518 multiletter control sequences out of 15000+200000
  49570 words of font info for 57 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  42i,12n,48p,1140b,1881s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrb8a.pfb><C:/Program Files (x8
+6)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x86)/MiKTeX
+ 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
+ts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/ur
+w/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utm
+ri8a.pfb>
+Output written on szoftlab4_all.pdf (141 pages, 8111951 bytes).
+PDF statistics:
+ 1988 PDF objects out of 2073 (max. 8388607)
+ 281 named destinations out of 1000 (max. 500000)
+ 2373 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-!  ==> Fatal error occurred, no output PDF file produced!
