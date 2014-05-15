@@ -19,13 +19,13 @@ Object
 \item Interfészek\\
 Nincs
 %\comment{Mely interfészeket valósítja meg.}
-\item Attribútumok\\
+\item Attribútumok
 %\comment{Milyen attribútumai vannak}
 	\begin{description}
 		\item[-damage: int] Az alapsebzés értéke. Ezt adják vissza a getDamage függvények, ha nincs fejlesztve az adott típusú Enemy-re a torony. 
 		\item[-enemyType: String] A torony itt tárolja, hogy melyik ellenség típusra erősebb a sebzése. 
 	\end{description}
-\item Metódusok\\
+\item Metódusok
 %\comment{Milyen publikus metódusokkal rendelkezik. Metódusonként egy-három mondat arról, hogy a metódus mit csinál.}
 	\begin{description}
 		\item[+Bullet(dmg: int, et: String)] Konstruktor
@@ -48,7 +48,7 @@ Az Enemy osztály felelőssége, hogy egy adott lövedék (Bullet) hatására se
 Object
 \item Interfészek\\
 IPathPlaceable
-\item Attribútumok\\
+\item Attribútumok
 	\begin{description}
 		\item[-speed: int] A két lépés között eltelt idő. static, final
 		\item[-maxHp: int] A maximális életerő értéke. static, final
@@ -59,7 +59,7 @@ IPathPlaceable
 \item[\#igame: IGame] Ezen keresztül tudja módosítani a manát, amikor meghal, illetve ha elér a végzet hegyére módosítani a számlálót (Game.succeededE), hogy nőjön egyel. 
 
 	\end{description}
-\item Metódusok\\
+\item Metódusok
 	\begin{description}
 		\item[+hurt(b: Bullet): void] Sebződést megvalósító metódus, abstract, minden Enemy-típusban máshogy implementálódik. 
 \item[+move(): void] mozog, a következő path-ra lép, cellát vált. 
@@ -80,7 +80,7 @@ Object $\rightarrow$ Enemy
 \item Interfészek\\
 IPathPlaceable
 
-\item Metódusok\\
+\item Metódusok
 	\begin{description}
 		\item[+hurt(b: Bullet): void] Sebződik, a kapott Bullet alapján getDamage... metódus által visszaadott értékkel csökkenti az életerejét. Ha elfogyott az életereje törli magát a pathról és az igame.enemiesIn-ből Ha 0-t kap, cut-ot hív. 
 		
@@ -97,7 +97,7 @@ A Game osztály felelőssége többek közt a játék ütemezése, az idő múl�
 Object
 \item Interfészek\\
 IGame
-\item Attribútumok\\
+\item Attribútumok
 	\begin{description}
 		\item[-map: Map] játék térképe
 \item[-enemiesOut: List<Enemy>] A pályára még be nem lépett ellenségek. Ezt töltjük meg újabb ellenség hullám generálásakor, majd fokozatosan kiürítjük és egyesével átírjuk a tartalmat az enemiesIn-be. 
@@ -113,7 +113,7 @@ IGame
 
 		
 	\end{description}
-\item Metódusok\\
+\item Metódusok
 	\begin{description}
 		\item[+update(): void] Frissíti a modellt, grafikát. X időközönként folyamatosan hívjuk. Belül az enemiesIn-en végighaladva minden elemen move-ot hívunk, towers-en ugyanígy shoot-ot, illetve ha kell, enemiesOut-ból betesszük a következő elemet. Random módon a towers elemein haze-t is hív. 
 \item[+initialize(String name): void] Kiinduló állapot felvétele. 
@@ -134,7 +134,7 @@ A felhasználó és a játék közötti kommunikációnak véghezvitele a felel�
 Object
 \item Interfészek\\
 Nincs
-\item Attribútumok\\
+\item Attribútumok
 	\begin{description}
 		\item[-igame: IGame] Szükséges függvények elérésére szolgál, hogy tudja módosítani a Game-et. 
 		\item[-chosenField: Field] Ha Field-et választ ki, ebben a változóban tárolja. 
@@ -143,7 +143,7 @@ Nincs
 
 		
 	\end{description}
-\item Metódusok\\
+\item Metódusok
 	\begin{description}
 		
 		\item[+buyTower(): void] Torony vételére szolgál. Létrehoz egy tornyot, beregisztrálja a chosenField-re. 
@@ -163,7 +163,7 @@ Nincs
 \item Felelősség\\
 Az IGame interfész szolgáltatást nyújt az akadályoknak, tornyoknak, ellenségeknek, hogy rajta keresztül manát írjanak jóvá/csökkentsenek, illetve ellenségek esetén a végzet hegyét elért ellenségek számát módosítsák. Speciális interfész a Game osztályhoz. 
 
-\item Metódusok\\
+\item Metódusok
 	\begin{description}
 		\item[+changeMana(): void] A manát megváltoztató metódus. 
 \item[+incSucceeded(): void] A succeededE értékét megváltoztató metódus.
@@ -187,11 +187,11 @@ A Gem osztály felel a torony fejlesztéséért. Ha a játékos vesz a toronyra/
 Object
 \item Interfészek\\
 Nincs
-\item Attribútumok\\
+\item Attribútumok
 	\begin{description}
 		\item[+price: int] Az ár, amennyi varázserőbe kerül. static, final
 	\end{description}
-\item Metódusok\\
+\item Metódusok
 	\begin{description}
 		
 		\item[+Gem(price: int)] Konstruktor. 
@@ -207,7 +207,7 @@ Olyan metódusok használatát teszi lehetővé, amelyek az Obstacle típusú el
 \item Ősosztályok\\
 Nincs
 
-\item Metódusok\\
+\item Metódusok
 	\begin{description}
 		\item[+slow(intesity: int, p: Path): void] Szól p-nek, hogy lassítsa le az ellenséget intensity-vel. 
 \item[+amortization(): void] Amortizál, csökkenti amort értékét. 
@@ -229,7 +229,7 @@ Az Obstacle osztály felelőssége egyrészt az, hogy amikor áthalad rajta egy 
 Nincs
 \item Interfészek\\
 IObsacle, IPathPlaceable
-\item Attribútumok\\
+\item Attribútumok
 	\begin{description}
 	\item[-slowIntens: int] A lassítás mértéke. 
 \item[-myPath: Path] A path, amin rajta van. 
@@ -239,7 +239,7 @@ IObsacle, IPathPlaceable
 
 
 	\end{description}
-\item Metódusok\\
+\item Metódusok
 	\begin{description}
 		
 		\item[+Obstacle()] Konstruktor. 
@@ -251,7 +251,7 @@ IObsacle, IPathPlaceable
 \begin{itemize}
 \item Felelősség\\
 A torony funkciói vannak benne. Egy olyan interfész, amin keresztül a tornyok kezelhető.
-\item Metódusok\\
+\item Metódusok
 	\begin{description}
 		\item[+setPaths(): void] A myField-ből kiindulva a range-el lefedett területen felkeresi, és beregisztrálja a paths listába a path cellákat. 
 \item[+shoot(): void] A torony akkor lő, ha letelt az újratöltési idő, ekkor megnézi, hogy lőtávon belül van-e ellenség, és ha van meghívja a hurt függvényét, átadva paraméterként a bullet-et. 
@@ -274,7 +274,7 @@ Az egyetlen tervezett toronytípus, le lehet rakni a pályán az úton kívül b
 Nincs
 \item Interfészek\\
 ITower, IFieldPlaceable
-\item Attribútumok\\
+\item Attribútumok
 	\begin{description}
 		\item[+price: int] Az ára varázserőben. static, final
 \item[-range: int] Lőtáv, hatókör.
@@ -288,7 +288,7 @@ ITower, IFieldPlaceable
 \item[-igame: IGame] Egy interfész a játék logikára, amivel a bejutott ellenségek számát, és a varázserőt is lehet állítani.  
 
 	\end{description}
-\item Metódusok\\
+\item Metódusok
 	\begin{description}
 		\item[+Tower(igame: IGame)] Konstruktor. 
 \item[+upgradeSpeed(sp: int): void] Fejleszti a lövési sebességét. 
@@ -307,7 +307,7 @@ A Map osztály a játéktér elemeit, mint cellák tárolja, egy két dimenziós
 Nincs
 \item Interfészek\\
 Nincs
-\item Attribútumok\\
+\item Attribútumok
 	\begin{description}
 		\item[-name: String] A pálya neve, egyben az azonosítója. 
 		\item[-level: int] A pálya szintje. 
@@ -316,7 +316,7 @@ Nincs
 
 		
 	\end{description}
-\item Metódusok\\
+\item Metódusok
 	\begin{description}
 		
 		\item[+Map(igame: IGame)] Az osztály konstruktora. 
@@ -344,14 +344,14 @@ A Cell a pálya egy egységét reprezentáló osztály. Létrehozásakor megkapj
 Nincs
 \item Interfészek\\
 Nincs
-\item Attribútumok\\
+\item Attribútumok
 	\begin{description}
 		\item[-neighbours: Array<Cell>]: 4 elemű tömb, tárolja 4 irányban a szomszédjai referenciáját.  
 		
 
 		
 	\end{description}
-\item Metódusok\\
+\item Metódusok
 	\begin{description}
 		
 		\item[+Cell(+cells: Array<Cell>, igame: IGame)] Konstruktor, paraméterként kapja a szomszédos mezők referenciáit. 
@@ -370,14 +370,14 @@ A Field osztály a Cell osztály leszérmazottja. A nem út típusú cellákat (
 Object $\rightarrow$ Cell
 \item Interfészek\\
 Nincs
-\item Attribútumok\\
+\item Attribútumok
 	\begin{description}
 		\item[-itower: ITower] A mezőn álló torony interfészű elem tárolása.  
 		\item[-igame: IGame]: Referencia Game interfészéhez.
 
 		
 	\end{description}
-\item Metódusok\\
+\item Metódusok
 	\begin{description}
 		
 		
@@ -402,7 +402,7 @@ A Path a Cell osztály leszármazottja. Az út típusú cellákat reprezentálja
 Object $\rightarrow$ Cell
 \item Interfészek\\
 Nincs
-\item Attribútumok\\
+\item Attribútumok
 	\begin{description}
 		\item[-iobstacle: IObstacle] Az esetleg az úton levő akadályt tárolja. 
 		\item[-enemies: ArrayList<Enemy>] Az éppen áthaladó ellenségek listája. 
@@ -410,7 +410,7 @@ Nincs
 
 		
 	\end{description}
-\item Metódusok\\
+\item Metódusok
 	\begin{description} 
 		\item[+isPath(): bool] Igaz értékkel tér vissza. 
 		\item[+deleteIPathPlaceable(ipath: IPathPlaceable): void] Kitörli a tárolójából a paraméterként kapott referenciával megegyező tárolt referenciát. 
@@ -438,12 +438,12 @@ A torony lövésének hatósugarát, gyorsítását, sebzését, ellenféltípus
 Object $\rightarrow$ Gem
 \item Interfészek\\
 ITGem
-\item Attribútumok\\
+\item Attribútumok
 	\begin{description}
 		\item[-range/ speed/ damage/ eType: int/ int/ int/ String] A kristálynak megfelelő attribútum, amin fejleszt. 
 		
 	\end{description}
-\item Metódusok\\
+\item Metódusok
 	\begin{description}
 		\item[Konstruktorok]
 		
@@ -458,13 +458,13 @@ Object $\rightarrow$ Gem
 \item Interfészek\\
 IOGem
 
-\item Attribútumok\\
+\item Attribútumok
 	\begin{description}
 		\item[-intensity: int] Az intensityGem-hez tartozik, intensity értékét állítja az obstacle-ben. A repairGem-nek nincs attribútuma. 
 		
 		
 	\end{description}
-\item Metódusok\\
+\item Metódusok
 	\begin{description}
 		\item[Konstruktorok]
 		
@@ -475,7 +475,7 @@ IOGem
 \item Felelősség\\
 Akadályra helyezhető kristályok interfésze.
 
-\item Metódusok\\
+\item Metódusok
 	\begin{description}
 		\item[+upgradeObstacle(o: Obstacle): void] A kapott akadályt fejleszti. Meghívja a kristályra jellemző, obstacle-ben lévő fejlesztő függvényt. 
 		
@@ -486,7 +486,7 @@ Akadályra helyezhető kristályok interfésze.
 \item Felelősség\\
 Toronyra illeszthető kristályok interfésze.
 
-\item Metódusok\\
+\item Metódusok
 	\begin{description}
 		\item[+upgradeTower(t: Tower): void] Fejleszti a kapott t tornyot magával. Meghívja a rá jellepző upgrade...  tower metódust. 
 \item[+getValue(): int] Visszaad egy, a torony árával képzett értéket, a torony eladásakor jóváírandó mana érték kiszámításához.
@@ -499,7 +499,7 @@ Toronyra illeszthető kristályok interfésze.
 \item Felelősség\\
 Interfész a mezőre helyezhető osztályok számára. Azonosítja azokat az objektumokat, amelyeket csak a mező típusú pályaelem tartalmazhat.
 
-\item Metódusok\\
+\item Metódusok
 	\begin{description}
 		\item[+registerField(field: Field): void] A mezőre helyezhető objektumnak megadja  paraméterben annak a mezőnek a referenciáját, amelyikre helyezve lesz. 
 
@@ -512,7 +512,7 @@ Interfész a mezőre helyezhető osztályok számára. Azonosítja azokat az obj
 \item Felelősség\\
 Interfész az útra helyezhető osztályok számára. Azonosítja azokat az objektumokat, amelyeket csak az út típusú pályaelem tartalmazhat.
 
-\item Metódusok\\
+\item Metódusok
 	\begin{description}
 		\item[+eliminate(p: Path): void] Az útra helyezhető objektum eltávolítása az útról (p-ről). 
 \item[+registerPath(p: Path): void] Az útra helyezhető objektumnak megadja paraméterben annak az útnak a referenciáját, amelyikre helyezve lesz. 

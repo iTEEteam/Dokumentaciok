@@ -66,12 +66,12 @@ A GPath felel a Path osztály megjelenítéséért, kirajzolásáért. Minden Pa
 Object, Graphic abstract
 \item Interfészek\\
 IView
-\item Attribútumok\\
+\item Attribútumok
 	\begin{description}
 		\item[-path: Path] Referencia arra az útra, amelyikhez tartozik. Ezen keresztül kérheti le a szükséges adatokat a modellből.
 		\item[-gEnemies: ArrayList<GEnemy>] Az path enemies-hez tartozó GEnemy-k listája.
 \end{description}
-\item Metódusok\\
+\item Metódusok
 	\begin{description}
 		\item[+drawGHuman/GHobbit/GElf/GDwarf: void] A különböző GEnemy-khez tartozó rajzoló függvény.
 		\item[+getPath(): Path] Getter path-hoz
@@ -87,11 +87,11 @@ A GField felel a Field osztály megjelenítéséért, kirajzolásáért. Minden 
 Object, Graphic abstract
 \item Interfészek\\
 IView
-\item Attribútumok\\
+\item Attribútumok
 	\begin{description}
 		\item[-field: Field] Referencia arra  mezőre, amelyikhez tartozik. Ezen keresztül kérheti le a szükséges adatokat a modellből.
 \end{description}
-\item Metódusok\\
+\item Metódusok
 	\begin{description}
 		\item[+getField(): void] Getter fieldhez.
 		\item[+GField(f: Field)] Konstruktor.
@@ -106,12 +106,12 @@ A GGame felel a Game osztály megjelenítéséért. Elsősorban a felső sávér
 Object, Graphic abstract
 \item Interfészek\\
 IView
-\item Attribútumok\\
+\item Attribútumok
 	\begin{description}
 		\item[-game: Game] A Game referencia, ami ahhoz kell, hogy meg tudja jeleníteni az adatokat.
 		\item[-gEnemies] ArrayList<GEnemy>: A Game enemiesIn és enemiesOut-ban lévő Enemy-khez tartozó megjelenítők listája. 
 \end{description}
-\item Metódusok\\
+\item Metódusok
 	\begin{description}
 		\item[+getGame()] Game: Getter game-hez.
 		\item[+GGame(g: Game)] Konstruktor.
@@ -126,11 +126,11 @@ A GEnemy felel azért, hogy a GPath tudja, hogy milyen típusú Enemy-ket kell r
 Object
 \item Interfészek\\
 Nincs
-\item Attribútumok\\
+\item Attribútumok
 	\begin{description}
 		\item[-enemy: Enemy] Ez a hivatkozási pont a modellbeli Enemy-re.
 \end{description}
-\item Metódusok\\
+\item Metódusok
 	\begin{description}
 		\item[+drawMe(gp: GPath): void] Ez a metódus gondoskodik arról, hogy a megfelelő típusú Enemy kirajzolása történjen meg a Path-on. Visszahívja gp az enemy típusának megfelelő drawXXX() metódust.
 		\item[+GEnemy(e: Enemy)] Konstruktor.
@@ -139,11 +139,11 @@ Nincs
 
 \subsection{Controller}
 \begin{itemize}
-\item Attribútumok\\
+\item Attribútumok
 	\begin{description}
 		\item[-iview: IView] Interfész az értesítéshez.
 \end{description}
-\item Metódusok\\
+\item Metódusok
 	\begin{description}
 		\item[+getIView()] IView: Getter az iview-hoz.
 	\end{description}
@@ -157,14 +157,14 @@ A GController irányítja a grafikus elemeket, végzi a felhasználói interakci
 Object, Graphic abstract
 \item Interfészek\\
 IView
-\item Attribútumok\\
+\item Attribútumok
 	\begin{description}
 		\item[-control: Controller] Ez a hivatkozási pont a modellhez.
 		\item[-chosenGPath: Path] A kijelölt út, pl akadály vétele.
 		\item[-chosenGField: Field] A kijelölt mező, pl torony vétele.
 		\item[-ggame: GGame] Ez a hivatkozási pont a grafika másik részéhez.
 \end{description}
-\item Metódusok\\
+\item Metódusok
 	\begin{description}
 		\item[+set chosenGField/GPath(gf/gp GField/GPath)] void: GField/GPath setter.
 		\item[+get chosenGField/GPath(): void] GField/GPath getter.
@@ -181,7 +181,7 @@ Az IView interfész teremt kapcsolatot a modellből a grafikus felület felé. S
 Nincs
 \item Interfészek\\
 Nincs
-\item Metódusok\\
+\item Metódusok
 	\begin{description}
 		\item[+notify()] void: Alap értesítő metódus.
 		\item[+addGEnemy(ge: GEnemy)] void: Hozzáadunk az iview-hoz egy GEnemy-t.
@@ -198,7 +198,7 @@ Az Graphic a rajzoló abstract ősosztály. Különböző rajzolásokat tesz leh
 Nincs
 \item Interfészek\\
 Nincs
-\item Metódusok\\
+\item Metódusok
 	\begin{description}
 		\item[-draw()] void: Alap rajzoló metódus.
 		\item[+highlight()] void: Kijelölő metódus, pl mezőre kattintáshoz.
@@ -208,12 +208,12 @@ Nincs
 
 \subsection{Cell}
 \begin{itemize}
-\item Attribútumok\\
+\item Attribútumok
 	\begin{description}
 		\item[\#iview: IView] Interfész a grafika értesítéséhez.
 		\item[\#igame: IGame] A Path és Field igame-je felkerült ide, protected lett.
 \end{description}
-\item Metódusok\\
+\item Metódusok
 	\begin{description}
 		\item[+getIView()] IView: Getter az iview-hoz.
 	\end{description}
@@ -225,7 +225,7 @@ Nincs
 	\begin{description}
 		\item[-iview: IView] Game-ben interfész az értesítéshez.
 \end{description}
-\item Metódusok\\
+\item Metódusok
 	\begin{description}
 		\item[+getIView(): IView] IGame-be getter, hogy mások is elérjék, akik a Gamet elérik az interfészén keresztül.
 	\end{description}

@@ -70,13 +70,13 @@ Object
 \item Interfészek\\
 Nincs
 %\comment{Mely interfészeket valósítja meg.}
-\item Attribútumok\\
+\item Attribútumok%
 %\comment{Milyen attribútumai vannak}
 	\begin{itemize}
 		\item int damage: alapsebzés
 		\item Enemy enemyType: a torony itt tárolja, hogy melyik ellenség típusra erősebb a sebzése
 	\end{itemize}
-\item Metódusok\\
+\item Metódusok%
 %\comment{Milyen publikus metódusokkal rendelkezik. Metódusonként egy-három mondat arról, hogy a metódus mit csinál.}
 	\begin{itemize}
 		\item void refresh(Gem gem): frissíti kristály vásárlás után a sebzési értékeket.
@@ -99,14 +99,14 @@ Tudja, hogy mennyi élete van még, milyen sebességgel haladt eredetileg, és m
 Object
 \item Interfészek\\
 IPathPlaceable
-\item Attribútumok\\
+\item Attribútumok%
 	\begin{itemize}
 		\item int speed: a normál sebessége
 		\item int modSpeed: a módosított sebessége (ha egy akadályon halad keresztül)
 		\item health: élete
 		\item myPath: az a mező, ahol tartózkodik
 	\end{itemize}
-\item Metódusok\\
+\item Metódusok
 	\begin{itemize}
 		\item Metódusok
 		\item registerPath(Path p): új mezőre léptetik
@@ -128,7 +128,7 @@ Object $\rightarrow$ Enemy
 \item Interfészek\\
 IPathPlaceable
 
-\item Metódusok\\
+\item Metódusok
 	\begin{itemize}
 		\item hurt(Bullet): sebződik
 		
@@ -139,7 +139,7 @@ IPathPlaceable
 \begin{itemize}
 \item Felelősség\\
 A torony funkciói vannak benne.
-\item Metódusok\\
+\item Metódusok
 	\begin{itemize}
 		\item void setPaths(): a saját cellájából kiindulva a hatósugarával lefedett területen felkeresi, és beregisztrálja a paths listába a path cellákat.
 		\item void shoot(): A torony akkor lő, ha letelt az újratöltési idő, ekkor megnézi, hogy lőtávon belül van-e ellenség, és ha van meghívja a sebzés függvényét, átadva paraméterként a lövedékét. 
@@ -158,7 +158,7 @@ Lásd objektum katalógus.
 Object
 \item Interfészek\\
 Nincs
-\item Attribútumok\\
+\item Attribútumok
 	\begin{itemize}
 		\item Map map: játék térképe
 		\item List<Enemy> enemies: ellenségek listája
@@ -167,7 +167,7 @@ Nincs
 
 		
 	\end{itemize}
-\item Metódusok\\
+\item Metódusok
 	\begin{itemize}
 		\item void update(): frissíti a modellt, grafikát
 		\item void initialize(): kezdeti állapotot felveszi
@@ -186,7 +186,7 @@ Nincs
 Object
 \item Interfészek\\
 Nincs
-\item Attribútumok\\
+\item Attribútumok
 	\begin{itemize}
 		\item boolean isDamage: vásároltak-e már sebzésnövelő kristályt a toronyra
 		\item boolean isRange: vásároltak-e már hatósugárnövelő kristályt a toronyra
@@ -195,7 +195,7 @@ Nincs
 
 		
 	\end{itemize}
-\item Metódusok\\
+\item Metódusok
 	\begin{itemize}
 	
 		\item void refresh(Gem gem): egy Kristályt kap, amit beépít a toronyba
@@ -212,7 +212,7 @@ A kristály osztály frissíti a torony GemStat-ját és Bullet-jét.
 Object
 \item Interfészek\\
 Nincs
-\item Attribútumok\\
+\item Attribútumok
 	\begin{itemize}
 		\item int damage: sebzés növelés értéke
 		\item int range: hatósugár növelés értéke
@@ -220,7 +220,7 @@ Nincs
 		\item static int price: az ára, amennyi manába kerül
 		\item Enemy enemyType: ellenség típus amire erősíti a tornyot
 	\end{itemize}
-\item Metódusok\\
+\item Metódusok
 	\begin{itemize}
 		
 		\item Gem(int damage, int range, int speed, int price, Enemy enemyType): konstruktor
@@ -236,7 +236,7 @@ Olyan metódusok használatát teszi lehetővé, amelyek az Obstacle típusú el
 \item Ősosztályok\\
 Nincs
 
-\item Metódusok\\
+\item Metódusok
 	\begin{itemize}
 		\item void slow(int intesity, Path p): szól p-nek, hogy lassítsa le az ellenséget intensity-vel
 		\item void amortization(): amortizál
@@ -252,7 +252,7 @@ Lásd objektum katalógus.
 Nincs
 \item Interfészek\\
 IObsacle, IPathPlaceable
-\item Attribútumok\\
+\item Attribútumok
 	\begin{itemize}
 		\item int slowIntens: lassítás mértéke
 		\item Path myPath: a mező, amin rajta van
@@ -261,7 +261,7 @@ IObsacle, IPathPlaceable
 		\item bool upgrade: volt-e fejlesztve 
 		
 	\end{itemize}
-\item Metódusok\\
+\item Metódusok
 	\begin{itemize}
 		
 		\item void slow(int intesity, Path p): lelassítja a p-n lévő ellenséget intesity-vel
@@ -283,7 +283,7 @@ Lásd objektumkatalógus
 Nincs
 \item Interfészek\\
 ITower, IFieldPlaceable
-\item Attribútumok\\
+\item Attribútumok
 	\begin{itemize}
 		\item Bullet bullet: A torony tárol egy lövedéket, mindig ezt lövi ki.
 		\item GemStat gemStat: A megvásárolt kristályokról tárol  statisztikát.
@@ -294,7 +294,7 @@ ITower, IFieldPlaceable
 
 		
 	\end{itemize}
-\item Metódusok\\
+\item Metódusok
 	\begin{itemize}
 		\item Enemy chooseEnemy(): A torony tárolja a környező path cellákat. Minden tick-ben végig megy rajtuk, és kiválaszt egyet, amelyiken van ellenség, és oda fog lőni. Azzal tér vissza, hogy sikerült-e ellenséget találni.
 		\item void register(Field field): beregisztrálja, hogy melyik mezőn van
@@ -315,7 +315,7 @@ Ld. objektum katalógus
 Nincs
 \item Interfészek\\
 Nincs
-\item Attribútumok\\
+\item Attribútumok
 	\begin{itemize}
 		\item String name: a pálya neve, egyben az azonosítója
 		\item int level: a pálya szintje
@@ -323,7 +323,7 @@ Nincs
 
 		
 	\end{itemize}
-\item Metódusok\\
+\item Metódusok
 	\begin{itemize}
 		
 		\item Map(string name): az osztály konstruktora, a paraméterként megadott névvel rendelkező fájlból betölti a pálya térképét
@@ -340,13 +340,13 @@ A Cell a pálya egy egységét reprezentáló osztály. Létrehozásakor megkapj
 Nincs
 \item Interfészek\\
 Nincs
-\item Attribútumok\\
+\item Attribútumok
 	\begin{itemize}
 		\item Array<Cell> neighbours: 4 elemű tömb, tárolja 4 irányban a szomszédjai referenciáját.
 
 		
 	\end{itemize}
-\item Metódusok\\
+\item Metódusok
 	\begin{itemize}
 		
 		\item Cell(Array<Cell>): konstruktor, paraméterként kapja a szomszédos mezők referenciáit.
@@ -363,13 +363,13 @@ Ld. objektum katalógus
 Object $\rightarrow$ Cell
 \item Interfészek\\
 Nincs
-\item Attribútumok\\
+\item Attribútumok
 	\begin{itemize}
 		\item ITower itower: a mezőn álló torony interfészű elem tárolása
 
 		
 	\end{itemize}
-\item Metódusok\\
+\item Metódusok
 	\begin{itemize}
 		
 		\item bool isPath(): hamis értékkel tér vissza
@@ -392,7 +392,7 @@ Ld objektum katalógus
 Object $\rightarrow$ Cell
 \item Interfészek\\
 Nincs
-\item Attribútumok\\
+\item Attribútumok
 	\begin{itemize}
 		\item IObstacle iobstacle: az esetleg az úton levő akadályt tárolja
 		\item ArrayList<Enemy> enemies: az éppen áthaladó ellenségek listája
@@ -400,7 +400,7 @@ Nincs
 
 		
 	\end{itemize}
-\item Metódusok\\
+\item Metódusok
 	\begin{itemize}
 		\item ArrayList<Enemy> hasEnemy(): visszaadja a rajta lévő ellenségek listáját
 		\item bool isPath(): igaz értékkel tér vissza

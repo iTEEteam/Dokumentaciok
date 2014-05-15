@@ -31,235 +31,235 @@
 \contentsline {paragraph}{3. Grafikus v\IeC {\'a}ltozat}{18}{table.2.10}
 \contentsline {subsection}{\numberline {2.6.3.}Szerepk\IeC {\"o}r\IeC {\"o}k}{18}{table.2.10}
 \contentsline {subsection}{\numberline {2.6.4.}Felhaszn\IeC {\'a}lt fejleszt\IeC {\H o}eszk\IeC {\"o}z\IeC {\"o}k}{19}{table.2.10}
-\contentsline {section}{\numberline {2.7.}Napl\IeC {\'o}}{19}{table.2.10}
-\contentsline {chapter}{\numberline {3}Anal\IeC {\'\i }zis modell kidolgoz\IeC {\'a}sa 1}{21}{table.2.11}
-\contentsline {section}{\numberline {3.1.}Objektum katal\IeC {\'o}gus}{21}{section*.8}
-\contentsline {subsection}{\numberline {3.1.1.}Akad\IeC {\'a}ly (Obstacle)}{21}{section*.8}
-\contentsline {subsection}{\numberline {3.1.2.}Ellens\IeC {\'e}g (Enemy)}{21}{section*.8}
-\contentsline {subsection}{\numberline {3.1.3.}GemStat}{21}{section*.8}
-\contentsline {subsection}{\numberline {3.1.4.}J\IeC {\'a}t\IeC {\'e}k (Game)}{21}{section*.8}
-\contentsline {subsection}{\numberline {3.1.5.}Krist\IeC {\'a}ly (Gem)}{21}{section*.8}
-\contentsline {subsection}{\numberline {3.1.6.}L\IeC {\"o}ved\IeC {\'e}k (Bullet)}{21}{section*.8}
-\contentsline {subsection}{\numberline {3.1.7.}Mez\IeC {\H o} (Field)}{21}{section*.8}
-\contentsline {subsection}{\numberline {3.1.8.}P\IeC {\'a}lya (Map)}{21}{section*.8}
-\contentsline {subsection}{\numberline {3.1.9.}Torony (Tower)}{22}{section*.8}
-\contentsline {subsection}{\numberline {3.1.10.}\IeC {\'U}t (Path)}{22}{section*.8}
-\contentsline {section}{\numberline {3.2.}Statikus strukt\IeC {\'u}ra diagramok}{22}{section*.8}
-\contentsline {section}{\numberline {3.3.}Oszt\IeC {\'a}lyok le\IeC {\'\i }r\IeC {\'a}sa}{23}{section*.8}
-\contentsline {subsection}{\numberline {3.3.1.}Bullet}{23}{section*.9}
-\contentsline {subsection}{\numberline {3.3.2.}Enemy}{23}{section*.9}
-\contentsline {subsection}{\numberline {3.3.3.}Enemy subclasses: Elf, Hobbit, Dwarf, Human}{24}{section*.9}
-\contentsline {subsection}{\numberline {3.3.4.}ITower}{24}{section*.9}
-\contentsline {subsection}{\numberline {3.3.5.}Game}{24}{section*.9}
-\contentsline {subsection}{\numberline {3.3.6.}GemStat}{25}{section*.9}
-\contentsline {subsection}{\numberline {3.3.7.}Gem}{25}{section*.9}
-\contentsline {subsection}{\numberline {3.3.8.}IObstacle}{26}{section*.9}
-\contentsline {subsection}{\numberline {3.3.9.}Obstacle}{26}{section*.9}
-\contentsline {subsection}{\numberline {3.3.10.}Tower}{27}{section*.9}
-\contentsline {subsection}{\numberline {3.3.11.}Map}{27}{section*.9}
-\contentsline {subsection}{\numberline {3.3.12.}Cell}{28}{section*.9}
-\contentsline {subsection}{\numberline {3.3.13.}Field}{28}{section*.9}
-\contentsline {subsection}{\numberline {3.3.14.}Path}{29}{section*.9}
-\contentsline {section}{\numberline {3.4.}Szekvencia diagramok}{30}{section*.9}
-\contentsline {subsection}{\numberline {3.4.1.}Akad\IeC {\'a}ly elhelyez\IeC {\'e}se}{30}{section*.10}
-\contentsline {subsection}{\numberline {3.4.2.}Ellenf\IeC {\'e}l mozg\IeC {\'a}sa}{31}{section*.10}
-\contentsline {subsection}{\numberline {3.4.3.}Torony elad\IeC {\'a}sa}{32}{section*.10}
-\contentsline {subsection}{\numberline {3.4.4.}Torony elhelyez\IeC {\'e}se}{33}{section*.10}
-\contentsline {subsection}{\numberline {3.4.5.}Torony fejleszt\IeC {\'e}se}{34}{section*.10}
-\contentsline {subsection}{\numberline {3.4.6.}Torony t\IeC {\"u}zel\IeC {\'e}se}{35}{section*.10}
-\contentsline {section}{\numberline {3.5.}State-chartok}{36}{section*.10}
-\contentsline {subsection}{\numberline {3.5.1.}Field \IeC {\'a}llapota}{36}{section*.11}
-\contentsline {subsection}{\numberline {3.5.2.}Path \IeC {\'a}llapota}{37}{section*.11}
-\contentsline {section}{\numberline {3.6.}Napl\IeC {\'o}}{37}{section*.11}
-\contentsline {chapter}{\numberline {4}Anal\IeC {\'\i }zis modell kidolgoz\IeC {\'a}sa 2}{39}{table.3.1}
-\contentsline {section}{\numberline {4.1.}Objektum katal\IeC {\'o}gus}{39}{section*.12}
-\contentsline {subsection}{\numberline {4.1.1.}Akad\IeC {\'a}ly (Obstacle)}{39}{section*.12}
-\contentsline {subsection}{\numberline {4.1.2.}Ellens\IeC {\'e}g (Enemy)}{39}{section*.12}
-\contentsline {subsection}{\numberline {4.1.3.}J\IeC {\'a}t\IeC {\'e}k (Game)}{39}{section*.12}
-\contentsline {subsection}{\numberline {4.1.4.}Krist\IeC {\'a}ly (Gem)}{39}{section*.12}
-\contentsline {subsection}{\numberline {4.1.5.}L\IeC {\"o}ved\IeC {\'e}k (Bullet)}{39}{section*.12}
-\contentsline {subsection}{\numberline {4.1.6.}Mez\IeC {\H o} (Field)}{39}{section*.12}
-\contentsline {subsection}{\numberline {4.1.7.}P\IeC {\'a}lya (Map)}{39}{section*.12}
-\contentsline {subsection}{\numberline {4.1.8.}Torony (Tower)}{39}{section*.12}
-\contentsline {subsection}{\numberline {4.1.9.}\IeC {\'U}t (Path)}{40}{section*.12}
-\contentsline {subsection}{\numberline {4.1.10.}Obstaclehez tartoz\IeC {\'o} krist\IeC {\'a}lyok: Intensity, Repair}{40}{section*.12}
-\contentsline {subsection}{\numberline {4.1.11.}Towerhez tartoz\IeC {\'o} krsit\IeC {\'a}lyok: Range, Speed, Damage, EnemyType}{40}{section*.12}
-\contentsline {section}{\numberline {4.2.}Statikus strukt\IeC {\'u}ra diagramok}{41}{section*.12}
-\contentsline {section}{\numberline {4.3.}Oszt\IeC {\'a}lyok le\IeC {\'\i }r\IeC {\'a}sa}{41}{section*.12}
-\contentsline {subsection}{\numberline {4.3.1.}Bullet}{41}{section*.13}
-\contentsline {subsection}{\numberline {4.3.2.}Enemy}{42}{section*.13}
-\contentsline {subsection}{\numberline {4.3.3.}Enemy subclasses: Elf, Hobbit, Dwarf, Human}{43}{section*.13}
-\contentsline {subsection}{\numberline {4.3.4.}Game}{43}{section*.13}
-\contentsline {subsection}{\numberline {4.3.5.}Controller}{44}{section*.13}
-\contentsline {subsection}{\numberline {4.3.6.}IGame}{44}{section*.13}
-\contentsline {subsection}{\numberline {4.3.7.}Gem}{45}{section*.13}
-\contentsline {subsection}{\numberline {4.3.8.}IObstacle}{45}{section*.13}
-\contentsline {subsection}{\numberline {4.3.9.}Obstacle}{45}{section*.13}
-\contentsline {subsection}{\numberline {4.3.10.}ITower}{46}{section*.13}
-\contentsline {subsection}{\numberline {4.3.11.}Tower}{46}{section*.13}
-\contentsline {subsection}{\numberline {4.3.12.}Map}{47}{section*.13}
-\contentsline {subsection}{\numberline {4.3.13.}Cell}{47}{section*.13}
-\contentsline {subsection}{\numberline {4.3.14.}Field}{48}{section*.13}
-\contentsline {subsection}{\numberline {4.3.15.}Path}{48}{section*.13}
-\contentsline {subsection}{\numberline {4.3.16.}Towerhez tartoz\IeC {\'o} krsit\IeC {\'a}lyok: Range, Speed, Damage, EnemyType}{49}{section*.13}
-\contentsline {subsection}{\numberline {4.3.17.}Obstaclehez tartoz\IeC {\'o} krist\IeC {\'a}lyok: Intensity, Repair}{50}{section*.13}
-\contentsline {subsection}{\numberline {4.3.18.}IOGem}{50}{section*.13}
-\contentsline {subsection}{\numberline {4.3.19.}ITGem}{50}{section*.13}
-\contentsline {subsection}{\numberline {4.3.20.}IFieldPlaceable}{50}{section*.13}
-\contentsline {subsection}{\numberline {4.3.21.}IPathPlaceable}{51}{section*.13}
-\contentsline {section}{\numberline {4.4.}Szekvencia diagramok}{51}{section*.13}
-\contentsline {subsection}{\numberline {4.4.1.}Akad\IeC {\'a}ly elhelyez\IeC {\'e}se}{51}{section*.14}
-\contentsline {subsection}{\numberline {4.4.2.}Ellenf\IeC {\'e}l mozg\IeC {\'a}sa}{52}{section*.14}
-\contentsline {subsection}{\numberline {4.4.3.}Torony elad\IeC {\'a}sa}{53}{section*.14}
-\contentsline {subsection}{\numberline {4.4.4.}Torony elhelyez\IeC {\'e}se}{54}{section*.14}
-\contentsline {subsection}{\numberline {4.4.5.}Torony fejleszt\IeC {\'e}se}{55}{section*.14}
-\contentsline {subsection}{\numberline {4.4.6.}Torony t\IeC {\"u}zel\IeC {\'e}se}{56}{section*.14}
-\contentsline {subsection}{\numberline {4.4.7.}Inicializ\IeC {\'a}l\IeC {\'a}s}{57}{section*.14}
-\contentsline {subsection}{\numberline {4.4.8.}J\IeC {\'a}t\IeC {\'e}k menete}{58}{section*.14}
-\contentsline {section}{\numberline {4.5.}State-chartok}{59}{section*.14}
-\contentsline {section}{\numberline {4.6.}Napl\IeC {\'o}}{59}{section*.14}
-\contentsline {chapter}{\numberline {5}Szkeleton tervez\IeC {\'e}se}{60}{table.4.1}
-\contentsline {section}{\numberline {5.1.}A szkeleton modell val\IeC {\'o}s\IeC {\'a}gos use-case-ei}{60}{section*.15}
-\contentsline {subsection}{\numberline {5.1.1.}Use-case diagram}{60}{section*.15}
-\contentsline {subsubsection}{1. use-case diagram}{60}{section*.15}
-\contentsline {subsubsection}{2. use-case diagram}{60}{section*.15}
-\contentsline {subsection}{\numberline {5.1.2.}Use-case le\IeC {\'\i }r\IeC {\'a}sok}{61}{section*.15}
-\contentsline {section}{\numberline {5.2.}A szkeleton kezel\IeC {\H o}i fel\IeC {\"u}let\IeC {\'e}nek terve, dial\IeC {\'o}gusok}{63}{table.5.14}
-\contentsline {subsection}{\numberline {5.2.1.}Kezel\IeC {\H o}fel\IeC {\"u}let}{63}{section*.16}
-\contentsline {subsection}{\numberline {5.2.2.}Tesztesetek}{63}{section*.16}
-\contentsline {section}{\numberline {5.3.}Szekvencia diagramok a bels\IeC {\H o} m\IeC {\H u}k\IeC {\"o}d\IeC {\'e}sre}{65}{table.5.28}
-\contentsline {subsection}{\numberline {5.3.1.}1. Akad\IeC {\'a}ly elhelyez\IeC {\'e}se ellens\IeC {\'e}g \IeC {\'a}ltal foglalt \IeC {\'u}tra}{65}{section*.17}
-\contentsline {subsection}{\numberline {5.3.2.}2. Akad\IeC {\'a}ly elhelyez\IeC {\'e}se m\IeC {\'a}sik akad\IeC {\'a}ly \IeC {\'a}ltal foglalt \IeC {\'u}tra}{66}{section*.17}
-\contentsline {subsection}{\numberline {5.3.3.}3. Akad\IeC {\'a}ly elhelyez\IeC {\'e}se \IeC {\"u}res \IeC {\'u}tra}{67}{section*.17}
-\contentsline {subsection}{\numberline {5.3.4.}4. Akad\IeC {\'a}ly fejleszt\IeC {\'e}se}{68}{section*.17}
-\contentsline {subsection}{\numberline {5.3.5.}5. Ellenf\IeC {\'e}l mozg\IeC {\'a}sa}{69}{section*.17}
-\contentsline {subsection}{\numberline {5.3.6.}6. Fejlesztetlen torony elad\IeC {\'a}sa}{70}{section*.17}
-\contentsline {subsection}{\numberline {5.3.7.}7. Fejlesztett torony elad\IeC {\'a}sa}{71}{section*.17}
-\contentsline {subsection}{\numberline {5.3.8.}8. Inicializ\IeC {\'a}l\IeC {\'a}s}{72}{section*.17}
-\contentsline {subsection}{\numberline {5.3.9.}9. Torony elhelyez\IeC {\'e}se foglalt mez\IeC {\H o}re}{73}{section*.17}
-\contentsline {subsection}{\numberline {5.3.10.}10. Torony elhelyez\IeC {\'e}se \IeC {\"u}res mez\IeC {\H o}re}{74}{section*.17}
-\contentsline {subsection}{\numberline {5.3.11.}11. Torony fejleszt\IeC {\'e}se minden gemb\IeC {\H o}l eggyel}{75}{section*.17}
-\contentsline {subsection}{\numberline {5.3.12.}12. Torony hat\IeC {\'o}k\IeC {\"o}r\IeC {\'e}ben nincs ellens\IeC {\'e}g t\IeC {\"u}zel\IeC {\'e}skor}{76}{section*.17}
-\contentsline {subsection}{\numberline {5.3.13.}13. Torony lel\IeC {\H o} egy ellens\IeC {\'e}get fejlesztetlen\IeC {\"u}l}{77}{section*.17}
-\contentsline {subsection}{\numberline {5.3.14.}14. Torony t\IeC {\"u}zel egy ellens\IeC {\'e}gre fejlesztetlen\IeC {\"u}l}{77}{section*.17}
-\contentsline {section}{\numberline {5.4.}Kommunik\IeC {\'a}ci\IeC {\'o}s diagramok}{78}{section*.17}
-\contentsline {subsection}{\numberline {5.4.1.}1. Akad\IeC {\'a}ly elhelyez\IeC {\'e}se ellens\IeC {\'e}g \IeC {\'a}ltal foglalt \IeC {\'u}tra}{78}{section*.18}
-\contentsline {subsection}{\numberline {5.4.2.}2. Akad\IeC {\'a}ly elhelyez\IeC {\'e}se m\IeC {\'a}sik akad\IeC {\'a}ly \IeC {\'a}ltal foglalt \IeC {\'u}tra}{78}{section*.18}
-\contentsline {subsection}{\numberline {5.4.3.}3. Akad\IeC {\'a}ly elhelyez\IeC {\'e}se \IeC {\"u}res \IeC {\'u}tra}{79}{section*.18}
-\contentsline {subsection}{\numberline {5.4.4.}4. Akad\IeC {\'a}ly fejleszt\IeC {\'e}se}{79}{section*.18}
-\contentsline {subsection}{\numberline {5.4.5.}5. Ellenf\IeC {\'e}l mozg\IeC {\'a}sa}{80}{section*.18}
-\contentsline {subsection}{\numberline {5.4.6.}6. Fejlesztetlen torony elad\IeC {\'a}sa}{80}{section*.18}
-\contentsline {subsection}{\numberline {5.4.7.}7. Fejlesztett torony elad\IeC {\'a}sa}{81}{section*.18}
-\contentsline {subsection}{\numberline {5.4.8.}8. Inicializ\IeC {\'a}l\IeC {\'a}s}{81}{section*.18}
-\contentsline {subsection}{\numberline {5.4.9.}9. Torony elhelyez\IeC {\'e}se foglalt mez\IeC {\H o}re}{82}{section*.18}
-\contentsline {subsection}{\numberline {5.4.10.}10. Torony elhelyez\IeC {\'e}se \IeC {\"u}res mez\IeC {\H o}re}{82}{section*.18}
-\contentsline {subsection}{\numberline {5.4.11.}11. Torony fejleszt\IeC {\'e}se minden gemb\IeC {\H o}l eggyel}{83}{section*.18}
-\contentsline {subsection}{\numberline {5.4.12.}12. Torony hat\IeC {\'o}k\IeC {\"o}r\IeC {\'e}ben nincs ellens\IeC {\'e}g t\IeC {\"u}zel\IeC {\'e}skor}{83}{section*.18}
-\contentsline {subsection}{\numberline {5.4.13.}13. Torony lel\IeC {\H o} egy ellens\IeC {\'e}get fejlesztetlen\IeC {\"u}l}{84}{section*.18}
-\contentsline {subsection}{\numberline {5.4.14.}14. Torony t\IeC {\"u}zel egy ellens\IeC {\'e}gre fejlesztetlen\IeC {\"u}l}{85}{section*.18}
-\contentsline {section}{\numberline {5.5.}Napl\IeC {\'o}}{85}{section*.18}
-\contentsline {chapter}{\numberline {6}Szkeleton bead\IeC {\'a}s}{87}{table.5.29}
-\contentsline {section}{\numberline {6.1.}Ford\IeC {\'\i }t\IeC {\'a}si \IeC {\'e}s futtat\IeC {\'a}si \IeC {\'u}tmutat\IeC {\'o}}{87}{section*.19}
-\contentsline {subsection}{\numberline {6.1.1.}F\IeC {\'a}jllista}{87}{section*.19}
-\contentsline {subsection}{\numberline {6.1.2.}Ford\IeC {\'\i }t\IeC {\'a}s}{87}{table.6.1}
-\contentsline {subsection}{\numberline {6.1.3.}Futtat\IeC {\'a}s}{88}{table.6.1}
-\contentsline {section}{\numberline {6.2.}\IeC {\'E}rt\IeC {\'e}kel\IeC {\'e}s}{88}{table.6.1}
-\contentsline {section}{\numberline {6.3.}Napl\IeC {\'o}}{88}{table.6.2}
-\contentsline {chapter}{\numberline {7}Protot\IeC {\'\i }pus koncepci\IeC {\'o}ja}{89}{table.6.3}
-\contentsline {section}{\numberline {7.0.}Specifik\IeC {\'a}ci\IeC {\'o} v\IeC {\'a}ltoz\IeC {\'a}s}{89}{section*.20}
-\contentsline {subsection}{\numberline {7.0.1.}M\IeC {\'o}dos\IeC {\'\i }t\IeC {\'a}s}{89}{section*.20}
-\contentsline {subsection}{\numberline {7.0.2.}M\IeC {\'o}dos\IeC {\'\i }tott oszt\IeC {\'a}lydiagram}{90}{section*.20}
-\contentsline {subsection}{\numberline {7.0.3.}M\IeC {\'o}dos\IeC {\'\i }tott szekvenciadiagramok}{90}{section*.20}
-\contentsline {subsubsection}{J\IeC {\'a}t\IeC {\'e}k menete}{91}{section*.20}
-\contentsline {subsubsection}{Torony kett\IeC {\'e}v\IeC {\'a}g egy ellens\IeC {\'e}get}{92}{section*.20}
-\contentsline {section}{\numberline {7.1.}Protot\IeC {\'\i }pus interface-defin\IeC {\'\i }ci\IeC {\'o}ja}{92}{section*.20}
-\contentsline {subsection}{\numberline {7.1.1.}Az interf\IeC {\'e}sz \IeC {\'a}ltal\IeC {\'a}nos le\IeC {\'\i }r\IeC {\'a}sa}{92}{section*.21}
-\contentsline {subsection}{\numberline {7.1.2.}Bemeneti nyelv}{92}{lstlisting.7.-1}
-\contentsline {subsubsection}{A p\IeC {\'a}lya form\IeC {\'a}tuma}{94}{lstlisting.7.-1}
-\contentsline {subsection}{\numberline {7.1.3.}Kimeneti nyelv}{94}{lstlisting.7.-1}
-\contentsline {section}{\numberline {7.2.}\IeC {\"O}sszes r\IeC {\'e}szletes use-case}{96}{lstlisting.7.-5}
-\contentsline {section}{\numberline {7.3.}Tesztel\IeC {\'e}si terv}{98}{table.7.14}
-\contentsline {section}{\numberline {7.4.}Tesztel\IeC {\'e}st t\IeC {\'a}mogat\IeC {\'o} seg\IeC {\'e}d- \IeC {\'e}s ford\IeC {\'\i }t\IeC {\'o}programok specifik\IeC {\'a}l\IeC {\'a}sa}{98}{table.7.18}
-\contentsline {section}{\numberline {7.5.}Napl\IeC {\'o}}{99}{table.7.18}
-\contentsline {chapter}{\numberline {8}R\IeC {\'e}szletes tervek}{100}{table.7.19}
-\contentsline {section}{\numberline {8.1.}Oszt\IeC {\'a}lyok \IeC {\'e}s met\IeC {\'o}dusok tervei}{100}{section*.22}
-\contentsline {subsection}{\numberline {8.1.1.}Bullet}{100}{section*.22}
-\contentsline {subsection}{\numberline {8.1.2.}Enemy}{100}{section*.22}
-\contentsline {subsection}{\numberline {8.1.3.}Enemy subclasses: Elf, Hobbit, Dwarf, Human}{101}{section*.22}
-\contentsline {subsection}{\numberline {8.1.4.}Game}{101}{section*.22}
-\contentsline {subsection}{\numberline {8.1.5.}Controller}{102}{section*.22}
-\contentsline {subsection}{\numberline {8.1.6.}IGame}{103}{section*.22}
-\contentsline {subsection}{\numberline {8.1.7.}Gem}{103}{section*.22}
-\contentsline {subsection}{\numberline {8.1.8.}IObstacle}{104}{section*.22}
-\contentsline {subsection}{\numberline {8.1.9.}Obstacle}{104}{section*.22}
-\contentsline {subsection}{\numberline {8.1.10.}ITower}{105}{section*.22}
-\contentsline {subsection}{\numberline {8.1.11.}Tower}{105}{section*.22}
-\contentsline {subsection}{\numberline {8.1.12.}Map}{106}{section*.22}
-\contentsline {subsection}{\numberline {8.1.13.}Cell}{106}{section*.22}
-\contentsline {subsection}{\numberline {8.1.14.}Field}{107}{section*.22}
-\contentsline {subsection}{\numberline {8.1.15.}Path}{108}{section*.22}
-\contentsline {subsection}{\numberline {8.1.16.}Towerhez tartoz\IeC {\'o} krsit\IeC {\'a}lyok: Range, Speed, Damage, EnemyType}{108}{section*.22}
-\contentsline {subsection}{\numberline {8.1.17.}Obstaclehez tartoz\IeC {\'o} krist\IeC {\'a}lyok: Intensity, Repair}{109}{section*.22}
-\contentsline {subsection}{\numberline {8.1.18.}IOGem}{109}{section*.22}
-\contentsline {subsection}{\numberline {8.1.19.}ITGem}{109}{section*.22}
-\contentsline {subsection}{\numberline {8.1.20.}IFieldPlaceable}{110}{section*.22}
-\contentsline {subsection}{\numberline {8.1.21.}IPathPlaceable}{110}{section*.22}
-\contentsline {section}{\numberline {8.2.}A tesztek r\IeC {\'e}szletes tervei, le\IeC {\'\i }r\IeC {\'a}suk a teszt nyelv\IeC {\'e}n}{110}{section*.22}
-\contentsline {subsection}{\numberline {8.2.1.}Ellens\IeC {\'e}g mozg\IeC {\'a}s \IeC {\'e}s sebz\IeC {\'e}s}{110}{section*.23}
-\contentsline {subsection}{\numberline {8.2.2.}Akad\IeC {\'a}ly teszt}{111}{lstlisting.8.-8}
-\contentsline {subsection}{\numberline {8.2.3.}K\IeC {\"o}d, \IeC {\'e}s ellens\IeC {\'e}g kett\IeC {\'e}szel\IeC {\'e}s}{112}{lstlisting.8.-11}
-\contentsline {subsection}{\numberline {8.2.4.}Ellens\IeC {\'e}g el\IeC {\'a}gaz\IeC {\'a}shoz \IeC {\'e}r}{113}{lstlisting.8.-14}
-\contentsline {section}{\numberline {8.3.}A tesztel\IeC {\'e}st t\IeC {\'a}mogat\IeC {\'o} programok tervei}{115}{lstlisting.8.-17}
-\contentsline {section}{\numberline {8.4.}Napl\IeC {\'o}}{115}{lstlisting.8.-17}
-\contentsline {chapter}{\numberline {10}Protot\IeC {\'\i }pus bead\IeC {\'a}sa}{116}{table.8.1}
-\contentsline {section}{\numberline {10.1.}Ford\IeC {\'\i }t\IeC {\'a}si \IeC {\'e}s futtat\IeC {\'a}si \IeC {\'u}tmutat\IeC {\'o}}{116}{section*.24}
-\contentsline {subsection}{\numberline {10.1.1.}F\IeC {\'a}jllista}{116}{section*.24}
-\contentsline {subsection}{\numberline {10.1.2.}Ford\IeC {\'\i }t\IeC {\'a}s}{117}{table.10.1}
-\contentsline {subsection}{\numberline {10.1.3.}Futtat\IeC {\'a}s}{117}{lstlisting.10.-19}
-\contentsline {section}{\numberline {10.2.}Tesztek jegyz\IeC {\H o}k\IeC {\"o}nyvei}{118}{lstlisting.10.-23}
-\contentsline {subsection}{\numberline {10.2.1.}Teszteset1}{118}{section*.25}
-\contentsline {subsection}{\numberline {10.2.2.}Teszteset2}{118}{table.10.3}
-\contentsline {subsection}{\numberline {10.2.3.}Teszteset3}{118}{table.10.5}
-\contentsline {subsection}{\numberline {10.2.4.}Teszteset4}{119}{table.10.8}
-\contentsline {section}{\numberline {10.3.}\IeC {\'E}rt\IeC {\'e}kel\IeC {\'e}s}{119}{table.10.10}
-\contentsline {section}{\numberline {10.4.}Napl\IeC {\'o}}{119}{table.10.11}
-\contentsline {chapter}{\numberline {11}Grafikus fel\IeC {\"u}let specifik\IeC {\'a}ci\IeC {\'o}ja}{121}{table.10.12}
-\contentsline {section}{\numberline {11.1.}A grafikus interf\IeC {\'e}sz}{121}{section*.26}
-\contentsline {section}{\numberline {11.2.}A grafikus rendszer architekt\IeC {\'u}r\IeC {\'a}ja}{122}{section*.26}
-\contentsline {subsection}{\numberline {11.2.1.}A fel\IeC {\"u}let m\IeC {\H u}k\IeC {\"o}d\IeC {\'e}si elve}{122}{section*.27}
-\contentsline {subsection}{\numberline {11.2.2.}A fel\IeC {\"u}let oszt\IeC {\'a}ly-strukt\IeC {\'u}r\IeC {\'a}ja}{123}{section*.27}
-\contentsline {section}{\numberline {11.3.}A grafikus objektumok felsorol\IeC {\'a}sa}{124}{section*.27}
-\contentsline {subsection}{\numberline {11.3.1.}GPath}{124}{section*.28}
-\contentsline {subsection}{\numberline {11.3.2.}GField}{124}{section*.28}
-\contentsline {subsection}{\numberline {11.3.3.}GGame}{125}{section*.28}
-\contentsline {subsection}{\numberline {11.3.4.}GEnemy \IeC {\'e}s lesz\IeC {\'a}rmazottai: GHobbit, GHuman, GElf, GDwarf}{125}{section*.28}
-\contentsline {subsection}{\numberline {11.3.5.}Controller}{126}{section*.28}
-\contentsline {subsection}{\numberline {11.3.6.}GController}{126}{section*.28}
-\contentsline {subsection}{\numberline {11.3.7.}IView}{126}{section*.28}
-\contentsline {subsection}{\numberline {11.3.8.}Graphic}{127}{section*.28}
-\contentsline {subsection}{\numberline {11.3.9.}Cell}{127}{section*.28}
-\contentsline {subsection}{\numberline {11.3.10.}Game \IeC {\'e}s IGame}{127}{section*.28}
-\contentsline {section}{\numberline {11.4.}Kapcsolat az alkalmaz\IeC {\'o}i rendszerrel}{128}{section*.28}
-\contentsline {subsection}{\numberline {11.4.1.}Akad\IeC {\'a}ly elhelyez\IeC {\'e}se}{128}{section*.29}
-\contentsline {subsection}{\numberline {11.4.2.}Akad\IeC {\'a}ly jav\IeC {\'\i }t\IeC {\'a}sa}{129}{section*.29}
-\contentsline {subsection}{\numberline {11.4.3.}Akad\IeC {\'a}ly t\IeC {\"o}rl\IeC {\H o}d\IeC {\'e}se}{129}{section*.29}
-\contentsline {subsection}{\numberline {11.4.4.}Bet\IeC {\"o}lt\IeC {\'e}s}{130}{section*.29}
-\contentsline {subsection}{\numberline {11.4.5.}Ellens\IeC {\'e}g be\IeC {\'e}rkezik}{131}{section*.29}
-\contentsline {subsection}{\numberline {11.4.6.}Ellens\IeC {\'e}g hal\IeC {\'a}la}{131}{section*.29}
-\contentsline {subsection}{\numberline {11.4.7.}Ellens\IeC {\'e}g l\IeC {\'e}p\IeC {\'e}se}{132}{section*.29}
-\contentsline {subsection}{\numberline {11.4.8.}Ellens\IeC {\'e}g l\IeC {\'e}trehoz\IeC {\'a}sa}{133}{section*.29}
-\contentsline {subsection}{\numberline {11.4.9.}Ellens\IeC {\'e}g sebz\IeC {\'e}se}{134}{section*.29}
-\contentsline {subsection}{\numberline {11.4.10.}Torony elhelyez\IeC {\'e}se}{135}{section*.29}
-\contentsline {subsection}{\numberline {11.4.11.}Torony fejleszt\IeC {\'e}se ellens\IeC {\'e}g t\IeC {\'\i }pusra}{135}{section*.29}
-\contentsline {subsection}{\numberline {11.4.12.}Torony t\IeC {\"o}rl\IeC {\H o}d\IeC {\'e}se}{136}{section*.29}
-\contentsline {subsection}{\numberline {11.4.13.}Var\IeC {\'a}zser\IeC {\H o} v\IeC {\'a}ltoz\IeC {\'a}sa}{136}{section*.29}
-\contentsline {section}{\numberline {11.5.}Napl\IeC {\'o}}{136}{section*.29}
-\contentsline {chapter}{\numberline {13}Grafikus fel\IeC {\"u}let specifik\IeC {\'a}ci\IeC {\'o}ja}{138}{table.11.1}
-\contentsline {section}{\numberline {13.1.}Ford\IeC {\'\i }t\IeC {\'a}si \IeC {\'e}s futtat\IeC {\'a}si \IeC {\'u}tmutat\IeC {\'o}}{138}{section*.30}
-\contentsline {subsection}{\numberline {13.1.1.}F\IeC {\'a}jllista}{138}{section*.30}
-\contentsline {subsection}{\numberline {13.1.2.}Ford\IeC {\'\i }t\IeC {\'a}s}{139}{table.13.1}
-\contentsline {subsection}{\numberline {13.1.3.}Futtat\IeC {\'a}s}{139}{lstlisting.13.-24}
-\contentsline {section}{\numberline {13.2.}\IeC {\'E}rt\IeC {\'e}kel\IeC {\'e}s}{139}{lstlisting.13.-25}
-\contentsline {section}{\numberline {13.3.}Napl\IeC {\'o}}{140}{table.13.2}
-\contentsline {chapter}{\numberline {14}\IeC {\"O}sszefoglal\IeC {\'a}s}{141}{table.13.3}
-\contentsline {section}{\numberline {14.1.}Projekt \IeC {\"o}sszegz\IeC {\'e}s}{141}{section*.31}
+\contentsline {chapter}{\numberline {3}Anal\IeC {\'\i }zis modell kidolgoz\IeC {\'a}sa 1}{20}{table.2.10}
+\contentsline {section}{\numberline {3.1.}Objektum katal\IeC {\'o}gus}{20}{section*.8}
+\contentsline {subsection}{\numberline {3.1.1.}Akad\IeC {\'a}ly (Obstacle)}{20}{section*.8}
+\contentsline {subsection}{\numberline {3.1.2.}Ellens\IeC {\'e}g (Enemy)}{20}{section*.8}
+\contentsline {subsection}{\numberline {3.1.3.}GemStat}{20}{section*.8}
+\contentsline {subsection}{\numberline {3.1.4.}J\IeC {\'a}t\IeC {\'e}k (Game)}{20}{section*.8}
+\contentsline {subsection}{\numberline {3.1.5.}Krist\IeC {\'a}ly (Gem)}{20}{section*.8}
+\contentsline {subsection}{\numberline {3.1.6.}L\IeC {\"o}ved\IeC {\'e}k (Bullet)}{20}{section*.8}
+\contentsline {subsection}{\numberline {3.1.7.}Mez\IeC {\H o} (Field)}{20}{section*.8}
+\contentsline {subsection}{\numberline {3.1.8.}P\IeC {\'a}lya (Map)}{20}{section*.8}
+\contentsline {subsection}{\numberline {3.1.9.}Torony (Tower)}{21}{section*.8}
+\contentsline {subsection}{\numberline {3.1.10.}\IeC {\'U}t (Path)}{21}{section*.8}
+\contentsline {section}{\numberline {3.2.}Statikus strukt\IeC {\'u}ra diagramok}{21}{section*.8}
+\contentsline {section}{\numberline {3.3.}Oszt\IeC {\'a}lyok le\IeC {\'\i }r\IeC {\'a}sa}{22}{section*.8}
+\contentsline {subsection}{\numberline {3.3.1.}Bullet}{22}{section*.9}
+\contentsline {subsection}{\numberline {3.3.2.}Enemy}{22}{section*.9}
+\contentsline {subsection}{\numberline {3.3.3.}Enemy subclasses: Elf, Hobbit, Dwarf, Human}{23}{section*.9}
+\contentsline {subsection}{\numberline {3.3.4.}ITower}{23}{section*.9}
+\contentsline {subsection}{\numberline {3.3.5.}Game}{23}{section*.9}
+\contentsline {subsection}{\numberline {3.3.6.}GemStat}{24}{section*.9}
+\contentsline {subsection}{\numberline {3.3.7.}Gem}{24}{section*.9}
+\contentsline {subsection}{\numberline {3.3.8.}IObstacle}{24}{section*.9}
+\contentsline {subsection}{\numberline {3.3.9.}Obstacle}{25}{section*.9}
+\contentsline {subsection}{\numberline {3.3.10.}Tower}{25}{section*.9}
+\contentsline {subsection}{\numberline {3.3.11.}Map}{26}{section*.9}
+\contentsline {subsection}{\numberline {3.3.12.}Cell}{26}{section*.9}
+\contentsline {subsection}{\numberline {3.3.13.}Field}{27}{section*.9}
+\contentsline {subsection}{\numberline {3.3.14.}Path}{27}{section*.9}
+\contentsline {section}{\numberline {3.4.}Szekvencia diagramok}{28}{section*.9}
+\contentsline {subsection}{\numberline {3.4.1.}Akad\IeC {\'a}ly elhelyez\IeC {\'e}se}{28}{section*.10}
+\contentsline {subsection}{\numberline {3.4.2.}Ellenf\IeC {\'e}l mozg\IeC {\'a}sa}{29}{section*.10}
+\contentsline {subsection}{\numberline {3.4.3.}Torony elad\IeC {\'a}sa}{30}{section*.10}
+\contentsline {subsection}{\numberline {3.4.4.}Torony elhelyez\IeC {\'e}se}{31}{section*.10}
+\contentsline {subsection}{\numberline {3.4.5.}Torony fejleszt\IeC {\'e}se}{32}{section*.10}
+\contentsline {subsection}{\numberline {3.4.6.}Torony t\IeC {\"u}zel\IeC {\'e}se}{33}{section*.10}
+\contentsline {section}{\numberline {3.5.}State-chartok}{34}{section*.10}
+\contentsline {subsection}{\numberline {3.5.1.}Field \IeC {\'a}llapota}{34}{section*.11}
+\contentsline {subsection}{\numberline {3.5.2.}Path \IeC {\'a}llapota}{35}{section*.11}
+\contentsline {chapter}{\numberline {4}Anal\IeC {\'\i }zis modell kidolgoz\IeC {\'a}sa 2}{36}{section*.11}
+\contentsline {section}{\numberline {4.1.}Objektum katal\IeC {\'o}gus}{36}{section*.12}
+\contentsline {subsection}{\numberline {4.1.1.}Akad\IeC {\'a}ly (Obstacle)}{36}{section*.12}
+\contentsline {subsection}{\numberline {4.1.2.}Ellens\IeC {\'e}g (Enemy)}{36}{section*.12}
+\contentsline {subsection}{\numberline {4.1.3.}J\IeC {\'a}t\IeC {\'e}k (Game)}{36}{section*.12}
+\contentsline {subsection}{\numberline {4.1.4.}Krist\IeC {\'a}ly (Gem)}{36}{section*.12}
+\contentsline {subsection}{\numberline {4.1.5.}L\IeC {\"o}ved\IeC {\'e}k (Bullet)}{36}{section*.12}
+\contentsline {subsection}{\numberline {4.1.6.}Mez\IeC {\H o} (Field)}{36}{section*.12}
+\contentsline {subsection}{\numberline {4.1.7.}P\IeC {\'a}lya (Map)}{36}{section*.12}
+\contentsline {subsection}{\numberline {4.1.8.}Torony (Tower)}{36}{section*.12}
+\contentsline {subsection}{\numberline {4.1.9.}\IeC {\'U}t (Path)}{37}{section*.12}
+\contentsline {subsection}{\numberline {4.1.10.}Obstaclehez tartoz\IeC {\'o} krist\IeC {\'a}lyok: Intensity, Repair}{37}{section*.12}
+\contentsline {subsection}{\numberline {4.1.11.}Towerhez tartoz\IeC {\'o} krsit\IeC {\'a}lyok: Range, Speed, Damage, EnemyType}{37}{section*.12}
+\contentsline {section}{\numberline {4.2.}Statikus strukt\IeC {\'u}ra diagramok}{38}{section*.12}
+\contentsline {section}{\numberline {4.3.}Oszt\IeC {\'a}lyok le\IeC {\'\i }r\IeC {\'a}sa}{38}{section*.12}
+\contentsline {subsection}{\numberline {4.3.1.}Bullet}{38}{section*.13}
+\contentsline {subsection}{\numberline {4.3.2.}Enemy}{39}{section*.13}
+\contentsline {subsection}{\numberline {4.3.3.}Enemy subclasses: Elf, Hobbit, Dwarf, Human}{40}{section*.13}
+\contentsline {subsection}{\numberline {4.3.4.}Game}{40}{section*.13}
+\contentsline {subsection}{\numberline {4.3.5.}Controller}{40}{section*.13}
+\contentsline {subsection}{\numberline {4.3.6.}IGame}{41}{section*.13}
+\contentsline {subsection}{\numberline {4.3.7.}Gem}{41}{section*.13}
+\contentsline {subsection}{\numberline {4.3.8.}IObstacle}{42}{section*.13}
+\contentsline {subsection}{\numberline {4.3.9.}Obstacle}{42}{section*.13}
+\contentsline {subsection}{\numberline {4.3.10.}ITower}{43}{section*.13}
+\contentsline {subsection}{\numberline {4.3.11.}Tower}{43}{section*.13}
+\contentsline {subsection}{\numberline {4.3.12.}Map}{44}{section*.13}
+\contentsline {subsection}{\numberline {4.3.13.}Cell}{44}{section*.13}
+\contentsline {subsection}{\numberline {4.3.14.}Field}{45}{section*.13}
+\contentsline {subsection}{\numberline {4.3.15.}Path}{45}{section*.13}
+\contentsline {subsection}{\numberline {4.3.16.}Towerhez tartoz\IeC {\'o} krsit\IeC {\'a}lyok: Range, Speed, Damage, EnemyType}{46}{section*.13}
+\contentsline {subsection}{\numberline {4.3.17.}Obstaclehez tartoz\IeC {\'o} krist\IeC {\'a}lyok: Intensity, Repair}{46}{section*.13}
+\contentsline {subsection}{\numberline {4.3.18.}IOGem}{46}{section*.13}
+\contentsline {subsection}{\numberline {4.3.19.}ITGem}{47}{section*.13}
+\contentsline {subsection}{\numberline {4.3.20.}IFieldPlaceable}{47}{section*.13}
+\contentsline {subsection}{\numberline {4.3.21.}IPathPlaceable}{47}{section*.13}
+\contentsline {section}{\numberline {4.4.}Szekvencia diagramok}{48}{section*.13}
+\contentsline {subsection}{\numberline {4.4.1.}Akad\IeC {\'a}ly elhelyez\IeC {\'e}se}{48}{section*.14}
+\contentsline {subsection}{\numberline {4.4.2.}Ellenf\IeC {\'e}l mozg\IeC {\'a}sa}{49}{section*.14}
+\contentsline {subsection}{\numberline {4.4.3.}Torony elad\IeC {\'a}sa}{50}{section*.14}
+\contentsline {subsection}{\numberline {4.4.4.}Torony elhelyez\IeC {\'e}se}{51}{section*.14}
+\contentsline {subsection}{\numberline {4.4.5.}Torony fejleszt\IeC {\'e}se}{52}{section*.14}
+\contentsline {subsection}{\numberline {4.4.6.}Torony t\IeC {\"u}zel\IeC {\'e}se}{53}{section*.14}
+\contentsline {subsection}{\numberline {4.4.7.}Inicializ\IeC {\'a}l\IeC {\'a}s}{54}{section*.14}
+\contentsline {subsection}{\numberline {4.4.8.}J\IeC {\'a}t\IeC {\'e}k menete}{55}{section*.14}
+\contentsline {section}{\numberline {4.5.}State-chartok}{55}{section*.14}
+\contentsline {chapter}{\numberline {5}Szkeleton tervez\IeC {\'e}se}{56}{section*.14}
+\contentsline {section}{\numberline {5.1.}A szkeleton modell val\IeC {\'o}s\IeC {\'a}gos use-case-ei}{56}{section*.15}
+\contentsline {subsection}{\numberline {5.1.1.}Use-case diagram}{56}{section*.15}
+\contentsline {subsubsection}{1. use-case diagram}{56}{section*.15}
+\contentsline {subsubsection}{2. use-case diagram}{56}{section*.15}
+\contentsline {subsection}{\numberline {5.1.2.}Use-case le\IeC {\'\i }r\IeC {\'a}sok}{57}{section*.15}
+\contentsline {section}{\numberline {5.2.}A szkeleton kezel\IeC {\H o}i fel\IeC {\"u}let\IeC {\'e}nek terve, dial\IeC {\'o}gusok}{59}{table.5.14}
+\contentsline {subsection}{\numberline {5.2.1.}Kezel\IeC {\H o}fel\IeC {\"u}let}{59}{section*.16}
+\contentsline {subsection}{\numberline {5.2.2.}Tesztesetek}{59}{section*.16}
+\contentsline {section}{\numberline {5.3.}Szekvencia diagramok a bels\IeC {\H o} m\IeC {\H u}k\IeC {\"o}d\IeC {\'e}sre}{61}{table.5.28}
+\contentsline {subsection}{\numberline {5.3.1.}1. Akad\IeC {\'a}ly elhelyez\IeC {\'e}se ellens\IeC {\'e}g \IeC {\'a}ltal foglalt \IeC {\'u}tra}{61}{section*.17}
+\contentsline {subsection}{\numberline {5.3.2.}2. Akad\IeC {\'a}ly elhelyez\IeC {\'e}se m\IeC {\'a}sik akad\IeC {\'a}ly \IeC {\'a}ltal foglalt \IeC {\'u}tra}{62}{section*.17}
+\contentsline {subsection}{\numberline {5.3.3.}3. Akad\IeC {\'a}ly elhelyez\IeC {\'e}se \IeC {\"u}res \IeC {\'u}tra}{63}{section*.17}
+\contentsline {subsection}{\numberline {5.3.4.}4. Akad\IeC {\'a}ly fejleszt\IeC {\'e}se}{64}{section*.17}
+\contentsline {subsection}{\numberline {5.3.5.}5. Ellenf\IeC {\'e}l mozg\IeC {\'a}sa}{65}{section*.17}
+\contentsline {subsection}{\numberline {5.3.6.}6. Fejlesztetlen torony elad\IeC {\'a}sa}{66}{section*.17}
+\contentsline {subsection}{\numberline {5.3.7.}7. Fejlesztett torony elad\IeC {\'a}sa}{67}{section*.17}
+\contentsline {subsection}{\numberline {5.3.8.}8. Inicializ\IeC {\'a}l\IeC {\'a}s}{68}{section*.17}
+\contentsline {subsection}{\numberline {5.3.9.}9. Torony elhelyez\IeC {\'e}se foglalt mez\IeC {\H o}re}{69}{section*.17}
+\contentsline {subsection}{\numberline {5.3.10.}10. Torony elhelyez\IeC {\'e}se \IeC {\"u}res mez\IeC {\H o}re}{70}{section*.17}
+\contentsline {subsection}{\numberline {5.3.11.}11. Torony fejleszt\IeC {\'e}se minden gemb\IeC {\H o}l eggyel}{71}{section*.17}
+\contentsline {subsection}{\numberline {5.3.12.}12. Torony hat\IeC {\'o}k\IeC {\"o}r\IeC {\'e}ben nincs ellens\IeC {\'e}g t\IeC {\"u}zel\IeC {\'e}skor}{72}{section*.17}
+\contentsline {subsection}{\numberline {5.3.13.}13. Torony lel\IeC {\H o} egy ellens\IeC {\'e}get fejlesztetlen\IeC {\"u}l}{73}{section*.17}
+\contentsline {subsection}{\numberline {5.3.14.}14. Torony t\IeC {\"u}zel egy ellens\IeC {\'e}gre fejlesztetlen\IeC {\"u}l}{73}{section*.17}
+\contentsline {section}{\numberline {5.4.}Kommunik\IeC {\'a}ci\IeC {\'o}s diagramok}{74}{section*.17}
+\contentsline {subsection}{\numberline {5.4.1.}1. Akad\IeC {\'a}ly elhelyez\IeC {\'e}se ellens\IeC {\'e}g \IeC {\'a}ltal foglalt \IeC {\'u}tra}{74}{section*.18}
+\contentsline {subsection}{\numberline {5.4.2.}2. Akad\IeC {\'a}ly elhelyez\IeC {\'e}se m\IeC {\'a}sik akad\IeC {\'a}ly \IeC {\'a}ltal foglalt \IeC {\'u}tra}{74}{section*.18}
+\contentsline {subsection}{\numberline {5.4.3.}3. Akad\IeC {\'a}ly elhelyez\IeC {\'e}se \IeC {\"u}res \IeC {\'u}tra}{75}{section*.18}
+\contentsline {subsection}{\numberline {5.4.4.}4. Akad\IeC {\'a}ly fejleszt\IeC {\'e}se}{75}{section*.18}
+\contentsline {subsection}{\numberline {5.4.5.}5. Ellenf\IeC {\'e}l mozg\IeC {\'a}sa}{76}{section*.18}
+\contentsline {subsection}{\numberline {5.4.6.}6. Fejlesztetlen torony elad\IeC {\'a}sa}{76}{section*.18}
+\contentsline {subsection}{\numberline {5.4.7.}7. Fejlesztett torony elad\IeC {\'a}sa}{77}{section*.18}
+\contentsline {subsection}{\numberline {5.4.8.}8. Inicializ\IeC {\'a}l\IeC {\'a}s}{77}{section*.18}
+\contentsline {subsection}{\numberline {5.4.9.}9. Torony elhelyez\IeC {\'e}se foglalt mez\IeC {\H o}re}{78}{section*.18}
+\contentsline {subsection}{\numberline {5.4.10.}10. Torony elhelyez\IeC {\'e}se \IeC {\"u}res mez\IeC {\H o}re}{78}{section*.18}
+\contentsline {subsection}{\numberline {5.4.11.}11. Torony fejleszt\IeC {\'e}se minden gemb\IeC {\H o}l eggyel}{79}{section*.18}
+\contentsline {subsection}{\numberline {5.4.12.}12. Torony hat\IeC {\'o}k\IeC {\"o}r\IeC {\'e}ben nincs ellens\IeC {\'e}g t\IeC {\"u}zel\IeC {\'e}skor}{79}{section*.18}
+\contentsline {subsection}{\numberline {5.4.13.}13. Torony lel\IeC {\H o} egy ellens\IeC {\'e}get fejlesztetlen\IeC {\"u}l}{80}{section*.18}
+\contentsline {subsection}{\numberline {5.4.14.}14. Torony t\IeC {\"u}zel egy ellens\IeC {\'e}gre fejlesztetlen\IeC {\"u}l}{81}{section*.18}
+\contentsline {chapter}{\numberline {6}Szkeleton bead\IeC {\'a}s}{82}{section*.18}
+\contentsline {section}{\numberline {6.1.}Ford\IeC {\'\i }t\IeC {\'a}si \IeC {\'e}s futtat\IeC {\'a}si \IeC {\'u}tmutat\IeC {\'o}}{82}{section*.19}
+\contentsline {subsection}{\numberline {6.1.1.}F\IeC {\'a}jllista}{82}{section*.19}
+\contentsline {subsection}{\numberline {6.1.2.}Ford\IeC {\'\i }t\IeC {\'a}s}{82}{table.6.1}
+\contentsline {subsection}{\numberline {6.1.3.}Futtat\IeC {\'a}s}{83}{table.6.1}
+\contentsline {section}{\numberline {6.2.}\IeC {\'E}rt\IeC {\'e}kel\IeC {\'e}s}{83}{table.6.1}
+\contentsline {chapter}{\numberline {7}Protot\IeC {\'\i }pus koncepci\IeC {\'o}ja}{84}{table.6.2}
+\contentsline {section}{\numberline {7.0.}Specifik\IeC {\'a}ci\IeC {\'o} v\IeC {\'a}ltoz\IeC {\'a}s}{84}{section*.20}
+\contentsline {subsection}{\numberline {7.0.1.}M\IeC {\'o}dos\IeC {\'\i }t\IeC {\'a}s}{84}{section*.20}
+\contentsline {subsection}{\numberline {7.0.2.}M\IeC {\'o}dos\IeC {\'\i }tott oszt\IeC {\'a}lydiagram}{85}{section*.20}
+\contentsline {subsection}{\numberline {7.0.3.}M\IeC {\'o}dos\IeC {\'\i }tott szekvenciadiagramok}{85}{section*.20}
+\contentsline {subsubsection}{J\IeC {\'a}t\IeC {\'e}k menete}{86}{section*.20}
+\contentsline {subsubsection}{Torony kett\IeC {\'e}v\IeC {\'a}g egy ellens\IeC {\'e}get}{87}{section*.20}
+\contentsline {section}{\numberline {7.1.}Protot\IeC {\'\i }pus interface-defin\IeC {\'\i }ci\IeC {\'o}ja}{87}{section*.20}
+\contentsline {subsection}{\numberline {7.1.1.}Az interf\IeC {\'e}sz \IeC {\'a}ltal\IeC {\'a}nos le\IeC {\'\i }r\IeC {\'a}sa}{87}{section*.21}
+\contentsline {subsection}{\numberline {7.1.2.}Bemeneti nyelv}{87}{lstlisting.7.-1}
+\contentsline {subsubsection}{A p\IeC {\'a}lya form\IeC {\'a}tuma}{89}{lstlisting.7.-1}
+\contentsline {subsection}{\numberline {7.1.3.}Kimeneti nyelv}{89}{lstlisting.7.-1}
+\contentsline {section}{\numberline {7.2.}\IeC {\"O}sszes r\IeC {\'e}szletes use-case}{91}{lstlisting.7.-5}
+\contentsline {section}{\numberline {7.3.}Tesztel\IeC {\'e}si terv}{93}{table.7.14}
+\contentsline {section}{\numberline {7.4.}Tesztel\IeC {\'e}st t\IeC {\'a}mogat\IeC {\'o} seg\IeC {\'e}d- \IeC {\'e}s ford\IeC {\'\i }t\IeC {\'o}programok specifik\IeC {\'a}l\IeC {\'a}sa}{93}{table.7.18}
+\contentsline {chapter}{\numberline {8}R\IeC {\'e}szletes tervek}{95}{table.7.18}
+\contentsline {section}{\numberline {8.1.}Oszt\IeC {\'a}lyok \IeC {\'e}s met\IeC {\'o}dusok tervei}{95}{section*.22}
+\contentsline {subsection}{\numberline {8.1.1.}Bullet}{95}{section*.22}
+\contentsline {subsection}{\numberline {8.1.2.}Enemy}{95}{section*.22}
+\contentsline {subsection}{\numberline {8.1.3.}Enemy subclasses: Elf, Hobbit, Dwarf, Human}{96}{section*.22}
+\contentsline {subsection}{\numberline {8.1.4.}Game}{96}{section*.22}
+\contentsline {subsection}{\numberline {8.1.5.}Controller}{97}{section*.22}
+\contentsline {subsection}{\numberline {8.1.6.}IGame}{98}{section*.22}
+\contentsline {subsection}{\numberline {8.1.7.}Gem}{98}{section*.22}
+\contentsline {subsection}{\numberline {8.1.8.}IObstacle}{99}{section*.22}
+\contentsline {subsection}{\numberline {8.1.9.}Obstacle}{99}{section*.22}
+\contentsline {subsection}{\numberline {8.1.10.}ITower}{99}{section*.22}
+\contentsline {subsection}{\numberline {8.1.11.}Tower}{100}{section*.22}
+\contentsline {subsection}{\numberline {8.1.12.}Map}{101}{section*.22}
+\contentsline {subsection}{\numberline {8.1.13.}Cell}{101}{section*.22}
+\contentsline {subsection}{\numberline {8.1.14.}Field}{102}{section*.22}
+\contentsline {subsection}{\numberline {8.1.15.}Path}{102}{section*.22}
+\contentsline {subsection}{\numberline {8.1.16.}Towerhez tartoz\IeC {\'o} krsit\IeC {\'a}lyok: Range, Speed, Damage, EnemyType}{103}{section*.22}
+\contentsline {subsection}{\numberline {8.1.17.}Obstaclehez tartoz\IeC {\'o} krist\IeC {\'a}lyok: Intensity, Repair}{103}{section*.22}
+\contentsline {subsection}{\numberline {8.1.18.}IOGem}{104}{section*.22}
+\contentsline {subsection}{\numberline {8.1.19.}ITGem}{104}{section*.22}
+\contentsline {subsection}{\numberline {8.1.20.}IFieldPlaceable}{104}{section*.22}
+\contentsline {subsection}{\numberline {8.1.21.}IPathPlaceable}{104}{section*.22}
+\contentsline {section}{\numberline {8.2.}A tesztek r\IeC {\'e}szletes tervei, le\IeC {\'\i }r\IeC {\'a}suk a teszt nyelv\IeC {\'e}n}{104}{section*.22}
+\contentsline {subsection}{\numberline {8.2.1.}Ellens\IeC {\'e}g mozg\IeC {\'a}s \IeC {\'e}s sebz\IeC {\'e}s}{104}{section*.23}
+\contentsline {subsection}{\numberline {8.2.2.}Akad\IeC {\'a}ly teszt}{106}{lstlisting.8.-8}
+\contentsline {subsection}{\numberline {8.2.3.}K\IeC {\"o}d, \IeC {\'e}s ellens\IeC {\'e}g kett\IeC {\'e}szel\IeC {\'e}s}{107}{lstlisting.8.-11}
+\contentsline {subsection}{\numberline {8.2.4.}Ellens\IeC {\'e}g el\IeC {\'a}gaz\IeC {\'a}shoz \IeC {\'e}r}{108}{lstlisting.8.-14}
+\contentsline {section}{\numberline {8.3.}A tesztel\IeC {\'e}st t\IeC {\'a}mogat\IeC {\'o} programok tervei}{109}{lstlisting.8.-17}
+\contentsline {chapter}{\numberline {10}Protot\IeC {\'\i }pus bead\IeC {\'a}sa}{110}{lstlisting.8.-17}
+\contentsline {section}{\numberline {10.1.}Ford\IeC {\'\i }t\IeC {\'a}si \IeC {\'e}s futtat\IeC {\'a}si \IeC {\'u}tmutat\IeC {\'o}}{110}{section*.24}
+\contentsline {subsection}{\numberline {10.1.1.}F\IeC {\'a}jllista}{110}{section*.24}
+\contentsline {subsection}{\numberline {10.1.2.}Ford\IeC {\'\i }t\IeC {\'a}s}{111}{table.10.1}
+\contentsline {subsection}{\numberline {10.1.3.}Futtat\IeC {\'a}s}{111}{lstlisting.10.-19}
+\contentsline {section}{\numberline {10.2.}Tesztek jegyz\IeC {\H o}k\IeC {\"o}nyvei}{112}{lstlisting.10.-23}
+\contentsline {subsection}{\numberline {10.2.1.}Teszteset1}{112}{section*.25}
+\contentsline {subsection}{\numberline {10.2.2.}Teszteset2}{112}{table.10.3}
+\contentsline {subsection}{\numberline {10.2.3.}Teszteset3}{112}{table.10.5}
+\contentsline {subsection}{\numberline {10.2.4.}Teszteset4}{113}{table.10.8}
+\contentsline {section}{\numberline {10.3.}\IeC {\'E}rt\IeC {\'e}kel\IeC {\'e}s}{113}{table.10.10}
+\contentsline {chapter}{\numberline {11}Grafikus fel\IeC {\"u}let specifik\IeC {\'a}ci\IeC {\'o}ja}{114}{table.10.11}
+\contentsline {section}{\numberline {11.1.}A grafikus interf\IeC {\'e}sz}{114}{section*.26}
+\contentsline {section}{\numberline {11.2.}A grafikus rendszer architekt\IeC {\'u}r\IeC {\'a}ja}{115}{section*.26}
+\contentsline {subsection}{\numberline {11.2.1.}A fel\IeC {\"u}let m\IeC {\H u}k\IeC {\"o}d\IeC {\'e}si elve}{115}{section*.27}
+\contentsline {subsection}{\numberline {11.2.2.}A fel\IeC {\"u}let oszt\IeC {\'a}ly-strukt\IeC {\'u}r\IeC {\'a}ja}{116}{section*.27}
+\contentsline {section}{\numberline {11.3.}A grafikus objektumok felsorol\IeC {\'a}sa}{117}{section*.27}
+\contentsline {subsection}{\numberline {11.3.1.}GPath}{117}{section*.28}
+\contentsline {subsection}{\numberline {11.3.2.}GField}{117}{section*.28}
+\contentsline {subsection}{\numberline {11.3.3.}GGame}{117}{section*.28}
+\contentsline {subsection}{\numberline {11.3.4.}GEnemy \IeC {\'e}s lesz\IeC {\'a}rmazottai: GHobbit, GHuman, GElf, GDwarf}{118}{section*.28}
+\contentsline {subsection}{\numberline {11.3.5.}Controller}{118}{section*.28}
+\contentsline {subsection}{\numberline {11.3.6.}GController}{118}{section*.28}
+\contentsline {subsection}{\numberline {11.3.7.}IView}{119}{section*.28}
+\contentsline {subsection}{\numberline {11.3.8.}Graphic}{119}{section*.28}
+\contentsline {subsection}{\numberline {11.3.9.}Cell}{120}{section*.28}
+\contentsline {subsection}{\numberline {11.3.10.}Game \IeC {\'e}s IGame}{120}{section*.28}
+\contentsline {section}{\numberline {11.4.}Kapcsolat az alkalmaz\IeC {\'o}i rendszerrel}{120}{section*.28}
+\contentsline {subsection}{\numberline {11.4.1.}Akad\IeC {\'a}ly elhelyez\IeC {\'e}se}{120}{section*.29}
+\contentsline {subsection}{\numberline {11.4.2.}Akad\IeC {\'a}ly jav\IeC {\'\i }t\IeC {\'a}sa}{121}{section*.29}
+\contentsline {subsection}{\numberline {11.4.3.}Akad\IeC {\'a}ly t\IeC {\"o}rl\IeC {\H o}d\IeC {\'e}se}{121}{section*.29}
+\contentsline {subsection}{\numberline {11.4.4.}Bet\IeC {\"o}lt\IeC {\'e}s}{122}{section*.29}
+\contentsline {subsection}{\numberline {11.4.5.}Ellens\IeC {\'e}g be\IeC {\'e}rkezik}{123}{section*.29}
+\contentsline {subsection}{\numberline {11.4.6.}Ellens\IeC {\'e}g hal\IeC {\'a}la}{123}{section*.29}
+\contentsline {subsection}{\numberline {11.4.7.}Ellens\IeC {\'e}g l\IeC {\'e}p\IeC {\'e}se}{124}{section*.29}
+\contentsline {subsection}{\numberline {11.4.8.}Ellens\IeC {\'e}g l\IeC {\'e}trehoz\IeC {\'a}sa}{125}{section*.29}
+\contentsline {subsection}{\numberline {11.4.9.}Ellens\IeC {\'e}g sebz\IeC {\'e}se}{126}{section*.29}
+\contentsline {subsection}{\numberline {11.4.10.}Torony elhelyez\IeC {\'e}se}{127}{section*.29}
+\contentsline {subsection}{\numberline {11.4.11.}Torony fejleszt\IeC {\'e}se ellens\IeC {\'e}g t\IeC {\'\i }pusra}{127}{section*.29}
+\contentsline {subsection}{\numberline {11.4.12.}Torony t\IeC {\"o}rl\IeC {\H o}d\IeC {\'e}se}{128}{section*.29}
+\contentsline {subsection}{\numberline {11.4.13.}Var\IeC {\'a}zser\IeC {\H o} v\IeC {\'a}ltoz\IeC {\'a}sa}{128}{section*.29}
+\contentsline {chapter}{\numberline {13}Grafikus fel\IeC {\"u}let specifik\IeC {\'a}ci\IeC {\'o}ja}{129}{section*.29}
+\contentsline {section}{\numberline {13.1.}Ford\IeC {\'\i }t\IeC {\'a}si \IeC {\'e}s futtat\IeC {\'a}si \IeC {\'u}tmutat\IeC {\'o}}{129}{section*.30}
+\contentsline {subsection}{\numberline {13.1.1.}F\IeC {\'a}jllista}{129}{section*.30}
+\contentsline {subsection}{\numberline {13.1.2.}Ford\IeC {\'\i }t\IeC {\'a}s}{130}{table.13.1}
+\contentsline {subsection}{\numberline {13.1.3.}Futtat\IeC {\'a}s}{130}{lstlisting.13.-24}
+\contentsline {section}{\numberline {13.2.}\IeC {\'E}rt\IeC {\'e}kel\IeC {\'e}s}{130}{lstlisting.13.-25}
+\contentsline {chapter}{\numberline {14}\IeC {\"O}sszefoglal\IeC {\'a}s}{132}{table.13.2}
+\contentsline {section}{\numberline {14.1.}Projekt \IeC {\"o}sszegz\IeC {\'e}s}{132}{section*.31}
+\contentsline {section}{\numberline {14.2.}Napl\IeC {\'o}}{133}{table.14.2}
+\contentsline {section}{\numberline {14.3.}Napl\IeC {\'o}}{133}{table.14.3}
+\contentsline {section}{\numberline {14.4.}Napl\IeC {\'o}}{135}{table.14.4}
+\contentsline {section}{\numberline {14.5.}Napl\IeC {\'o}}{135}{table.14.5}
+\contentsline {section}{\numberline {14.6.}Napl\IeC {\'o}}{136}{table.14.6}
+\contentsline {section}{\numberline {14.7.}Napl\IeC {\'o}}{136}{table.14.7}
+\contentsline {section}{\numberline {14.8.}Napl\IeC {\'o}}{137}{table.14.8}
+\contentsline {section}{\numberline {14.9.}Napl\IeC {\'o}}{137}{table.14.9}
+\contentsline {section}{\numberline {14.10.}Napl\IeC {\'o}}{138}{table.14.10}
+\contentsline {section}{\numberline {14.11.}Napl\IeC {\'o}}{138}{table.14.11}

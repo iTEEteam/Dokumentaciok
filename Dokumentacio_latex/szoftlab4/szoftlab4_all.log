@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.23)  13 MAY 2014 21:38
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.23)  15 MAY 2014 19:19
 entering extended mode
 **szoftlab4_all.tex
 
@@ -668,23 +668,23 @@ LaTeX Warning: Label `fig:Torony_t\IeC {\"u}zel\IeC {\'e}se' multiply defined.
 LaTeX Warning: Label `fig:SzkeletonUseCase1' multiply defined.
 
 )
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 16.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 19.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\t1ptm.fd"
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
@@ -704,7 +704,7 @@ File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 \c@lstlisting=\count121
 \AtBeginShipoutBox=\box36
-Package hyperref Info: Link coloring ON on input line 16.
+Package hyperref Info: Link coloring ON on input line 19.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -713,9 +713,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count122
 )
-LaTeX Info: Redefining \ref on input line 16.
-LaTeX Info: Redefining \pageref on input line 16.
-LaTeX Info: Redefining \nameref on input line 16.
+LaTeX Info: Redefining \ref on input line 19.
+LaTeX Info: Redefining \pageref on input line 19.
+LaTeX Info: Redefining \nameref on input line 19.
 
 (D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\szoftlab4
 _all.out)
@@ -723,20 +723,20 @@ _all.out)
 _all.out)
 \@outlinefile=\write3
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 20.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 23.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 20.
+(Font)              <10.95> on input line 23.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 20.
+(Font)              <8> on input line 23.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 20.
+(Font)              <6> on input line 23.
  [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 25.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 28.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 25.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 28.
 
 (D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\szoftlab4
 _all.toc
@@ -752,28 +752,38 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
 
 
 ] [3] [4] [5]
-Overfull \hbox (0.54747pt too wide) detected at line 241
+Overfull \hbox (0.54747pt too wide) detected at line 233
 \T1/ptm/m/n/10.95 11.3.10. 
  []
 
 
-Overfull \hbox (0.54747pt too wide) detected at line 252
+Overfull \hbox (0.54747pt too wide) detected at line 244
 \T1/ptm/m/n/10.95 11.4.10. 
  []
 
 
-Overfull \hbox (0.54747pt too wide) detected at line 253
+Overfull \hbox (0.54747pt too wide) detected at line 245
 \T1/ptm/m/n/10.95 11.4.11. 
  []
 
 
-Overfull \hbox (0.54747pt too wide) detected at line 254
+Overfull \hbox (0.54747pt too wide) detected at line 246
 \T1/ptm/m/n/10.95 11.4.12. 
  []
 
-[6]
-Overfull \hbox (0.54747pt too wide) detected at line 255
+
+Overfull \hbox (0.54747pt too wide) detected at line 247
 \T1/ptm/m/n/10.95 11.4.13. 
+ []
+
+[6]
+Overfull \hbox (2.18993pt too wide) detected at line 264
+\T1/ptm/m/n/10.95 14.10. 
+ []
+
+
+Overfull \hbox (2.18993pt too wide) detected at line 265
+\T1/ptm/m/n/10.95 14.11. 
  []
 
 )
@@ -1169,6 +1179,1230 @@ Underfull \vbox (badness 10000) detected at line 472
 
 [17] [18])
 (D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
+chapter03/sablon03.tex [19]
+fejezet 3.
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 8.
+
+[20
+
+
+] <chapters/chapter03/images/Main.jpg, id=1263, 1568.86125pt x 1316.92pt>
+File: chapters/chapter03/images/Main.jpg Graphic file (type jpg)
+
+<use chapters/chapter03/images/Main.jpg>
+Package pdftex.def Info: chapters/chapter03/images/Main.jpg used on input line 
+51.
+(pdftex.def)             Requested size: 483.69684pt x 406.01048pt.
+
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 61.
+
+[21 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
+ers/chapter03/images/Main.jpg>] [22] [23] [24] [25] [26]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 432.
+
+
+<chapters/chapter03/images/Akadaly_elhelyezese.jpg, id=1289, 566.115pt x 385.44
+pt>
+File: chapters/chapter03/images/Akadaly_elhelyezese.jpg Graphic file (type jpg)
+
+ <use chapters/chapter03/images/Akadaly_elhelyezese.jpg>
+Package pdftex.def Info: chapters/chapter03/images/Akadaly_elhelyezese.jpg used
+ on input line 435.
+(pdftex.def)             Requested size: 483.69684pt x 329.337pt.
+ [27]
+<chapters/chapter03/images/Ellenfel_mozgasa.jpg, id=1294, 1196.47pt x 678.535pt
+>
+File: chapters/chapter03/images/Ellenfel_mozgasa.jpg Graphic file (type jpg)
+ <use chapters/chapter03/images/Ellenfel_mozgasa.jpg>
+Package pdftex.def Info: chapters/chapter03/images/Ellenfel_mozgasa.jpg used on
+ input line 444.
+(pdftex.def)             Requested size: 483.69684pt x 274.3082pt.
+ [28 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter03/images/Akadaly_elhelyezese.jpg>]
+<chapters/chapter03/images/Torony_eladasa.jpg, id=1299, 630.355pt x 349.305pt>
+File: chapters/chapter03/images/Torony_eladasa.jpg Graphic file (type jpg)
+
+<use chapters/chapter03/images/Torony_eladasa.jpg>
+Package pdftex.def Info: chapters/chapter03/images/Torony_eladasa.jpg used on i
+nput line 453.
+(pdftex.def)             Requested size: 483.69684pt x 268.03825pt.
+ [29 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter03/images/Ellenfel_mozgasa.jpg>]
+<chapters/chapter03/images/Torony_elhelyezese.jpg, id=1304, 538.01pt x 369.38pt
+>
+File: chapters/chapter03/images/Torony_elhelyezese.jpg Graphic file (type jpg)
+ <use chapters/chapter03/images/Torony_elhelyezese.jpg>
+Package pdftex.def Info: chapters/chapter03/images/Torony_elhelyezese.jpg used 
+on input line 462.
+(pdftex.def)             Requested size: 483.69684pt x 332.09511pt.
+ [30 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter03/images/Torony_eladasa.jpg>]
+<chapters/chapter03/images/Torony_fejlesztese.jpg, id=1309, 554.07pt x 361.35pt
+>
+File: chapters/chapter03/images/Torony_fejlesztese.jpg Graphic file (type jpg)
+ <use chapters/chapter03/images/Torony_fejlesztese.jpg>
+Package pdftex.def Info: chapters/chapter03/images/Torony_fejlesztese.jpg used 
+on input line 471.
+(pdftex.def)             Requested size: 483.69684pt x 315.45265pt.
+ [31 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter03/images/Torony_elhelyezese.jpg>]
+<chapters/chapter03/images/Torony_tuzelese.jpg, id=1315, 1116.17pt x 642.4pt>
+File: chapters/chapter03/images/Torony_tuzelese.jpg Graphic file (type jpg)
+
+<use chapters/chapter03/images/Torony_tuzelese.jpg>
+Package pdftex.def Info: chapters/chapter03/images/Torony_tuzelese.jpg used on 
+input line 480.
+(pdftex.def)             Requested size: 483.69684pt x 278.3831pt.
+ [32 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter03/images/Torony_fejlesztese.jpg>]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 489.
+
+
+<chapters/chapter03/images/StatechartDiagram_Field.jpg, id=1320, 301.125pt x 20
+7.77625pt>
+File: chapters/chapter03/images/StatechartDiagram_Field.jpg Graphic file (type 
+jpg)
+ <use chapters/chapter03/images/StatechartDiagram_Field.jpg>
+Package pdftex.def Info: chapters/chapter03/images/StatechartDiagram_Field.jpg 
+used on input line 492.
+(pdftex.def)             Requested size: 483.69684pt x 333.78351pt.
+ [33 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter03/images/Torony_tuzelese.jpg>]
+<chapters/chapter03/images/StatechartDiagram_Path.jpg, id=1325, 952.55875pt x 5
+52.0625pt>
+File: chapters/chapter03/images/StatechartDiagram_Path.jpg Graphic file (type j
+pg)
+ <use chapters/chapter03/images/StatechartDiagram_Path.jpg>
+Package pdftex.def Info: chapters/chapter03/images/StatechartDiagram_Path.jpg u
+sed on input line 501.
+(pdftex.def)             Requested size: 483.69684pt x 280.33511pt.
+) [34 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/cha
+pters/chapter03/images/StatechartDiagram_Field.jpg>]
+(D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
+chapter04/sablon04.tex [35 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentaci
+o_latex/szoftlab4/chapters/chapter03/images/StatechartDiagram_Path.jpg>]
+fejezet 4.
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 8.
+
+[36
+
+
+] <chapters/chapter04/images/Main.jpg, id=1338, 1512.65125pt x 1597.97pt>
+File: chapters/chapter04/images/Main.jpg Graphic file (type jpg)
+
+<use chapters/chapter04/images/Main.jpg>
+Package pdftex.def Info: chapters/chapter04/images/Main.jpg used on input line 
+62.
+(pdftex.def)             Requested size: 483.69684pt x 510.97072pt.
+ [37]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 72.
+
+[38 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
+ers/chapter04/images/Main.jpg>] [39] [40] [41] [42] [43] [44] [45] [46]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 576.
+
+
+<chapters/chapter04/images/Akadaly_elhelyezese.jpg, id=1381, 646.415pt x 501.87
+5pt>
+File: chapters/chapter04/images/Akadaly_elhelyezese.jpg Graphic file (type jpg)
+
+ <use chapters/chapter04/images/Akadaly_elhelyezese.jpg>
+Package pdftex.def Info: chapters/chapter04/images/Akadaly_elhelyezese.jpg used
+ on input line 579.
+(pdftex.def)             Requested size: 483.69684pt x 375.53996pt.
+ [47]
+<chapters/chapter04/images/Ellenfel_mozgasa.jpg, id=1386, 1284.8pt x 694.595pt>
+File: chapters/chapter04/images/Ellenfel_mozgasa.jpg Graphic file (type jpg)
+<use chapters/chapter04/images/Ellenfel_mozgasa.jpg>
+Package pdftex.def Info: chapters/chapter04/images/Ellenfel_mozgasa.jpg used on
+ input line 588.
+(pdftex.def)             Requested size: 483.69684pt x 261.50055pt.
+ [48 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter04/images/Akadaly_elhelyezese.jpg>]
+<chapters/chapter04/images/Torony_eladasa.jpg, id=1391, 574.145pt x 513.92pt>
+File: chapters/chapter04/images/Torony_eladasa.jpg Graphic file (type jpg)
+
+<use chapters/chapter04/images/Torony_eladasa.jpg>
+Package pdftex.def Info: chapters/chapter04/images/Torony_eladasa.jpg used on i
+nput line 597.
+(pdftex.def)             Requested size: 483.69684pt x 432.96805pt.
+ [49 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter04/images/Ellenfel_mozgasa.jpg>]
+<chapters/chapter04/images/Torony_elhelyezese.jpg, id=1397, 594.22pt x 489.83pt
+>
+File: chapters/chapter04/images/Torony_elhelyezese.jpg Graphic file (type jpg)
+ <use chapters/chapter04/images/Torony_elhelyezese.jpg>
+Package pdftex.def Info: chapters/chapter04/images/Torony_elhelyezese.jpg used 
+on input line 606.
+(pdftex.def)             Requested size: 483.69684pt x 398.74078pt.
+ [50 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter04/images/Torony_eladasa.jpg>]
+<chapters/chapter04/images/Torony_fejlesztese.jpg, id=1402, 582.175pt x 730.73p
+t>
+File: chapters/chapter04/images/Torony_fejlesztese.jpg Graphic file (type jpg)
+ <use chapters/chapter04/images/Torony_fejlesztese.jpg>
+Package pdftex.def Info: chapters/chapter04/images/Torony_fejlesztese.jpg used 
+on input line 615.
+(pdftex.def)             Requested size: 483.69684pt x 607.13014pt.
+ [51 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter04/images/Torony_elhelyezese.jpg>]
+<chapters/chapter04/images/Torony_tuzelese.jpg, id=1407, 1116.17pt x 642.4pt>
+File: chapters/chapter04/images/Torony_tuzelese.jpg Graphic file (type jpg)
+
+<use chapters/chapter04/images/Torony_tuzelese.jpg>
+Package pdftex.def Info: chapters/chapter04/images/Torony_tuzelese.jpg used on 
+input line 624.
+(pdftex.def)             Requested size: 483.69684pt x 278.3831pt.
+ [52 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter04/images/Torony_fejlesztese.jpg>]
+<chapters/chapter04/images/Inicializalas.jpg, id=1412, 554.07pt x 706.64pt>
+File: chapters/chapter04/images/Inicializalas.jpg Graphic file (type jpg)
+
+<use chapters/chapter04/images/Inicializalas.jpg>
+Package pdftex.def Info: chapters/chapter04/images/Inicializalas.jpg used on in
+put line 633.
+(pdftex.def)             Requested size: 483.69684pt x 616.8852pt.
+ [53 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter04/images/Torony_tuzelese.jpg>]
+<chapters/chapter04/images/Jatek_menete.jpg, id=1417, 626.34pt x 915.42pt>
+File: chapters/chapter04/images/Jatek_menete.jpg Graphic file (type jpg)
+
+<use chapters/chapter04/images/Jatek_menete.jpg>
+Package pdftex.def Info: chapters/chapter04/images/Jatek_menete.jpg used on inp
+ut line 642.
+(pdftex.def)             Requested size: 369.88582pt x 540.62392pt.
+ [54 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter04/images/Inicializalas.jpg>])
+(D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
+chapter05/sablon05.tex [55 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentaci
+o_latex/szoftlab4/chapters/chapter04/images/Jatek_menete.jpg>]
+fejezet 5.
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 8.
+
+<chapters/chapter05/images/user_uc_1.jpg, id=1427, 941.5175pt x 405.515pt>
+File: chapters/chapter05/images/user_uc_1.jpg Graphic file (type jpg)
+
+<use chapters/chapter05/images/user_uc_1.jpg>
+Package pdftex.def Info: chapters/chapter05/images/user_uc_1.jpg used on input 
+line 16.
+(pdftex.def)             Requested size: 483.69684pt x 208.33206pt.
+
+<chapters/chapter05/images/user_uc_2.jpg, id=1428, 972.63374pt x 433.62pt>
+File: chapters/chapter05/images/user_uc_2.jpg Graphic file (type jpg)
+
+<use chapters/chapter05/images/user_uc_2.jpg>
+Package pdftex.def Info: chapters/chapter05/images/user_uc_2.jpg used on input 
+line 26.
+(pdftex.def)             Requested size: 483.69684pt x 215.63834pt.
+ [56
+
+
+ <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapters
+/chapter05/images/user_uc_1.jpg> <D:/FILES/Documents/GitHub/Dokumentaciok/Dokum
+entacio_latex/szoftlab4/chapters/chapter05/images/user_uc_2.jpg>]
+Underfull \vbox (badness 10000) detected at line 39
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 45
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 51
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 57
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 63
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 69
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 75
+ []
+
+[57]
+Underfull \vbox (badness 10000) detected at line 81
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 87
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 93
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 99
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 105
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 111
+ []
+
+[58]
+Underfull \vbox (badness 10000) detected at line 117
+ []
+
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 124.
+
+
+Underfull \vbox (badness 10000) detected at line 161
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 167
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 173
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 179
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 185
+ []
+
+[59]
+Underfull \vbox (badness 10000) detected at line 191
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 197
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 203
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 209
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 215
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 221
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 227
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 233
+ []
+
+[60]
+Underfull \vbox (badness 10000) detected at line 239
+ []
+
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 248.
+
+
+<chapters/chapter05/images/sd_Akadaly_elhelyezese_ellenseg_altal_foglalt_utra.j
+pg, id=1475, 397.485pt x 252.945pt>
+File: chapters/chapter05/images/sd_Akadaly_elhelyezese_ellenseg_altal_foglalt_u
+tra.jpg Graphic file (type jpg)
+
+<use chapters/chapter05/images/sd_Akadaly_elhelyezese_ellenseg_altal_foglalt_ut
+ra.jpg>
+Package pdftex.def Info: chapters/chapter05/images/sd_Akadaly_elhelyezese_ellen
+seg_altal_foglalt_utra.jpg used on input line 251.
+(pdftex.def)             Requested size: 483.69684pt x 307.81667pt.
+
+<chapters/chapter05/images/sd_Akadaly_elhelyezese_masik_akadaly_altal_foglalt_u
+tra.jpg, id=1476, 397.485pt x 252.945pt>
+File: chapters/chapter05/images/sd_Akadaly_elhelyezese_masik_akadaly_altal_fogl
+alt_utra.jpg Graphic file (type jpg)
+
+<use chapters/chapter05/images/sd_Akadaly_elhelyezese_masik_akadaly_altal_fogla
+lt_utra.jpg>
+Package pdftex.def Info: chapters/chapter05/images/sd_Akadaly_elhelyezese_masik
+_akadaly_altal_foglalt_utra.jpg used on input line 260.
+(pdftex.def)             Requested size: 483.69684pt x 307.81667pt.
+ [61 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter05/images/sd_Akadaly_elhelyezese_ellenseg_altal_foglalt_utra.jpg>]
+<chapters/chapter05/images/sd_Akadaly_elhelyezese_ures_utra.jpg, id=1482, 827.0
+9pt x 618.31pt>
+File: chapters/chapter05/images/sd_Akadaly_elhelyezese_ures_utra.jpg Graphic fi
+le (type jpg)
+
+<use chapters/chapter05/images/sd_Akadaly_elhelyezese_ures_utra.jpg>
+Package pdftex.def Info: chapters/chapter05/images/sd_Akadaly_elhelyezese_ures_
+utra.jpg used on input line 269.
+(pdftex.def)             Requested size: 483.69684pt x 361.6014pt.
+ [62 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter05/images/sd_Akadaly_elhelyezese_masik_akadaly_altal_foglalt_utra.j
+pg>]
+<chapters/chapter05/images/sd_Akadaly_fejlesztese.jpg, id=1487, 790.955pt x 778
+.91pt>
+File: chapters/chapter05/images/sd_Akadaly_fejlesztese.jpg Graphic file (type j
+pg)
+ <use chapters/chapter05/images/sd_Akadaly_fejlesztese.jpg>
+Package pdftex.def Info: chapters/chapter05/images/sd_Akadaly_fejlesztese.jpg u
+sed on input line 278.
+(pdftex.def)             Requested size: 483.69684pt x 476.33482pt.
+ [63 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter05/images/sd_Akadaly_elhelyezese_ures_utra.jpg>]
+<chapters/chapter05/images/sd_Ellenfel_mozgasa.jpg, id=1492, 1308.89pt x 839.13
+5pt>
+File: chapters/chapter05/images/sd_Ellenfel_mozgasa.jpg Graphic file (type jpg)
+
+ <use chapters/chapter05/images/sd_Ellenfel_mozgasa.jpg>
+Package pdftex.def Info: chapters/chapter05/images/sd_Ellenfel_mozgasa.jpg used
+ on input line 287.
+(pdftex.def)             Requested size: 483.69684pt x 310.09096pt.
+ [64 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter05/images/sd_Akadaly_fejlesztese.jpg>]
+<chapters/chapter05/images/sd_Fejlesztetlen_torony_eladasa.jpg, id=1497, 574.14
+5pt x 369.38pt>
+File: chapters/chapter05/images/sd_Fejlesztetlen_torony_eladasa.jpg Graphic fil
+e (type jpg)
+
+<use chapters/chapter05/images/sd_Fejlesztetlen_torony_eladasa.jpg>
+Package pdftex.def Info: chapters/chapter05/images/sd_Fejlesztetlen_torony_elad
+asa.jpg used on input line 296.
+(pdftex.def)             Requested size: 483.69684pt x 311.19579pt.
+ [65 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter05/images/sd_Ellenfel_mozgasa.jpg>]
+<chapters/chapter05/images/sd_Fejlesztett_torony_eladasa.jpg, id=1502, 574.145p
+t x 513.92pt>
+File: chapters/chapter05/images/sd_Fejlesztett_torony_eladasa.jpg Graphic file 
+(type jpg)
+
+<use chapters/chapter05/images/sd_Fejlesztett_torony_eladasa.jpg>
+Package pdftex.def Info: chapters/chapter05/images/sd_Fejlesztett_torony_eladas
+a.jpg used on input line 305.
+(pdftex.def)             Requested size: 483.69684pt x 432.96805pt.
+ [66 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter05/images/sd_Fejlesztetlen_torony_eladasa.jpg>]
+<chapters/chapter05/images/sd_Inicializalas.jpg, id=1507, 554.07pt x 706.64pt>
+File: chapters/chapter05/images/sd_Inicializalas.jpg Graphic file (type jpg)
+
+<use chapters/chapter05/images/sd_Inicializalas.jpg>
+Package pdftex.def Info: chapters/chapter05/images/sd_Inicializalas.jpg used on
+ input line 314.
+(pdftex.def)             Requested size: 483.69684pt x 616.8852pt.
+ [67 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter05/images/sd_Fejlesztett_torony_eladasa.jpg>]
+<chapters/chapter05/images/sd_Torony_elhelyezese_foglalt_mezore.jpg, id=1513, 3
+73.395pt x 216.81pt>
+File: chapters/chapter05/images/sd_Torony_elhelyezese_foglalt_mezore.jpg Graphi
+c file (type jpg)
+
+<use chapters/chapter05/images/sd_Torony_elhelyezese_foglalt_mezore.jpg>
+Package pdftex.def Info: chapters/chapter05/images/sd_Torony_elhelyezese_foglal
+t_mezore.jpg used on input line 323.
+(pdftex.def)             Requested size: 483.69684pt x 280.8704pt.
+
+[68 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
+ers/chapter05/images/sd_Inicializalas.jpg>]
+<chapters/chapter05/images/sd_Torony_elhelyezese_ures_mezore.jpg, id=1518, 666.
+49pt x 542.025pt>
+File: chapters/chapter05/images/sd_Torony_elhelyezese_ures_mezore.jpg Graphic f
+ile (type jpg)
+
+<use chapters/chapter05/images/sd_Torony_elhelyezese_ures_mezore.jpg>
+Package pdftex.def Info: chapters/chapter05/images/sd_Torony_elhelyezese_ures_m
+ezore.jpg used on input line 332.
+(pdftex.def)             Requested size: 483.69684pt x 393.37572pt.
+ [69 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter05/images/sd_Torony_elhelyezese_foglalt_mezore.jpg>]
+<chapters/chapter05/images/sd_Torony_fejlesztese_minden_gembol_eggyel.jpg, id=1
+523, 919.435pt x 1393.205pt>
+File: chapters/chapter05/images/sd_Torony_fejlesztese_minden_gembol_eggyel.jpg 
+Graphic file (type jpg)
+
+<use chapters/chapter05/images/sd_Torony_fejlesztese_minden_gembol_eggyel.jpg>
+Package pdftex.def Info: chapters/chapter05/images/sd_Torony_fejlesztese_minden
+_gembol_eggyel.jpg used on input line 341.
+(pdftex.def)             Requested size: 483.69684pt x 732.95296pt.
+
+[70 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
+ers/chapter05/images/sd_Torony_elhelyezese_ures_mezore.jpg>]
+Overfull \vbox (114.12874pt too high) has occurred while \output is active []
+
+
+[71 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
+ers/chapter05/images/sd_Torony_fejlesztese_minden_gembol_eggyel.jpg>]
+<chapters/chapter05/images/sd_Torony_hatokoreben_nincs_ellenseg_tuzeleskor.jpg,
+ id=1532, 513.92pt x 369.38pt>
+File: chapters/chapter05/images/sd_Torony_hatokoreben_nincs_ellenseg_tuzeleskor
+.jpg Graphic file (type jpg)
+
+<use chapters/chapter05/images/sd_Torony_hatokoreben_nincs_ellenseg_tuzeleskor.
+jpg>
+Package pdftex.def Info: chapters/chapter05/images/sd_Torony_hatokoreben_nincs_
+ellenseg_tuzeleskor.jpg used on input line 350.
+(pdftex.def)             Requested size: 483.69684pt x 347.6625pt.
+
+<chapters/chapter05/images/sd_Torony_lelo_egy_ellenseget_fejlesztetlenul.jpg, i
+d=1533, 1160.335pt x 658.46pt>
+File: chapters/chapter05/images/sd_Torony_lelo_egy_ellenseget_fejlesztetlenul.j
+pg Graphic file (type jpg)
+
+<use chapters/chapter05/images/sd_Torony_lelo_egy_ellenseget_fejlesztetlenul.jp
+g>
+Package pdftex.def Info: chapters/chapter05/images/sd_Torony_lelo_egy_ellensege
+t_fejlesztetlenul.jpg used on input line 359.
+(pdftex.def)             Requested size: 483.69684pt x 274.48158pt.
+ [72 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter05/images/sd_Torony_hatokoreben_nincs_ellenseg_tuzeleskor.jpg>]
+<chapters/chapter05/images/sd_Torony_tuzel_egy_ellensegre_fejlesztetlenul.jpg, 
+id=1538, 943.525pt x 429.605pt>
+File: chapters/chapter05/images/sd_Torony_tuzel_egy_ellensegre_fejlesztetlenul.
+jpg Graphic file (type jpg)
+
+<use chapters/chapter05/images/sd_Torony_tuzel_egy_ellensegre_fejlesztetlenul.j
+pg>
+Package pdftex.def Info: chapters/chapter05/images/sd_Torony_tuzel_egy_ellenseg
+re_fejlesztetlenul.jpg used on input line 368.
+(pdftex.def)             Requested size: 483.69684pt x 220.23625pt.
+
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 379.
+
+
+<chapters/chapter05/images/cd_Akadaly_elhelyezese_ellenseg_altal_foglalt_utra.j
+pg, id=1539, 638.385pt x 216.81pt>
+File: chapters/chapter05/images/cd_Akadaly_elhelyezese_ellenseg_altal_foglalt_u
+tra.jpg Graphic file (type jpg)
+
+<use chapters/chapter05/images/cd_Akadaly_elhelyezese_ellenseg_altal_foglalt_ut
+ra.jpg>
+Package pdftex.def Info: chapters/chapter05/images/cd_Akadaly_elhelyezese_ellen
+seg_altal_foglalt_utra.jpg used on input line 382.
+(pdftex.def)             Requested size: 483.69684pt x 164.27444pt.
+ [73 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter05/images/sd_Torony_lelo_egy_ellenseget_fejlesztetlenul.jpg> <D:/FI
+LES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapters/chapte
+r05/images/sd_Torony_tuzel_egy_ellensegre_fejlesztetlenul.jpg>]
+<chapters/chapter05/images/cd_Akadaly_elhelyezese_masik_akadaly_altal_foglalt_u
+tra.jpg, id=1545, 638.385pt x 216.81pt>
+File: chapters/chapter05/images/cd_Akadaly_elhelyezese_masik_akadaly_altal_fogl
+alt_utra.jpg Graphic file (type jpg)
+
+<use chapters/chapter05/images/cd_Akadaly_elhelyezese_masik_akadaly_altal_fogla
+lt_utra.jpg>
+Package pdftex.def Info: chapters/chapter05/images/cd_Akadaly_elhelyezese_masik
+_akadaly_altal_foglalt_utra.jpg used on input line 391.
+(pdftex.def)             Requested size: 483.69684pt x 164.27444pt.
+
+<chapters/chapter05/images/cd_Akadaly_elhelyezese_ures_utra.jpg, id=1546, 642.4
+pt x 337.26pt>
+File: chapters/chapter05/images/cd_Akadaly_elhelyezese_ures_utra.jpg Graphic fi
+le (type jpg)
+
+<use chapters/chapter05/images/cd_Akadaly_elhelyezese_ures_utra.jpg>
+Package pdftex.def Info: chapters/chapter05/images/cd_Akadaly_elhelyezese_ures_
+utra.jpg used on input line 400.
+(pdftex.def)             Requested size: 483.69684pt x 253.94788pt.
+ [74 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter05/images/cd_Akadaly_elhelyezese_ellenseg_altal_foglalt_utra.jpg> <
+D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapters/c
+hapter05/images/cd_Akadaly_elhelyezese_masik_akadaly_altal_foglalt_utra.jpg>]
+<chapters/chapter05/images/cd_Akadaly_fejlesztese.jpg, id=1551, 891.33pt x 433.
+62pt>
+File: chapters/chapter05/images/cd_Akadaly_fejlesztese.jpg Graphic file (type j
+pg)
+ <use chapters/chapter05/images/cd_Akadaly_fejlesztese.jpg>
+Package pdftex.def Info: chapters/chapter05/images/cd_Akadaly_fejlesztese.jpg u
+sed on input line 409.
+(pdftex.def)             Requested size: 483.69684pt x 235.31581pt.
+
+<chapters/chapter05/images/cd_Ellenfel_mozgasa.jpg, id=1552, 1003.75pt x 401.5p
+t>
+File: chapters/chapter05/images/cd_Ellenfel_mozgasa.jpg Graphic file (type jpg)
+
+ <use chapters/chapter05/images/cd_Ellenfel_mozgasa.jpg>
+Package pdftex.def Info: chapters/chapter05/images/cd_Ellenfel_mozgasa.jpg used
+ on input line 418.
+(pdftex.def)             Requested size: 483.69684pt x 193.4836pt.
+ [75 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter05/images/cd_Akadaly_elhelyezese_ures_utra.jpg> <D:/FILES/Documents
+/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapters/chapter05/images/cd
+_Akadaly_fejlesztese.jpg>]
+<chapters/chapter05/images/cd_Fejlesztetlen_torony_eladasa.jpg, id=1557, 605.26
+125pt x 235.88126pt>
+File: chapters/chapter05/images/cd_Fejlesztetlen_torony_eladasa.jpg Graphic fil
+e (type jpg)
+
+<use chapters/chapter05/images/cd_Fejlesztetlen_torony_eladasa.jpg>
+Package pdftex.def Info: chapters/chapter05/images/cd_Fejlesztetlen_torony_elad
+asa.jpg used on input line 427.
+(pdftex.def)             Requested size: 483.69684pt x 188.5073pt.
+
+<chapters/chapter05/images/cd_Fejlesztett_torony_eladasa.jpg, id=1558, 661.4712
+5pt x 356.33125pt>
+File: chapters/chapter05/images/cd_Fejlesztett_torony_eladasa.jpg Graphic file 
+(type jpg)
+
+<use chapters/chapter05/images/cd_Fejlesztett_torony_eladasa.jpg>
+Package pdftex.def Info: chapters/chapter05/images/cd_Fejlesztett_torony_eladas
+a.jpg used on input line 436.
+(pdftex.def)             Requested size: 483.69684pt x 260.56004pt.
+ [76 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter05/images/cd_Ellenfel_mozgasa.jpg> <D:/FILES/Documents/GitHub/Dokum
+entaciok/Dokumentacio_latex/szoftlab4/chapters/chapter05/images/cd_Fejlesztetle
+n_torony_eladasa.jpg>]
+<chapters/chapter05/images/cd_Inicializalas.jpg, id=1563, 819.06pt x 325.215pt>
+File: chapters/chapter05/images/cd_Inicializalas.jpg Graphic file (type jpg)
+<use chapters/chapter05/images/cd_Inicializalas.jpg>
+Package pdftex.def Info: chapters/chapter05/images/cd_Inicializalas.jpg used on
+ input line 445.
+(pdftex.def)             Requested size: 483.69684pt x 192.05879pt.
+
+<chapters/chapter05/images/cd_Torony_elhelyezese_foglalt_mezore.jpg, id=1564, 4
+93.845pt x 148.555pt>
+File: chapters/chapter05/images/cd_Torony_elhelyezese_foglalt_mezore.jpg Graphi
+c file (type jpg)
+
+<use chapters/chapter05/images/cd_Torony_elhelyezese_foglalt_mezore.jpg>
+Package pdftex.def Info: chapters/chapter05/images/cd_Torony_elhelyezese_foglal
+t_mezore.jpg used on input line 454.
+(pdftex.def)             Requested size: 483.69684pt x 145.50128pt.
+
+[77 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
+ers/chapter05/images/cd_Fejlesztett_torony_eladasa.jpg> <D:/FILES/Documents/Git
+Hub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapters/chapter05/images/cd_Ini
+cializalas.jpg>]
+<chapters/chapter05/images/cd_Torony_elhelyezese_ures_mezore.jpg, id=1569, 746.
+79pt x 325.215pt>
+File: chapters/chapter05/images/cd_Torony_elhelyezese_ures_mezore.jpg Graphic f
+ile (type jpg)
+
+<use chapters/chapter05/images/cd_Torony_elhelyezese_ures_mezore.jpg>
+Package pdftex.def Info: chapters/chapter05/images/cd_Torony_elhelyezese_ures_m
+ezore.jpg used on input line 463.
+(pdftex.def)             Requested size: 483.69684pt x 210.64288pt.
+
+<chapters/chapter05/images/cd_Torony_fejlesztese_minden_gembol_eggyel.jpg, id=1
+570, 1441.385pt x 508.90125pt>
+File: chapters/chapter05/images/cd_Torony_fejlesztese_minden_gembol_eggyel.jpg 
+Graphic file (type jpg)
+
+<use chapters/chapter05/images/cd_Torony_fejlesztese_minden_gembol_eggyel.jpg>
+Package pdftex.def Info: chapters/chapter05/images/cd_Torony_fejlesztese_minden
+_gembol_eggyel.jpg used on input line 472.
+(pdftex.def)             Requested size: 369.88582pt x 130.58733pt.
+
+[78 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
+ers/chapter05/images/cd_Torony_elhelyezese_foglalt_mezore.jpg> <D:/FILES/Docume
+nts/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapters/chapter05/images
+/cd_Torony_elhelyezese_ures_mezore.jpg>]
+<chapters/chapter05/images/cd_Torony_hatokoreben_nincs_ellenseg_tuzeleskor.jpg,
+ id=1575, 594.22pt x 240.9pt>
+File: chapters/chapter05/images/cd_Torony_hatokoreben_nincs_ellenseg_tuzeleskor
+.jpg Graphic file (type jpg)
+
+<use chapters/chapter05/images/cd_Torony_hatokoreben_nincs_ellenseg_tuzeleskor.
+jpg>
+Package pdftex.def Info: chapters/chapter05/images/cd_Torony_hatokoreben_nincs_
+ellenseg_tuzeleskor.jpg used on input line 481.
+(pdftex.def)             Requested size: 483.69684pt x 196.10202pt.
+
+<chapters/chapter05/images/cd_Torony_lelo_egy_ellenseget_fejlesztetlenul.jpg, i
+d=1576, 574.145pt x 525.965pt>
+File: chapters/chapter05/images/cd_Torony_lelo_egy_ellenseget_fejlesztetlenul.j
+pg Graphic file (type jpg)
+
+<use chapters/chapter05/images/cd_Torony_lelo_egy_ellenseget_fejlesztetlenul.jp
+g>
+Package pdftex.def Info: chapters/chapter05/images/cd_Torony_lelo_egy_ellensege
+t_fejlesztetlenul.jpg used on input line 490.
+(pdftex.def)             Requested size: 483.69684pt x 443.11574pt.
+ [79 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter05/images/cd_Torony_fejlesztese_minden_gembol_eggyel.jpg> <D:/FILES
+/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapters/chapter05
+/images/cd_Torony_hatokoreben_nincs_ellenseg_tuzeleskor.jpg>]
+<chapters/chapter05/images/cd_Torony_tuzel_egy_ellensegre_fejlesztetlenul.jpg, 
+id=1582, 594.22pt x 389.455pt>
+File: chapters/chapter05/images/cd_Torony_tuzel_egy_ellensegre_fejlesztetlenul.
+jpg Graphic file (type jpg)
+
+<use chapters/chapter05/images/cd_Torony_tuzel_egy_ellensegre_fejlesztetlenul.j
+pg>
+Package pdftex.def Info: chapters/chapter05/images/cd_Torony_tuzel_egy_ellenseg
+re_fejlesztetlenul.jpg used on input line 499.
+(pdftex.def)             Requested size: 483.69684pt x 317.0316pt.
+ [80 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter05/images/cd_Torony_lelo_egy_ellenseget_fejlesztetlenul.jpg>])
+(D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
+chapter06/sablon06.tex [81 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentaci
+o_latex/szoftlab4/chapters/chapter05/images/cd_Torony_tuzel_egy_ellensegre_fejl
+esztetlenul.jpg>]
+fejezet 6.
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 8.
+
+[82
+
+
+])
+(D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
+chapter07/sablon07.tex [83]
+fejezet 7.
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 10.
+
+
+<chapters/chapter07/images/MainModSpec.jpg, id=1599, 1512.65125pt x 1597.97pt>
+File: chapters/chapter07/images/MainModSpec.jpg Graphic file (type jpg)
+
+<use chapters/chapter07/images/MainModSpec.jpg>
+Package pdftex.def Info: chapters/chapter07/images/MainModSpec.jpg used on inpu
+t line 26.
+(pdftex.def)             Requested size: 483.69684pt x 510.97072pt.
+ [84
+
+
+]
+<chapters/chapter07/images/sd_Jatek_menete.jpg, id=1604, 678.535pt x 1276.77pt>
+File: chapters/chapter07/images/sd_Jatek_menete.jpg Graphic file (type jpg)
+<use chapters/chapter07/images/sd_Jatek_menete.jpg>
+Package pdftex.def Info: chapters/chapter07/images/sd_Jatek_menete.jpg used on 
+input line 38.
+(pdftex.def)             Requested size: 369.88582pt x 695.99147pt.
+ [85 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter07/images/MainModSpec.jpg>]
+Overfull \vbox (74.90608pt too high) has occurred while \output is active []
+
+
+[86 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
+ers/chapter07/images/sd_Jatek_menete.jpg>]
+<chapters/chapter07/images/sd_torony_kettevag_egy_ellenseget.jpg, id=1614, 1156
+.32pt x 851.18pt>
+File: chapters/chapter07/images/sd_torony_kettevag_egy_ellenseget.jpg Graphic f
+ile (type jpg)
+
+<use chapters/chapter07/images/sd_torony_kettevag_egy_ellenseget.jpg>
+Package pdftex.def Info: chapters/chapter07/images/sd_torony_kettevag_egy_ellen
+seget.jpg used on input line 47.
+(pdftex.def)             Requested size: 483.69684pt x 356.0515pt.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+File: lstlang1.sty 2014/03/04 1.5c listings language file
+)
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 62.
+
+[87 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
+ers/chapter07/images/sd_torony_kettevag_egy_ellenseget.jpg>] [88]
+Underfull \hbox (badness 10000) in paragraph at lines 188--190
+
+ []
+
+[89]
+Underfull \hbox (badness 10000) in paragraph at lines 267--269
+
+ []
+
+[90]
+Underfull \vbox (badness 10000) detected at line 291
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 297
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 303
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 309
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 315
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 321
+ []
+
+[91]
+Underfull \vbox (badness 10000) detected at line 327
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 333
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 339
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 345
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 351
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 357
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 363
+ []
+
+[92]
+Underfull \vbox (badness 10000) detected at line 369
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 380
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 385
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 390
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 399
+ []
+
+[93])
+(D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
+chapter08/sablon08.tex [94]
+fejezet 8.
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 8.
+
+[95
+
+
+] [96]
+Overfull \hbox (19.46078pt too wide) in paragraph at lines 121--122
+[]\T1/ptm/m/n/10.95 Létrehoz no-Ene-mies db el-len-sé-get, ran-dom tí-pu-sút, e
+ze-ket be-te-szi az enemiesOut-
+ []
+
+[97]
+Overfull \hbox (8.20447pt too wide) in paragraph at lines 151--152
+[]\T1/ptm/m/n/10.95 Kristályok vá-sár-lása. A
+ []
+
+[98] [99] [100] [101] [102] [103]
+Overfull \hbox (7.75598pt too wide) in paragraph at lines 491--492
+[]\T1/ptm/m/n/10.95 Fejleszti a ka-pott t tor-nyot ma-gá-val. Meg-hívja a rá je
+l-lepz® upgrade...
+ []
+
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 529.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 537--538
+
+ []
+
+[104]
+Underfull \hbox (badness 10000) in paragraph at lines 546--547
+
+ []
+
+LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <9> not available
+(Font)              Font shape `T1/pcr/b/n' tried instead on input line 560.
+
+Underfull \hbox (badness 10000) in paragraph at lines 562--563
+
+ []
+
+[105]
+Underfull \hbox (badness 10000) in paragraph at lines 608--609
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 616--617
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 625--626
+
+ []
+
+[106]
+Underfull \hbox (badness 10000) in paragraph at lines 664--665
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 672--673
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 684--685
+
+ []
+
+[107]
+Underfull \hbox (badness 10000) in paragraph at lines 716--717
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 726--727
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 740--741
+
+ []
+
+[108])
+(D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
+chapter10/sablon10.tex [109]
+fejezet 10.
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 8.
+
+
+Overfull \hbox (11.55765pt too wide) in paragraph at lines 199--199
+[]|\T1/ptm/m/n/10 txtComparer/TxtComparer.java| 
+ []
+
+[110
+
+
+]
+Overfull \hbox (16.91983pt too wide) in paragraph at lines 330--331
+[]\T1/ptm/m/n/10.95 Az adott batch fáj-lok se-gít-sé-gé-vel le-het-sé-ges le-fo
+r-dí-tani és fut-tatni a pro-to-tí-pust: eh-hez a ProtoCompileAndRun.bat-
+ []
+
+[111]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 358.
+
+
+Underfull \vbox (badness 10000) detected at line 364
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 371
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 376
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 383
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 389
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 396
+ []
+
+[112]
+Underfull \vbox (badness 10000) detected at line 403
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 409
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 416
+ []
+
+)
+(D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
+chapter11/sablon11.tex [113]
+fejezet 11.
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 8.
+
+<chapters/chapter11/images/GraphicPlans.jpg, id=1765, 2007.5pt x 1907.125pt>
+File: chapters/chapter11/images/GraphicPlans.jpg Graphic file (type jpg)
+
+<use chapters/chapter11/images/GraphicPlans.jpg>
+Package pdftex.def Info: chapters/chapter11/images/GraphicPlans.jpg used on inp
+ut line 13.
+(pdftex.def)             Requested size: 483.69684pt x 459.49448pt.
+
+<chapters/chapter11/images/GraphClassesD.jpg, id=1766, 823.075pt x 636.3775pt>
+File: chapters/chapter11/images/GraphClassesD.jpg Graphic file (type jpg)
+
+<use chapters/chapter11/images/GraphClassesD.jpg>
+Package pdftex.def Info: chapters/chapter11/images/GraphClassesD.jpg used on in
+put line 24.
+(pdftex.def)             Requested size: 483.69684pt x 373.9835pt.
+ [114
+
+
+ <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapters
+/chapter11/images/GraphicPlans.jpg>]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 30.
+
+
+<chapters/chapter11/images/SimaClassDiag.jpg, id=1771, 1540.75626pt x 1838.87pt
+>
+File: chapters/chapter11/images/SimaClassDiag.jpg Graphic file (type jpg)
+ <use chapters/chapter11/images/SimaClassDiag.jpg>
+Package pdftex.def Info: chapters/chapter11/images/SimaClassDiag.jpg used on in
+put line 51.
+(pdftex.def)             Requested size: 483.69684pt x 577.283pt.
+ [115 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/cha
+pters/chapter11/images/GraphClassesD.jpg>]
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 61.
+
+[116 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter11/images/SimaClassDiag.jpg>]
+Overfull \hbox (1.7555pt too wide) in paragraph at lines 76--77
+[]\T1/ptm/m/n/10.95 A kü-lön-böz® GEnemy-khez tar-tozó raj-zoló függ-vény. 
+ []
+
+[117] [118] [119]
+Underfull \hbox (badness 10000) in paragraph at lines 224--225
+
+ []
+
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 238.
+
+
+<chapters/chapter11/images/Akadaly_elhelyezese.jpg, id=1793, 528.97626pt x 272.
+01625pt>
+File: chapters/chapter11/images/Akadaly_elhelyezese.jpg Graphic file (type jpg)
+
+ <use chapters/chapter11/images/Akadaly_elhelyezese.jpg>
+Package pdftex.def Info: chapters/chapter11/images/Akadaly_elhelyezese.jpg used
+ on input line 241.
+(pdftex.def)             Requested size: 483.69684pt x 248.7347pt.
+
+<chapters/chapter11/images/Akadaly_javitasa.jpg, id=1794, 386.19281pt x 220.574
+07pt>
+File: chapters/chapter11/images/Akadaly_javitasa.jpg Graphic file (type jpg)
+ <use chapters/chapter11/images/Akadaly_javitasa.jpg>
+Package pdftex.def Info: chapters/chapter11/images/Akadaly_javitasa.jpg used on
+ input line 250.
+(pdftex.def)             Requested size: 483.69684pt x 276.26549pt.
+ [120 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/cha
+pters/chapter11/images/Akadaly_elhelyezese.jpg>]
+<chapters/chapter11/images/Akadaly_torlodese.jpg, id=1799, 528.97626pt x 272.01
+625pt>
+File: chapters/chapter11/images/Akadaly_torlodese.jpg Graphic file (type jpg)
+ <use chapters/chapter11/images/Akadaly_torlodese.jpg>
+Package pdftex.def Info: chapters/chapter11/images/Akadaly_torlodese.jpg used o
+n input line 259.
+(pdftex.def)             Requested size: 483.69684pt x 248.7347pt.
+
+<chapters/chapter11/images/Betoltes.jpg, id=1800, 574.145pt x 1043.9pt>
+File: chapters/chapter11/images/Betoltes.jpg Graphic file (type jpg)
+
+<use chapters/chapter11/images/Betoltes.jpg>
+Package pdftex.def Info: chapters/chapter11/images/Betoltes.jpg used on input l
+ine 268.
+(pdftex.def)             Requested size: 369.88582pt x 672.5378pt.
+ [121 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/cha
+pters/chapter11/images/Akadaly_javitasa.jpg> <D:/FILES/Documents/GitHub/Dokumen
+taciok/Dokumentacio_latex/szoftlab4/chapters/chapter11/images/Akadaly_torlodese
+.jpg>]
+Overfull \vbox (51.45241pt too high) has occurred while \output is active []
+
+
+[122 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
+ters/chapter11/images/Betoltes.jpg>]
+<chapters/chapter11/images/Ellenseg_beerkezik.jpg, id=1810, 304.88907pt x 149.8
+097pt>
+File: chapters/chapter11/images/Ellenseg_beerkezik.jpg Graphic file (type jpg)
+ <use chapters/chapter11/images/Ellenseg_beerkezik.jpg>
+Package pdftex.def Info: chapters/chapter11/images/Ellenseg_beerkezik.jpg used 
+on input line 277.
+(pdftex.def)             Requested size: 483.69684pt x 237.67735pt.
+
+<chapters/chapter11/images/Ellenseg_halala.jpg, id=1811, 374.14781pt x 219.8212
+4pt>
+File: chapters/chapter11/images/Ellenseg_halala.jpg Graphic file (type jpg)
+ <use chapters/chapter11/images/Ellenseg_halala.jpg>
+Package pdftex.def Info: chapters/chapter11/images/Ellenseg_halala.jpg used on 
+input line 286.
+(pdftex.def)             Requested size: 483.69684pt x 284.1978pt.
+
+<chapters/chapter11/images/Ellenseg_lepese.jpg, id=1812, 986.68625pt x 574.145p
+t>
+File: chapters/chapter11/images/Ellenseg_lepese.jpg Graphic file (type jpg)
+ <use chapters/chapter11/images/Ellenseg_lepese.jpg>
+Package pdftex.def Info: chapters/chapter11/images/Ellenseg_lepese.jpg used on 
+input line 295.
+(pdftex.def)             Requested size: 483.69684pt x 281.46492pt.
+ [123 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/cha
+pters/chapter11/images/Ellenseg_beerkezik.jpg> <D:/FILES/Documents/GitHub/Dokum
+entaciok/Dokumentacio_latex/szoftlab4/chapters/chapter11/images/Ellenseg_halala
+.jpg>]
+<chapters/chapter11/images/Ellenseg_letrehozasa.jpg, id=1817, 460.72125pt x 404
+.51125pt>
+File: chapters/chapter11/images/Ellenseg_letrehozasa.jpg Graphic file (type jpg
+)
+ <use chapters/chapter11/images/Ellenseg_letrehozasa.jpg>
+Package pdftex.def Info: chapters/chapter11/images/Ellenseg_letrehozasa.jpg use
+d on input line 304.
+(pdftex.def)             Requested size: 483.69684pt x 424.68144pt.
+ [124 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/cha
+pters/chapter11/images/Ellenseg_lepese.jpg>]
+<chapters/chapter11/images/Ellenseg_sebzese.jpg, id=1822, 327.47343pt x 207.023
+44pt>
+File: chapters/chapter11/images/Ellenseg_sebzese.jpg Graphic file (type jpg)
+ <use chapters/chapter11/images/Ellenseg_sebzese.jpg>
+Package pdftex.def Info: chapters/chapter11/images/Ellenseg_sebzese.jpg used on
+ input line 313.
+(pdftex.def)             Requested size: 483.69684pt x 305.78651pt.
+ [125 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/cha
+pters/chapter11/images/Ellenseg_letrehozasa.jpg>]
+<chapters/chapter11/images/Torony_elhelyezese.jpg, id=1827, 528.97626pt x 272.0
+1625pt>
+File: chapters/chapter11/images/Torony_elhelyezese.jpg Graphic file (type jpg)
+ <use chapters/chapter11/images/Torony_elhelyezese.jpg>
+Package pdftex.def Info: chapters/chapter11/images/Torony_elhelyezese.jpg used 
+on input line 322.
+(pdftex.def)             Requested size: 483.69684pt x 248.7347pt.
+ [126 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/cha
+pters/chapter11/images/Ellenseg_sebzese.jpg>]
+<chapters/chapter11/images/Torony_fejlesztese_ellenseg_tipusra.jpg, id=1832, 37
+6.40625pt x 219.82124pt>
+File: chapters/chapter11/images/Torony_fejlesztese_ellenseg_tipusra.jpg Graphic
+ file (type jpg)
+
+<use chapters/chapter11/images/Torony_fejlesztese_ellenseg_tipusra.jpg>
+Package pdftex.def Info: chapters/chapter11/images/Torony_fejlesztese_ellenseg_
+tipusra.jpg used on input line 331.
+(pdftex.def)             Requested size: 483.69684pt x 282.50058pt.
+
+<chapters/chapter11/images/Torony_torlodese.jpg, id=1833, 528.97626pt x 272.016
+25pt>
+File: chapters/chapter11/images/Torony_torlodese.jpg Graphic file (type jpg)
+ <use chapters/chapter11/images/Torony_torlodese.jpg>
+Package pdftex.def Info: chapters/chapter11/images/Torony_torlodese.jpg used on
+ input line 340.
+(pdftex.def)             Requested size: 483.69684pt x 248.7347pt.
+ [127 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/cha
+pters/chapter11/images/Torony_elhelyezese.jpg> <D:/FILES/Documents/GitHub/Dokum
+entaciok/Dokumentacio_latex/szoftlab4/chapters/chapter11/images/Torony_fejleszt
+ese_ellenseg_tipusra.jpg>]
+<chapters/chapter11/images/Varazsero_valtozasa.jpg, id=1839, 293.59688pt x 152.
+82094pt>
+File: chapters/chapter11/images/Varazsero_valtozasa.jpg Graphic file (type jpg)
+
+ <use chapters/chapter11/images/Varazsero_valtozasa.jpg>
+Package pdftex.def Info: chapters/chapter11/images/Varazsero_valtozasa.jpg used
+ on input line 349.
+(pdftex.def)             Requested size: 483.69684pt x 251.77052pt.
+)
+(D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
+chapter13/sablon13.tex [128 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentac
+io_latex/szoftlab4/chapters/chapter11/images/Torony_torlodese.jpg> <D:/FILES/Do
+cuments/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapters/chapter11/im
+ages/Varazsero_valtozasa.jpg>]
+fejezet 13.
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 8.
+
+
+Overfull \hbox (2.55826pt too wide) in paragraph at lines 277--277
+[]|\T1/ptm/m/n/10 gameImages/game_over.jpeg| 
+ []
+
+
+Overfull \hbox (1.45795pt too wide) in paragraph at lines 385--385
+[]|\T1/ptm/m/n/10 GraphicCompileAndRun.bat| 
+ []
+
+[129
+
+
+]
+Overfull \hbox (26.62163pt too wide) in paragraph at lines 417--418
+[]\T1/ptm/m/n/10.95 Az adott batch fáj-lok se-gít-sé-gé-vel le-het-sé-ges le-fo
+r-dí-tani és fut-tatni a prog-ra-mot: eh-hez a GraphicCompileAndRun.bat-
+ []
+
+[130])
+(D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
+chapter14/sablon14.tex [131]
+fejezet 14.
+
+Package hyperref Warning: The anchor of a bookmark and its parent's must not
+(hyperref)                be the same. Added a new anchor on input line 8.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
+
+ []
+
+[132
+
+
+])
+(D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
 chapter02/naplo02.tex
 Overfull \hbox (1.44955pt too wide) in paragraph at lines 17--17
 []|\T1/ptm/m/n/10.95 2014.02.09. 16:00 | 
@@ -1244,241 +2478,9 @@ Overfull \hbox (1.44955pt too wide) in paragraph at lines 91--91
 []|\T1/ptm/m/n/10.95 2014.02.23. 19:00 | 
  []
 
-[19])
-(D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
-chapter03/sablon03.tex [20]
-fejezet 3.
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 8.
-
-[21
-
-
-] <chapters/chapter03/images/Main.jpg, id=1267, 1568.86125pt x 1316.92pt>
-File: chapters/chapter03/images/Main.jpg Graphic file (type jpg)
-
-<use chapters/chapter03/images/Main.jpg>
-Package pdftex.def Info: chapters/chapter03/images/Main.jpg used on input line 
-51.
-(pdftex.def)             Requested size: 483.69684pt x 406.01048pt.
-
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 61.
-
-[22 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
-ers/chapter03/images/Main.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 73--75
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 79--81
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 102--103
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 109--110
-
- []
-
-[23]
-Underfull \hbox (badness 10000) in paragraph at lines 131--132
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 142--143
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 161--162
-
- []
-
-[24]
-Underfull \hbox (badness 10000) in paragraph at lines 170--171
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 189--190
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 198--199
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 215--216
-
- []
-
-[25]
-Underfull \hbox (badness 10000) in paragraph at lines 223--224
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 239--240
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 255--256
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 264--265
-
- []
-
-[26]
-Underfull \hbox (badness 10000) in paragraph at lines 286--287
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 297--298
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 318--319
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 326--327
-
- []
-
-[27]
-Underfull \hbox (badness 10000) in paragraph at lines 343--344
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 349--350
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 366--367
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 372--373
-
- []
-
-[28]
-Underfull \hbox (badness 10000) in paragraph at lines 395--396
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 403--404
-
- []
-
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 432.
-
-
-<chapters/chapter03/images/Akadaly_elhelyezese.jpg, id=1297, 566.115pt x 385.44
-pt>
-File: chapters/chapter03/images/Akadaly_elhelyezese.jpg Graphic file (type jpg)
-
- <use chapters/chapter03/images/Akadaly_elhelyezese.jpg>
-Package pdftex.def Info: chapters/chapter03/images/Akadaly_elhelyezese.jpg used
- on input line 435.
-(pdftex.def)             Requested size: 483.69684pt x 329.337pt.
- [29]
-<chapters/chapter03/images/Ellenfel_mozgasa.jpg, id=1302, 1196.47pt x 678.535pt
->
-File: chapters/chapter03/images/Ellenfel_mozgasa.jpg Graphic file (type jpg)
- <use chapters/chapter03/images/Ellenfel_mozgasa.jpg>
-Package pdftex.def Info: chapters/chapter03/images/Ellenfel_mozgasa.jpg used on
- input line 444.
-(pdftex.def)             Requested size: 483.69684pt x 274.3082pt.
- [30 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
-ters/chapter03/images/Akadaly_elhelyezese.jpg>]
-<chapters/chapter03/images/Torony_eladasa.jpg, id=1307, 630.355pt x 349.305pt>
-File: chapters/chapter03/images/Torony_eladasa.jpg Graphic file (type jpg)
-
-<use chapters/chapter03/images/Torony_eladasa.jpg>
-Package pdftex.def Info: chapters/chapter03/images/Torony_eladasa.jpg used on i
-nput line 453.
-(pdftex.def)             Requested size: 483.69684pt x 268.03825pt.
- [31 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
-ters/chapter03/images/Ellenfel_mozgasa.jpg>]
-<chapters/chapter03/images/Torony_elhelyezese.jpg, id=1313, 538.01pt x 369.38pt
->
-File: chapters/chapter03/images/Torony_elhelyezese.jpg Graphic file (type jpg)
- <use chapters/chapter03/images/Torony_elhelyezese.jpg>
-Package pdftex.def Info: chapters/chapter03/images/Torony_elhelyezese.jpg used 
-on input line 462.
-(pdftex.def)             Requested size: 483.69684pt x 332.09511pt.
- [32 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
-ters/chapter03/images/Torony_eladasa.jpg>]
-<chapters/chapter03/images/Torony_fejlesztese.jpg, id=1318, 554.07pt x 361.35pt
->
-File: chapters/chapter03/images/Torony_fejlesztese.jpg Graphic file (type jpg)
- <use chapters/chapter03/images/Torony_fejlesztese.jpg>
-Package pdftex.def Info: chapters/chapter03/images/Torony_fejlesztese.jpg used 
-on input line 471.
-(pdftex.def)             Requested size: 483.69684pt x 315.45265pt.
- [33 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
-ters/chapter03/images/Torony_elhelyezese.jpg>]
-<chapters/chapter03/images/Torony_tuzelese.jpg, id=1323, 1116.17pt x 642.4pt>
-File: chapters/chapter03/images/Torony_tuzelese.jpg Graphic file (type jpg)
-
-<use chapters/chapter03/images/Torony_tuzelese.jpg>
-Package pdftex.def Info: chapters/chapter03/images/Torony_tuzelese.jpg used on 
-input line 480.
-(pdftex.def)             Requested size: 483.69684pt x 278.3831pt.
- [34 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
-ters/chapter03/images/Torony_fejlesztese.jpg>]
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 489.
-
-
-<chapters/chapter03/images/StatechartDiagram_Field.jpg, id=1328, 301.125pt x 20
-7.77625pt>
-File: chapters/chapter03/images/StatechartDiagram_Field.jpg Graphic file (type 
-jpg)
- <use chapters/chapter03/images/StatechartDiagram_Field.jpg>
-Package pdftex.def Info: chapters/chapter03/images/StatechartDiagram_Field.jpg 
-used on input line 492.
-(pdftex.def)             Requested size: 483.69684pt x 333.78351pt.
- [35 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
-ters/chapter03/images/Torony_tuzelese.jpg>]
-<chapters/chapter03/images/StatechartDiagram_Path.jpg, id=1333, 952.55875pt x 5
-52.0625pt>
-File: chapters/chapter03/images/StatechartDiagram_Path.jpg Graphic file (type j
-pg)
- <use chapters/chapter03/images/StatechartDiagram_Path.jpg>
-Package pdftex.def Info: chapters/chapter03/images/StatechartDiagram_Path.jpg u
-sed on input line 501.
-(pdftex.def)             Requested size: 483.69684pt x 280.33511pt.
 )
 (D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
-chapter03/naplo03.tex [36 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio
-_latex/szoftlab4/chapters/chapter03/images/StatechartDiagram_Field.jpg>]
+chapter03/naplo03.tex
 Overfull \hbox (1.44955pt too wide) in paragraph at lines 17--17
 []|\T1/ptm/m/n/10.95 2014.02.26. 08:00 | 
  []
@@ -1573,282 +2575,7 @@ Overfull \hbox (1.44955pt too wide) in paragraph at lines 119--119
 []|\T1/ptm/m/n/10.95 2014.03.03. 01:00 | 
  []
 
-[37 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
-ers/chapter03/images/StatechartDiagram_Path.jpg>])
-(D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
-chapter04/sablon04.tex [38]
-fejezet 4.
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 8.
-
-[39
-
-
-] <chapters/chapter04/images/Main.jpg, id=1351, 1512.65125pt x 1597.97pt>
-File: chapters/chapter04/images/Main.jpg Graphic file (type jpg)
-
-<use chapters/chapter04/images/Main.jpg>
-Package pdftex.def Info: chapters/chapter04/images/Main.jpg used on input line 
-62.
-(pdftex.def)             Requested size: 483.69684pt x 510.97072pt.
- [40]
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 72.
-
-[41 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
-ers/chapter04/images/Main.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 84--86
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--92
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 113--114
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--125
-
- []
-
-[42]
-Underfull \hbox (badness 10000) in paragraph at lines 144--145
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 161--162
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 173--174
-
- []
-
-[43]
-Underfull \hbox (badness 10000) in paragraph at lines 194--195
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 203--204
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 225--226
-
- []
-
-[44]
-Underfull \hbox (badness 10000) in paragraph at lines 248--249
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 252--253
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 268--269
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 289--290
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 299--300
-
- []
-
-[45]
-Underfull \hbox (badness 10000) in paragraph at lines 311--312
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 332--333
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 345--346
-
- []
-
-[46]
-Underfull \hbox (badness 10000) in paragraph at lines 365--366
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 373--374
-
- []
-
-[47]
-Underfull \hbox (badness 10000) in paragraph at lines 400--401
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 406--407
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 425--426
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 431--432
-
- []
-
-[48]
-Underfull \hbox (badness 10000) in paragraph at lines 455--456
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 463--464
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 490--491
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 495--496
-
- []
-
-[49]
-Underfull \hbox (badness 10000) in paragraph at lines 510--511
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 515--516
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 526--527
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 537--538
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 550--551
-
- []
-
-[50]
-Underfull \hbox (badness 10000) in paragraph at lines 562--563
-
- []
-
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 576.
-
-
-<chapters/chapter04/images/Akadaly_elhelyezese.jpg, id=1398, 646.415pt x 501.87
-5pt>
-File: chapters/chapter04/images/Akadaly_elhelyezese.jpg Graphic file (type jpg)
-
- <use chapters/chapter04/images/Akadaly_elhelyezese.jpg>
-Package pdftex.def Info: chapters/chapter04/images/Akadaly_elhelyezese.jpg used
- on input line 579.
-(pdftex.def)             Requested size: 483.69684pt x 375.53996pt.
-
-<chapters/chapter04/images/Ellenfel_mozgasa.jpg, id=1399, 1284.8pt x 694.595pt>
-File: chapters/chapter04/images/Ellenfel_mozgasa.jpg Graphic file (type jpg)
-<use chapters/chapter04/images/Ellenfel_mozgasa.jpg>
-Package pdftex.def Info: chapters/chapter04/images/Ellenfel_mozgasa.jpg used on
- input line 588.
-(pdftex.def)             Requested size: 483.69684pt x 261.50055pt.
- [51 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
-ters/chapter04/images/Akadaly_elhelyezese.jpg>]
-<chapters/chapter04/images/Torony_eladasa.jpg, id=1404, 574.145pt x 513.92pt>
-File: chapters/chapter04/images/Torony_eladasa.jpg Graphic file (type jpg)
-
-<use chapters/chapter04/images/Torony_eladasa.jpg>
-Package pdftex.def Info: chapters/chapter04/images/Torony_eladasa.jpg used on i
-nput line 597.
-(pdftex.def)             Requested size: 483.69684pt x 432.96805pt.
- [52 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
-ters/chapter04/images/Ellenfel_mozgasa.jpg>]
-<chapters/chapter04/images/Torony_elhelyezese.jpg, id=1409, 594.22pt x 489.83pt
->
-File: chapters/chapter04/images/Torony_elhelyezese.jpg Graphic file (type jpg)
- <use chapters/chapter04/images/Torony_elhelyezese.jpg>
-Package pdftex.def Info: chapters/chapter04/images/Torony_elhelyezese.jpg used 
-on input line 606.
-(pdftex.def)             Requested size: 483.69684pt x 398.74078pt.
- [53 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
-ters/chapter04/images/Torony_eladasa.jpg>]
-<chapters/chapter04/images/Torony_fejlesztese.jpg, id=1414, 582.175pt x 730.73p
-t>
-File: chapters/chapter04/images/Torony_fejlesztese.jpg Graphic file (type jpg)
- <use chapters/chapter04/images/Torony_fejlesztese.jpg>
-Package pdftex.def Info: chapters/chapter04/images/Torony_fejlesztese.jpg used 
-on input line 615.
-(pdftex.def)             Requested size: 483.69684pt x 607.13014pt.
- [54 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
-ters/chapter04/images/Torony_elhelyezese.jpg>]
-<chapters/chapter04/images/Torony_tuzelese.jpg, id=1419, 1116.17pt x 642.4pt>
-File: chapters/chapter04/images/Torony_tuzelese.jpg Graphic file (type jpg)
-
-<use chapters/chapter04/images/Torony_tuzelese.jpg>
-Package pdftex.def Info: chapters/chapter04/images/Torony_tuzelese.jpg used on 
-input line 624.
-(pdftex.def)             Requested size: 483.69684pt x 278.3831pt.
- [55 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
-ters/chapter04/images/Torony_fejlesztese.jpg>]
-<chapters/chapter04/images/Inicializalas.jpg, id=1425, 554.07pt x 706.64pt>
-File: chapters/chapter04/images/Inicializalas.jpg Graphic file (type jpg)
-
-<use chapters/chapter04/images/Inicializalas.jpg>
-Package pdftex.def Info: chapters/chapter04/images/Inicializalas.jpg used on in
-put line 633.
-(pdftex.def)             Requested size: 483.69684pt x 616.8852pt.
- [56 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
-ters/chapter04/images/Torony_tuzelese.jpg>]
-<chapters/chapter04/images/Jatek_menete.jpg, id=1430, 626.34pt x 915.42pt>
-File: chapters/chapter04/images/Jatek_menete.jpg Graphic file (type jpg)
-
-<use chapters/chapter04/images/Jatek_menete.jpg>
-Package pdftex.def Info: chapters/chapter04/images/Jatek_menete.jpg used on inp
-ut line 642.
-(pdftex.def)             Requested size: 483.69684pt x 706.97081pt.
- [57 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
-ters/chapter04/images/Inicializalas.jpg>]
-Overfull \vbox (85.88542pt too high) has occurred while \output is active []
-
-
-[58 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
-ers/chapter04/images/Jatek_menete.jpg>])
+[133])
 (D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
 chapter04/naplo04.tex
 Overfull \hbox (1.44955pt too wide) in paragraph at lines 17--17
@@ -1900,484 +2627,7 @@ Overfull \hbox (1.44955pt too wide) in paragraph at lines 57--57
 []|\T1/ptm/m/n/10.95 2014.03.10. 01:00 | 
  []
 
-)
-(D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
-chapter05/sablon05.tex [59]
-fejezet 5.
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 8.
-
-<chapters/chapter05/images/user_uc_1.jpg, id=1443, 941.5175pt x 405.515pt>
-File: chapters/chapter05/images/user_uc_1.jpg Graphic file (type jpg)
-
-<use chapters/chapter05/images/user_uc_1.jpg>
-Package pdftex.def Info: chapters/chapter05/images/user_uc_1.jpg used on input 
-line 16.
-(pdftex.def)             Requested size: 483.69684pt x 208.33206pt.
-
-<chapters/chapter05/images/user_uc_2.jpg, id=1444, 972.63374pt x 433.62pt>
-File: chapters/chapter05/images/user_uc_2.jpg Graphic file (type jpg)
-
-<use chapters/chapter05/images/user_uc_2.jpg>
-Package pdftex.def Info: chapters/chapter05/images/user_uc_2.jpg used on input 
-line 26.
-(pdftex.def)             Requested size: 483.69684pt x 215.63834pt.
- [60
-
-
- <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapters
-/chapter05/images/user_uc_1.jpg> <D:/FILES/Documents/GitHub/Dokumentaciok/Dokum
-entacio_latex/szoftlab4/chapters/chapter05/images/user_uc_2.jpg>]
-Underfull \vbox (badness 10000) detected at line 39
- []
-
-
-Underfull \vbox (badness 10000) detected at line 45
- []
-
-
-Underfull \vbox (badness 10000) detected at line 51
- []
-
-
-Underfull \vbox (badness 10000) detected at line 57
- []
-
-
-Underfull \vbox (badness 10000) detected at line 63
- []
-
-
-Underfull \vbox (badness 10000) detected at line 69
- []
-
-
-Underfull \vbox (badness 10000) detected at line 75
- []
-
-[61]
-Underfull \vbox (badness 10000) detected at line 81
- []
-
-
-Underfull \vbox (badness 10000) detected at line 87
- []
-
-
-Underfull \vbox (badness 10000) detected at line 93
- []
-
-
-Underfull \vbox (badness 10000) detected at line 99
- []
-
-
-Underfull \vbox (badness 10000) detected at line 105
- []
-
-
-Underfull \vbox (badness 10000) detected at line 111
- []
-
-[62]
-Underfull \vbox (badness 10000) detected at line 117
- []
-
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 124.
-
-
-Underfull \vbox (badness 10000) detected at line 161
- []
-
-
-Underfull \vbox (badness 10000) detected at line 167
- []
-
-
-Underfull \vbox (badness 10000) detected at line 173
- []
-
-
-Underfull \vbox (badness 10000) detected at line 179
- []
-
-
-Underfull \vbox (badness 10000) detected at line 185
- []
-
-[63]
-Underfull \vbox (badness 10000) detected at line 191
- []
-
-
-Underfull \vbox (badness 10000) detected at line 197
- []
-
-
-Underfull \vbox (badness 10000) detected at line 203
- []
-
-
-Underfull \vbox (badness 10000) detected at line 209
- []
-
-
-Underfull \vbox (badness 10000) detected at line 215
- []
-
-
-Underfull \vbox (badness 10000) detected at line 221
- []
-
-
-Underfull \vbox (badness 10000) detected at line 227
- []
-
-
-Underfull \vbox (badness 10000) detected at line 233
- []
-
-[64]
-Underfull \vbox (badness 10000) detected at line 239
- []
-
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 248.
-
-
-<chapters/chapter05/images/sd_Akadaly_elhelyezese_ellenseg_altal_foglalt_utra.j
-pg, id=1492, 397.485pt x 252.945pt>
-File: chapters/chapter05/images/sd_Akadaly_elhelyezese_ellenseg_altal_foglalt_u
-tra.jpg Graphic file (type jpg)
-
-<use chapters/chapter05/images/sd_Akadaly_elhelyezese_ellenseg_altal_foglalt_ut
-ra.jpg>
-Package pdftex.def Info: chapters/chapter05/images/sd_Akadaly_elhelyezese_ellen
-seg_altal_foglalt_utra.jpg used on input line 251.
-(pdftex.def)             Requested size: 483.69684pt x 307.81667pt.
-
-<chapters/chapter05/images/sd_Akadaly_elhelyezese_masik_akadaly_altal_foglalt_u
-tra.jpg, id=1493, 397.485pt x 252.945pt>
-File: chapters/chapter05/images/sd_Akadaly_elhelyezese_masik_akadaly_altal_fogl
-alt_utra.jpg Graphic file (type jpg)
-
-<use chapters/chapter05/images/sd_Akadaly_elhelyezese_masik_akadaly_altal_fogla
-lt_utra.jpg>
-Package pdftex.def Info: chapters/chapter05/images/sd_Akadaly_elhelyezese_masik
-_akadaly_altal_foglalt_utra.jpg used on input line 260.
-(pdftex.def)             Requested size: 483.69684pt x 307.81667pt.
- [65 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
-ters/chapter05/images/sd_Akadaly_elhelyezese_ellenseg_altal_foglalt_utra.jpg>]
-<chapters/chapter05/images/sd_Akadaly_elhelyezese_ures_utra.jpg, id=1498, 827.0
-9pt x 618.31pt>
-File: chapters/chapter05/images/sd_Akadaly_elhelyezese_ures_utra.jpg Graphic fi
-le (type jpg)
-
-<use chapters/chapter05/images/sd_Akadaly_elhelyezese_ures_utra.jpg>
-Package pdftex.def Info: chapters/chapter05/images/sd_Akadaly_elhelyezese_ures_
-utra.jpg used on input line 269.
-(pdftex.def)             Requested size: 483.69684pt x 361.6014pt.
- [66 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
-ters/chapter05/images/sd_Akadaly_elhelyezese_masik_akadaly_altal_foglalt_utra.j
-pg>]
-<chapters/chapter05/images/sd_Akadaly_fejlesztese.jpg, id=1503, 790.955pt x 778
-.91pt>
-File: chapters/chapter05/images/sd_Akadaly_fejlesztese.jpg Graphic file (type j
-pg)
- <use chapters/chapter05/images/sd_Akadaly_fejlesztese.jpg>
-Package pdftex.def Info: chapters/chapter05/images/sd_Akadaly_fejlesztese.jpg u
-sed on input line 278.
-(pdftex.def)             Requested size: 483.69684pt x 476.33482pt.
- [67 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
-ters/chapter05/images/sd_Akadaly_elhelyezese_ures_utra.jpg>]
-<chapters/chapter05/images/sd_Ellenfel_mozgasa.jpg, id=1509, 1308.89pt x 839.13
-5pt>
-File: chapters/chapter05/images/sd_Ellenfel_mozgasa.jpg Graphic file (type jpg)
-
- <use chapters/chapter05/images/sd_Ellenfel_mozgasa.jpg>
-Package pdftex.def Info: chapters/chapter05/images/sd_Ellenfel_mozgasa.jpg used
- on input line 287.
-(pdftex.def)             Requested size: 483.69684pt x 310.09096pt.
- [68 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
-ters/chapter05/images/sd_Akadaly_fejlesztese.jpg>]
-<chapters/chapter05/images/sd_Fejlesztetlen_torony_eladasa.jpg, id=1514, 574.14
-5pt x 369.38pt>
-File: chapters/chapter05/images/sd_Fejlesztetlen_torony_eladasa.jpg Graphic fil
-e (type jpg)
-
-<use chapters/chapter05/images/sd_Fejlesztetlen_torony_eladasa.jpg>
-Package pdftex.def Info: chapters/chapter05/images/sd_Fejlesztetlen_torony_elad
-asa.jpg used on input line 296.
-(pdftex.def)             Requested size: 483.69684pt x 311.19579pt.
- [69 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
-ters/chapter05/images/sd_Ellenfel_mozgasa.jpg>]
-<chapters/chapter05/images/sd_Fejlesztett_torony_eladasa.jpg, id=1519, 574.145p
-t x 513.92pt>
-File: chapters/chapter05/images/sd_Fejlesztett_torony_eladasa.jpg Graphic file 
-(type jpg)
-
-<use chapters/chapter05/images/sd_Fejlesztett_torony_eladasa.jpg>
-Package pdftex.def Info: chapters/chapter05/images/sd_Fejlesztett_torony_eladas
-a.jpg used on input line 305.
-(pdftex.def)             Requested size: 483.69684pt x 432.96805pt.
- [70 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
-ters/chapter05/images/sd_Fejlesztetlen_torony_eladasa.jpg>]
-<chapters/chapter05/images/sd_Inicializalas.jpg, id=1524, 554.07pt x 706.64pt>
-File: chapters/chapter05/images/sd_Inicializalas.jpg Graphic file (type jpg)
-
-<use chapters/chapter05/images/sd_Inicializalas.jpg>
-Package pdftex.def Info: chapters/chapter05/images/sd_Inicializalas.jpg used on
- input line 314.
-(pdftex.def)             Requested size: 483.69684pt x 616.8852pt.
- [71 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
-ters/chapter05/images/sd_Fejlesztett_torony_eladasa.jpg>]
-<chapters/chapter05/images/sd_Torony_elhelyezese_foglalt_mezore.jpg, id=1529, 3
-73.395pt x 216.81pt>
-File: chapters/chapter05/images/sd_Torony_elhelyezese_foglalt_mezore.jpg Graphi
-c file (type jpg)
-
-<use chapters/chapter05/images/sd_Torony_elhelyezese_foglalt_mezore.jpg>
-Package pdftex.def Info: chapters/chapter05/images/sd_Torony_elhelyezese_foglal
-t_mezore.jpg used on input line 323.
-(pdftex.def)             Requested size: 483.69684pt x 280.8704pt.
-
-[72 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
-ers/chapter05/images/sd_Inicializalas.jpg>]
-<chapters/chapter05/images/sd_Torony_elhelyezese_ures_mezore.jpg, id=1534, 666.
-49pt x 542.025pt>
-File: chapters/chapter05/images/sd_Torony_elhelyezese_ures_mezore.jpg Graphic f
-ile (type jpg)
-
-<use chapters/chapter05/images/sd_Torony_elhelyezese_ures_mezore.jpg>
-Package pdftex.def Info: chapters/chapter05/images/sd_Torony_elhelyezese_ures_m
-ezore.jpg used on input line 332.
-(pdftex.def)             Requested size: 483.69684pt x 393.37572pt.
- [73 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
-ters/chapter05/images/sd_Torony_elhelyezese_foglalt_mezore.jpg>]
-<chapters/chapter05/images/sd_Torony_fejlesztese_minden_gembol_eggyel.jpg, id=1
-540, 919.435pt x 1393.205pt>
-File: chapters/chapter05/images/sd_Torony_fejlesztese_minden_gembol_eggyel.jpg 
-Graphic file (type jpg)
-
-<use chapters/chapter05/images/sd_Torony_fejlesztese_minden_gembol_eggyel.jpg>
-Package pdftex.def Info: chapters/chapter05/images/sd_Torony_fejlesztese_minden
-_gembol_eggyel.jpg used on input line 341.
-(pdftex.def)             Requested size: 483.69684pt x 732.95296pt.
-
-[74 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
-ers/chapter05/images/sd_Torony_elhelyezese_ures_mezore.jpg>]
-Overfull \vbox (114.12874pt too high) has occurred while \output is active []
-
-
-[75 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
-ers/chapter05/images/sd_Torony_fejlesztese_minden_gembol_eggyel.jpg>]
-<chapters/chapter05/images/sd_Torony_hatokoreben_nincs_ellenseg_tuzeleskor.jpg,
- id=1549, 513.92pt x 369.38pt>
-File: chapters/chapter05/images/sd_Torony_hatokoreben_nincs_ellenseg_tuzeleskor
-.jpg Graphic file (type jpg)
-
-<use chapters/chapter05/images/sd_Torony_hatokoreben_nincs_ellenseg_tuzeleskor.
-jpg>
-Package pdftex.def Info: chapters/chapter05/images/sd_Torony_hatokoreben_nincs_
-ellenseg_tuzeleskor.jpg used on input line 350.
-(pdftex.def)             Requested size: 483.69684pt x 347.6625pt.
-
-<chapters/chapter05/images/sd_Torony_lelo_egy_ellenseget_fejlesztetlenul.jpg, i
-d=1550, 1160.335pt x 658.46pt>
-File: chapters/chapter05/images/sd_Torony_lelo_egy_ellenseget_fejlesztetlenul.j
-pg Graphic file (type jpg)
-
-<use chapters/chapter05/images/sd_Torony_lelo_egy_ellenseget_fejlesztetlenul.jp
-g>
-Package pdftex.def Info: chapters/chapter05/images/sd_Torony_lelo_egy_ellensege
-t_fejlesztetlenul.jpg used on input line 359.
-(pdftex.def)             Requested size: 483.69684pt x 274.48158pt.
- [76 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
-ters/chapter05/images/sd_Torony_hatokoreben_nincs_ellenseg_tuzeleskor.jpg>]
-<chapters/chapter05/images/sd_Torony_tuzel_egy_ellensegre_fejlesztetlenul.jpg, 
-id=1555, 943.525pt x 429.605pt>
-File: chapters/chapter05/images/sd_Torony_tuzel_egy_ellensegre_fejlesztetlenul.
-jpg Graphic file (type jpg)
-
-<use chapters/chapter05/images/sd_Torony_tuzel_egy_ellensegre_fejlesztetlenul.j
-pg>
-Package pdftex.def Info: chapters/chapter05/images/sd_Torony_tuzel_egy_ellenseg
-re_fejlesztetlenul.jpg used on input line 368.
-(pdftex.def)             Requested size: 483.69684pt x 220.23625pt.
-
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 379.
-
-
-<chapters/chapter05/images/cd_Akadaly_elhelyezese_ellenseg_altal_foglalt_utra.j
-pg, id=1556, 638.385pt x 216.81pt>
-File: chapters/chapter05/images/cd_Akadaly_elhelyezese_ellenseg_altal_foglalt_u
-tra.jpg Graphic file (type jpg)
-
-<use chapters/chapter05/images/cd_Akadaly_elhelyezese_ellenseg_altal_foglalt_ut
-ra.jpg>
-Package pdftex.def Info: chapters/chapter05/images/cd_Akadaly_elhelyezese_ellen
-seg_altal_foglalt_utra.jpg used on input line 382.
-(pdftex.def)             Requested size: 483.69684pt x 164.27444pt.
- [77 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
-ters/chapter05/images/sd_Torony_lelo_egy_ellenseget_fejlesztetlenul.jpg> <D:/FI
-LES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapters/chapte
-r05/images/sd_Torony_tuzel_egy_ellensegre_fejlesztetlenul.jpg>]
-<chapters/chapter05/images/cd_Akadaly_elhelyezese_masik_akadaly_altal_foglalt_u
-tra.jpg, id=1561, 638.385pt x 216.81pt>
-File: chapters/chapter05/images/cd_Akadaly_elhelyezese_masik_akadaly_altal_fogl
-alt_utra.jpg Graphic file (type jpg)
-
-<use chapters/chapter05/images/cd_Akadaly_elhelyezese_masik_akadaly_altal_fogla
-lt_utra.jpg>
-Package pdftex.def Info: chapters/chapter05/images/cd_Akadaly_elhelyezese_masik
-_akadaly_altal_foglalt_utra.jpg used on input line 391.
-(pdftex.def)             Requested size: 483.69684pt x 164.27444pt.
-
-<chapters/chapter05/images/cd_Akadaly_elhelyezese_ures_utra.jpg, id=1562, 642.4
-pt x 337.26pt>
-File: chapters/chapter05/images/cd_Akadaly_elhelyezese_ures_utra.jpg Graphic fi
-le (type jpg)
-
-<use chapters/chapter05/images/cd_Akadaly_elhelyezese_ures_utra.jpg>
-Package pdftex.def Info: chapters/chapter05/images/cd_Akadaly_elhelyezese_ures_
-utra.jpg used on input line 400.
-(pdftex.def)             Requested size: 483.69684pt x 253.94788pt.
- [78 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
-ters/chapter05/images/cd_Akadaly_elhelyezese_ellenseg_altal_foglalt_utra.jpg> <
-D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapters/c
-hapter05/images/cd_Akadaly_elhelyezese_masik_akadaly_altal_foglalt_utra.jpg>]
-<chapters/chapter05/images/cd_Akadaly_fejlesztese.jpg, id=1567, 891.33pt x 433.
-62pt>
-File: chapters/chapter05/images/cd_Akadaly_fejlesztese.jpg Graphic file (type j
-pg)
- <use chapters/chapter05/images/cd_Akadaly_fejlesztese.jpg>
-Package pdftex.def Info: chapters/chapter05/images/cd_Akadaly_fejlesztese.jpg u
-sed on input line 409.
-(pdftex.def)             Requested size: 483.69684pt x 235.31581pt.
-
-<chapters/chapter05/images/cd_Ellenfel_mozgasa.jpg, id=1568, 1003.75pt x 401.5p
-t>
-File: chapters/chapter05/images/cd_Ellenfel_mozgasa.jpg Graphic file (type jpg)
-
- <use chapters/chapter05/images/cd_Ellenfel_mozgasa.jpg>
-Package pdftex.def Info: chapters/chapter05/images/cd_Ellenfel_mozgasa.jpg used
- on input line 418.
-(pdftex.def)             Requested size: 483.69684pt x 193.4836pt.
- [79 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
-ters/chapter05/images/cd_Akadaly_elhelyezese_ures_utra.jpg> <D:/FILES/Documents
-/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapters/chapter05/images/cd
-_Akadaly_fejlesztese.jpg>]
-<chapters/chapter05/images/cd_Fejlesztetlen_torony_eladasa.jpg, id=1574, 605.26
-125pt x 235.88126pt>
-File: chapters/chapter05/images/cd_Fejlesztetlen_torony_eladasa.jpg Graphic fil
-e (type jpg)
-
-<use chapters/chapter05/images/cd_Fejlesztetlen_torony_eladasa.jpg>
-Package pdftex.def Info: chapters/chapter05/images/cd_Fejlesztetlen_torony_elad
-asa.jpg used on input line 427.
-(pdftex.def)             Requested size: 483.69684pt x 188.5073pt.
-
-<chapters/chapter05/images/cd_Fejlesztett_torony_eladasa.jpg, id=1575, 661.4712
-5pt x 356.33125pt>
-File: chapters/chapter05/images/cd_Fejlesztett_torony_eladasa.jpg Graphic file 
-(type jpg)
-
-<use chapters/chapter05/images/cd_Fejlesztett_torony_eladasa.jpg>
-Package pdftex.def Info: chapters/chapter05/images/cd_Fejlesztett_torony_eladas
-a.jpg used on input line 436.
-(pdftex.def)             Requested size: 483.69684pt x 260.56004pt.
- [80 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
-ters/chapter05/images/cd_Ellenfel_mozgasa.jpg> <D:/FILES/Documents/GitHub/Dokum
-entaciok/Dokumentacio_latex/szoftlab4/chapters/chapter05/images/cd_Fejlesztetle
-n_torony_eladasa.jpg>]
-<chapters/chapter05/images/cd_Inicializalas.jpg, id=1580, 819.06pt x 325.215pt>
-File: chapters/chapter05/images/cd_Inicializalas.jpg Graphic file (type jpg)
-<use chapters/chapter05/images/cd_Inicializalas.jpg>
-Package pdftex.def Info: chapters/chapter05/images/cd_Inicializalas.jpg used on
- input line 445.
-(pdftex.def)             Requested size: 483.69684pt x 192.05879pt.
-
-<chapters/chapter05/images/cd_Torony_elhelyezese_foglalt_mezore.jpg, id=1581, 4
-93.845pt x 148.555pt>
-File: chapters/chapter05/images/cd_Torony_elhelyezese_foglalt_mezore.jpg Graphi
-c file (type jpg)
-
-<use chapters/chapter05/images/cd_Torony_elhelyezese_foglalt_mezore.jpg>
-Package pdftex.def Info: chapters/chapter05/images/cd_Torony_elhelyezese_foglal
-t_mezore.jpg used on input line 454.
-(pdftex.def)             Requested size: 483.69684pt x 145.50128pt.
-
-[81 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
-ers/chapter05/images/cd_Fejlesztett_torony_eladasa.jpg> <D:/FILES/Documents/Git
-Hub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapters/chapter05/images/cd_Ini
-cializalas.jpg>]
-<chapters/chapter05/images/cd_Torony_elhelyezese_ures_mezore.jpg, id=1586, 746.
-79pt x 325.215pt>
-File: chapters/chapter05/images/cd_Torony_elhelyezese_ures_mezore.jpg Graphic f
-ile (type jpg)
-
-<use chapters/chapter05/images/cd_Torony_elhelyezese_ures_mezore.jpg>
-Package pdftex.def Info: chapters/chapter05/images/cd_Torony_elhelyezese_ures_m
-ezore.jpg used on input line 463.
-(pdftex.def)             Requested size: 483.69684pt x 210.64288pt.
-
-<chapters/chapter05/images/cd_Torony_fejlesztese_minden_gembol_eggyel.jpg, id=1
-587, 1441.385pt x 508.90125pt>
-File: chapters/chapter05/images/cd_Torony_fejlesztese_minden_gembol_eggyel.jpg 
-Graphic file (type jpg)
-
-<use chapters/chapter05/images/cd_Torony_fejlesztese_minden_gembol_eggyel.jpg>
-Package pdftex.def Info: chapters/chapter05/images/cd_Torony_fejlesztese_minden
-_gembol_eggyel.jpg used on input line 472.
-(pdftex.def)             Requested size: 483.69684pt x 170.77223pt.
-
-[82 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
-ers/chapter05/images/cd_Torony_elhelyezese_foglalt_mezore.jpg> <D:/FILES/Docume
-nts/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapters/chapter05/images
-/cd_Torony_elhelyezese_ures_mezore.jpg>]
-<chapters/chapter05/images/cd_Torony_hatokoreben_nincs_ellenseg_tuzeleskor.jpg,
- id=1592, 594.22pt x 240.9pt>
-File: chapters/chapter05/images/cd_Torony_hatokoreben_nincs_ellenseg_tuzeleskor
-.jpg Graphic file (type jpg)
-
-<use chapters/chapter05/images/cd_Torony_hatokoreben_nincs_ellenseg_tuzeleskor.
-jpg>
-Package pdftex.def Info: chapters/chapter05/images/cd_Torony_hatokoreben_nincs_
-ellenseg_tuzeleskor.jpg used on input line 481.
-(pdftex.def)             Requested size: 483.69684pt x 196.10202pt.
-
-<chapters/chapter05/images/cd_Torony_lelo_egy_ellenseget_fejlesztetlenul.jpg, i
-d=1593, 574.145pt x 525.965pt>
-File: chapters/chapter05/images/cd_Torony_lelo_egy_ellenseget_fejlesztetlenul.j
-pg Graphic file (type jpg)
-
-<use chapters/chapter05/images/cd_Torony_lelo_egy_ellenseget_fejlesztetlenul.jp
-g>
-Package pdftex.def Info: chapters/chapter05/images/cd_Torony_lelo_egy_ellensege
-t_fejlesztetlenul.jpg used on input line 490.
-(pdftex.def)             Requested size: 483.69684pt x 443.11574pt.
- [83 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
-ters/chapter05/images/cd_Torony_fejlesztese_minden_gembol_eggyel.jpg> <D:/FILES
-/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapters/chapter05
-/images/cd_Torony_hatokoreben_nincs_ellenseg_tuzeleskor.jpg>]
-<chapters/chapter05/images/cd_Torony_tuzel_egy_ellensegre_fejlesztetlenul.jpg, 
-id=1598, 594.22pt x 389.455pt>
-File: chapters/chapter05/images/cd_Torony_tuzel_egy_ellensegre_fejlesztetlenul.
-jpg Graphic file (type jpg)
-
-<use chapters/chapter05/images/cd_Torony_tuzel_egy_ellensegre_fejlesztetlenul.j
-pg>
-Package pdftex.def Info: chapters/chapter05/images/cd_Torony_tuzel_egy_ellenseg
-re_fejlesztetlenul.jpg used on input line 499.
-(pdftex.def)             Requested size: 483.69684pt x 317.0316pt.
- [84 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
-ters/chapter05/images/cd_Torony_lelo_egy_ellenseget_fejlesztetlenul.jpg>])
+[134])
 (D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
 chapter05/naplo05.tex
 Overfull \hbox (1.44955pt too wide) in paragraph at lines 30--30
@@ -2419,19 +2669,7 @@ Overfull \hbox (1.44955pt too wide) in paragraph at lines 72--72
 []|\T1/ptm/m/n/10.95 2014.03.17. 01:30 | 
  []
 
-[85 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
-ers/chapter05/images/cd_Torony_tuzel_egy_ellensegre_fejlesztetlenul.jpg>])
-(D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
-chapter06/sablon06.tex [86]
-fejezet 6.
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 8.
-
-[87
-
-
-])
+[135])
 (D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
 chapter06/naplo06.tex
 Underfull \hbox (badness 1132) in paragraph at lines 14--14
@@ -2469,139 +2707,6 @@ Overfull \hbox (1.44955pt too wide) in paragraph at lines 56--56
  []
 
 )
-(D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
-chapter07/sablon07.tex [88]
-fejezet 7.
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 10.
-
-
-<chapters/chapter07/images/MainModSpec.jpg, id=1620, 1512.65125pt x 1597.97pt>
-File: chapters/chapter07/images/MainModSpec.jpg Graphic file (type jpg)
-
-<use chapters/chapter07/images/MainModSpec.jpg>
-Package pdftex.def Info: chapters/chapter07/images/MainModSpec.jpg used on inpu
-t line 26.
-(pdftex.def)             Requested size: 483.69684pt x 510.97072pt.
- [89
-
-
-]
-<chapters/chapter07/images/sd_Jatek_menete.jpg, id=1625, 678.535pt x 1276.77pt>
-File: chapters/chapter07/images/sd_Jatek_menete.jpg Graphic file (type jpg)
-<use chapters/chapter07/images/sd_Jatek_menete.jpg>
-Package pdftex.def Info: chapters/chapter07/images/sd_Jatek_menete.jpg used on 
-input line 38.
-(pdftex.def)             Requested size: 369.88582pt x 695.99147pt.
- [90 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
-ters/chapter07/images/MainModSpec.jpg>]
-Overfull \vbox (74.90608pt too high) has occurred while \output is active []
-
-
-[91 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
-ers/chapter07/images/sd_Jatek_menete.jpg>]
-<chapters/chapter07/images/sd_torony_kettevag_egy_ellenseget.jpg, id=1635, 1156
-.32pt x 851.18pt>
-File: chapters/chapter07/images/sd_torony_kettevag_egy_ellenseget.jpg Graphic f
-ile (type jpg)
-
-<use chapters/chapter07/images/sd_torony_kettevag_egy_ellenseget.jpg>
-Package pdftex.def Info: chapters/chapter07/images/sd_torony_kettevag_egy_ellen
-seget.jpg used on input line 47.
-(pdftex.def)             Requested size: 483.69684pt x 356.0515pt.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
-File: lstlang1.sty 2014/03/04 1.5c listings language file
-)
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 62.
-
-[92 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapt
-ers/chapter07/images/sd_torony_kettevag_egy_ellenseget.jpg>] [93]
-Underfull \hbox (badness 10000) in paragraph at lines 188--190
-
- []
-
-[94]
-Underfull \hbox (badness 10000) in paragraph at lines 267--269
-
- []
-
-[95]
-Underfull \vbox (badness 10000) detected at line 291
- []
-
-
-Underfull \vbox (badness 10000) detected at line 297
- []
-
-
-Underfull \vbox (badness 10000) detected at line 303
- []
-
-
-Underfull \vbox (badness 10000) detected at line 309
- []
-
-
-Underfull \vbox (badness 10000) detected at line 315
- []
-
-
-Underfull \vbox (badness 10000) detected at line 321
- []
-
-[96]
-Underfull \vbox (badness 10000) detected at line 327
- []
-
-
-Underfull \vbox (badness 10000) detected at line 333
- []
-
-
-Underfull \vbox (badness 10000) detected at line 339
- []
-
-
-Underfull \vbox (badness 10000) detected at line 345
- []
-
-
-Underfull \vbox (badness 10000) detected at line 351
- []
-
-
-Underfull \vbox (badness 10000) detected at line 357
- []
-
-
-Underfull \vbox (badness 10000) detected at line 363
- []
-
-[97]
-Underfull \vbox (badness 10000) detected at line 369
- []
-
-
-Underfull \vbox (badness 10000) detected at line 380
- []
-
-
-Underfull \vbox (badness 10000) detected at line 385
- []
-
-
-Underfull \vbox (badness 10000) detected at line 390
- []
-
-
-Underfull \vbox (badness 10000) detected at line 399
- []
-
-[98])
 (D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
 chapter07/naplo07.tex
 Overfull \hbox (1.44955pt too wide) in paragraph at lines 16--16
@@ -2658,272 +2763,7 @@ Overfull \hbox (1.44955pt too wide) in paragraph at lines 74--74
 []|\T1/ptm/m/n/10.95 2014.03.31. 00:30 | 
  []
 
-)
-(D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
-chapter08/sablon08.tex [99]
-fejezet 8.
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 8.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--24
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 28--30
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
-
- []
-
-[100
-
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--84
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 100--101
-
- []
-
-[101]
-Underfull \hbox (badness 10000) in paragraph at lines 116--117
-
- []
-
-
-Overfull \hbox (19.46078pt too wide) in paragraph at lines 121--122
-[]\T1/ptm/m/n/10.95 Létrehoz no-Ene-mies db el-len-sé-get, ran-dom tí-pu-sút, e
-ze-ket be-te-szi az enemiesOut-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
-
- []
-
-[102]
-Underfull \hbox (badness 10000) in paragraph at lines 146--147
-
- []
-
-
-Overfull \hbox (8.20447pt too wide) in paragraph at lines 151--152
-[]\T1/ptm/m/n/10.95 Kristályok vá-sár-lása. A
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 166--167
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 190--191
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 194--195
-
- []
-
-[103]
-Underfull \hbox (badness 10000) in paragraph at lines 210--211
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 232--233
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 242--243
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 254--255
-
- []
-
-[104]
-Underfull \hbox (badness 10000) in paragraph at lines 277--278
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 291--292
-
- []
-
-[105]
-Underfull \hbox (badness 10000) in paragraph at lines 310--311
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 319--320
-
- []
-
-[106]
-Underfull \hbox (badness 10000) in paragraph at lines 347--348
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 354--355
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 373--374
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 380--381
-
- []
-
-[107]
-Underfull \hbox (badness 10000) in paragraph at lines 405--406
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 413--414
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 441--442
-
- []
-
-[108]
-Underfull \hbox (badness 10000) in paragraph at lines 446--447
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 461--462
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 467--468
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 478--479
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 489--490
-
- []
-
-
-Overfull \hbox (7.75598pt too wide) in paragraph at lines 491--492
-[]\T1/ptm/m/n/10.95 Fejleszti a ka-pott t tor-nyot ma-gá-val. Meg-hívja a rá je
-l-lepz® upgrade...
- []
-
-[109]
-Underfull \hbox (badness 10000) in paragraph at lines 502--503
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 515--516
-
- []
-
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 529.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 537--538
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 546--547
-
- []
-
-[110]
-LaTeX Font Info:    Font shape `T1/pcr/bx/n' in size <9> not available
-(Font)              Font shape `T1/pcr/b/n' tried instead on input line 560.
-
-Underfull \hbox (badness 10000) in paragraph at lines 562--563
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 608--609
-
- []
-
-[111]
-Underfull \hbox (badness 10000) in paragraph at lines 616--617
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 625--626
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 664--665
-
- []
-
-[112]
-Underfull \hbox (badness 10000) in paragraph at lines 672--673
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 684--685
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 716--717
-
- []
-
-[113]
-Underfull \hbox (badness 10000) in paragraph at lines 726--727
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 740--741
-
- []
-
-[114])
+[136])
 (D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
 chapter08/naplo08.tex
 Overfull \hbox (1.44955pt too wide) in paragraph at lines 11--11
@@ -2938,69 +2778,6 @@ Overfull \hbox (1.44955pt too wide) in paragraph at lines 33--33
 
 Overfull \hbox (1.44955pt too wide) in paragraph at lines 40--40
 []|\T1/ptm/m/n/10.95 2014.04.07. 00:30 | 
- []
-
-)
-(D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
-chapter10/sablon10.tex [115]
-fejezet 10.
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 8.
-
-
-Overfull \hbox (11.55765pt too wide) in paragraph at lines 199--199
-[]|\T1/ptm/m/n/10 txtComparer/TxtComparer.java| 
- []
-
-[116
-
-
-]
-Overfull \hbox (16.91983pt too wide) in paragraph at lines 330--331
-[]\T1/ptm/m/n/10.95 Az adott batch fáj-lok se-gít-sé-gé-vel le-het-sé-ges le-fo
-r-dí-tani és fut-tatni a pro-to-tí-pust: eh-hez a ProtoCompileAndRun.bat-
- []
-
-[117]
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 358.
-
-
-Underfull \vbox (badness 10000) detected at line 364
- []
-
-
-Underfull \vbox (badness 10000) detected at line 371
- []
-
-
-Underfull \vbox (badness 10000) detected at line 376
- []
-
-
-Underfull \vbox (badness 10000) detected at line 383
- []
-
-
-Underfull \vbox (badness 10000) detected at line 389
- []
-
-
-Underfull \vbox (badness 10000) detected at line 396
- []
-
-[118]
-Underfull \vbox (badness 10000) detected at line 403
- []
-
-
-Underfull \vbox (badness 10000) detected at line 409
- []
-
-
-Underfull \vbox (badness 10000) detected at line 416
  []
 
 )
@@ -3080,312 +2857,9 @@ Overfull \hbox (1.44955pt too wide) in paragraph at lines 92--92
 []|\T1/ptm/m/n/10.95 2014.04.22. 00:00 | 
  []
 
-[119])
+[137])
 (D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
-chapter11/sablon11.tex [120]
-fejezet 11.
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 8.
-
-<chapters/chapter11/images/GraphicPlans.jpg, id=1794, 2007.5pt x 1907.125pt>
-File: chapters/chapter11/images/GraphicPlans.jpg Graphic file (type jpg)
-
-<use chapters/chapter11/images/GraphicPlans.jpg>
-Package pdftex.def Info: chapters/chapter11/images/GraphicPlans.jpg used on inp
-ut line 13.
-(pdftex.def)             Requested size: 483.69684pt x 459.49448pt.
-
-<chapters/chapter11/images/GraphClassesD.jpg, id=1795, 823.075pt x 636.3775pt>
-File: chapters/chapter11/images/GraphClassesD.jpg Graphic file (type jpg)
-
-<use chapters/chapter11/images/GraphClassesD.jpg>
-Package pdftex.def Info: chapters/chapter11/images/GraphClassesD.jpg used on in
-put line 24.
-(pdftex.def)             Requested size: 483.69684pt x 373.9835pt.
- [121
-
-
- <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapters
-/chapter11/images/GraphicPlans.jpg>]
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 30.
-
-
-<chapters/chapter11/images/SimaClassDiag.jpg, id=1801, 1540.75626pt x 1838.87pt
->
-File: chapters/chapter11/images/SimaClassDiag.jpg Graphic file (type jpg)
- <use chapters/chapter11/images/SimaClassDiag.jpg>
-Package pdftex.def Info: chapters/chapter11/images/SimaClassDiag.jpg used on in
-put line 51.
-(pdftex.def)             Requested size: 483.69684pt x 577.283pt.
- [122 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/cha
-pters/chapter11/images/GraphClassesD.jpg>]
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 61.
-
-[123 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
-ters/chapter11/images/SimaClassDiag.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 69--70
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 74--75
-
- []
-
-
-Overfull \hbox (1.7555pt too wide) in paragraph at lines 76--77
-[]\T1/ptm/m/n/10.95 A kü-lön-böz® GEnemy-khez tar-tozó raj-zoló függ-vény. 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 94--95
-
- []
-
-[124]
-Underfull \hbox (badness 10000) in paragraph at lines 109--110
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 114--115
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 129--130
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 133--134
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 142--143
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 146--147
-
- []
-
-[125]
-Underfull \hbox (badness 10000) in paragraph at lines 160--161
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 167--168
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 184--185
-
- []
-
-[126]
-Underfull \hbox (badness 10000) in paragraph at lines 201--202
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 211--212
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 216--217
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 224--225
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 228--229
-
- []
-
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 238.
-
-
-<chapters/chapter11/images/Akadaly_elhelyezese.jpg, id=1822, 528.97626pt x 272.
-01625pt>
-File: chapters/chapter11/images/Akadaly_elhelyezese.jpg Graphic file (type jpg)
-
- <use chapters/chapter11/images/Akadaly_elhelyezese.jpg>
-Package pdftex.def Info: chapters/chapter11/images/Akadaly_elhelyezese.jpg used
- on input line 241.
-(pdftex.def)             Requested size: 483.69684pt x 248.7347pt.
- [127]
-<chapters/chapter11/images/Akadaly_javitasa.jpg, id=1828, 386.19281pt x 220.574
-07pt>
-File: chapters/chapter11/images/Akadaly_javitasa.jpg Graphic file (type jpg)
- <use chapters/chapter11/images/Akadaly_javitasa.jpg>
-Package pdftex.def Info: chapters/chapter11/images/Akadaly_javitasa.jpg used on
- input line 250.
-(pdftex.def)             Requested size: 483.69684pt x 276.26549pt.
- [128 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/cha
-pters/chapter11/images/Akadaly_elhelyezese.jpg>]
-<chapters/chapter11/images/Akadaly_torlodese.jpg, id=1833, 528.97626pt x 272.01
-625pt>
-File: chapters/chapter11/images/Akadaly_torlodese.jpg Graphic file (type jpg)
- <use chapters/chapter11/images/Akadaly_torlodese.jpg>
-Package pdftex.def Info: chapters/chapter11/images/Akadaly_torlodese.jpg used o
-n input line 259.
-(pdftex.def)             Requested size: 483.69684pt x 248.7347pt.
-
-<chapters/chapter11/images/Betoltes.jpg, id=1834, 574.145pt x 1043.9pt>
-File: chapters/chapter11/images/Betoltes.jpg Graphic file (type jpg)
-
-<use chapters/chapter11/images/Betoltes.jpg>
-Package pdftex.def Info: chapters/chapter11/images/Betoltes.jpg used on input l
-ine 268.
-(pdftex.def)             Requested size: 369.88582pt x 672.5378pt.
- [129 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/cha
-pters/chapter11/images/Akadaly_javitasa.jpg> <D:/FILES/Documents/GitHub/Dokumen
-taciok/Dokumentacio_latex/szoftlab4/chapters/chapter11/images/Akadaly_torlodese
-.jpg>]
-Overfull \vbox (51.45241pt too high) has occurred while \output is active []
-
-
-[130 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chap
-ters/chapter11/images/Betoltes.jpg>]
-<chapters/chapter11/images/Ellenseg_beerkezik.jpg, id=1843, 304.88907pt x 149.8
-097pt>
-File: chapters/chapter11/images/Ellenseg_beerkezik.jpg Graphic file (type jpg)
- <use chapters/chapter11/images/Ellenseg_beerkezik.jpg>
-Package pdftex.def Info: chapters/chapter11/images/Ellenseg_beerkezik.jpg used 
-on input line 277.
-(pdftex.def)             Requested size: 483.69684pt x 237.67735pt.
-
-<chapters/chapter11/images/Ellenseg_halala.jpg, id=1844, 374.14781pt x 219.8212
-4pt>
-File: chapters/chapter11/images/Ellenseg_halala.jpg Graphic file (type jpg)
- <use chapters/chapter11/images/Ellenseg_halala.jpg>
-Package pdftex.def Info: chapters/chapter11/images/Ellenseg_halala.jpg used on 
-input line 286.
-(pdftex.def)             Requested size: 483.69684pt x 284.1978pt.
-
-<chapters/chapter11/images/Ellenseg_lepese.jpg, id=1845, 986.68625pt x 574.145p
-t>
-File: chapters/chapter11/images/Ellenseg_lepese.jpg Graphic file (type jpg)
- <use chapters/chapter11/images/Ellenseg_lepese.jpg>
-Package pdftex.def Info: chapters/chapter11/images/Ellenseg_lepese.jpg used on 
-input line 295.
-(pdftex.def)             Requested size: 483.69684pt x 281.46492pt.
- [131 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/cha
-pters/chapter11/images/Ellenseg_beerkezik.jpg> <D:/FILES/Documents/GitHub/Dokum
-entaciok/Dokumentacio_latex/szoftlab4/chapters/chapter11/images/Ellenseg_halala
-.jpg>]
-<chapters/chapter11/images/Ellenseg_letrehozasa.jpg, id=1850, 460.72125pt x 404
-.51125pt>
-File: chapters/chapter11/images/Ellenseg_letrehozasa.jpg Graphic file (type jpg
-)
- <use chapters/chapter11/images/Ellenseg_letrehozasa.jpg>
-Package pdftex.def Info: chapters/chapter11/images/Ellenseg_letrehozasa.jpg use
-d on input line 304.
-(pdftex.def)             Requested size: 483.69684pt x 424.68144pt.
- [132 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/cha
-pters/chapter11/images/Ellenseg_lepese.jpg>]
-<chapters/chapter11/images/Ellenseg_sebzese.jpg, id=1855, 327.47343pt x 207.023
-44pt>
-File: chapters/chapter11/images/Ellenseg_sebzese.jpg Graphic file (type jpg)
- <use chapters/chapter11/images/Ellenseg_sebzese.jpg>
-Package pdftex.def Info: chapters/chapter11/images/Ellenseg_sebzese.jpg used on
- input line 313.
-(pdftex.def)             Requested size: 483.69684pt x 305.78651pt.
- [133 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/cha
-pters/chapter11/images/Ellenseg_letrehozasa.jpg>]
-<chapters/chapter11/images/Torony_elhelyezese.jpg, id=1861, 528.97626pt x 272.0
-1625pt>
-File: chapters/chapter11/images/Torony_elhelyezese.jpg Graphic file (type jpg)
- <use chapters/chapter11/images/Torony_elhelyezese.jpg>
-Package pdftex.def Info: chapters/chapter11/images/Torony_elhelyezese.jpg used 
-on input line 322.
-(pdftex.def)             Requested size: 483.69684pt x 248.7347pt.
- [134 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/cha
-pters/chapter11/images/Ellenseg_sebzese.jpg>]
-<chapters/chapter11/images/Torony_fejlesztese_ellenseg_tipusra.jpg, id=1866, 37
-6.40625pt x 219.82124pt>
-File: chapters/chapter11/images/Torony_fejlesztese_ellenseg_tipusra.jpg Graphic
- file (type jpg)
-
-<use chapters/chapter11/images/Torony_fejlesztese_ellenseg_tipusra.jpg>
-Package pdftex.def Info: chapters/chapter11/images/Torony_fejlesztese_ellenseg_
-tipusra.jpg used on input line 331.
-(pdftex.def)             Requested size: 483.69684pt x 282.50058pt.
-
-<chapters/chapter11/images/Torony_torlodese.jpg, id=1867, 528.97626pt x 272.016
-25pt>
-File: chapters/chapter11/images/Torony_torlodese.jpg Graphic file (type jpg)
- <use chapters/chapter11/images/Torony_torlodese.jpg>
-Package pdftex.def Info: chapters/chapter11/images/Torony_torlodese.jpg used on
- input line 340.
-(pdftex.def)             Requested size: 483.69684pt x 248.7347pt.
- [135 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/cha
-pters/chapter11/images/Torony_elhelyezese.jpg> <D:/FILES/Documents/GitHub/Dokum
-entaciok/Dokumentacio_latex/szoftlab4/chapters/chapter11/images/Torony_fejleszt
-ese_ellenseg_tipusra.jpg>]
-<chapters/chapter11/images/Varazsero_valtozasa.jpg, id=1872, 293.59688pt x 152.
-82094pt>
-File: chapters/chapter11/images/Varazsero_valtozasa.jpg Graphic file (type jpg)
-
- <use chapters/chapter11/images/Varazsero_valtozasa.jpg>
-Package pdftex.def Info: chapters/chapter11/images/Varazsero_valtozasa.jpg used
- on input line 349.
-(pdftex.def)             Requested size: 483.69684pt x 251.77052pt.
-)
-(D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
-chapter11/naplo11.tex [136 <D:/FILES/Documents/GitHub/Dokumentaciok/Dokumentaci
-o_latex/szoftlab4/chapters/chapter11/images/Torony_torlodese.jpg> <D:/FILES/Doc
-uments/GitHub/Dokumentaciok/Dokumentacio_latex/szoftlab4/chapters/chapter11/ima
-ges/Varazsero_valtozasa.jpg>])
-(D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
-chapter13/sablon13.tex [137]
-fejezet 13.
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 8.
-
-
-Overfull \hbox (2.55826pt too wide) in paragraph at lines 277--277
-[]|\T1/ptm/m/n/10 gameImages/game_over.jpeg| 
- []
-
-
-Overfull \hbox (1.45795pt too wide) in paragraph at lines 385--385
-[]|\T1/ptm/m/n/10 GraphicCompileAndRun.bat| 
- []
-
-[138
-
-
-]
-Overfull \hbox (26.62163pt too wide) in paragraph at lines 417--418
-[]\T1/ptm/m/n/10.95 Az adott batch fáj-lok se-gít-sé-gé-vel le-het-sé-ges le-fo
-r-dí-tani és fut-tatni a prog-ra-mot: eh-hez a GraphicCompileAndRun.bat-
- []
-
-[139])
+chapter11/naplo11.tex)
 (D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
 chapter13/naplo13.tex
 Overfull \hbox (1.44955pt too wide) in paragraph at lines 19--19
@@ -3432,46 +2906,30 @@ Overfull \hbox (1.44955pt too wide) in paragraph at lines 67--67
 []|\T1/ptm/m/n/10.95 2014.05.11. 16:00 | 
  []
 
-)
-(D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\chapters/
-chapter14/sablon14.tex [140]
-fejezet 14.
-
-Package hyperref Warning: The anchor of a bookmark and its parent's must not
-(hyperref)                be the same. Added a new anchor on input line 8.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--45
-
- []
-
-[141
-
-
-]) [142]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 89.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 89.
+[138]) [139]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 95.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 95.
 
 (D:\FILES\Documents\GitHub\Dokumentaciok\Dokumentacio_latex\szoftlab4\szoftlab4
 _all.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 89.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 89.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 95.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 95.
 Package rerunfilecheck Info: File `szoftlab4_all.out' has not changed.
-(rerunfilecheck)             Checksum: EFAD27E051925C79E51D633169F28AA1;49766.
+(rerunfilecheck)             Checksum: 92C1949CDAC236BD117C6C6DB5551F0E;49915.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 89.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 95.
  ) 
 Here is how much of TeX's memory you used:
- 13810 strings out of 493921
- 214250 string characters out of 3144849
- 362554 words of memory out of 3000000
+ 13807 strings out of 493921
+ 214237 string characters out of 3144849
+ 362899 words of memory out of 3000000
  16518 multiletter control sequences out of 15000+200000
  49570 words of font info for 57 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 42i,12n,48p,1140b,1881s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,12n,48p,1140b,1891s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program 
 Files (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrb8a.pfb><C:/Program Files (x8
@@ -3480,9 +2938,9 @@ Files (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrb8a.pfb><C:/Program Files (x8
 ts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/ur
 w/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utm
 ri8a.pfb>
-Output written on szoftlab4_all.pdf (142 pages, 8114451 bytes).
+Output written on szoftlab4_all.pdf (139 pages, 8109867 bytes).
 PDF statistics:
- 1992 PDF objects out of 2073 (max. 8388607)
- 282 named destinations out of 1000 (max. 500000)
+ 1980 PDF objects out of 2073 (max. 8388607)
+ 279 named destinations out of 1000 (max. 500000)
  2373 words of extra memory for PDF output out of 10000 (max. 10000000)
 
